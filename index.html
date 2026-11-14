@@ -195,7 +195,7 @@ dialog::backdrop{background:#33261d70}
           <div class="progress-count"><b id="done-count">0</b><span>／ <span id="total-count">0</span> 题</span></div>
           <div class="track" role="progressbar" aria-label="本轮记得题数" id="track" aria-valuemin="0"><div id="bar"></div></div>
           <div class="progress-caption"><span><i></i> 已记得</span><span id="remain"></span></div>
-          <button id="cloud-open" class="cloud-link" type="button" hidden><svg class="icon"><use href="#cloud"/></svg><span id="cloud-label">开启云同步</span><span aria-hidden="true">›</span></button>
+          <button id="cloud-open" class="cloud-link" type="button" hidden><svg class="icon"><use href="#cloud"/></svg><span id="cloud-label">正在读取云进度…</span><span aria-hidden="true">›</span></button>
         </section>
         <section class="companion"><div class="companion-head"><svg class="icon"><use href="#cat"/></svg><strong>小橘陪你</strong><span class="whiskers" aria-hidden="true">〰</span></div><p id="cat-line" aria-live="polite">先从眼前这一题开始吧，我陪你。</p></section>
       </aside>
@@ -205,11 +205,11 @@ dialog::backdrop{background:#33261d70}
   </main>
   <dialog id="manage" aria-label="题库管理"></dialog>
   <dialog id="cloud-dialog" aria-labelledby="cloud-title">
-    <header class="modal-head"><h2 id="cloud-title"><svg class="icon"><use href="#cloud"/></svg> 学习进度云同步</h2><button class="btn secondary" id="cloud-close" type="button">关闭</button></header>
-    <p class="cloud-intro" id="cloud-intro">手机和电脑首次用同一个 Puter 账号登录。以后每次点「记得」或「不记得」，都会自动保存，换设备可以接着原题练。</p>
-    <p class="muted" id="cloud-detail">首次连接会合并这个浏览器已经练过的题。云端保存题号、轮次和当前题型，题目与答案继续来自你的题库。</p>
+    <header class="modal-head"><h2 id="cloud-title"><svg class="icon"><use href="#cloud"/></svg> 网站共用学习进度</h2><button class="btn secondary" id="cloud-close" type="button">关闭</button></header>
+    <p class="cloud-intro" id="cloud-intro">手机和电脑直接打开这个网址即可接着练。所有打开本站的人都共用这份进度，答题和切换题型后会自动同步。</p>
+    <p class="muted" id="cloud-detail">第一次打开会合并这个浏览器已经练过的题。离线时可继续练习，重新联网后自动补传。</p>
     <p class="cloud-status" id="cloud-status" role="status"></p>
-    <div class="modal-actions"><button class="btn primary" id="cloud-connect" type="button">登录 Puter 并开启同步</button></div>
+    <div class="modal-actions"><button class="btn primary" id="cloud-refresh" type="button">立即刷新进度</button></div>
   </dialog>
   <div id="toast" class="toast" role="status" hidden></div>
   <script src="bank.js"></script>
@@ -1255,25 +1255,23 @@ https://github.com/nodeca/pako/blob/main/LICENSE
 (function () {
   "use strict";
 
-  const namespace = "foreign-lit.chapter-1.cloud.v1/";
+  const prefix = "foreign-lit.chapter-1.shared.v1/";
+  const legacyPrefix = "foreign-lit.chapter-1.cloud.v1/";
   const types = new Set(["fill", "term", "short", "essay"]);
   function randomId() {
     return Array.from(crypto.getRandomValues(new Uint8Array(16)), b => b.toString(16).padStart(2, "0")).join("");
   }
 
-  window.createProgressSync = function ({ accountId, storageAdapter, getProgress, getActive, apply, onStatus, onAuthRequired }) {
-    if (typeof accountId !== "string" || !accountId) throw new Error("需要先登录云账号。");
+  window.createProgressSync = function ({ storageAdapter, getProgress, getActive, apply, onStatus }) {
     const model = window.CloudModel;
     const actor = randomId();
-    const prefix = namespace + encodeURIComponent(accountId) + "/";
     const pendingPrefix = prefix + "pending/";
     const locks = window.navigator.locks;
     let storage = null;
     try { storage = window.localStorage; } catch { /* The current session can still sync online. */ }
-    let writer = actor;
     let state = model.empty(), running = null, timer = null;
     let started = false, stopped = false, rerun = false, migrated = false, applying = false;
-    let retries = 0, durable = !!storage, accountBlocked = false, authReason = "", status = "";
+    let retries = 0, durable = !!storage, status = "";
 
     function tell(text) {
       if (!stopped && text !== status) { status = text; onStatus(text); }
@@ -1288,27 +1286,6 @@ https://github.com/nodeca/pako/blob/main/LICENSE
         storage.setItem(key, value);
         return true;
       } catch { durable = false; return false; }
-    }
-
-    function requireLogin(reason) {
-      if (accountBlocked) return;
-      accountBlocked = true;
-      authReason = reason;
-      clearTimeout(timer);
-      tell(reason === "ACCOUNT_MISMATCH" ? "云账号已切换，请切回原账号后继续同步。" :
-        "登录已过期，进度已留在本机，请重新登录。");
-      onAuthRequired?.(reason);
-    }
-
-    function accountIsCurrent() {
-      const bound = read(namespace + "owner");
-      if (bound && bound !== accountId) {
-        if (authReason === "AUTH_REQUIRED") authReason = "ACCOUNT_MISMATCH";
-        requireLogin("ACCOUNT_MISMATCH");
-        return false;
-      }
-      if (!bound) write(namespace + "owner", accountId);
-      return !accountBlocked;
     }
 
     function decode(raw) {
@@ -1344,17 +1321,33 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     function storedModel() {
       return decode(read(prefix + "seen")) || model.empty();
     }
+    // Migrate only locally cached study documents. Keep the old keys for rollback
+    // and re-merge if a still-open previous-version tab records another answer.
+    function legacyModel() {
+      let previous = model.empty();
+      try {
+        for (let i = 0; storage && i < storage.length; i++) {
+          const key = storage.key(i);
+          if (!key?.startsWith(legacyPrefix)) continue;
+          const suffix = key.slice(legacyPrefix.length);
+          if (!/^[^/]+\/(?:seen|pending\/[0-9a-f]{32})$/.test(suffix)) continue;
+          const document = decode(read(key));
+          if (document) previous = model.merge(previous, document);
+        }
+      } catch { durable = false; }
+      return previous;
+    }
     function wake(delay) {
       clearTimeout(timer);
-      if (!stopped && !accountBlocked && !document.hidden) timer = setTimeout(run, delay);
+      if (!stopped && !document.hidden) timer = setTimeout(run, delay);
     }
 
     async function exchange() {
-      if (stopped || !accountIsCurrent()) return false;
+      if (stopped) return false;
       if (window.navigator.onLine === false) throw new Error("offline");
       if (!migrated) tell("正在读取云进度…");
       const entries = await storageAdapter.list();
-      if (stopped || !accountIsCurrent()) return false;
+      if (stopped) return false;
       if (!Array.isArray(entries) || entries.some(entry => !model.valid(entry))) {
         throw new Error("invalid-cloud-record");
       }
@@ -1363,7 +1356,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       const local = getProgress();
       let combined = model.merge(remote, storedModel(), state, ...pending.map(record => record.data));
       if (!migrated) {
-        if (!entries.length && !model.activeType(combined)) {
+        if (model.sameModel(remote, model.empty()) && !model.activeType(combined)) {
           const active = getActive();
           combined = model.fromProgress(local, { previous: combined, type: active, active,
             stamp: model.nextStamp(combined, actor) });
@@ -1386,9 +1379,23 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       if (!model.sameModel(storedModel(), combined)) write(prefix + "seen", JSON.stringify(combined));
       if (!model.sameModel(remote, combined)) {
         tell("正在保存到云端…");
-        await storageAdapter.write(writer, combined);
+        const acknowledgement = await storageAdapter.write(combined);
+        if (stopped) return false;
+        if (!Array.isArray(acknowledgement) || !acknowledgement.length ||
+            !acknowledgement.every(entry => model.valid(entry))) throw new Error("invalid-cloud-record");
+        const saved = model.merge(...acknowledgement);
+        if (!model.sameModel(saved, model.merge(saved, combined))) throw new Error("unconfirmed-write");
+        state = model.merge(state, saved);
+        write(prefix + "seen", JSON.stringify(state));
+        const latest = getProgress();
+        const afterSave = model.project(state, latest);
+        const selected = model.activeType(state) || getActive();
+        if (!model.sameProgress(afterSave, latest) || selected !== getActive()) {
+          applying = true;
+          try { apply(afterSave, selected); } finally { applying = false; }
+        }
       }
-      if (stopped || !accountIsCurrent()) return false;
+      if (stopped) return false;
       clearConfirmed(pending);
       retries = 0;
       if (!rerun) tell("云端已同步");
@@ -1399,8 +1406,8 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       do {
         rerun = false;
         try {
-          // Tabs sharing a durable writer serialise the read/merge/write cycle.
-          // Browsers without Web Locks give every page its own cloud entry.
+          // Serialize exchanges between same-browser tabs when supported.
+          // Concurrent requests across devices are merged by the server.
           const ok = locks && storage
             ? await locks.request(prefix + "exchange", exchange)
             : await exchange();
@@ -1410,8 +1417,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
           retries = Math.min(retries + 1, 6);
           if (error?.message === "invalid-cloud-record") {
             tell("云端进度格式异常，已保留本机记录");
-          } else if (error?.code === "ACCOUNT_MISMATCH" || error?.code === "AUTH_REQUIRED") {
-            requireLogin(error.code);
+
           } else {
             tell(durable ? "进度已留在本机，联网后自动同步" : "云端尚未同步，请保持本页打开");
           }
@@ -1422,7 +1428,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     }
     function run() {
       clearTimeout(timer);
-      if (!started || stopped || accountBlocked) return Promise.resolve();
+      if (!started || stopped ) return Promise.resolve();
       if (running) { rerun = true; return running; }
       running = perform().finally(() => { running = null; });
       return running;
@@ -1430,17 +1436,12 @@ https://github.com/nodeca/pako/blob/main/LICENSE
 
     function capture(type, selectOnly) {
       if (applying || stopped || !started) return Promise.resolve();
-      const allowed = accountIsCurrent();
-      // A logged-out device still belongs to the same learner. Preserve its
-      // offline operations, but never attribute them to a different account.
-      if (!allowed && authReason !== "AUTH_REQUIRED") return Promise.resolve();
       if (type != null && !types.has(type)) return Promise.resolve();
       const base = model.merge(storedModel(), state, ...readPending().map(record => record.data));
       const active = selectOnly ? type : getActive();
       state = model.fromProgress(getProgress(), { previous: base, type, active,
         stamp: model.nextStamp(base, actor) });
       write(pendingPrefix + actor, JSON.stringify(state));
-      if (!allowed) return Promise.resolve();
       tell("正在保存到云端…");
       return run();
     }
@@ -1450,14 +1451,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     function start() {
       if (started || stopped) return running || Promise.resolve();
       started = true;
-      if (!accountIsCurrent()) return Promise.resolve();
-      // A stable per-browser writer bounds the cloud entry count across reloads.
-      if (locks && storage) {
-        const saved = read(prefix + "writer");
-        if (saved && /^[a-f0-9]{32}$/.test(saved)) writer = saved;
-        else write(prefix + "writer", writer);
-      }
-      state = model.merge(storedModel(), ...readPending().map(record => record.data));
+      state = model.merge(storedModel(), legacyModel(), ...readPending().map(record => record.data));
       document.addEventListener("visibilitychange", visible);
       window.addEventListener("focus", visible);
       window.addEventListener("online", run);
@@ -1472,135 +1466,8 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       window.removeEventListener("online", run);
       window.removeEventListener("offline", offline);
     }
-    return { start, changed: type => capture(type, false), select: type => capture(type, true), destroy };
+    return { start, refresh: run, changed: type => capture(type, false), select: type => capture(type, true), destroy };
   };
-})();
-
-</script>
-  <script>
-(() => {
-  "use strict";
-
-  const sdkUrl = "https://js.puter.com/v2/";
-  const prefix = "foreign-lit-ch1-v1-";
-  const writerPattern = /^[0-9a-f]{32}$/;
-  let pendingLoad;
-
-  function available() {
-    const { auth, kv } = window.puter || {};
-    return typeof auth?.signIn === "function" && typeof auth.isSignedIn === "function" &&
-      typeof auth.getUser === "function" && typeof kv?.list === "function" && typeof kv.set === "function";
-  }
-
-  // The page requests the SDK only after the user chooses cloud sync.
-  function ready() {
-    if (!/^https?:$/.test(location.protocol)) {
-      return Promise.reject(new Error("请打开网站的固定网址连接云同步。"));
-    }
-    if (available()) return Promise.resolve();
-    if (pendingLoad) return pendingLoad;
-    pendingLoad = new Promise((resolve, reject) => {
-      const script = document.createElement("script");
-      const fail = () => {
-        clearTimeout(timeout);
-        script.onload = script.onerror = null;
-        script.remove();
-        pendingLoad = undefined;
-        reject(new Error("暂时连不上 Puter，请检查网络后重试。"));
-      };
-      const timeout = setTimeout(fail, 20000);
-      script.async = true;
-      script.src = sdkUrl;
-      script.referrerPolicy = "origin";
-      script.onload = () => {
-        if (!available()) return fail();
-        clearTimeout(timeout);
-        resolve();
-      };
-      script.onerror = fail;
-      document.head.append(script);
-    });
-    return pendingLoad;
-  }
-
-  function signedIn() {
-    return available() && window.puter.auth.isSignedIn() === true;
-  }
-
-  async function identity() {
-    if (!signedIn()) {
-      const error = new Error("请先登录你的 Puter 账号。");
-      error.code = "AUTH_REQUIRED";
-      throw error;
-    }
-    let user;
-    try { user = await window.puter.auth.getUser(); }
-    catch (cause) {
-      const code = cause?.error?.code || cause?.code;
-      if (cause?.status === 401 || cause?.response?.status === 401 ||
-          ["token_auth_failed", "token_expired", "invalid_token", "unauthorized"].includes(code)) {
-        const error = new Error("请重新登录原来的 Puter 账号。");
-        error.code = "AUTH_REQUIRED";
-        throw error;
-      }
-      throw cause;
-    }
-    if (typeof user?.uuid !== "string" || !user.uuid || user.is_temp) {
-      throw new Error("请使用可在另一台设备登录的正式 Puter 账号。");
-    }
-    return { id: user.uuid, username: user.username || "" };
-  }
-
-  // Invoke signIn directly in the login button's click handler, after ready().
-  async function signIn() {
-    if (!available()) throw new Error("请等待云服务加载，再点一次登录。");
-    try {
-      const result = await window.puter.auth.signIn({ attempt_temp_user_creation: false, request_auth: true });
-      if (result?.success === false) throw result;
-    } catch (error) {
-      const code = error?.error?.code || error?.error || error?.code;
-      if (code === "popup_blocked") throw new Error("浏览器拦住了登录窗口，请允许本站弹窗后再点登录。");
-      if (code === "auth_window_closed") throw new Error("登录窗口已关闭，学习进度仍在这台设备。");
-      throw new Error("暂时无法完成 Puter 登录，请重新连接。");
-    }
-    return identity();
-  }
-
-  function adapter(accountId) {
-    if (typeof accountId !== "string" || !accountId) throw new Error("缺少云账号。");
-    async function checkedKv() {
-      if ((await identity()).id !== accountId || !signedIn()) {
-        const error = new Error("Puter 账号已变更，请重新连接云同步。");
-        error.code = "ACCOUNT_MISMATCH";
-        throw error;
-      }
-      return window.puter.kv;
-    }
-    return {
-      async list() {
-        const kv = await checkedKv();
-        const pairs = await kv.list(prefix + "*", true);
-        if (!Array.isArray(pairs)) throw new Error("云进度暂时无法读取。");
-        return pairs.map(({ key, value }) => {
-          if (typeof key !== "string" || !key.startsWith(prefix) || !writerPattern.test(key.slice(prefix.length)) ||
-              !value || typeof value !== "object" || Array.isArray(value)) {
-            throw new Error("云进度格式异常，请稍后重试。");
-          }
-          return value;
-        });
-      },
-      async write(writer, data) {
-        if (!writerPattern.test(writer) || !data || typeof data !== "object" || Array.isArray(data)) {
-          throw new Error("本机进度格式异常。");
-        }
-        const kv = await checkedKv();
-        const saved = await kv.set(prefix + writer, data, { disableSharing: true });
-        if (saved !== true) throw new Error("云端未确认保存，稍后将重试。");
-      }
-    };
-  }
-
-  window.LitPuter = { ready, signedIn, identity, signIn, adapter };
 })();
 
 </script>
@@ -1608,145 +1475,55 @@ https://github.com/nodeca/pako/blob/main/LICENSE
 (function () {
   "use strict";
 
-  window.initCloudUI = function initCloudUI({getProgress, getActive, apply}) {
+  const endpoint = "https://literature-study-progress-cq.satiny-note-9705.chatgpt.site/v1/progress";
+
+  async function request(data) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 12000);
+    try {
+      const options = {
+        method: data ? "POST" : "GET",
+        credentials: "omit",
+        cache: "no-store",
+        signal: controller.signal
+      };
+      if (data) {
+        options.headers = { "Content-Type": "text/plain;charset=UTF-8" };
+        options.body = JSON.stringify(data);
+      }
+      const response = await fetch(endpoint, options);
+      if (!response.ok) throw new Error("进度服务暂时无法连接。");
+      return await response.json();
+    } finally { clearTimeout(timeout); }
+  }
+
+  window.initCloudUI = function ({getProgress, getActive, apply}) {
     const $ = id => document.getElementById(id);
-    const localOnly = location.protocol === "file:";
-    const key = "foreign-lit.chapter-1.cloud-account.v1";
-    const dialog = $("cloud-dialog");
-    const button = $("cloud-connect");
-    let account = null, sync = null, sdkReady = false, signing = false;
-    let resumeTask;
-    let phase = "off", status = "";
-    try { account = JSON.parse(localStorage.getItem(key)); } catch { /* No saved connection. */ }
-    if (!account || typeof account.id !== "string") account = null;
-
-    function display() {
-      if (localOnly) return;
+    const onlineSite = location.protocol === "https:" || location.protocol === "http:";
+    let sync;
+    if (onlineSite) {
+      const dialog = $("cloud-dialog");
       $("cloud-open").hidden = false;
-      const attached = Boolean(account);
-      const ready = phase === "connected";
-      const labels = {off:"开启云同步", loading:"正在连接云端", signin:attached ? "重新登录云同步" : "开启云同步",
-        connected:status || "云同步已开启", error:attached ? "查看云同步状态" : "开启云同步", mismatch:"核对云同步账号"};
-      $("cloud-label").textContent = labels[phase] || labels.off;
-      $("cloud-status").textContent = status;
-      if (attached) $("save-note").textContent = status || "正在连接云端，同时保存本机进度";
-      button.hidden = ready;
-      button.disabled = signing || phase === "loading";
-      button.textContent = phase === "error" ? "重试连接" : attached ? "重新登录原账号" : "登录 Puter 并开启同步";
-      if (ready) {
-        $("cloud-intro").textContent = "已连接 " + (account.name || "你的 Puter 账号") + "。答题后会自动保存，另一台设备登录同一个账号就能接着练。";
-        $("cloud-detail").textContent = "离线时可以继续答题，重新联网并打开页面后会自动合并。";
-      } else if (phase === "mismatch") {
-        $("cloud-detail").textContent = "请使用最初连接的 Puter 账号重新登录。当前的练习仍保存在本机。";
+      function onStatus(text) {
+        $("cloud-label").textContent = text;
+        $("cloud-status").textContent = text;
+        $("save-note").textContent = "所有访客共用这份学习进度 · " + text;
       }
-    }
-
-    function setPhase(next, message) {
-      phase = next;
-      status = message || "";
-      display();
-    }
-
-    async function loadSdk() {
-      await window.LitPuter.ready();
-      sdkReady = true;
-    }
-
-    // A paired browser starts its local outbox even on a cold, offline reload.
-    // SDK availability is required only when a network exchange actually runs.
-    function startSync() {
-      const adapter = window.LitPuter.adapter(account.id);
-      sync = window.createProgressSync({accountId:account.id, getProgress, getActive, apply,
-        storageAdapter:{
-          async list() { await loadSdk(); return adapter.list(); },
-          async write(writer, data) { await loadSdk(); return adapter.write(writer, data); }
-        },
-        onStatus:msg => setPhase("connected", msg),
-        onAuthRequired(reason) {
-          const mismatch = reason === "ACCOUNT_MISMATCH";
-          setPhase(mismatch ? "mismatch" : "signin", mismatch
-            ? "当前登录的账号与本机绑定的账号不同。"
-            : "请重新登录原来的 Puter 账号，本机进度会自动补传。");
-        }
-      });
-      setPhase("connected", "正在合并本机和云端进度…");
-      return sync.start();
-    }
-
-    function attach(identity) {
-      if (!identity || !identity.id) throw new Error("未能确认云端账号，请重新登录。");
-      if (account && account.id !== identity.id) {
-        setPhase("mismatch", "当前登录的账号和本机原先连接的账号不同，已暂停云同步。");
-        return;
-      }
-      const stored = {id:identity.id, name:identity.username || identity.name || ""};
-      try { localStorage.setItem(key, JSON.stringify(stored)); }
-      catch { throw new Error("浏览器无法保留登录连接。请允许此网站使用本地存储后重试。"); }
-      account = stored;
-      sync?.destroy();
-      return startSync();
-    }
-
-    function prepare() {
-      if (localOnly || sync || signing || resumeTask || phase === "mismatch") return resumeTask;
-      setPhase("loading", "正在连接 Puter…");
-      resumeTask = (async () => {
-        try {
-          await loadSdk();
-          if (account && await window.LitPuter.signedIn()) {
-            await attach(await window.LitPuter.identity());
-          } else {
-            setPhase("signin", account ? "请重新登录原来的 Puter 账号，本机进度会自动补传。" : "准备好了，请登录在手机和电脑上都能使用的账号。");
-          }
-        } catch (err) {
-          setPhase("error", navigator.onLine ? (err.message || "暂时无法连接云端，可以继续练习。") : "当前离线，进度暂存在本机。");
-        } finally { resumeTask = null; }
-      })();
-      return resumeTask;
-    }
-
-    async function connect() {
-      if (signing || (sync && phase === "connected")) return;
-      if (!sdkReady || phase === "error") { await prepare(); return; }
-      signing = true;
-      setPhase("loading", "请在 Puter 登录窗口完成授权…");
-      try {
-        // Invoke directly from this click, before any await, for mobile popup rules.
-        const identity = await window.LitPuter.signIn();
-        await attach(identity);
-      } catch (err) {
-        setPhase("signin", err.message || "本次登录未完成，可以再试一次。");
-      } finally { signing = false; display(); }
-    }
-
-    if (!localOnly) {
-      $("cloud-open").addEventListener("click", () => {
-        dialog.showModal();
-        if (!sync && !sdkReady) prepare();
-        else display();
-      });
+      $("cloud-open").addEventListener("click", () => dialog.showModal());
       $("cloud-close").addEventListener("click", () => dialog.close());
-      button.addEventListener("click", connect);
-      window.addEventListener("online", () => { if (account && !sync) prepare(); });
-      document.addEventListener("visibilitychange", () => {
-        if (!document.hidden && account && !sync && !dialog.open) prepare();
+      $("cloud-refresh").addEventListener("click", () => sync.refresh());
+      sync = window.createProgressSync({
+        storageAdapter: { list: () => request(), write: data => request(data) },
+        getProgress, getActive, apply, onStatus
       });
-      window.addEventListener("storage", event => {
-        if (event.key !== key || !event.newValue || account || sync) return;
-        try {
-          const other = JSON.parse(event.newValue);
-          if (typeof other.id === "string") { account = other; prepare(); }
-        } catch { /* A malformed setting does not change the current session. */ }
-      });
-      display();
-      if (account) startSync();
+      onStatus("正在读取云进度…");
+      sync.start();
     }
-
     return {
       changed(type) { sync?.changed(type); },
       select(type) { sync?.select(type); },
       refreshBank() { sync?.changed(null); },
-      hasAccount() { return !localOnly && Boolean(account); }
+      enabled() { return onlineSite; }
     };
   };
 })();
@@ -1878,7 +1655,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     $("bar").style.width = (view.total ? view.remembered / view.total * 100 : 0) + "%";
     $("track").setAttribute("aria-valuemax", view.total || 1);
     $("track").setAttribute("aria-valuenow", view.remembered);
-    if (!cloud?.hasAccount()) $("save-note").textContent = engine.persistent ? "学习进度已保存在当前浏览器" : "浏览器限制保存，本次练习仅在本页保留";
+    if (!cloud?.enabled()) $("save-note").textContent = engine.persistent ? "学习进度已保存在当前浏览器" : "浏览器限制保存，本次练习仅在本页保留";
     $("active-question").hidden = !view.question;
     $("finished").hidden = Boolean(view.question);
     setAnswer(Boolean(previouslyOpen && previous?.round === view.round && previous?.question?.id === view.question?.id));
@@ -1954,7 +1731,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     }
   });
   window.initManager({getBank:() => bank, getEngine:() => engine, applyBank, report,
-    progressRestored: () => cloud.refreshBank(), cloudConnected: () => cloud.hasAccount()});
+    progressRestored: () => cloud.refreshBank(), cloudConnected: () => cloud.enabled()});
 })();
 
 </script>
