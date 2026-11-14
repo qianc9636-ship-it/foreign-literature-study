@@ -136,6 +136,13 @@ dialog::backdrop{background:#33261d70}
 @media(max-width:710px){.site-head{height:56px}.main{padding-top:15px}.wrap{width:calc(100% - 28px)}.brand{font-size:17px;gap:8px}.brand-mark{width:31px;height:31px;border-radius:10px}.brand-mark .icon{width:24px;height:24px}.manage-link{font-size:12px;padding:7px 10px}.hero{min-height:138px;border-radius:15px}.hero:before{inset:6px;border-radius:10px}.hero-copy{padding:15px 0 15px 17px;max-width:68%}.course{font-size:11px;gap:5px;letter-spacing:.05em}.course .icon{width:14px}.hero h1{font-size:39px;letter-spacing:2px;margin:2px 0 5px}.hero-copy p{font-size:11.5px;max-width:19em;line-height:1.55}.hero-art{width:36%;align-items:center;justify-content:flex-start}.hero-art img{width:104%;height:auto;max-height:138px}.category-nav{grid-template-columns:repeat(4,minmax(0,1fr));gap:5px;margin:11px 0 13px}.category{min-height:64px;justify-content:center;align-content:center;flex-wrap:wrap;gap:3px 3px;padding:6px 2px;text-align:center;border-radius:10px}.category .type-icon{width:20px;height:20px;border-radius:6px}.category .type-icon svg{width:14px;height:14px}.category .type-title{font-size:12.5px}.type-count{display:block;width:100%;margin:0;font-size:10.5px;line-height:1.35}.study-layout{display:flex;flex-direction:column;gap:12px}.question-card{width:100%;padding:15px;border-radius:15px}.card-head h2{font-size:16px}.question-body{margin:13px 0 9px;min-height:134px;padding:14px}.prompt{font-size:20px;line-height:1.62;margin:8px 0 11px}.rating-actions{margin-top:10px}.side{width:100%;grid-template-columns:1fr 1fr;gap:8px;align-items:stretch}.progress-card,.companion{padding:13px}.progress-card .card-head h2,.companion-head strong{font-size:14px}.side-type{font-size:10px}.progress-count{margin:8px 0}.progress-count b{font-size:29px}.progress-count>span{font-size:12px}.progress-caption{font-size:11px;margin-top:7px}.companion p{font-size:12px}.instructions{margin-top:6px}.side .card-head{gap:2px}.progress-card .card-head .icon{width:15px;height:15px}footer{padding-top:5px}}
 @media(max-width:370px){.wrap{width:calc(100% - 20px)}.category .type-icon{display:none}.side-type{display:none}.hero-copy{max-width:69%}.hero-art{width:31%}.hero-copy p{font-size:11px}.prompt{font-size:18px}.question-card{padding:12px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;scroll-behavior:auto!important}}
+.cloud-link{border:0;border-top:1px solid #e8e1d1;background:transparent;margin-top:14px;padding:11px 0 0;width:100%;display:flex;align-items:center;gap:7px;color:#49684c;font-size:12px;text-align:left;line-height:1.45}
+.cloud-link span:last-child{margin-left:auto;font-size:17px;line-height:1}
+.cloud-link .icon{width:16px;height:16px}
+.cloud-intro{margin:14px 0 8px}
+.cloud-status{margin:14px 0 4px;color:#456649}
+#cloud-dialog .modal-head .icon{color:#638062;width:22px;height:22px}
+@media(max-width:710px){.cloud-link{margin-top:9px;padding-top:8px;font-size:11.5px;min-height:34px}.cloud-link .icon{width:14px;height:14px}}
 
 </style>
 </head>
@@ -158,6 +165,7 @@ dialog::backdrop{background:#33261d70}
     <symbol id="chart" viewBox="0 0 24 24"><path d="M5 19v-5m7 5V9m7 10V4"/></symbol>
     <symbol id="star" viewBox="0 0 24 24"><path d="m12 3 2.7 5.7 6.4.8-4.8 4.5 1.2 6.2-5.5-3.1-5.5 3.1 1.2-6.2L3 9.5l6.3-.8z"/></symbol>
     <symbol id="help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.3 9a2.7 2.7 0 0 1 5.4.5c0 2.1-2.7 2.2-2.7 4.3m0 2.1v.1"/></symbol>
+    <symbol id="cloud" viewBox="0 0 24 24"><path d="M6.8 18.2a4.9 4.9 0 0 1-.4-9.8 6.3 6.3 0 0 1 12 .9 4.5 4.5 0 0 1-.4 8.9"/><path d="M12 19v-7m-2.7 2.6L12 12l2.7 2.6"/></symbol>
   </svg>
   <header class="site-head"><div class="wrap head-inner">
     <a class="brand" href="#main" aria-label="猫猫文学自习室，前往抽题"><span class="brand-mark"><svg class="icon"><use href="#cat"/></svg></span><span>猫猫文学自习室</span></a>
@@ -187,6 +195,7 @@ dialog::backdrop{background:#33261d70}
           <div class="progress-count"><b id="done-count">0</b><span>／ <span id="total-count">0</span> 题</span></div>
           <div class="track" role="progressbar" aria-label="本轮记得题数" id="track" aria-valuemin="0"><div id="bar"></div></div>
           <div class="progress-caption"><span><i></i> 已记得</span><span id="remain"></span></div>
+          <button id="cloud-open" class="cloud-link" type="button" hidden><svg class="icon"><use href="#cloud"/></svg><span id="cloud-label">开启云同步</span><span aria-hidden="true">›</span></button>
         </section>
         <section class="companion"><div class="companion-head"><svg class="icon"><use href="#cat"/></svg><strong>小橘陪你</strong><span class="whiskers" aria-hidden="true">〰</span></div><p id="cat-line" aria-live="polite">先从眼前这一题开始吧，我陪你。</p></section>
       </aside>
@@ -195,6 +204,13 @@ dialog::backdrop{background:#33261d70}
     <footer><svg class="icon"><use href="#paw"/></svg><span id="save-note">学习进度自动保存在当前浏览器</span></footer>
   </main>
   <dialog id="manage" aria-label="题库管理"></dialog>
+  <dialog id="cloud-dialog" aria-labelledby="cloud-title">
+    <header class="modal-head"><h2 id="cloud-title"><svg class="icon"><use href="#cloud"/></svg> 学习进度云同步</h2><button class="btn secondary" id="cloud-close" type="button">关闭</button></header>
+    <p class="cloud-intro" id="cloud-intro">手机和电脑首次用同一个 Puter 账号登录。以后每次点「记得」或「不记得」，都会自动保存，换设备可以接着原题练。</p>
+    <p class="muted" id="cloud-detail">首次连接会合并这个浏览器已经练过的题。云端保存题号、轮次和当前题型，题目与答案继续来自你的题库。</p>
+    <p class="cloud-status" id="cloud-status" role="status"></p>
+    <div class="modal-actions"><button class="btn primary" id="cloud-connect" type="button">登录 Puter 并开启同步</button></div>
+  </dialog>
   <div id="toast" class="toast" role="status" hidden></div>
   <script src="bank.js"></script>
   <script>
@@ -781,7 +797,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     ).join(" · ");
   }
 
-  window.initManager = function ({getBank, getEngine, applyBank, report}) {
+  window.initManager = function ({getBank, getEngine, applyBank, report, progressRestored, cloudConnected}) {
     if (!website) window.getLocalBank(window.QUESTION_BANK);
     const dialog = document.getElementById("manage");
     const opener = document.getElementById("open-manage");
@@ -939,7 +955,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     });
     share.append(downloadBank);
 
-    const transfer = section("在手机和电脑间接着练", "在这台设备导出进度，把文件发给另一台设备，再打开同一网站导入。");
+    const transfer = section("进度文件备份", "可在这里另存一份进度，或恢复以前的备份。");
     const progressActions = element("div", "modal-actions");
     const progressStatus = element("p", "status");
     progressStatus.setAttribute("role", "status");
@@ -966,7 +982,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
           throw new Error();
         }
         progress = value;
-        progressStatus.textContent = file.name + " 将替换本机四个题型的学习进度。";
+        progressStatus.textContent = file.name + (cloudConnected?.() ? " 将和云端已有记录合并，保留较高轮次及同轮已记得的题。" : " 将替换本机四个题型的学习进度。");
         confirmTransfer.hidden = false;
       } catch {
         if (token === progressRequest) progressStatus.textContent = "请选择本站导出的学习进度 JSON 文件。";
@@ -980,6 +996,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       }
       try {
         getEngine().importProgress(progress);
+        progressRestored?.();
         clearProgress();
         const message = getEngine().persistent ? "四个题型的学习进度已导入。" :
           "进度已在本页载入。浏览器限制了保存，离开前请导出。";
@@ -1028,13 +1045,724 @@ https://github.com/nodeca/pako/blob/main/LICENSE
 (function () {
   "use strict";
 
+  const types = ["fill", "term", "short", "essay"];
+  const format = "foreign-lit.chapter-1.progress";
+  const has = (value, key) => Object.prototype.hasOwnProperty.call(value, key);
+
+  function empty() {
+    return { version: 1, clock: 0, sections: {}, active: null };
+  }
+
+  function object(value) {
+    return value !== null && typeof value === "object" && !Array.isArray(value);
+  }
+
+  function validStamp(stamp) {
+    if (!Array.isArray(stamp) || stamp.length !== 2) return false;
+    const [number, writer] = stamp;
+    return Number.isSafeInteger(number) && number >= 0 &&
+      typeof writer === "string" && (number === 0 ? writer === "" : writer.length > 0);
+  }
+
+  function validIds(section) {
+    if (!object(section) || !Number.isSafeInteger(section.round) || section.round < 1 ||
+        section.round >= Number.MAX_SAFE_INTEGER ||
+        !Array.isArray(section.ids) || !Array.isArray(section.remembered)) return false;
+    const ids = new Set(section.ids);
+    return ids.size === section.ids.length &&
+      section.ids.every(id => typeof id === "string" && id.length > 0) &&
+      new Set(section.remembered).size === section.remembered.length &&
+      section.remembered.every(id => ids.has(id));
+  }
+
+  function valid(model) {
+    if (!object(model) || model.version !== 1 || !Number.isSafeInteger(model.clock) ||
+        model.clock < 0 || !object(model.sections)) return false;
+    const validRegister = register => object(register) && validStamp(register.stamp) &&
+      register.stamp[0] <= model.clock;
+    if (model.active !== null && (!validRegister(model.active) || !types.includes(model.active.value))) {
+      return false;
+    }
+    return Object.entries(model.sections).every(([type, section]) =>
+      types.includes(type) && validIds(section) && (section.current === null ||
+        (validRegister(section.current) &&
+          (section.current.value === null || section.ids.includes(section.current.value)))));
+  }
+
+  function checkProgress(progress) {
+    if (!object(progress) || progress.format !== format || progress.version !== 1 ||
+        !object(progress.sections) || !types.every(type => {
+          const section = progress.sections[type];
+          return validIds(section) && (section.current === null
+            ? section.ids.length === section.remembered.length
+            : section.ids.includes(section.current) && !section.remembered.includes(section.current));
+        })) throw new Error("本机学习记录格式有误，未进行云合并。");
+  }
+
+  function compareValue(a, b) {
+    if (a === b) return 0;
+    if (a === null) return -1;
+    if (b === null) return 1;
+    return a < b ? -1 : 1;
+  }
+
+  function latest(a, b) {
+    if (!a) return b;
+    if (!b) return a;
+    const order = compareValue(a.stamp[0], b.stamp[0]) ||
+      compareValue(a.stamp[1], b.stamp[1]) || compareValue(a.value, b.value);
+    return order >= 0 ? a : b;
+  }
+
+  function union(left, right) {
+    return [...new Set([...left, ...right])].sort();
+  }
+
+  function combineSection(a, b) {
+    if (!a) a = b;
+    if (!b) b = a;
+    const round = Math.max(a.round, b.round);
+    const current = latest(a.round === round ? a.current : null, b.round === round ? b.current : null);
+    return {
+      round,
+      ids: union(a.ids, b.ids),
+      remembered: union(a.round === round ? a.remembered : [], b.round === round ? b.remembered : []),
+      // Keep the register even after another device masters that card. Dropping it here
+      // would let a stale card win when a third writer later joins the merge.
+      current: current ? { value: current.value, stamp: [...current.stamp] } : null
+    };
+  }
+
+  function merge(...models) {
+    const result = empty();
+    if (models.some(model => !valid(model))) throw new Error("云端学习记录格式有误，未覆盖本机记录。");
+    for (const type of types) {
+      let section;
+      for (const model of models) {
+        if (has(model.sections, type)) section = combineSection(section, model.sections[type]);
+      }
+      if (section) result.sections[type] = section;
+    }
+    for (const model of models) {
+      result.clock = Math.max(result.clock, model.clock);
+      result.active = latest(result.active, model.active);
+    }
+    if (result.active) result.active = { value: result.active.value, stamp: [...result.active.stamp] };
+    return result;
+  }
+
+  function hasLearning(progress) {
+    checkProgress(progress);
+    return types.some(type => {
+      const section = progress.sections[type];
+      return section.round > 1 || section.remembered.length > 0;
+    });
+  }
+
+  function nextStamp(model, writer) {
+    if (!valid(model) || typeof writer !== "string" || !writer || model.clock === Number.MAX_SAFE_INTEGER) {
+      throw new Error("无法生成新的同步记录。");
+    }
+    return [model.clock + 1, writer];
+  }
+
+  function fromProgress(progress, {previous = empty(), type = null, active = null, stamp = null} = {}) {
+    checkProgress(progress);
+    if ((stamp !== null && (!validStamp(stamp) || stamp[0] === 0)) ||
+        (type !== null && !types.includes(type)) || (active !== null && !types.includes(active))) {
+      throw new Error("同步操作中的题型或时间标记有误。");
+    }
+    const local = empty();
+    if (stamp) {
+      local.clock = stamp[0];
+      if (active) local.active = { value: active, stamp };
+    }
+    for (const name of types) {
+      const section = progress.sections[name];
+      const existing = previous.sections[name];
+      let current = null;
+      if (stamp && type === name) {
+        current = { value: section.current, stamp };
+      } else if ((!existing?.current || existing.round < section.round) &&
+          (section.round > 1 || section.remembered.length > 0)) {
+        // Exporting the old v1 engine draws unopened sections too. Never treat
+        // such a random, untouched first card as an intentional cloud selection.
+        current = { value: section.current, stamp: [0, ""] };
+      }
+      local.sections[name] = {
+        round: section.round, ids: section.ids, remembered: section.remembered, current
+      };
+    }
+    return merge(previous, local);
+  }
+
+  function project(model, progress) {
+    checkProgress(progress);
+    const merged = fromProgress(progress, { previous: model });
+    const sections = {};
+    for (const type of types) {
+      const local = progress.sections[type];
+      const state = merged.sections[type];
+      const known = new Set(state.remembered);
+      const remembered = local.ids.filter(id => known.has(id));
+      const pending = local.ids.filter(id => !known.has(id));
+      let current = state.current?.value ?? null;
+      if (!pending.includes(current)) {
+        if (!state.current && state.round === local.round && pending.includes(local.current)) {
+          current = local.current;
+        } else {
+          // Concurrent ratings, or a local Word with different IDs, may make the
+          // remote current card unavailable. Pick the same fallback on every client.
+          current = pending.sort()[0] ?? null;
+        }
+      }
+      sections[type] = { round: state.round, ids: [...local.ids], remembered, current };
+    }
+    return { format, version: 1, sections };
+  }
+
+  function sameIds(a, b) {
+    if (a.length !== b.length) return false;
+    const ids = new Set(a);
+    return b.every(id => ids.has(id));
+  }
+
+  function sameProgress(a, b) {
+    checkProgress(a);
+    checkProgress(b);
+    return types.every(type => {
+      const left = a.sections[type], right = b.sections[type];
+      return left.round === right.round && left.current === right.current &&
+        sameIds(left.ids, right.ids) && sameIds(left.remembered, right.remembered);
+    });
+  }
+
+  function sameModel(a, b) {
+    // Normalizing yields stable key and ID ordering for writers loaded from JSON.
+    return JSON.stringify(merge(a)) === JSON.stringify(merge(b));
+  }
+
+  const model = {
+    empty, valid, merge, fromProgress, nextStamp, project, hasLearning, sameProgress, sameModel,
+    activeType: value => value.active?.value ?? null
+  };
+  if (typeof window !== "undefined") window.CloudModel = model;
+  if (typeof module !== "undefined" && module.exports) module.exports = model;
+})();
+
+</script>
+  <script>
+(function () {
+  "use strict";
+
+  const namespace = "foreign-lit.chapter-1.cloud.v1/";
+  const types = new Set(["fill", "term", "short", "essay"]);
+  function randomId() {
+    return Array.from(crypto.getRandomValues(new Uint8Array(16)), b => b.toString(16).padStart(2, "0")).join("");
+  }
+
+  window.createProgressSync = function ({ accountId, storageAdapter, getProgress, getActive, apply, onStatus, onAuthRequired }) {
+    if (typeof accountId !== "string" || !accountId) throw new Error("需要先登录云账号。");
+    const model = window.CloudModel;
+    const actor = randomId();
+    const prefix = namespace + encodeURIComponent(accountId) + "/";
+    const pendingPrefix = prefix + "pending/";
+    const locks = window.navigator.locks;
+    let storage = null;
+    try { storage = window.localStorage; } catch { /* The current session can still sync online. */ }
+    let writer = actor;
+    let state = model.empty(), running = null, timer = null;
+    let started = false, stopped = false, rerun = false, migrated = false, applying = false;
+    let retries = 0, durable = !!storage, accountBlocked = false, authReason = "", status = "";
+
+    function tell(text) {
+      if (!stopped && text !== status) { status = text; onStatus(text); }
+    }
+    function read(key) {
+      try { return storage?.getItem(key) ?? null; }
+      catch { durable = false; return null; }
+    }
+    function write(key, value) {
+      try {
+        if (!storage) return false;
+        storage.setItem(key, value);
+        return true;
+      } catch { durable = false; return false; }
+    }
+
+    function requireLogin(reason) {
+      if (accountBlocked) return;
+      accountBlocked = true;
+      authReason = reason;
+      clearTimeout(timer);
+      tell(reason === "ACCOUNT_MISMATCH" ? "云账号已切换，请切回原账号后继续同步。" :
+        "登录已过期，进度已留在本机，请重新登录。");
+      onAuthRequired?.(reason);
+    }
+
+    function accountIsCurrent() {
+      const bound = read(namespace + "owner");
+      if (bound && bound !== accountId) {
+        if (authReason === "AUTH_REQUIRED") authReason = "ACCOUNT_MISMATCH";
+        requireLogin("ACCOUNT_MISMATCH");
+        return false;
+      }
+      if (!bound) write(namespace + "owner", accountId);
+      return !accountBlocked;
+    }
+
+    function decode(raw) {
+      if (!raw) return null;
+      try {
+        const entry = JSON.parse(raw);
+        return model.valid(entry) ? entry : null;
+      } catch { return null; }
+    }
+
+    // Each page has its own outbox. A newer edit cannot be cleared by another
+    // tab finishing its upload. Unsent edits survive a browser restart.
+    function readPending() {
+      const records = [];
+      try {
+        for (let i = 0; storage && i < storage.length; i++) {
+          const key = storage.key(i);
+          if (!key?.startsWith(pendingPrefix)) continue;
+          const raw = read(key);
+          const data = decode(raw);
+          if (data) records.push({ key, raw, data });
+        }
+      } catch { durable = false; }
+      return records;
+    }
+    function clearConfirmed(records) {
+      try {
+        for (const record of records) {
+          if (read(record.key) === record.raw) storage?.removeItem(record.key);
+        }
+      } catch { /* Leaving an acknowledged edit queued is safe to replay. */ }
+    }
+    function storedModel() {
+      return decode(read(prefix + "seen")) || model.empty();
+    }
+    function wake(delay) {
+      clearTimeout(timer);
+      if (!stopped && !accountBlocked && !document.hidden) timer = setTimeout(run, delay);
+    }
+
+    async function exchange() {
+      if (stopped || !accountIsCurrent()) return false;
+      if (window.navigator.onLine === false) throw new Error("offline");
+      if (!migrated) tell("正在读取云进度…");
+      const entries = await storageAdapter.list();
+      if (stopped || !accountIsCurrent()) return false;
+      if (!Array.isArray(entries) || entries.some(entry => !model.valid(entry))) {
+        throw new Error("invalid-cloud-record");
+      }
+      const remote = model.merge(...entries);
+      const pending = readPending();
+      const local = getProgress();
+      let combined = model.merge(remote, storedModel(), state, ...pending.map(record => record.data));
+      if (!migrated) {
+        if (!entries.length && !model.activeType(combined)) {
+          const active = getActive();
+          combined = model.fromProgress(local, { previous: combined, type: active, active,
+            stamp: model.nextStamp(combined, actor) });
+        } else if (model.hasLearning(local)) {
+          // Untagged progress from the pre-cloud app contributes its known
+          // answers, without taking over a newer device's active flashcard.
+          combined = model.merge(combined, model.fromProgress(local));
+        }
+        migrated = true;
+      }
+      state = combined;
+      const projected = model.project(combined, local);
+      const active = model.activeType(combined) || getActive();
+      if (!model.sameProgress(projected, local) || active !== getActive()) {
+        applying = true;
+        try { apply(projected, active); } finally { applying = false; }
+      }
+      // Persist the last observed clock as well as unrecognised question ids.
+      // This lets an offline rating after reload follow the most recent session.
+      if (!model.sameModel(storedModel(), combined)) write(prefix + "seen", JSON.stringify(combined));
+      if (!model.sameModel(remote, combined)) {
+        tell("正在保存到云端…");
+        await storageAdapter.write(writer, combined);
+      }
+      if (stopped || !accountIsCurrent()) return false;
+      clearConfirmed(pending);
+      retries = 0;
+      if (!rerun) tell("云端已同步");
+      return true;
+    }
+
+    async function perform() {
+      do {
+        rerun = false;
+        try {
+          // Tabs sharing a durable writer serialise the read/merge/write cycle.
+          // Browsers without Web Locks give every page its own cloud entry.
+          const ok = locks && storage
+            ? await locks.request(prefix + "exchange", exchange)
+            : await exchange();
+          if (!ok) break;
+        } catch (error) {
+          if (stopped) break;
+          retries = Math.min(retries + 1, 6);
+          if (error?.message === "invalid-cloud-record") {
+            tell("云端进度格式异常，已保留本机记录");
+          } else if (error?.code === "ACCOUNT_MISMATCH" || error?.code === "AUTH_REQUIRED") {
+            requireLogin(error.code);
+          } else {
+            tell(durable ? "进度已留在本机，联网后自动同步" : "云端尚未同步，请保持本页打开");
+          }
+          break;
+        }
+      } while (rerun && !stopped);
+      wake(retries ? Math.min(120000, 2500 * (2 ** retries)) : 45000);
+    }
+    function run() {
+      clearTimeout(timer);
+      if (!started || stopped || accountBlocked) return Promise.resolve();
+      if (running) { rerun = true; return running; }
+      running = perform().finally(() => { running = null; });
+      return running;
+    }
+
+    function capture(type, selectOnly) {
+      if (applying || stopped || !started) return Promise.resolve();
+      const allowed = accountIsCurrent();
+      // A logged-out device still belongs to the same learner. Preserve its
+      // offline operations, but never attribute them to a different account.
+      if (!allowed && authReason !== "AUTH_REQUIRED") return Promise.resolve();
+      if (type != null && !types.has(type)) return Promise.resolve();
+      const base = model.merge(storedModel(), state, ...readPending().map(record => record.data));
+      const active = selectOnly ? type : getActive();
+      state = model.fromProgress(getProgress(), { previous: base, type, active,
+        stamp: model.nextStamp(base, actor) });
+      write(pendingPrefix + actor, JSON.stringify(state));
+      if (!allowed) return Promise.resolve();
+      tell("正在保存到云端…");
+      return run();
+    }
+
+    function visible() { if (!document.hidden) run(); }
+    function offline() { if (!stopped) tell(durable ? "进度已留在本机，联网后自动同步" : "已离线，请保持本页打开"); }
+    function start() {
+      if (started || stopped) return running || Promise.resolve();
+      started = true;
+      if (!accountIsCurrent()) return Promise.resolve();
+      // A stable per-browser writer bounds the cloud entry count across reloads.
+      if (locks && storage) {
+        const saved = read(prefix + "writer");
+        if (saved && /^[a-f0-9]{32}$/.test(saved)) writer = saved;
+        else write(prefix + "writer", writer);
+      }
+      state = model.merge(storedModel(), ...readPending().map(record => record.data));
+      document.addEventListener("visibilitychange", visible);
+      window.addEventListener("focus", visible);
+      window.addEventListener("online", run);
+      window.addEventListener("offline", offline);
+      return run();
+    }
+    function destroy() {
+      stopped = true;
+      clearTimeout(timer);
+      document.removeEventListener("visibilitychange", visible);
+      window.removeEventListener("focus", visible);
+      window.removeEventListener("online", run);
+      window.removeEventListener("offline", offline);
+    }
+    return { start, changed: type => capture(type, false), select: type => capture(type, true), destroy };
+  };
+})();
+
+</script>
+  <script>
+(() => {
+  "use strict";
+
+  const sdkUrl = "https://js.puter.com/v2/";
+  const prefix = "foreign-lit-ch1-v1-";
+  const writerPattern = /^[0-9a-f]{32}$/;
+  let pendingLoad;
+
+  function available() {
+    const { auth, kv } = window.puter || {};
+    return typeof auth?.signIn === "function" && typeof auth.isSignedIn === "function" &&
+      typeof auth.getUser === "function" && typeof kv?.list === "function" && typeof kv.set === "function";
+  }
+
+  // The page requests the SDK only after the user chooses cloud sync.
+  function ready() {
+    if (!/^https?:$/.test(location.protocol)) {
+      return Promise.reject(new Error("请打开网站的固定网址连接云同步。"));
+    }
+    if (available()) return Promise.resolve();
+    if (pendingLoad) return pendingLoad;
+    pendingLoad = new Promise((resolve, reject) => {
+      const script = document.createElement("script");
+      const fail = () => {
+        clearTimeout(timeout);
+        script.onload = script.onerror = null;
+        script.remove();
+        pendingLoad = undefined;
+        reject(new Error("暂时连不上 Puter，请检查网络后重试。"));
+      };
+      const timeout = setTimeout(fail, 20000);
+      script.async = true;
+      script.src = sdkUrl;
+      script.referrerPolicy = "origin";
+      script.onload = () => {
+        if (!available()) return fail();
+        clearTimeout(timeout);
+        resolve();
+      };
+      script.onerror = fail;
+      document.head.append(script);
+    });
+    return pendingLoad;
+  }
+
+  function signedIn() {
+    return available() && window.puter.auth.isSignedIn() === true;
+  }
+
+  async function identity() {
+    if (!signedIn()) {
+      const error = new Error("请先登录你的 Puter 账号。");
+      error.code = "AUTH_REQUIRED";
+      throw error;
+    }
+    let user;
+    try { user = await window.puter.auth.getUser(); }
+    catch (cause) {
+      const code = cause?.error?.code || cause?.code;
+      if (cause?.status === 401 || cause?.response?.status === 401 ||
+          ["token_auth_failed", "token_expired", "invalid_token", "unauthorized"].includes(code)) {
+        const error = new Error("请重新登录原来的 Puter 账号。");
+        error.code = "AUTH_REQUIRED";
+        throw error;
+      }
+      throw cause;
+    }
+    if (typeof user?.uuid !== "string" || !user.uuid || user.is_temp) {
+      throw new Error("请使用可在另一台设备登录的正式 Puter 账号。");
+    }
+    return { id: user.uuid, username: user.username || "" };
+  }
+
+  // Invoke signIn directly in the login button's click handler, after ready().
+  async function signIn() {
+    if (!available()) throw new Error("请等待云服务加载，再点一次登录。");
+    try {
+      const result = await window.puter.auth.signIn({ attempt_temp_user_creation: false, request_auth: true });
+      if (result?.success === false) throw result;
+    } catch (error) {
+      const code = error?.error?.code || error?.error || error?.code;
+      if (code === "popup_blocked") throw new Error("浏览器拦住了登录窗口，请允许本站弹窗后再点登录。");
+      if (code === "auth_window_closed") throw new Error("登录窗口已关闭，学习进度仍在这台设备。");
+      throw new Error("暂时无法完成 Puter 登录，请重新连接。");
+    }
+    return identity();
+  }
+
+  function adapter(accountId) {
+    if (typeof accountId !== "string" || !accountId) throw new Error("缺少云账号。");
+    async function checkedKv() {
+      if ((await identity()).id !== accountId || !signedIn()) {
+        const error = new Error("Puter 账号已变更，请重新连接云同步。");
+        error.code = "ACCOUNT_MISMATCH";
+        throw error;
+      }
+      return window.puter.kv;
+    }
+    return {
+      async list() {
+        const kv = await checkedKv();
+        const pairs = await kv.list(prefix + "*", true);
+        if (!Array.isArray(pairs)) throw new Error("云进度暂时无法读取。");
+        return pairs.map(({ key, value }) => {
+          if (typeof key !== "string" || !key.startsWith(prefix) || !writerPattern.test(key.slice(prefix.length)) ||
+              !value || typeof value !== "object" || Array.isArray(value)) {
+            throw new Error("云进度格式异常，请稍后重试。");
+          }
+          return value;
+        });
+      },
+      async write(writer, data) {
+        if (!writerPattern.test(writer) || !data || typeof data !== "object" || Array.isArray(data)) {
+          throw new Error("本机进度格式异常。");
+        }
+        const kv = await checkedKv();
+        const saved = await kv.set(prefix + writer, data, { disableSharing: true });
+        if (saved !== true) throw new Error("云端未确认保存，稍后将重试。");
+      }
+    };
+  }
+
+  window.LitPuter = { ready, signedIn, identity, signIn, adapter };
+})();
+
+</script>
+  <script>
+(function () {
+  "use strict";
+
+  window.initCloudUI = function initCloudUI({getProgress, getActive, apply}) {
+    const $ = id => document.getElementById(id);
+    const localOnly = location.protocol === "file:";
+    const key = "foreign-lit.chapter-1.cloud-account.v1";
+    const dialog = $("cloud-dialog");
+    const button = $("cloud-connect");
+    let account = null, sync = null, sdkReady = false, signing = false;
+    let resumeTask;
+    let phase = "off", status = "";
+    try { account = JSON.parse(localStorage.getItem(key)); } catch { /* No saved connection. */ }
+    if (!account || typeof account.id !== "string") account = null;
+
+    function display() {
+      if (localOnly) return;
+      $("cloud-open").hidden = false;
+      const attached = Boolean(account);
+      const ready = phase === "connected";
+      const labels = {off:"开启云同步", loading:"正在连接云端", signin:attached ? "重新登录云同步" : "开启云同步",
+        connected:status || "云同步已开启", error:attached ? "查看云同步状态" : "开启云同步", mismatch:"核对云同步账号"};
+      $("cloud-label").textContent = labels[phase] || labels.off;
+      $("cloud-status").textContent = status;
+      if (attached) $("save-note").textContent = status || "正在连接云端，同时保存本机进度";
+      button.hidden = ready;
+      button.disabled = signing || phase === "loading";
+      button.textContent = phase === "error" ? "重试连接" : attached ? "重新登录原账号" : "登录 Puter 并开启同步";
+      if (ready) {
+        $("cloud-intro").textContent = "已连接 " + (account.name || "你的 Puter 账号") + "。答题后会自动保存，另一台设备登录同一个账号就能接着练。";
+        $("cloud-detail").textContent = "离线时可以继续答题，重新联网并打开页面后会自动合并。";
+      } else if (phase === "mismatch") {
+        $("cloud-detail").textContent = "请使用最初连接的 Puter 账号重新登录。当前的练习仍保存在本机。";
+      }
+    }
+
+    function setPhase(next, message) {
+      phase = next;
+      status = message || "";
+      display();
+    }
+
+    async function loadSdk() {
+      await window.LitPuter.ready();
+      sdkReady = true;
+    }
+
+    // A paired browser starts its local outbox even on a cold, offline reload.
+    // SDK availability is required only when a network exchange actually runs.
+    function startSync() {
+      const adapter = window.LitPuter.adapter(account.id);
+      sync = window.createProgressSync({accountId:account.id, getProgress, getActive, apply,
+        storageAdapter:{
+          async list() { await loadSdk(); return adapter.list(); },
+          async write(writer, data) { await loadSdk(); return adapter.write(writer, data); }
+        },
+        onStatus:msg => setPhase("connected", msg),
+        onAuthRequired(reason) {
+          const mismatch = reason === "ACCOUNT_MISMATCH";
+          setPhase(mismatch ? "mismatch" : "signin", mismatch
+            ? "当前登录的账号与本机绑定的账号不同。"
+            : "请重新登录原来的 Puter 账号，本机进度会自动补传。");
+        }
+      });
+      setPhase("connected", "正在合并本机和云端进度…");
+      return sync.start();
+    }
+
+    function attach(identity) {
+      if (!identity || !identity.id) throw new Error("未能确认云端账号，请重新登录。");
+      if (account && account.id !== identity.id) {
+        setPhase("mismatch", "当前登录的账号和本机原先连接的账号不同，已暂停云同步。");
+        return;
+      }
+      const stored = {id:identity.id, name:identity.username || identity.name || ""};
+      try { localStorage.setItem(key, JSON.stringify(stored)); }
+      catch { throw new Error("浏览器无法保留登录连接。请允许此网站使用本地存储后重试。"); }
+      account = stored;
+      sync?.destroy();
+      return startSync();
+    }
+
+    function prepare() {
+      if (localOnly || sync || signing || resumeTask || phase === "mismatch") return resumeTask;
+      setPhase("loading", "正在连接 Puter…");
+      resumeTask = (async () => {
+        try {
+          await loadSdk();
+          if (account && await window.LitPuter.signedIn()) {
+            await attach(await window.LitPuter.identity());
+          } else {
+            setPhase("signin", account ? "请重新登录原来的 Puter 账号，本机进度会自动补传。" : "准备好了，请登录在手机和电脑上都能使用的账号。");
+          }
+        } catch (err) {
+          setPhase("error", navigator.onLine ? (err.message || "暂时无法连接云端，可以继续练习。") : "当前离线，进度暂存在本机。");
+        } finally { resumeTask = null; }
+      })();
+      return resumeTask;
+    }
+
+    async function connect() {
+      if (signing || (sync && phase === "connected")) return;
+      if (!sdkReady || phase === "error") { await prepare(); return; }
+      signing = true;
+      setPhase("loading", "请在 Puter 登录窗口完成授权…");
+      try {
+        // Invoke directly from this click, before any await, for mobile popup rules.
+        const identity = await window.LitPuter.signIn();
+        await attach(identity);
+      } catch (err) {
+        setPhase("signin", err.message || "本次登录未完成，可以再试一次。");
+      } finally { signing = false; display(); }
+    }
+
+    if (!localOnly) {
+      $("cloud-open").addEventListener("click", () => {
+        dialog.showModal();
+        if (!sync && !sdkReady) prepare();
+        else display();
+      });
+      $("cloud-close").addEventListener("click", () => dialog.close());
+      button.addEventListener("click", connect);
+      window.addEventListener("online", () => { if (account && !sync) prepare(); });
+      document.addEventListener("visibilitychange", () => {
+        if (!document.hidden && account && !sync && !dialog.open) prepare();
+      });
+      window.addEventListener("storage", event => {
+        if (event.key !== key || !event.newValue || account || sync) return;
+        try {
+          const other = JSON.parse(event.newValue);
+          if (typeof other.id === "string") { account = other; prepare(); }
+        } catch { /* A malformed setting does not change the current session. */ }
+      });
+      display();
+      if (account) startSync();
+    }
+
+    return {
+      changed(type) { sync?.changed(type); },
+      select(type) { sync?.select(type); },
+      refreshBank() { sync?.changed(null); },
+      hasAccount() { return !localOnly && Boolean(account); }
+    };
+  };
+})();
+
+</script>
+  <script>
+(function () {
+  "use strict";
+
   const types = {
     fill: {label: "填空题", icon: "pencil"}, term: {label: "名词解释", icon: "book"},
     short: {label: "简答题", icon: "notes"}, essay: {label: "论述题", icon: "feather"}
   };
   const $ = id => document.getElementById(id);
   let bank = window.getLocalBank(window.QUESTION_BANK);
-  let engine, view, timer, lastMessage = "";
+  let engine, view, timer, cloud, lastMessage = "";
   let active = "fill";
   const typeKey = "foreign-lit.chapter-1.active-type";
   try {
@@ -1079,6 +1807,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
         try { localStorage.setItem(typeKey, key); } catch { /* The choice is kept in this tab. */ }
         say(["翻到" + type.label + "啦，先想想你最有把握的那一点。"]);
         render();
+        cloud?.select(key);
       });
       nav.append(button);
     }
@@ -1136,7 +1865,9 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     $("answer").hidden = !open;
   }
 
-  function render() {
+  function render(keepAnswer = false) {
+    const previous = view;
+    const previouslyOpen = keepAnswer && !$("answer").hidden;
     view = engine.get(active);
     for (const x of $("category-nav").children) x.setAttribute("aria-pressed", String(x.dataset.type === active));
     $("round-tag").textContent = "第 " + view.round + " 轮";
@@ -1147,10 +1878,10 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     $("bar").style.width = (view.total ? view.remembered / view.total * 100 : 0) + "%";
     $("track").setAttribute("aria-valuemax", view.total || 1);
     $("track").setAttribute("aria-valuenow", view.remembered);
-    $("save-note").textContent = engine.persistent ? "学习进度自动保存在当前浏览器" : "当前浏览器限制保存，离开前可在题库管理中导出进度";
+    if (!cloud?.hasAccount()) $("save-note").textContent = engine.persistent ? "学习进度已保存在当前浏览器" : "浏览器限制保存，本次练习仅在本页保留";
     $("active-question").hidden = !view.question;
     $("finished").hidden = Boolean(view.question);
-    setAnswer(false);
+    setAnswer(Boolean(previouslyOpen && previous?.round === view.round && previous?.question?.id === view.question?.id));
     if (!view.question) {
       $("finished-title").textContent = view.complete ? "这一轮，全部记得啦！" : "这个题型还没有题目";
       $("finished-body").textContent = view.complete ? types[active].label + "的 " + view.total + " 道题都过了一遍，小橘给你盖个爪印。" : "可以切换题型，或在题库管理中导入新版 Word。";
@@ -1176,9 +1907,10 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     bank = next;
     engine?.destroy();
     engine = new window.StudyEngine(bank.questions);
-    engine.subscribe(type => { if (!type || type === active) render(); });
+    engine.subscribe(type => { if (!type || type === active) render(true); });
     categories();
     render();
+    cloud?.refreshBank();
   }
 
   function rate(known) {
@@ -1189,6 +1921,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     else if (next.remaining === 1) say(["这轮就剩这一题啦。再看一眼答案，按自己的节奏试试。"]);
     else say(["没关系，我把它放回这轮。等会儿再碰面。","卡住也没关系，下一次见到它，就多了一点熟悉。","小橘把这题留好啦，先去看看下一题。"]);
     render();
+    cloud?.changed(active);
     // A long essay answer may have scrolled the prompt offscreen.
     if ($("practice").getBoundingClientRect().top < -30) $("practice").scrollIntoView({block:"start"});
   }
@@ -1200,6 +1933,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     engine.nextRound(active, view.round);
     say(["新一轮开书啦，看看今天哪些题更熟悉了。"]);
     render();
+    cloud?.changed(active);
   });
   $("manage").addEventListener("click", event => {
     if (event.target !== $("manage")) return;
@@ -1207,7 +1941,20 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     if (event.clientX < r.left || event.clientX > r.right || event.clientY < r.top || event.clientY > r.bottom) $("manage").close();
   });
   applyBank(bank);
-  window.initManager({getBank:() => bank, getEngine:() => engine, applyBank, report});
+  cloud = window.initCloudUI({
+    getProgress: () => engine.exportProgress(),
+    getActive: () => active,
+    apply(progress, nextActive) {
+      if (nextActive && Object.hasOwn(types, nextActive)) {
+        active = nextActive;
+        try { localStorage.setItem(typeKey, active); } catch { /* Keep the current choice in memory. */ }
+      }
+      if (!window.CloudModel.sameProgress(engine.exportProgress(), progress)) engine.importProgress(progress);
+      else render(true);
+    }
+  });
+  window.initManager({getBank:() => bank, getEngine:() => engine, applyBank, report,
+    progressRestored: () => cloud.refreshBank(), cloudConnected: () => cloud.hasAccount()});
 })();
 
 </script>
