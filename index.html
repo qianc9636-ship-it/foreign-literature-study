@@ -853,18 +853,17 @@ dialog::backdrop{background:#33261d70}
       return keys;
     }
 
-    preserveHiddenHistory(values, sections) {
-      // A device can use a Word bank that temporarily omits a question. Its
-      // local history must survive a snapshot imported for the visible bank.
+    preserveLifetimeRecords(values, sections) {
+      // An older backup can rewind the exercise but cannot undo draws or reuse
+      // a writer's counters. Word revisions may also temporarily omit a card.
       const supplied = new Map(types.map(type => [type, new Set(sections[type].ids)]));
       const visited = new Set();
       for (const key of this.storedKeys()) {
         const draw = key.match(drawKeyPattern);
         if (draw) {
-          const [,type,,id] = draw;
-          if (this.groups.has(type) && !this.groups.get(type).has(id) && !supplied.get(type).has(id)) {
-            const count = Number(this.read(key));
-            if (Number.isSafeInteger(count) && count > 0) values[key] = String(count);
+          const count = Number(this.read(key));
+          if (this.groups.has(draw[1]) && Number.isSafeInteger(count) && count > Number(values[key] || 0)) {
+            values[key] = String(count);
           }
           continue;
         }
@@ -910,11 +909,7 @@ dialog::backdrop{background:#33261d70}
           if (ranges[ranges.length - 1] === section.round && !known.has(id)) throw invalid;
           values[type + "/history/" + id] = JSON.stringify(ranges);
         }
-        // Restoring an older backup can rewind the exercise but cannot undo a
-        // draw that already happened or reuse a writer's counter for another draw.
-        const countedIds = new Set([...group.keys(), ...Object.keys(section.draws || {})]);
-        for (const id of countedIds) {
-          const counts = window.CloudModel.mergeDrawCounts(this.drawCounts.get(type + "/" + id), section.draws?.[id]);
+        for (const [id, counts] of Object.entries(section.draws || {})) {
           for (const [actor, n] of Object.entries(counts)) values[type + "/draws/" + actor + "/" + id] = String(n);
         }
         for (const id of known) {
@@ -925,7 +920,7 @@ dialog::backdrop{background:#33261d70}
         }
       }
       if (!hasMatch) throw new Error("这份进度与当前题库没有相同题号，无法导入。");
-      this.preserveHiddenHistory(values, data.sections);
+      this.preserveLifetimeRecords(values, data.sections);
 
       // Commit all four sections in one storage write. Ratings written before the
       // import have a different generation and are ignored after the commit.
