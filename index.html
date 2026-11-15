@@ -65,7 +65,7 @@ h1{font-family:var(--serif);font-size:clamp(42px,4.8vw,62px);font-weight:800;let
 .round-tag{padding:2px 9px;background:#f4efe4;border-radius:20px}
 .question-body{margin:17px 0 12px;padding:20px 21px 16px;border:1px solid #ebddc5;border-radius:12px;background:#fcf7ec;position:relative;min-height:147px;display:flex;flex-direction:column;align-items:stretch}
 .question-tags{gap:5px 8px;flex-wrap:wrap;min-height:22px;color:#915a38;font-size:12px}
-#remembered-times{margin-left:auto;padding:2px 8px;border-radius:12px;background:#eaf0e1;color:#4b6445;line-height:1.5;font-variant-numeric:tabular-nums;white-space:nowrap}
+#draw-count{margin-left:auto;padding:2px 8px;border-radius:12px;background:#eaf0e1;color:#4b6445;line-height:1.5;font-variant-numeric:tabular-nums;white-space:nowrap}
 #type-tag{font-size:12px;line-height:1.35;padding:2px 8px;background:#efdfc6;border-radius:5px;letter-spacing:.08em;font-weight:650}
 #focus-tag{display:inline-flex;gap:3px;align-items:center;color:#856334}
 #focus-tag .icon{width:13px;height:13px;fill:#f1cf77;stroke:#a77b37}
@@ -185,7 +185,7 @@ dialog::backdrop{background:#33261d70}
         <div class="card-head"><h2 id="practice-title"><svg class="icon"><use href="#bookstack"/></svg>随机抽题</h2><span id="round-tag" class="round-tag"></span></div>
         <p id="first-sync" role="status" hidden>小橘正在从云端找回你上次的题目…</p>
         <div id="active-question">
-          <div class="question-body"><div class="question-tags"><span id="type-tag"></span><span id="focus-tag" hidden><svg class="icon"><use href="#star"/></svg>原文重点</span><span id="remembered-times" title="这道题历轮点过「记得」的次数"></span></div>
+          <div class="question-body"><div class="question-tags"><span id="type-tag"></span><span id="focus-tag" hidden><svg class="icon"><use href="#star"/></svg>原文重点</span><span id="draw-count" title="从本次更新起累计，同一轮重新抽到也算一次"></span></div>
           <h3 class="prompt" id="prompt" tabindex="-1"></h3><div id="prompt-table"></div>
           <div class="source-line" id="source-line"></div></div>
           <button id="toggle-answer" class="answer-toggle" type="button" aria-expanded="false" aria-controls="answer"><svg class="icon"><use href="#eye"/></svg><span>展开答案</span><svg class="icon down"><use href="#chevron"/></svg></button>
@@ -291,6 +291,30 @@ dialog::backdrop{background:#33261d70}
     return Object.fromEntries(history);
   }
 
+  // Each independent writer increments its own component. Retrying the same
+  // snapshot or importing a backup cannot count that draw a second time.
+  function mergeDrawCounts(left = {}, right = {}) {
+    return Object.fromEntries(union(Object.keys(left), Object.keys(right)).map(actor =>
+      [actor, Math.max(left[actor] || 0, right[actor] || 0)]));
+  }
+
+  function countDraws(counts = {}) {
+    return Object.values(counts).reduce((total, count) => total + count, 0);
+  }
+
+  function validDraws(draws, ids) {
+    if (draws === undefined) return true;
+    return object(draws) && Object.entries(draws).every(([id, counts]) =>
+      ids.has(id) && object(counts) && Object.keys(counts).length > 0 &&
+      Object.entries(counts).every(([actor, count]) => /^[0-9a-f]{32}$/.test(actor) &&
+        Number.isInteger(count) && count > 0 && count <= 0xffffffff));
+  }
+
+  function mergeDraws(left = {}, right = {}) {
+    return Object.fromEntries(union(Object.keys(left), Object.keys(right)).map(id =>
+      [id, mergeDrawCounts(has(left, id) ? left[id] : {}, has(right, id) ? right[id] : {})]));
+  }
+
   function validIds(section) {
     if (!object(section) || !Number.isSafeInteger(section.round) || section.round < 1 ||
         section.round >= Number.MAX_SAFE_INTEGER ||
@@ -300,6 +324,7 @@ dialog::backdrop{background:#33261d70}
     return ids.size === section.ids.length &&
       section.ids.every(id => typeof id === "string" && id.length > 0) &&
       known.size === section.remembered.length && section.remembered.every(id => ids.has(id)) &&
+      validDraws(section.draws, ids) &&
       validHistory(section.history, ids, section.round) &&
       Object.entries(section.history || {}).every(([id, ranges]) => ranges[ranges.length - 1] < section.round || known.has(id));
   }
@@ -361,6 +386,7 @@ dialog::backdrop{background:#33261d70}
       ids: union(a.ids, b.ids),
       remembered: union(a.round === round ? a.remembered : [], b.round === round ? b.remembered : []),
       history: Object.fromEntries(history),
+      draws: mergeDraws(a.draws, b.draws),
       // Keep the register even after another device masters that card. Dropping it here
       // would let a stale card win when a third writer later joins the merge.
       current: current ? { value: current.value, stamp: [...current.stamp] } : null
@@ -389,7 +415,7 @@ dialog::backdrop{background:#33261d70}
     checkProgress(progress);
     return types.some(type => {
       const section = progress.sections[type];
-      return section.round > 1 || section.remembered.length > 0;
+      return section.round > 1 || section.remembered.length > 0 || Object.keys(section.draws || {}).length > 0;
     });
   }
 
@@ -424,7 +450,8 @@ dialog::backdrop{background:#33261d70}
         current = { value: section.current, stamp: [0, ""] };
       }
       local.sections[name] = {
-        round: section.round, ids: section.ids, remembered: section.remembered, history: sectionHistory(section), current
+        round: section.round, ids: section.ids, remembered: section.remembered,
+        history: sectionHistory(section), draws: section.draws, current
       };
     }
     return merge(previous, local);
@@ -452,7 +479,8 @@ dialog::backdrop{background:#33261d70}
       }
       const history = Object.fromEntries(local.ids.filter(id => has(state.history, id))
         .map(id => [id, state.history[id]]));
-      sections[type] = { round: state.round, ids: [...local.ids], remembered, history, current };
+      const draws = Object.fromEntries(local.ids.filter(id => has(state.draws, id)).map(id => [id, state.draws[id]]));
+      sections[type] = { round: state.round, ids: [...local.ids], remembered, history, draws, current };
     }
     return { format, version: 1, sections };
   }
@@ -471,6 +499,7 @@ dialog::backdrop{background:#33261d70}
       const leftHistory = sectionHistory(left), rightHistory = sectionHistory(right);
       return left.round === right.round && left.current === right.current &&
         sameIds(left.ids, right.ids) && sameIds(left.remembered, right.remembered) &&
+        JSON.stringify(mergeDraws(left.draws)) === JSON.stringify(mergeDraws(right.draws)) &&
         Object.keys(leftHistory).length === Object.keys(rightHistory).length &&
         Object.entries(leftHistory).every(([id, ranges]) => has(rightHistory, id) &&
           ranges.length === rightHistory[id].length && ranges.every((n, index) => n === rightHistory[id][index]));
@@ -485,6 +514,7 @@ dialog::backdrop{background:#33261d70}
   const model = {
     empty, valid, merge, fromProgress, nextStamp, project, hasLearning, sameProgress, sameModel,
     mergeRanges, addRound, countRounds, validHistory, sectionHistory,
+    mergeDrawCounts, countDraws, validDraws,
     activeType: value => value.active?.value ?? null
   };
   if (typeof window !== "undefined") window.CloudModel = model;
@@ -499,7 +529,45 @@ dialog::backdrop{background:#33261d70}
   const types = ["fill", "term", "short", "essay"];
   const prefix = "foreign-lit.chapter-1.v1/";
   const format = "foreign-lit.chapter-1.progress";
+  const initialDraw = "00000000000000000000000000000000";
+  const drawKeyPattern = /^([^/]+)\/draws\/([0-9a-f]{32})\/(.+)$/;
+  let writer;
   let activeEngine = null;
+
+  function newWriter() {
+    const bytes = new Uint8Array(16);
+    if (window.crypto?.getRandomValues) window.crypto.getRandomValues(bytes);
+    else for (let i = 0; i < bytes.length; i++) bytes[i] = Math.floor(Math.random() * 256);
+    bytes[6] = (bytes[6] & 15) | 64;
+    return Array.from(bytes, b => b.toString(16).padStart(2, "0")).join("");
+  }
+
+  function startWriter() {
+    if (writer) return;
+    writer = newWriter();
+    try {
+      const locks = window.navigator?.locks;
+      if (!locks?.request || !window.localStorage) return;
+      const key = prefix + "draw-writer";
+      let shared = window.localStorage.getItem(key);
+      if (!/^[0-9a-f]{32}$/.test(shared) || shared === initialDraw) {
+        shared = newWriter();
+        window.localStorage.setItem(key, shared);
+      }
+      // The usual single tab reuses its writer across visits. A second tab or
+      // a restricted browser keeps its independent writer so increments can merge.
+      function acquire() {
+        locks.request(key + "/" + shared, {ifAvailable:true}, async lock => {
+          if (!lock) return;
+          writer = shared;
+          await new Promise(resolve => window.addEventListener("pagehide", resolve, {once:true}));
+          writer = newWriter();
+        }).catch(() => {});
+      }
+      acquire();
+      window.addEventListener("pageshow", event => { if (event.persisted) acquire(); });
+    } catch { /* A page-private writer works without Web Locks or storage. */ }
+  }
 
   class StudyEngine {
     constructor(questions) {
@@ -507,6 +575,7 @@ dialog::backdrop{background:#33261d70}
       this.memory = new Map();
       this.mastery = new Map();
       this.history = new Map();
+      this.drawCounts = new Map();
       this.listeners = new Set();
       this.snapshotRaw = undefined;
       this.baseline = {};
@@ -517,6 +586,7 @@ dialog::backdrop{background:#33261d70}
         this.storage = null;
       }
       this.persistent = Boolean(this.storage);
+      startWriter();
 
       for (const question of questions) {
         const group = this.groups.get(question.type);
@@ -544,6 +614,7 @@ dialog::backdrop{background:#33261d70}
           if (rating && this.groups.get(rating[1])?.has(rating[2])) {
             this.loadMastery(rating[1], rating[2], this.getRound(rating[1]));
           }
+          this.loadDrawKey(key);
         }
         const type = key === null ? null : key.split("/")[0];
         for (const listener of this.listeners) listener(type);
@@ -589,7 +660,40 @@ dialog::backdrop{background:#33261d70}
           this.loadMastery(type, id, round);
         }
       }
+      this.drawCounts.clear();
+      for (const key of this.storedKeys()) this.loadDrawKey(key);
       return true;
+    }
+
+    loadDrawKey(key) {
+      const parts = key.match(drawKeyPattern);
+      if (!parts) return;
+      const [,type,actor,id] = parts;
+      if (!this.groups.get(type)?.has(id)) return;
+      const n = Number(this.read(key));
+      const card = type + "/" + id;
+      const counts = this.drawCounts.get(card) || {};
+      if (Number.isSafeInteger(n) && n > 0) counts[actor] = n;
+      else delete counts[actor];
+      this.drawCounts.set(card, counts);
+    }
+
+    recordDraw(type, id, firstAppearance) {
+      const card = type + "/" + id;
+      const counts = this.drawCounts.get(card) || {};
+      if (firstAppearance && window.CloudModel.countDraws(counts)) return false;
+      const actor = firstAppearance ? initialDraw : writer;
+      const key = type + "/draws/" + actor + "/" + id;
+      const value = firstAppearance ? 1 : Math.max(Number(this.read(key)) || 0, counts[actor] || 0) + 1;
+      this.write(key, value);
+      counts[actor] = value;
+      this.drawCounts.set(card, counts);
+      return true;
+    }
+
+    show(type) {
+      const {question} = this.get(type);
+      return question ? this.recordDraw(type, question.id, true) : false;
     }
 
     readHistory(type, id, round) {
@@ -674,6 +778,7 @@ dialog::backdrop{background:#33261d70}
       return {
         type, round, total, remembered: total - pending.length, remaining: pending.length,
         rememberedTimes: question ? window.CloudModel.countRounds(this.history.get(type + "/known/" + question.id)) : 0,
+        drawTimes: question ? Math.max(1, window.CloudModel.countDraws(this.drawCounts.get(type + "/" + question.id))) : 0,
         complete: total > 0 && pending.length === 0, question
       };
     }
@@ -685,6 +790,7 @@ dialog::backdrop{background:#33261d70}
       // One key per question keeps ratings of different cards from overwriting each other.
       const previous = this.loadMastery(type, id, view.round);
       if (this.mastery.get(knownKey) >= view.round) return this.get(type);
+      this.recordDraw(type, id, true);
       if (remembered === true) {
         const history = window.CloudModel.addRound(previous, view.round);
         this.write(type + "/history/" + id, JSON.stringify(history));
@@ -692,7 +798,8 @@ dialog::backdrop{background:#33261d70}
         this.write(knownKey, view.round);
         this.mastery.set(knownKey, view.round);
       }
-      this.draw(type, view.round, this.pending(type, view.round), id);
+      const next = this.draw(type, view.round, this.pending(type, view.round), id);
+      if (next) this.recordDraw(type, next.id, false);
       return this.get(type);
     }
 
@@ -703,7 +810,8 @@ dialog::backdrop{background:#33261d70}
       const lastId = previous.slice(previous.indexOf("/") + 1);
       const round = view.round + 1;
       this.write(type + "/round", round);
-      this.draw(type, round, this.pending(type, round), lastId);
+      const next = this.draw(type, round, this.pending(type, round), lastId);
+      if (next) this.recordDraw(type, next.id, false);
       return this.get(type);
     }
 
@@ -713,24 +821,26 @@ dialog::backdrop{background:#33261d70}
         const view = this.get(type);
         const ids = [...this.groups.get(type).keys()];
         const history = Object.create(null);
+        const draws = Object.create(null);
         for (const id of ids) {
           const ranges = this.history.get(type + "/known/" + id);
           if (ranges?.length) history[id] = [...ranges];
+          const counts = this.drawCounts.get(type + "/" + id);
+          if (counts && Object.keys(counts).length) draws[id] = {...counts};
         }
         sections[type] = {
           round: view.round,
           ids,
           remembered: ids.filter(id => this.mastery.get(type + "/known/" + id) === view.round),
           current: view.question?.id ?? null,
-          ...(Object.keys(history).length ? {history} : {})
+          ...(Object.keys(history).length ? {history} : {}),
+          ...(Object.keys(draws).length ? {draws} : {})
         };
       }
       return { format, version: 1, sections };
     }
 
-    preserveHiddenHistory(values, sections) {
-      // A device can use a Word bank that temporarily omits a question. Its
-      // local history must survive a snapshot imported for the visible bank.
+    storedKeys() {
       const keys = new Set([...Object.keys(this.baseline), ...this.memory.keys()]);
       if (this.persistent) {
         try {
@@ -740,9 +850,24 @@ dialog::backdrop{background:#33261d70}
           }
         } catch { /* Values already observed by this page remain available. */ }
       }
+      return keys;
+    }
+
+    preserveHiddenHistory(values, sections) {
+      // A device can use a Word bank that temporarily omits a question. Its
+      // local history must survive a snapshot imported for the visible bank.
       const supplied = new Map(types.map(type => [type, new Set(sections[type].ids)]));
       const visited = new Set();
-      for (const key of keys) {
+      for (const key of this.storedKeys()) {
+        const draw = key.match(drawKeyPattern);
+        if (draw) {
+          const [,type,,id] = draw;
+          if (this.groups.has(type) && !this.groups.get(type).has(id) && !supplied.get(type).has(id)) {
+            const count = Number(this.read(key));
+            if (Number.isSafeInteger(count) && count > 0) values[key] = String(count);
+          }
+          continue;
+        }
         const match = key.match(/^([^/]+)\/(?:history|known)\/(.+)$/);
         if (!match) continue;
         const [,type,id] = match;
@@ -772,7 +897,8 @@ dialog::backdrop{background:#33261d70}
         if (ids.size !== section.ids.length || known.size !== section.remembered.length
           || section.ids.some(id => typeof id !== "string" || !id.length)
           || section.remembered.some(id => !ids.has(id))
-          || !window.CloudModel.validHistory(section.history, ids, section.round)) throw invalid;
+          || !window.CloudModel.validHistory(section.history, ids, section.round)
+          || !window.CloudModel.validDraws(section.draws, ids)) throw invalid;
         if (section.current === null) {
           if (known.size !== ids.size) throw invalid;
         } else if (!ids.has(section.current) || known.has(section.current)) throw invalid;
@@ -783,6 +909,13 @@ dialog::backdrop{background:#33261d70}
         for (const [id, ranges] of Object.entries(window.CloudModel.sectionHistory(section))) {
           if (ranges[ranges.length - 1] === section.round && !known.has(id)) throw invalid;
           values[type + "/history/" + id] = JSON.stringify(ranges);
+        }
+        // Restoring an older backup can rewind the exercise but cannot undo a
+        // draw that already happened or reuse a writer's counter for another draw.
+        const countedIds = new Set([...group.keys(), ...Object.keys(section.draws || {})]);
+        for (const id of countedIds) {
+          const counts = window.CloudModel.mergeDrawCounts(this.drawCounts.get(type + "/" + id), section.draws?.[id]);
+          for (const [actor, n] of Object.entries(counts)) values[type + "/draws/" + actor + "/" + id] = String(n);
         }
         for (const id of known) {
           if (group.has(id)) values[type + "/known/" + id] = String(section.round);
@@ -1742,6 +1875,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       changed(type) { sync?.changed(type); },
       select(type) { sync?.select(type); },
       refreshBank() { sync?.changed(null); },
+      refresh() { return sync?.refresh(); },
       enabled() { return onlineSite; }
     };
   };
@@ -1760,6 +1894,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
   const percentFormat = new Intl.NumberFormat("zh-CN", {style:"percent", maximumFractionDigits:2});
   let bank = window.getLocalBank(window.QUESTION_BANK);
   let engine, view, timer, cloud, lastMessage = "";
+  let initialReadFinished = false;
   let active = "fill";
   const typeKey = "foreign-lit.chapter-1.active-type";
   try {
@@ -1803,6 +1938,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
         active = key;
         try { localStorage.setItem(typeKey, key); } catch { /* The choice is kept in this tab. */ }
         say(["翻到" + type.label + "啦，先想想你最有把握的那一点。"]);
+        engine.show(active);
         render();
         cloud?.select(key);
       });
@@ -1891,7 +2027,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       return;
     }
     const q = view.question;
-    $("remembered-times").textContent = "已记得 " + view.rememberedTimes + " 次";
+    $("draw-count").textContent = "第 " + Math.max(1, view.drawTimes) + " 次抽到";
     $("focus-tag").hidden = !/^\s*★/.test(q.prompt);
     promptText(q.prompt);
     drawTable(q.promptTable);
@@ -1911,6 +2047,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     engine = new window.StudyEngine(bank.questions);
     engine.subscribe(type => { if (!type || type === active) render(true); });
     categories();
+    if (initialReadFinished && !document.hidden) engine.show(active);
     render();
     cloud?.refreshBank();
   }
@@ -1919,10 +2056,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     const old = view;
     if (!old.question) return;
     const next = engine.rate(active, old.question.id, known, old.round);
-    if (known && next.round === old.round && next.remembered > old.remembered) {
-      say(["上一题已经记得 " + (old.rememberedTimes + 1) + " 次啦，小橘给你盖个爪印！"]);
-    }
-    else if (known) say(["小橘把最新进度翻到这里啦。"]);
+    if (known) say(["这道题收好啦，给你盖个小爪印！","记起来了！小橘替你把这页书签夹好。","又记住一道。慢慢来，你的积累看得见。"]);
     else if (next.remaining === 1) say(["这轮就剩这一题啦。再看一眼答案，按自己的节奏试试。"]);
     else say(["没关系，我把它放回这轮。等会儿再碰面。","卡住也没关系，下一次见到它，就多了一点熟悉。","小橘把这题留好啦，先去看看下一题。"]);
     render();
@@ -1959,6 +2093,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
         engine.importProgress(progress, {allowMemoryFallback: true});
       }
       else render(true);
+      if (initialReadFinished) queueMicrotask(registerVisibleCard);
     }
   });
   if (cloud.initialSync && navigator.onLine !== false && !window.CloudModel.hasLearning(engine.exportProgress())) {
@@ -1973,6 +2108,17 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       for (const button of nav.children) button.disabled = false;
     });
   }
+  function registerVisibleCard() {
+    if (initialReadFinished && !document.hidden && engine.show(active)) {
+      render(true);
+      cloud.refresh();
+    }
+  }
+  Promise.resolve(cloud.initialSync).then(() => {
+    initialReadFinished = true;
+    registerVisibleCard();
+  });
+  document.addEventListener("visibilitychange", registerVisibleCard);
   window.initManager({getBank:() => bank, getEngine:() => engine, applyBank, report,
     progressRestored: () => cloud.refreshBank(), cloudConnected: () => cloud.enabled()});
 })();
