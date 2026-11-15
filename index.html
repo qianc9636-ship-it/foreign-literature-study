@@ -64,7 +64,8 @@ h1{font-family:var(--serif);font-size:clamp(42px,4.8vw,62px);font-weight:800;let
 .round-tag,.side-type{color:#796753;font-size:12px;line-height:1.5}
 .round-tag{padding:2px 9px;background:#f4efe4;border-radius:20px}
 .question-body{margin:17px 0 12px;padding:20px 21px 16px;border:1px solid #ebddc5;border-radius:12px;background:#fcf7ec;position:relative;min-height:147px;display:flex;flex-direction:column;align-items:stretch}
-.question-tags{gap:8px;min-height:22px;color:#915a38;font-size:12px}
+.question-tags{gap:5px 8px;flex-wrap:wrap;min-height:22px;color:#915a38;font-size:12px}
+#remembered-times{margin-left:auto;padding:2px 8px;border-radius:12px;background:#eaf0e1;color:#4b6445;line-height:1.5;font-variant-numeric:tabular-nums;white-space:nowrap}
 #type-tag{font-size:12px;line-height:1.35;padding:2px 8px;background:#efdfc6;border-radius:5px;letter-spacing:.08em;font-weight:650}
 #focus-tag{display:inline-flex;gap:3px;align-items:center;color:#856334}
 #focus-tag .icon{width:13px;height:13px;fill:#f1cf77;stroke:#a77b37}
@@ -184,7 +185,7 @@ dialog::backdrop{background:#33261d70}
         <div class="card-head"><h2 id="practice-title"><svg class="icon"><use href="#bookstack"/></svg>随机抽题</h2><span id="round-tag" class="round-tag"></span></div>
         <p id="first-sync" role="status" hidden>小橘正在从云端找回你上次的题目…</p>
         <div id="active-question">
-          <div class="question-body"><div class="question-tags"><span id="type-tag"></span><span id="focus-tag" hidden><svg class="icon"><use href="#star"/></svg>原文重点</span></div>
+          <div class="question-body"><div class="question-tags"><span id="type-tag"></span><span id="focus-tag" hidden><svg class="icon"><use href="#star"/></svg>原文重点</span><span id="remembered-times" title="这道题历轮点过「记得」的次数"></span></div>
           <h3 class="prompt" id="prompt" tabindex="-1"></h3><div id="prompt-table"></div>
           <div class="source-line" id="source-line"></div></div>
           <button id="toggle-answer" class="answer-toggle" type="button" aria-expanded="false" aria-controls="answer"><svg class="icon"><use href="#eye"/></svg><span>展开答案</span><svg class="icon down"><use href="#chevron"/></svg></button>
@@ -222,6 +223,280 @@ dialog::backdrop{background:#33261d70}
   "use strict";
 
   const types = ["fill", "term", "short", "essay"];
+  const format = "foreign-lit.chapter-1.progress";
+  const has = (value, key) => Object.prototype.hasOwnProperty.call(value, key);
+
+  function empty() {
+    return { version: 1, clock: 0, sections: {}, active: null };
+  }
+
+  function object(value) {
+    return value !== null && typeof value === "object" && !Array.isArray(value);
+  }
+
+  function validStamp(stamp) {
+    if (!Array.isArray(stamp) || stamp.length !== 2) return false;
+    const [number, writer] = stamp;
+    return Number.isSafeInteger(number) && number >= 0 &&
+      typeof writer === "string" && (number === 0 ? writer === "" : writer.length > 0);
+  }
+
+  function validHistory(history, ids, round) {
+    if (history === undefined) return true;
+    return object(history) && Object.entries(history).every(([id, ranges]) => {
+      if (!ids.has(id) || !Array.isArray(ranges) || !ranges.length || ranges.length % 2) return false;
+      let previous = -1;
+      for (let i = 0; i < ranges.length; i += 2) {
+        const start = ranges[i], end = ranges[i + 1];
+        if (!Number.isSafeInteger(start) || !Number.isSafeInteger(end) ||
+            start < 1 || start <= previous + 1 || end < start || end > round) return false;
+        previous = end;
+      }
+      return true;
+    });
+  }
+
+  // Round membership is a set. Store adjacent rounds as one inclusive interval
+  // so unchanged question banks only need two integers per remembered card.
+  function mergeRanges(left = [], right = []) {
+    const result = [];
+    let a = 0, b = 0;
+    while (a < left.length || b < right.length) {
+      let start, end;
+      if (b === right.length || (a < left.length && left[a] <= right[b])) {
+        start = left[a++]; end = left[a++];
+      } else {
+        start = right[b++]; end = right[b++];
+      }
+      const last = result.length - 1;
+      if (last >= 0 && start <= result[last] + 1) result[last] = Math.max(result[last], end);
+      else result.push(start, end);
+    }
+    return result;
+  }
+
+  function addRound(ranges, round) {
+    return mergeRanges(ranges, [round, round]);
+  }
+
+  function countRounds(ranges = []) {
+    let count = 0;
+    for (let i = 0; i < ranges.length; i += 2) count += ranges[i + 1] - ranges[i] + 1;
+    return count;
+  }
+
+  function sectionHistory(section) {
+    const history = new Map(Object.entries(section.history || {}));
+    for (const id of section.remembered) history.set(id, addRound(history.get(id), section.round));
+    return Object.fromEntries(history);
+  }
+
+  function validIds(section) {
+    if (!object(section) || !Number.isSafeInteger(section.round) || section.round < 1 ||
+        section.round >= Number.MAX_SAFE_INTEGER ||
+        !Array.isArray(section.ids) || !Array.isArray(section.remembered)) return false;
+    const ids = new Set(section.ids);
+    const known = new Set(section.remembered);
+    return ids.size === section.ids.length &&
+      section.ids.every(id => typeof id === "string" && id.length > 0) &&
+      known.size === section.remembered.length && section.remembered.every(id => ids.has(id)) &&
+      validHistory(section.history, ids, section.round) &&
+      Object.entries(section.history || {}).every(([id, ranges]) => ranges[ranges.length - 1] < section.round || known.has(id));
+  }
+
+  function valid(model) {
+    if (!object(model) || model.version !== 1 || !Number.isSafeInteger(model.clock) ||
+        model.clock < 0 || !object(model.sections)) return false;
+    const validRegister = register => object(register) && validStamp(register.stamp) &&
+      register.stamp[0] <= model.clock;
+    if (model.active !== null && (!validRegister(model.active) || !types.includes(model.active.value))) {
+      return false;
+    }
+    return Object.entries(model.sections).every(([type, section]) =>
+      types.includes(type) && validIds(section) && (section.current === null ||
+        (validRegister(section.current) &&
+          (section.current.value === null || section.ids.includes(section.current.value)))));
+  }
+
+  function checkProgress(progress) {
+    if (!object(progress) || progress.format !== format || progress.version !== 1 ||
+        !object(progress.sections) || !types.every(type => {
+          const section = progress.sections[type];
+          return validIds(section) && (section.current === null
+            ? section.ids.length === section.remembered.length
+            : section.ids.includes(section.current) && !section.remembered.includes(section.current));
+        })) throw new Error("本机学习记录格式有误，未进行云合并。");
+  }
+
+  function compareValue(a, b) {
+    if (a === b) return 0;
+    if (a === null) return -1;
+    if (b === null) return 1;
+    return a < b ? -1 : 1;
+  }
+
+  function latest(a, b) {
+    if (!a) return b;
+    if (!b) return a;
+    const order = compareValue(a.stamp[0], b.stamp[0]) ||
+      compareValue(a.stamp[1], b.stamp[1]) || compareValue(a.value, b.value);
+    return order >= 0 ? a : b;
+  }
+
+  function union(left, right) {
+    return [...new Set([...left, ...right])].sort();
+  }
+
+  function combineSection(a, b) {
+    if (!a) a = b;
+    if (!b) b = a;
+    const round = Math.max(a.round, b.round);
+    const current = latest(a.round === round ? a.current : null, b.round === round ? b.current : null);
+    const left = sectionHistory(a), right = sectionHistory(b);
+    const history = union(Object.keys(left), Object.keys(right)).map(id => [
+      id, mergeRanges(has(left, id) ? left[id] : [], has(right, id) ? right[id] : [])
+    ]);
+    return {
+      round,
+      ids: union(a.ids, b.ids),
+      remembered: union(a.round === round ? a.remembered : [], b.round === round ? b.remembered : []),
+      history: Object.fromEntries(history),
+      // Keep the register even after another device masters that card. Dropping it here
+      // would let a stale card win when a third writer later joins the merge.
+      current: current ? { value: current.value, stamp: [...current.stamp] } : null
+    };
+  }
+
+  function merge(...models) {
+    const result = empty();
+    if (models.some(model => !valid(model))) throw new Error("云端学习记录格式有误，未覆盖本机记录。");
+    for (const type of types) {
+      let section;
+      for (const model of models) {
+        if (has(model.sections, type)) section = combineSection(section, model.sections[type]);
+      }
+      if (section) result.sections[type] = section;
+    }
+    for (const model of models) {
+      result.clock = Math.max(result.clock, model.clock);
+      result.active = latest(result.active, model.active);
+    }
+    if (result.active) result.active = { value: result.active.value, stamp: [...result.active.stamp] };
+    return result;
+  }
+
+  function hasLearning(progress) {
+    checkProgress(progress);
+    return types.some(type => {
+      const section = progress.sections[type];
+      return section.round > 1 || section.remembered.length > 0;
+    });
+  }
+
+  function nextStamp(model, writer) {
+    if (!valid(model) || typeof writer !== "string" || !writer || model.clock === Number.MAX_SAFE_INTEGER) {
+      throw new Error("无法生成新的同步记录。");
+    }
+    return [model.clock + 1, writer];
+  }
+
+  function fromProgress(progress, {previous = empty(), type = null, active = null, stamp = null} = {}) {
+    checkProgress(progress);
+    if ((stamp !== null && (!validStamp(stamp) || stamp[0] === 0)) ||
+        (type !== null && !types.includes(type)) || (active !== null && !types.includes(active))) {
+      throw new Error("同步操作中的题型或时间标记有误。");
+    }
+    const local = empty();
+    if (stamp) {
+      local.clock = stamp[0];
+      if (active) local.active = { value: active, stamp };
+    }
+    for (const name of types) {
+      const section = progress.sections[name];
+      const existing = previous.sections[name];
+      let current = null;
+      if (stamp && type === name) {
+        current = { value: section.current, stamp };
+      } else if ((!existing?.current || existing.round < section.round) &&
+          (section.round > 1 || section.remembered.length > 0)) {
+        // Exporting the old v1 engine draws unopened sections too. Never treat
+        // such a random, untouched first card as an intentional cloud selection.
+        current = { value: section.current, stamp: [0, ""] };
+      }
+      local.sections[name] = {
+        round: section.round, ids: section.ids, remembered: section.remembered, history: sectionHistory(section), current
+      };
+    }
+    return merge(previous, local);
+  }
+
+  function project(model, progress) {
+    checkProgress(progress);
+    const merged = fromProgress(progress, { previous: model });
+    const sections = {};
+    for (const type of types) {
+      const local = progress.sections[type];
+      const state = merged.sections[type];
+      const known = new Set(state.remembered);
+      const remembered = local.ids.filter(id => known.has(id));
+      const pending = local.ids.filter(id => !known.has(id));
+      let current = state.current?.value ?? null;
+      if (!pending.includes(current)) {
+        if (!state.current && state.round === local.round && pending.includes(local.current)) {
+          current = local.current;
+        } else {
+          // Concurrent ratings, or a local Word with different IDs, may make the
+          // remote current card unavailable. Pick the same fallback on every client.
+          current = pending.sort()[0] ?? null;
+        }
+      }
+      const history = Object.fromEntries(local.ids.filter(id => has(state.history, id))
+        .map(id => [id, state.history[id]]));
+      sections[type] = { round: state.round, ids: [...local.ids], remembered, history, current };
+    }
+    return { format, version: 1, sections };
+  }
+
+  function sameIds(a, b) {
+    if (a.length !== b.length) return false;
+    const ids = new Set(a);
+    return b.every(id => ids.has(id));
+  }
+
+  function sameProgress(a, b) {
+    checkProgress(a);
+    checkProgress(b);
+    return types.every(type => {
+      const left = a.sections[type], right = b.sections[type];
+      const leftHistory = sectionHistory(left), rightHistory = sectionHistory(right);
+      return left.round === right.round && left.current === right.current &&
+        sameIds(left.ids, right.ids) && sameIds(left.remembered, right.remembered) &&
+        Object.keys(leftHistory).length === Object.keys(rightHistory).length &&
+        Object.entries(leftHistory).every(([id, ranges]) => has(rightHistory, id) &&
+          ranges.length === rightHistory[id].length && ranges.every((n, index) => n === rightHistory[id][index]));
+    });
+  }
+
+  function sameModel(a, b) {
+    // Normalizing yields stable key and ID ordering for writers loaded from JSON.
+    return JSON.stringify(merge(a)) === JSON.stringify(merge(b));
+  }
+
+  const model = {
+    empty, valid, merge, fromProgress, nextStamp, project, hasLearning, sameProgress, sameModel,
+    mergeRanges, addRound, countRounds, validHistory, sectionHistory,
+    activeType: value => value.active?.value ?? null
+  };
+  if (typeof window !== "undefined") window.CloudModel = model;
+  if (typeof module !== "undefined" && module.exports) module.exports = model;
+})();
+
+</script>
+  <script>
+(function () {
+  "use strict";
+
+  const types = ["fill", "term", "short", "essay"];
   const prefix = "foreign-lit.chapter-1.v1/";
   const format = "foreign-lit.chapter-1.progress";
   let activeEngine = null;
@@ -231,6 +506,7 @@ dialog::backdrop{background:#33261d70}
       this.groups = new Map(types.map(type => [type, new Map()]));
       this.memory = new Map();
       this.mastery = new Map();
+      this.history = new Map();
       this.listeners = new Set();
       this.snapshotRaw = undefined;
       this.baseline = {};
@@ -263,8 +539,11 @@ dialog::backdrop{background:#33261d70}
         if (key === "snapshot" || changedSnapshot) {
           for (const listener of this.listeners) listener(null);
           return;
-        } else if (this.mastery.has(key)) {
-          this.mastery.set(key, Number(this.read(key)));
+        } else if (key) {
+          const rating = key.match(/^([^/]+)\/(?:known|history)\/(.+)$/);
+          if (rating && this.groups.get(rating[1])?.has(rating[2])) {
+            this.loadMastery(rating[1], rating[2], this.getRound(rating[1]));
+          }
         }
         const type = key === null ? null : key.split("/")[0];
         for (const listener of this.listeners) listener(type);
@@ -305,12 +584,40 @@ dialog::backdrop{background:#33261d70}
         } catch { /* A corrupt snapshot can still fall back to earlier local ratings. */ }
       }
       for (const [type, group] of this.groups) {
+        const round = this.getRound(type);
         for (const id of group.keys()) {
-          const key = type + "/known/" + id;
-          this.mastery.set(key, Number(this.read(key)));
+          this.loadMastery(type, id, round);
         }
       }
       return true;
+    }
+
+    readHistory(type, id, round) {
+      const key = type + "/known/" + id;
+      let ranges = [];
+      const raw = this.read(type + "/history/" + id);
+      if (raw) {
+        try {
+          const stored = JSON.parse(raw);
+          if (window.CloudModel.validHistory({[id]:stored}, new Set([id]), round)) ranges = stored;
+        } catch { /* A legacy known key still provides evidence for its own round. */ }
+      }
+      // A legacy snapshot and a later local rating can each attest one round.
+      for (const value of [this.baseline[key], this.read(key)]) {
+        const known = Number(value);
+        if (Number.isSafeInteger(known) && known > 0 && known <= round) {
+          ranges = window.CloudModel.addRound(ranges, known);
+        }
+      }
+      return ranges;
+    }
+
+    loadMastery(type, id, round) {
+      const key = type + "/known/" + id;
+      const ranges = this.readHistory(type, id, round);
+      this.history.set(key, ranges);
+      this.mastery.set(key, ranges[ranges.length - 1] || 0);
+      return ranges;
     }
 
     read(key) {
@@ -366,6 +673,7 @@ dialog::backdrop{background:#33261d70}
         || this.draw(type, round, pending);
       return {
         type, round, total, remembered: total - pending.length, remaining: pending.length,
+        rememberedTimes: question ? window.CloudModel.countRounds(this.history.get(type + "/known/" + question.id)) : 0,
         complete: total > 0 && pending.length === 0, question
       };
     }
@@ -375,10 +683,12 @@ dialog::backdrop{background:#33261d70}
       if (view.round !== expectedRound || !view.question || view.question.id !== id) return view;
       const knownKey = type + "/known/" + id;
       // One key per question keeps ratings of different cards from overwriting each other.
-      const savedRound = Number(this.read(knownKey));
-      this.mastery.set(knownKey, savedRound);
-      if (savedRound >= view.round) return this.get(type);
+      const previous = this.loadMastery(type, id, view.round);
+      if (this.mastery.get(knownKey) >= view.round) return this.get(type);
       if (remembered === true) {
+        const history = window.CloudModel.addRound(previous, view.round);
+        this.write(type + "/history/" + id, JSON.stringify(history));
+        this.history.set(knownKey, history);
         this.write(knownKey, view.round);
         this.mastery.set(knownKey, view.round);
       }
@@ -402,14 +712,47 @@ dialog::backdrop{background:#33261d70}
       for (const type of types) {
         const view = this.get(type);
         const ids = [...this.groups.get(type).keys()];
+        const history = Object.create(null);
+        for (const id of ids) {
+          const ranges = this.history.get(type + "/known/" + id);
+          if (ranges?.length) history[id] = [...ranges];
+        }
         sections[type] = {
           round: view.round,
           ids,
           remembered: ids.filter(id => this.mastery.get(type + "/known/" + id) === view.round),
-          current: view.question?.id ?? null
+          current: view.question?.id ?? null,
+          ...(Object.keys(history).length ? {history} : {})
         };
       }
       return { format, version: 1, sections };
+    }
+
+    preserveHiddenHistory(values, sections) {
+      // A device can use a Word bank that temporarily omits a question. Its
+      // local history must survive a snapshot imported for the visible bank.
+      const keys = new Set([...Object.keys(this.baseline), ...this.memory.keys()]);
+      if (this.persistent) {
+        try {
+          for (let i = 0; i < this.storage.length; i++) {
+            const key = this.storage.key(i);
+            if (key?.startsWith(prefix)) keys.add(key.slice(prefix.length));
+          }
+        } catch { /* Values already observed by this page remain available. */ }
+      }
+      const supplied = new Map(types.map(type => [type, new Set(sections[type].ids)]));
+      const visited = new Set();
+      for (const key of keys) {
+        const match = key.match(/^([^/]+)\/(?:history|known)\/(.+)$/);
+        if (!match) continue;
+        const [,type,id] = match;
+        const group = this.groups.get(type);
+        const historyKey = type + "/history/" + id;
+        if (!group || group.has(id) || supplied.get(type).has(id) || visited.has(historyKey)) continue;
+        visited.add(historyKey);
+        const ranges = this.readHistory(type, id, sections[type].round);
+        if (ranges.length) values[historyKey] = JSON.stringify(ranges);
+      }
     }
 
     importProgress(data, {allowMemoryFallback = false} = {}) {
@@ -428,7 +771,8 @@ dialog::backdrop{background:#33261d70}
         const known = new Set(section.remembered);
         if (ids.size !== section.ids.length || known.size !== section.remembered.length
           || section.ids.some(id => typeof id !== "string" || !id.length)
-          || section.remembered.some(id => !ids.has(id))) throw invalid;
+          || section.remembered.some(id => !ids.has(id))
+          || !window.CloudModel.validHistory(section.history, ids, section.round)) throw invalid;
         if (section.current === null) {
           if (known.size !== ids.size) throw invalid;
         } else if (!ids.has(section.current) || known.has(section.current)) throw invalid;
@@ -436,6 +780,10 @@ dialog::backdrop{background:#33261d70}
         const group = this.groups.get(type);
         if (section.ids.some(id => group.has(id))) hasMatch = true;
         values[type + "/round"] = String(section.round);
+        for (const [id, ranges] of Object.entries(window.CloudModel.sectionHistory(section))) {
+          if (ranges[ranges.length - 1] === section.round && !known.has(id)) throw invalid;
+          values[type + "/history/" + id] = JSON.stringify(ranges);
+        }
         for (const id of known) {
           if (group.has(id)) values[type + "/known/" + id] = String(section.round);
         }
@@ -444,6 +792,7 @@ dialog::backdrop{background:#33261d70}
         }
       }
       if (!hasMatch) throw new Error("这份进度与当前题库没有相同题号，无法导入。");
+      this.preserveHiddenHistory(values, data.sections);
 
       // Commit all four sections in one storage write. Ratings written before the
       // import have a different generation and are ignored after the commit.
@@ -1050,216 +1399,6 @@ https://github.com/nodeca/pako/blob/main/LICENSE
 (function () {
   "use strict";
 
-  const types = ["fill", "term", "short", "essay"];
-  const format = "foreign-lit.chapter-1.progress";
-  const has = (value, key) => Object.prototype.hasOwnProperty.call(value, key);
-
-  function empty() {
-    return { version: 1, clock: 0, sections: {}, active: null };
-  }
-
-  function object(value) {
-    return value !== null && typeof value === "object" && !Array.isArray(value);
-  }
-
-  function validStamp(stamp) {
-    if (!Array.isArray(stamp) || stamp.length !== 2) return false;
-    const [number, writer] = stamp;
-    return Number.isSafeInteger(number) && number >= 0 &&
-      typeof writer === "string" && (number === 0 ? writer === "" : writer.length > 0);
-  }
-
-  function validIds(section) {
-    if (!object(section) || !Number.isSafeInteger(section.round) || section.round < 1 ||
-        section.round >= Number.MAX_SAFE_INTEGER ||
-        !Array.isArray(section.ids) || !Array.isArray(section.remembered)) return false;
-    const ids = new Set(section.ids);
-    return ids.size === section.ids.length &&
-      section.ids.every(id => typeof id === "string" && id.length > 0) &&
-      new Set(section.remembered).size === section.remembered.length &&
-      section.remembered.every(id => ids.has(id));
-  }
-
-  function valid(model) {
-    if (!object(model) || model.version !== 1 || !Number.isSafeInteger(model.clock) ||
-        model.clock < 0 || !object(model.sections)) return false;
-    const validRegister = register => object(register) && validStamp(register.stamp) &&
-      register.stamp[0] <= model.clock;
-    if (model.active !== null && (!validRegister(model.active) || !types.includes(model.active.value))) {
-      return false;
-    }
-    return Object.entries(model.sections).every(([type, section]) =>
-      types.includes(type) && validIds(section) && (section.current === null ||
-        (validRegister(section.current) &&
-          (section.current.value === null || section.ids.includes(section.current.value)))));
-  }
-
-  function checkProgress(progress) {
-    if (!object(progress) || progress.format !== format || progress.version !== 1 ||
-        !object(progress.sections) || !types.every(type => {
-          const section = progress.sections[type];
-          return validIds(section) && (section.current === null
-            ? section.ids.length === section.remembered.length
-            : section.ids.includes(section.current) && !section.remembered.includes(section.current));
-        })) throw new Error("本机学习记录格式有误，未进行云合并。");
-  }
-
-  function compareValue(a, b) {
-    if (a === b) return 0;
-    if (a === null) return -1;
-    if (b === null) return 1;
-    return a < b ? -1 : 1;
-  }
-
-  function latest(a, b) {
-    if (!a) return b;
-    if (!b) return a;
-    const order = compareValue(a.stamp[0], b.stamp[0]) ||
-      compareValue(a.stamp[1], b.stamp[1]) || compareValue(a.value, b.value);
-    return order >= 0 ? a : b;
-  }
-
-  function union(left, right) {
-    return [...new Set([...left, ...right])].sort();
-  }
-
-  function combineSection(a, b) {
-    if (!a) a = b;
-    if (!b) b = a;
-    const round = Math.max(a.round, b.round);
-    const current = latest(a.round === round ? a.current : null, b.round === round ? b.current : null);
-    return {
-      round,
-      ids: union(a.ids, b.ids),
-      remembered: union(a.round === round ? a.remembered : [], b.round === round ? b.remembered : []),
-      // Keep the register even after another device masters that card. Dropping it here
-      // would let a stale card win when a third writer later joins the merge.
-      current: current ? { value: current.value, stamp: [...current.stamp] } : null
-    };
-  }
-
-  function merge(...models) {
-    const result = empty();
-    if (models.some(model => !valid(model))) throw new Error("云端学习记录格式有误，未覆盖本机记录。");
-    for (const type of types) {
-      let section;
-      for (const model of models) {
-        if (has(model.sections, type)) section = combineSection(section, model.sections[type]);
-      }
-      if (section) result.sections[type] = section;
-    }
-    for (const model of models) {
-      result.clock = Math.max(result.clock, model.clock);
-      result.active = latest(result.active, model.active);
-    }
-    if (result.active) result.active = { value: result.active.value, stamp: [...result.active.stamp] };
-    return result;
-  }
-
-  function hasLearning(progress) {
-    checkProgress(progress);
-    return types.some(type => {
-      const section = progress.sections[type];
-      return section.round > 1 || section.remembered.length > 0;
-    });
-  }
-
-  function nextStamp(model, writer) {
-    if (!valid(model) || typeof writer !== "string" || !writer || model.clock === Number.MAX_SAFE_INTEGER) {
-      throw new Error("无法生成新的同步记录。");
-    }
-    return [model.clock + 1, writer];
-  }
-
-  function fromProgress(progress, {previous = empty(), type = null, active = null, stamp = null} = {}) {
-    checkProgress(progress);
-    if ((stamp !== null && (!validStamp(stamp) || stamp[0] === 0)) ||
-        (type !== null && !types.includes(type)) || (active !== null && !types.includes(active))) {
-      throw new Error("同步操作中的题型或时间标记有误。");
-    }
-    const local = empty();
-    if (stamp) {
-      local.clock = stamp[0];
-      if (active) local.active = { value: active, stamp };
-    }
-    for (const name of types) {
-      const section = progress.sections[name];
-      const existing = previous.sections[name];
-      let current = null;
-      if (stamp && type === name) {
-        current = { value: section.current, stamp };
-      } else if ((!existing?.current || existing.round < section.round) &&
-          (section.round > 1 || section.remembered.length > 0)) {
-        // Exporting the old v1 engine draws unopened sections too. Never treat
-        // such a random, untouched first card as an intentional cloud selection.
-        current = { value: section.current, stamp: [0, ""] };
-      }
-      local.sections[name] = {
-        round: section.round, ids: section.ids, remembered: section.remembered, current
-      };
-    }
-    return merge(previous, local);
-  }
-
-  function project(model, progress) {
-    checkProgress(progress);
-    const merged = fromProgress(progress, { previous: model });
-    const sections = {};
-    for (const type of types) {
-      const local = progress.sections[type];
-      const state = merged.sections[type];
-      const known = new Set(state.remembered);
-      const remembered = local.ids.filter(id => known.has(id));
-      const pending = local.ids.filter(id => !known.has(id));
-      let current = state.current?.value ?? null;
-      if (!pending.includes(current)) {
-        if (!state.current && state.round === local.round && pending.includes(local.current)) {
-          current = local.current;
-        } else {
-          // Concurrent ratings, or a local Word with different IDs, may make the
-          // remote current card unavailable. Pick the same fallback on every client.
-          current = pending.sort()[0] ?? null;
-        }
-      }
-      sections[type] = { round: state.round, ids: [...local.ids], remembered, current };
-    }
-    return { format, version: 1, sections };
-  }
-
-  function sameIds(a, b) {
-    if (a.length !== b.length) return false;
-    const ids = new Set(a);
-    return b.every(id => ids.has(id));
-  }
-
-  function sameProgress(a, b) {
-    checkProgress(a);
-    checkProgress(b);
-    return types.every(type => {
-      const left = a.sections[type], right = b.sections[type];
-      return left.round === right.round && left.current === right.current &&
-        sameIds(left.ids, right.ids) && sameIds(left.remembered, right.remembered);
-    });
-  }
-
-  function sameModel(a, b) {
-    // Normalizing yields stable key and ID ordering for writers loaded from JSON.
-    return JSON.stringify(merge(a)) === JSON.stringify(merge(b));
-  }
-
-  const model = {
-    empty, valid, merge, fromProgress, nextStamp, project, hasLearning, sameProgress, sameModel,
-    activeType: value => value.active?.value ?? null
-  };
-  if (typeof window !== "undefined") window.CloudModel = model;
-  if (typeof module !== "undefined" && module.exports) module.exports = model;
-})();
-
-</script>
-  <script>
-(function () {
-  "use strict";
-
   const prefix = "foreign-lit.chapter-1.shared.v1/";
   const legacyPrefix = "foreign-lit.chapter-1.cloud.v1/";
   const types = new Set(["fill", "term", "short", "essay"]);
@@ -1752,6 +1891,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       return;
     }
     const q = view.question;
+    $("remembered-times").textContent = "已记得 " + view.rememberedTimes + " 次";
     $("focus-tag").hidden = !/^\s*★/.test(q.prompt);
     promptText(q.prompt);
     drawTable(q.promptTable);
@@ -1779,7 +1919,10 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     const old = view;
     if (!old.question) return;
     const next = engine.rate(active, old.question.id, known, old.round);
-    if (known) say(["这道题收好啦，给你盖个小爪印！","记起来了！小橘替你把这页书签夹好。","又记住一道。慢慢来，你的积累看得见。"]);
+    if (known && next.round === old.round && next.remembered > old.remembered) {
+      say(["上一题已经记得 " + (old.rememberedTimes + 1) + " 次啦，小橘给你盖个爪印！"]);
+    }
+    else if (known) say(["小橘把最新进度翻到这里啦。"]);
     else if (next.remaining === 1) say(["这轮就剩这一题啦。再看一眼答案，按自己的节奏试试。"]);
     else say(["没关系，我把它放回这轮。等会儿再碰面。","卡住也没关系，下一次见到它，就多了一点熟悉。","小橘把这题留好啦，先去看看下一题。"]);
     render();
