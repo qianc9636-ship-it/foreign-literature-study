@@ -212,6 +212,7 @@ dialog::backdrop{background:#33261d70}
     <p class="cloud-intro" id="cloud-intro">在手机或电脑的浏览器打开同一网址，就会接上上次的题目。所有访客共用一份进度。两边都开着时，答题和切换题型也会自动更新。</p>
     <p class="muted" id="cloud-detail">第一次打开会合并这个浏览器已经练过的题。离线时可继续练习，重新联网后自动补传。</p>
     <p class="cloud-status" id="cloud-status" role="status"></p>
+    <p class="muted" id="cloud-confirmation">本次打开尚未收到云端确认。</p>
     <div class="modal-actions"><button class="btn primary" id="cloud-refresh" type="button">立即刷新进度</button></div>
   </dialog>
   <div id="toast" class="toast" role="status" hidden></div>
@@ -723,7 +724,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     }
     const ids = new Set(), types = new Set();
     for (const q of bank.questions) {
-      if (!q || !Object.hasOwn(labels, q.type) || typeof q.id !== "string" || !q.id ||
+      if (!q || !Object.prototype.hasOwnProperty.call(labels, q.type) || typeof q.id !== "string" || !q.id ||
         ids.has(q.id) || typeof q.prompt !== "string" || !q.prompt.trim() ||
         typeof q.answer !== "string" || !q.answer.trim() ||
         (q.section !== undefined && typeof q.section !== "string") ||
@@ -1266,7 +1267,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     return Array.from(crypto.getRandomValues(new Uint8Array(16)), b => b.toString(16).padStart(2, "0")).join("");
   }
 
-  window.createProgressSync = function ({ storageAdapter, getProgress, getActive, apply, onStatus }) {
+  window.createProgressSync = function ({ storageAdapter, getProgress, getActive, apply, onStatus, onConfirmed }) {
     const model = window.CloudModel;
     const actor = randomId();
     const pendingPrefix = prefix + "pending/";
@@ -1348,8 +1349,10 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     }
 
     function applyCombined(combined) {
-      state = combined;
       const local = getProgress();
+      // The engine also receives storage events from older tabs. Only explicit
+      // actions in this tab get a new cursor timestamp, but all learned IDs count.
+      state = model.hasLearning(local) ? model.fromProgress(local, { previous: combined }) : combined;
       const projected = model.project(state, local);
       const active = model.activeType(state) || getActive();
       if (!model.sameProgress(projected, local) || active !== getActive()) {
@@ -1369,6 +1372,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
         }
         const saved = model.merge(...entries);
         if (!model.sameModel(saved, model.merge(saved, combined))) throw new Error("unconfirmed-write");
+        if (!stopped) onConfirmed?.(saved);
         return saved;
       } finally { sending = null; }
     }
@@ -1378,13 +1382,14 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       if (window.navigator.onLine === false) throw new Error("offline");
       let pending = readPending();
       let captured = unsent;
+      let confirmed;
       if (migrated && (captured || pending.length)) {
         // The server atomically merges and returns the shared record, so a
         // rating can be sent at once without first fetching the other devices.
         const outgoing = model.merge(storedModel(), state, ...pending.map(record => record.data));
-        const saved = await save(outgoing);
+        confirmed = await save(outgoing);
         if (stopped) return false;
-        applyCombined(model.merge(state, saved));
+        applyCombined(model.merge(state, confirmed));
       } else {
         if (!migrated) tell("正在读取云进度…");
         const entries = await storageAdapter.list();
@@ -1392,30 +1397,35 @@ https://github.com/nodeca/pako/blob/main/LICENSE
         if (!Array.isArray(entries) || entries.some(entry => !model.valid(entry))) {
           throw new Error("invalid-cloud-record");
         }
-        const remote = model.merge(...entries);
+        confirmed = model.merge(...entries);
+        onConfirmed?.(confirmed);
         pending = readPending();
         captured = unsent;
-        let combined = model.merge(remote, storedModel(), state, ...pending.map(record => record.data));
+        let combined = model.merge(confirmed, storedModel(), state, ...pending.map(record => record.data));
         if (!migrated) {
           const local = getProgress();
-          if (model.sameModel(remote, model.empty()) && !model.activeType(combined)) {
+          if (model.sameModel(confirmed, model.empty()) && !model.activeType(combined)) {
             const active = getActive();
             combined = model.fromProgress(local, { previous: combined, type: active, active,
               stamp: model.nextStamp(combined, actor) });
-          } else if (model.hasLearning(local)) {
-            combined = model.merge(combined, model.fromProgress(local));
           }
           migrated = true;
         }
         applyCombined(combined);
-        if (!model.sameModel(remote, combined)) {
-          const saved = await save(combined);
+        if (!model.sameModel(confirmed, state)) {
+          confirmed = await save(state);
           if (stopped) return false;
-          applyCombined(model.merge(state, saved));
+          applyCombined(model.merge(state, confirmed));
         }
       }
       clearConfirmed(pending);
       if (unsent === captured) unsent = null;
+      // A storage event or a rating can arrive while waiting for the server.
+      // Keep that edit queued until a response covers it as well.
+      if (!model.sameModel(state, confirmed)) {
+        unsent = state;
+        write(pendingPrefix + actor, JSON.stringify(state));
+      }
       retries = 0;
       if (!unsent) tell("云端已同步");
       return true;
@@ -1556,13 +1566,21 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     } finally { clearTimeout(timeout); }
   }
 
-  window.initCloudUI = function ({getProgress, getActive, apply}) {
+  window.initCloudUI = function ({getProgress, getActive, typeLabel, apply}) {
     const $ = id => document.getElementById(id);
     const onlineSite = location.protocol === "https:" || location.protocol === "http:";
     let sync, initialSync;
     if (onlineSite) {
       const dialog = $("cloud-dialog");
       $("cloud-open").hidden = false;
+      function onConfirmed(record) {
+        const type = window.CloudModel.activeType(record) || getActive();
+        const section = record.sections[type];
+        if (!section) return;
+        const time = new Date().toLocaleTimeString("zh-CN", {hour:"2-digit", minute:"2-digit", second:"2-digit"});
+        $("cloud-confirmation").textContent = time + " 云端确认 · " + typeLabel(type) +
+          "第 " + section.round + " 轮，已记得 " + section.remembered.length + " / " + section.ids.length + " 题";
+      }
       function onStatus(text) {
         $("cloud-label").textContent = text;
         $("cloud-status").textContent = text;
@@ -1575,7 +1593,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
         storageAdapter: {
           list: () => request(), write: data => request(data), writeOnExit: data => request(data, true)
         },
-        getProgress, getActive, apply, onStatus
+        getProgress, getActive, apply, onStatus, onConfirmed
       });
       onStatus("正在读取云进度…");
       initialSync = sync.start();
@@ -1607,7 +1625,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
   const typeKey = "foreign-lit.chapter-1.active-type";
   try {
     const saved = localStorage.getItem(typeKey);
-    if (Object.hasOwn(types, saved)) active = saved;
+    if (Object.prototype.hasOwnProperty.call(types, saved)) active = saved;
   } catch { /* The tab can still be used without persistent storage. */ }
 
   function svg(name) {
@@ -1788,8 +1806,9 @@ https://github.com/nodeca/pako/blob/main/LICENSE
   cloud = window.initCloudUI({
     getProgress: () => engine.exportProgress(),
     getActive: () => active,
+    typeLabel: type => types[type].label,
     apply(progress, nextActive) {
-      if (nextActive && Object.hasOwn(types, nextActive)) {
+      if (nextActive && Object.prototype.hasOwnProperty.call(types, nextActive)) {
         active = nextActive;
         try { localStorage.setItem(typeKey, active); } catch { /* Keep the current choice in memory. */ }
       }
