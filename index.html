@@ -56,6 +56,8 @@ h1{font-family:var(--serif);font-size:clamp(42px,4.8vw,62px);font-weight:800;let
 .study-layout{display:grid;grid-template-columns:minmax(0,1fr) 268px;gap:17px;align-items:start}
 .card{border:1px solid var(--line);border-radius:18px;background:#fffdf8;box-shadow:0 3px 0 #cbb99422}
 .question-card{padding:21px 25px 22px;min-width:0}
+#first-sync{margin:22px 0;color:var(--quiet);font-size:15px}
+.loading-progress :is(#active-question,#finished,#round-tag,#progress-type,.progress-count,.track,.progress-caption){display:none}
 .card-head{gap:8px;justify-content:space-between}
 .card-head h2{font-size:18px;line-height:1.4;gap:9px;font-weight:750;font-family:var(--serif);letter-spacing:.04em}
 .card-head h2 .icon{color:#a45e36;width:21px;height:21px}
@@ -180,6 +182,7 @@ dialog::backdrop{background:#33261d70}
     <div class="study-layout">
       <section class="card question-card" id="practice" aria-labelledby="practice-title">
         <div class="card-head"><h2 id="practice-title"><svg class="icon"><use href="#bookstack"/></svg>随机抽题</h2><span id="round-tag" class="round-tag"></span></div>
+        <p id="first-sync" role="status" hidden>小橘正在从云端找回你上次的题目…</p>
         <div id="active-question">
           <div class="question-body"><div class="question-tags"><span id="type-tag"></span><span id="focus-tag" hidden><svg class="icon"><use href="#star"/></svg>原文重点</span></div>
           <h3 class="prompt" id="prompt" tabindex="-1"></h3><div id="prompt-table"></div>
@@ -206,7 +209,7 @@ dialog::backdrop{background:#33261d70}
   <dialog id="manage" aria-label="题库管理"></dialog>
   <dialog id="cloud-dialog" aria-labelledby="cloud-title">
     <header class="modal-head"><h2 id="cloud-title"><svg class="icon"><use href="#cloud"/></svg> 网站共用学习进度</h2><button class="btn secondary" id="cloud-close" type="button">关闭</button></header>
-    <p class="cloud-intro" id="cloud-intro">手机和电脑直接打开这个网址即可接着练。所有打开本站的人都共用这份进度，答题和切换题型后会自动同步。</p>
+    <p class="cloud-intro" id="cloud-intro">在手机或电脑的浏览器打开同一网址，就会接上上次的题目。所有访客共用一份进度。两边都开着时，答题和切换题型也会自动更新。</p>
     <p class="muted" id="cloud-detail">第一次打开会合并这个浏览器已经练过的题。离线时可继续练习，重新联网后自动补传。</p>
     <p class="cloud-status" id="cloud-status" role="status"></p>
     <div class="modal-actions"><button class="btn primary" id="cloud-refresh" type="button">立即刷新进度</button></div>
@@ -408,7 +411,7 @@ dialog::backdrop{background:#33261d70}
       return { format, version: 1, sections };
     }
 
-    importProgress(data) {
+    importProgress(data, {allowMemoryFallback = false} = {}) {
       if (!data || data.format !== format || data.version !== 1 || !data.sections) {
         throw new Error("请选择本站导出的第一章学习进度文件。");
       }
@@ -449,7 +452,8 @@ dialog::backdrop{background:#33261d70}
         try {
           this.storage.setItem(prefix + "snapshot", raw);
         } catch {
-          throw new Error("浏览器未能保存这份进度，请检查可用空间后重试。");
+          if (!allowMemoryFallback) throw new Error("浏览器未能保存这份进度，请检查可用空间后重试。");
+          this.persistent = false;
         }
       }
       this.memory.set("snapshot", raw);
@@ -1266,12 +1270,13 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     const model = window.CloudModel;
     const actor = randomId();
     const pendingPrefix = prefix + "pending/";
-    const locks = window.navigator.locks;
-    let storage = null;
+    let locks = null, storage = null;
+    try { locks = window.navigator.locks; } catch { /* Optional in embedded browsers. */ }
     try { storage = window.localStorage; } catch { /* The current session can still sync online. */ }
     let state = model.empty(), running = null, timer = null;
     let started = false, stopped = false, rerun = false, migrated = false, applying = false;
     let retries = 0, durable = !!storage, status = "";
+    let unsent = null, sending = null, exiting = null;
 
     function tell(text) {
       if (!stopped && text !== status) { status = text; onStatus(text); }
@@ -1342,94 +1347,120 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       if (!stopped && !document.hidden) timer = setTimeout(run, delay);
     }
 
-    async function exchange() {
-      if (stopped) return false;
-      if (window.navigator.onLine === false) throw new Error("offline");
-      if (!migrated) tell("正在读取云进度…");
-      const entries = await storageAdapter.list();
-      if (stopped) return false;
-      if (!Array.isArray(entries) || entries.some(entry => !model.valid(entry))) {
-        throw new Error("invalid-cloud-record");
-      }
-      const remote = model.merge(...entries);
-      const pending = readPending();
-      const local = getProgress();
-      let combined = model.merge(remote, storedModel(), state, ...pending.map(record => record.data));
-      if (!migrated) {
-        if (model.sameModel(remote, model.empty()) && !model.activeType(combined)) {
-          const active = getActive();
-          combined = model.fromProgress(local, { previous: combined, type: active, active,
-            stamp: model.nextStamp(combined, actor) });
-        } else if (model.hasLearning(local)) {
-          // Untagged progress from the pre-cloud app contributes its known
-          // answers, without taking over a newer device's active flashcard.
-          combined = model.merge(combined, model.fromProgress(local));
-        }
-        migrated = true;
-      }
+    function applyCombined(combined) {
       state = combined;
-      const projected = model.project(combined, local);
-      const active = model.activeType(combined) || getActive();
+      const local = getProgress();
+      const projected = model.project(state, local);
+      const active = model.activeType(state) || getActive();
       if (!model.sameProgress(projected, local) || active !== getActive()) {
         applying = true;
         try { apply(projected, active); } finally { applying = false; }
       }
-      // Persist the last observed clock as well as unrecognised question ids.
-      // This lets an offline rating after reload follow the most recent session.
-      if (!model.sameModel(storedModel(), combined)) write(prefix + "seen", JSON.stringify(combined));
-      if (!model.sameModel(remote, combined)) {
-        tell("正在保存到云端…");
-        const acknowledgement = await storageAdapter.write(combined);
-        if (stopped) return false;
-        if (!Array.isArray(acknowledgement) || !acknowledgement.length ||
-            !acknowledgement.every(entry => model.valid(entry))) throw new Error("invalid-cloud-record");
-        const saved = model.merge(...acknowledgement);
+      if (!model.sameModel(storedModel(), state)) write(prefix + "seen", JSON.stringify(state));
+    }
+
+    async function save(combined) {
+      tell("正在保存到云端…");
+      sending = combined;
+      try {
+        const entries = await storageAdapter.write(combined);
+        if (!Array.isArray(entries) || !entries.length || entries.some(entry => !model.valid(entry))) {
+          throw new Error("invalid-cloud-record");
+        }
+        const saved = model.merge(...entries);
         if (!model.sameModel(saved, model.merge(saved, combined))) throw new Error("unconfirmed-write");
-        state = model.merge(state, saved);
-        write(prefix + "seen", JSON.stringify(state));
-        const latest = getProgress();
-        const afterSave = model.project(state, latest);
-        const selected = model.activeType(state) || getActive();
-        if (!model.sameProgress(afterSave, latest) || selected !== getActive()) {
-          applying = true;
-          try { apply(afterSave, selected); } finally { applying = false; }
+        return saved;
+      } finally { sending = null; }
+    }
+
+    async function exchange() {
+      if (stopped) return false;
+      if (window.navigator.onLine === false) throw new Error("offline");
+      let pending = readPending();
+      let captured = unsent;
+      if (migrated && (captured || pending.length)) {
+        // The server atomically merges and returns the shared record, so a
+        // rating can be sent at once without first fetching the other devices.
+        const outgoing = model.merge(storedModel(), state, ...pending.map(record => record.data));
+        const saved = await save(outgoing);
+        if (stopped) return false;
+        applyCombined(model.merge(state, saved));
+      } else {
+        if (!migrated) tell("正在读取云进度…");
+        const entries = await storageAdapter.list();
+        if (stopped) return false;
+        if (!Array.isArray(entries) || entries.some(entry => !model.valid(entry))) {
+          throw new Error("invalid-cloud-record");
+        }
+        const remote = model.merge(...entries);
+        pending = readPending();
+        captured = unsent;
+        let combined = model.merge(remote, storedModel(), state, ...pending.map(record => record.data));
+        if (!migrated) {
+          const local = getProgress();
+          if (model.sameModel(remote, model.empty()) && !model.activeType(combined)) {
+            const active = getActive();
+            combined = model.fromProgress(local, { previous: combined, type: active, active,
+              stamp: model.nextStamp(combined, actor) });
+          } else if (model.hasLearning(local)) {
+            combined = model.merge(combined, model.fromProgress(local));
+          }
+          migrated = true;
+        }
+        applyCombined(combined);
+        if (!model.sameModel(remote, combined)) {
+          const saved = await save(combined);
+          if (stopped) return false;
+          applyCombined(model.merge(state, saved));
         }
       }
-      if (stopped) return false;
       clearConfirmed(pending);
+      if (unsent === captured) unsent = null;
       retries = 0;
-      if (!rerun) tell("云端已同步");
+      if (!unsent) tell("云端已同步");
       return true;
+    }
+
+    async function exchangeWithLock() {
+      if (!locks?.request || !storage) return exchange();
+      let acquired = false;
+      try {
+        return await locks.request(prefix + "exchange", () => {
+          acquired = true;
+          return exchange();
+        });
+      } catch (error) {
+        // Some WebViews expose the API but deny Web Locks. The shared server
+        // can still serialize writes, just as it does for independent devices.
+        if (acquired || !["SecurityError", "NotAllowedError"].includes(error?.name)) throw error;
+        locks = null;
+        return exchange();
+      }
     }
 
     async function perform() {
       do {
         rerun = false;
         try {
-          // Serialize exchanges between same-browser tabs when supported.
-          // Concurrent requests across devices are merged by the server.
-          const ok = locks && storage
-            ? await locks.request(prefix + "exchange", exchange)
-            : await exchange();
+          const ok = await exchangeWithLock();
           if (!ok) break;
         } catch (error) {
           if (stopped) break;
           retries = Math.min(retries + 1, 6);
           if (error?.message === "invalid-cloud-record") {
             tell("云端进度格式异常，已保留本机记录");
-
           } else {
             tell(durable ? "进度已留在本机，联网后自动同步" : "云端尚未同步，请保持本页打开");
           }
           break;
         }
-      } while (rerun && !stopped);
-      wake(retries ? Math.min(120000, 2500 * (2 ** retries)) : 45000);
+      } while ((rerun || unsent) && !stopped);
+      wake(retries ? Math.min(120000, 2500 * (2 ** retries)) : 5000);
     }
     function run() {
       clearTimeout(timer);
-      if (!started || stopped ) return Promise.resolve();
-      if (running) { rerun = true; return running; }
+      if (!started || stopped) return Promise.resolve();
+      if (running) return running;
       running = perform().finally(() => { running = null; });
       return running;
     }
@@ -1441,12 +1472,32 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       const active = selectOnly ? type : getActive();
       state = model.fromProgress(getProgress(), { previous: base, type, active,
         stamp: model.nextStamp(base, actor) });
+      unsent = state;
       write(pendingPrefix + actor, JSON.stringify(state));
       tell("正在保存到云端…");
       return run();
     }
 
-    function visible() { if (!document.hidden) run(); }
+    function finishPending() {
+      // Mobile browsers may suspend the tab as soon as it is hidden. Deliver
+      // an in-flight edit on a keepalive request and keep its outbox for replay.
+      if (!unsent || window.navigator.onLine === false || exiting === unsent ||
+          !storageAdapter.writeOnExit || (sending && model.sameModel(sending, model.merge(sending, unsent)))) return;
+      const outgoing = unsent;
+      exiting = outgoing;
+      storageAdapter.writeOnExit(outgoing).catch(() => {}).finally(() => {
+        if (exiting === outgoing) exiting = null;
+      });
+    }
+    function visible() {
+      if (document.hidden) { clearTimeout(timer); finishPending(); }
+      else run();
+    }
+    function restored(event) { if (event.persisted) visible(); }
+    function online() {
+      if (running) rerun = true;
+      run();
+    }
     function offline() { if (!stopped) tell(durable ? "进度已留在本机，联网后自动同步" : "已离线，请保持本页打开"); }
     function start() {
       if (started || stopped) return running || Promise.resolve();
@@ -1454,7 +1505,9 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       state = model.merge(storedModel(), legacyModel(), ...readPending().map(record => record.data));
       document.addEventListener("visibilitychange", visible);
       window.addEventListener("focus", visible);
-      window.addEventListener("online", run);
+      window.addEventListener("pageshow", restored);
+      window.addEventListener("pagehide", finishPending);
+      window.addEventListener("online", online);
       window.addEventListener("offline", offline);
       return run();
     }
@@ -1463,7 +1516,9 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       clearTimeout(timer);
       document.removeEventListener("visibilitychange", visible);
       window.removeEventListener("focus", visible);
-      window.removeEventListener("online", run);
+      window.removeEventListener("pageshow", restored);
+      window.removeEventListener("pagehide", finishPending);
+      window.removeEventListener("online", online);
       window.removeEventListener("offline", offline);
     }
     return { start, refresh: run, changed: type => capture(type, false), select: type => capture(type, true), destroy };
@@ -1477,7 +1532,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
 
   const endpoint = "https://literature-study-progress-cq.satiny-note-9705.chatgpt.site/v1/progress";
 
-  async function request(data) {
+  async function request(data, leaving = false) {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 12000);
     try {
@@ -1490,6 +1545,10 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       if (data) {
         options.headers = { "Content-Type": "text/plain;charset=UTF-8" };
         options.body = JSON.stringify(data);
+        // Fetch keepalive has a 64 KiB in-flight budget. Larger banks use the
+        // normal foreground upload and retain any unconfirmed edit locally.
+        options.keepalive = new TextEncoder().encode(options.body).byteLength <= 60 * 1024;
+        if (leaving && !options.keepalive) return;
       }
       const response = await fetch(endpoint, options);
       if (!response.ok) throw new Error("进度服务暂时无法连接。");
@@ -1500,7 +1559,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
   window.initCloudUI = function ({getProgress, getActive, apply}) {
     const $ = id => document.getElementById(id);
     const onlineSite = location.protocol === "https:" || location.protocol === "http:";
-    let sync;
+    let sync, initialSync;
     if (onlineSite) {
       const dialog = $("cloud-dialog");
       $("cloud-open").hidden = false;
@@ -1513,13 +1572,16 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       $("cloud-close").addEventListener("click", () => dialog.close());
       $("cloud-refresh").addEventListener("click", () => sync.refresh());
       sync = window.createProgressSync({
-        storageAdapter: { list: () => request(), write: data => request(data) },
+        storageAdapter: {
+          list: () => request(), write: data => request(data), writeOnExit: data => request(data, true)
+        },
         getProgress, getActive, apply, onStatus
       });
       onStatus("正在读取云进度…");
-      sync.start();
+      initialSync = sync.start();
     }
     return {
+      initialSync,
       changed(type) { sync?.changed(type); },
       select(type) { sync?.select(type); },
       refreshBank() { sync?.changed(null); },
@@ -1731,10 +1793,24 @@ https://github.com/nodeca/pako/blob/main/LICENSE
         active = nextActive;
         try { localStorage.setItem(typeKey, active); } catch { /* Keep the current choice in memory. */ }
       }
-      if (!window.CloudModel.sameProgress(engine.exportProgress(), progress)) engine.importProgress(progress);
+      if (!window.CloudModel.sameProgress(engine.exportProgress(), progress)) {
+        engine.importProgress(progress, {allowMemoryFallback: true});
+      }
       else render(true);
     }
   });
+  if (cloud.initialSync && navigator.onLine !== false && !window.CloudModel.hasLearning(engine.exportProgress())) {
+    // A new browser draws a temporary first card before it has read the shared round.
+    const nav = $("category-nav");
+    $("main").classList.add("loading-progress");
+    $("first-sync").hidden = false;
+    for (const button of nav.children) button.disabled = true;
+    cloud.initialSync.finally(() => {
+      $("main").classList.remove("loading-progress");
+      $("first-sync").hidden = true;
+      for (const button of nav.children) button.disabled = false;
+    });
+  }
   window.initManager({getBank:() => bank, getEngine:() => engine, applyBank, report,
     progressRestored: () => cloud.refreshBank(), cloudConnected: () => cloud.enabled()});
 })();
