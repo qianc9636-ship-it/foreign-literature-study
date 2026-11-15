@@ -64,13 +64,20 @@ h1{font-family:var(--serif);font-size:clamp(42px,4.8vw,62px);font-weight:800;let
 .round-tag,.side-type{color:#796753;font-size:12px;line-height:1.5}
 .round-tag{padding:2px 9px;background:#f4efe4;border-radius:20px}
 .question-body{margin:17px 0 12px;padding:20px 21px 16px;border:1px solid #ebddc5;border-radius:12px;background:#fcf7ec;position:relative;min-height:147px;display:flex;flex-direction:column;align-items:stretch}
-.question-tags{gap:5px 8px;flex-wrap:wrap;min-height:22px;color:#915a38;font-size:12px}
+.question-tags{gap:8px;align-items:flex-start;min-height:22px;color:#915a38;font-size:12px}
+.question-labels{display:flex;flex-wrap:wrap;align-items:center;gap:5px 8px}
+#quiz-tag{display:inline-block;color:#195b6c;background:#d8f3f6;border-radius:5px;padding:2px 6px;white-space:nowrap}
+.word-quiz{background:#c2eef3;color:inherit;border-radius:2px}
+.word-red{color:#a62d32}
+.word-bold{font-weight:800}
 #draw-count{margin-left:auto;padding:2px 8px;border-radius:12px;background:#eaf0e1;color:#4b6445;line-height:1.5;font-variant-numeric:tabular-nums;white-space:nowrap}
 #type-tag{font-size:12px;line-height:1.35;padding:2px 8px;background:#efdfc6;border-radius:5px;letter-spacing:.08em;font-weight:650}
 #focus-tag{display:inline-flex;gap:3px;align-items:center;color:#856334}
 #focus-tag .icon{width:13px;height:13px;fill:#f1cf77;stroke:#a77b37}
 .prompt{font-family:var(--serif);font-size:clamp(20px,1.7vw,25px);line-height:1.65;font-weight:650;letter-spacing:.015em;margin:10px 0 13px;overflow-wrap:anywhere;white-space:pre-wrap}
 .blank{display:inline-block;width:3.3em;max-width:80%;border-bottom:1.6px solid #a8673f;margin:0 .12em;line-height:1;vertical-align:.05em}
+.blank.marked-blank{display:inline-flex;height:.9em}
+.blank.word-red{border-color:currentColor}
 .source-line{margin-top:auto;color:#84715b;font-size:11.5px;line-height:1.55}
 .answer-toggle{border:1px dashed #d9c7b0;background:#fffdf8;border-radius:9px;display:flex;align-items:center;justify-content:center;width:100%;gap:8px;padding:9px 12px;font-size:14px;color:#725a43;min-height:41px}
 .answer-toggle .icon{width:17px;height:17px}
@@ -185,7 +192,7 @@ dialog::backdrop{background:#33261d70}
         <div class="card-head"><h2 id="practice-title"><svg class="icon"><use href="#bookstack"/></svg>随机抽题</h2><span id="round-tag" class="round-tag"></span></div>
         <p id="first-sync" role="status" hidden>小橘正在从云端找回你上次的题目…</p>
         <div id="active-question">
-          <div class="question-body"><div class="question-tags"><span id="type-tag"></span><span id="focus-tag" hidden><svg class="icon"><use href="#star"/></svg>原文重点</span><span id="draw-count" title="从本次更新起累计，同一轮重新抽到也算一次"></span></div>
+          <div class="question-body"><div class="question-tags"><div class="question-labels"><span id="type-tag"></span><span id="focus-tag" hidden><svg class="icon"><use href="#star"/></svg>原文重点</span><span id="quiz-tag" hidden>课堂测验考过</span></div><span id="draw-count" title="从本次更新起累计，同一轮重新抽到也算一次"></span></div>
           <h3 class="prompt" id="prompt" tabindex="-1"></h3><div id="prompt-table"></div>
           <div class="source-line" id="source-line"></div></div>
           <button id="toggle-answer" class="answer-toggle" type="button" aria-expanded="false" aria-controls="answer"><svg class="icon"><use href="#eye"/></svg><span>展开答案</span><svg class="icon down"><use href="#chevron"/></svg></button>
@@ -217,7 +224,7 @@ dialog::backdrop{background:#33261d70}
     <div class="modal-actions"><button class="btn primary" id="cloud-refresh" type="button">立即刷新进度</button></div>
   </dialog>
   <div id="toast" class="toast" role="status" hidden></div>
-  <script src="bank.js"></script>
+  <script src="bank.js?v=f569a6f427a9"></script>
   <script>
 (function () {
   "use strict";
@@ -987,19 +994,55 @@ https://github.com/nodeca/pako/blob/main/LICENSE
   const answerPrefix = /^(?:参考答案|答案)\s*[:：]\s*/u;
   const sectionPattern = /^第[一二三四五六七八九十百零〇两\d]+节/u;
   const chapterPattern = /^第[一二三四五六七八九十百零〇两\d]+章/u;
+  const quizColors = new Set(["cyan", "blue", "darkCyan", "darkBlue"]);
+  const redColors = new Set(["EE0000", "FF0000"]);
 
   function children(node, name) {
     return Array.from(node.children).filter(el => el.namespaceURI === W && el.localName === name);
   }
 
-  function paragraphText(p) {
-    const parts = [];
-    for (const node of p.getElementsByTagNameNS(W, "*")) {
-      if (node.localName === "t") parts.push(node.textContent);
-      else if (node.localName === "tab") parts.push("\t");
-      else if (node.localName === "br" || node.localName === "cr") parts.push("\n");
+  function sliceRanges(ranges, start, end) {
+    return ranges.filter(([a, b]) => a < end && start < b)
+      .map(([a, b]) => [Math.max(a, start) - start, Math.min(b, end) - start]);
+  }
+
+  function sliceMarks(marks, start, end) {
+    const sliced = {};
+    for (const [kind, ranges] of Object.entries(marks)) {
+      const clipped = sliceRanges(ranges, start, end);
+      if (clipped.length) sliced[kind] = clipped;
     }
-    return parts.join("").trim();
+    return sliced;
+  }
+
+  function paragraphContent(p) {
+    let raw = "";
+    const marks = {};
+    function mark(kind, start, end) {
+      const ranges = marks[kind] || (marks[kind] = []);
+      const previous = ranges[ranges.length - 1];
+      if (previous && previous[1] === start) previous[1] = end;
+      else ranges.push([start, end]);
+    }
+    for (const run of p.getElementsByTagNameNS(W, "r")) {
+      const properties = children(run, "rPr")[0];
+      const start = raw.length;
+      for (const node of run.children) {
+        if (node.namespaceURI !== W) continue;
+        if (node.localName === "t") raw += node.textContent;
+        else if (node.localName === "tab") raw += "\t";
+        else if (node.localName === "br" || node.localName === "cr") raw += "\n";
+      }
+      if (raw.length === start || !properties) continue;
+      const value = name => children(properties, name)[0]?.getAttributeNS(W, "val");
+      if (quizColors.has(value("highlight"))) mark("quizHighlights", start, raw.length);
+      if (redColors.has(value("color")?.toUpperCase())) mark("redText", start, raw.length);
+      const bold = children(properties, "b")[0];
+      if (bold && !["0", "false", "off"].includes(bold.getAttributeNS(W, "val"))) mark("boldText", start, raw.length);
+    }
+    const text = raw.trim();
+    const start = raw.length - raw.trimStart().length;
+    return {text, marks:sliceMarks(marks, start, start + text.length)};
   }
 
   async function readXML(zip, path) {
@@ -1034,17 +1077,20 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     for (const [idx, node] of Array.from(body.children).entries()) {
       const number = idx + 1;
       if (node.namespaceURI === W && node.localName === "tbl") {
-        const table = children(node, "tr").map(row =>
-          children(row, "tc").map(cell => children(cell, "p").map(paragraphText).filter(Boolean).join("\n"))
-        );
-        blocks.push({number, table});
+        let classQuiz = false;
+        const table = children(node, "tr").map(row => children(row, "tc").map(cell => {
+          const paragraphs = children(cell, "p").map(paragraphContent);
+          if (paragraphs.some(p => p.marks.quizHighlights)) classQuiz = true;
+          return paragraphs.map(p => p.text).filter(Boolean).join("\n");
+        }));
+        blocks.push({number, table, classQuiz});
       } else if (node.namespaceURI === W && node.localName === "p") {
-        const text = paragraphText(node);
+        const {text, marks} = paragraphContent(node);
         if (!text || /^[★☆\s]+$/u.test(text)) continue;
         const props = children(node, "pPr")[0];
         const styleId = props && children(props, "pStyle")[0]?.getAttributeNS(W, "val");
         blocks.push({
-          number, text, style: styles.get(styleId) || "",
+          number, text, marks, style: styles.get(styleId) || "",
           paragraphId: (node.getAttributeNS(W14, "paraId") || "").toLowerCase()
         });
       } else if (node.getElementsByTagNameNS(W, "t").length) {
@@ -1057,10 +1103,19 @@ https://github.com/nodeca/pako/blob/main/LICENSE
   function extract(blocks) {
     const questions = [];
     let type = "", section = "", current = null, answering = false;
+    function append(field, text, marks = {}) {
+      if (!text) return;
+      const offset = current[field] ? current[field].length + 1 : 0;
+      current[field] += (offset ? "\n" : "") + text;
+      if (marks.quizHighlights) current.classQuiz = true;
+      for (const [kind, ranges] of Object.entries(marks)) {
+        if (!current[kind]) current[kind] = {};
+        const destination = current[kind][field] || (current[kind][field] = []);
+        for (const [a, b] of ranges) destination.push([offset + a, offset + b]);
+      }
+    }
     function finish() {
       if (!current) return;
-      current.answer = current.answerLines.join("\n").trim();
-      delete current.answerLines;
       if (!current.answer) throw new Error(`这道题缺少答案：${current.prompt.slice(0, 65)}`);
       questions.push(current);
     }
@@ -1068,7 +1123,8 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       if (block.table) {
         if (!type) continue;
         if (!current) throw new Error(`正文第 ${block.number} 处表格没有对应的题目。`);
-        if (answering) current.answerLines.push(...block.table.map(row => row.join("｜")));
+        if (block.classQuiz) current.classQuiz = true;
+        if (answering) block.table.forEach(row => append("answer", row.join("｜")));
         else if (!current.promptTable) current.promptTable = block.table;
         else throw new Error(`同一题含有多个题干表格：${current.prompt.slice(0, 65)}`);
         continue;
@@ -1104,16 +1160,16 @@ https://github.com/nodeca/pako/blob/main/LICENSE
         if (!current) throw new Error(`正文第 ${block.number} 处答案没有对应的题干。`);
         const line = marker && !answering ? text.replace(answerPrefix, "") : text;
         answering = true;
-        if (line) current.answerLines.push(line);
+        append("answer", line, sliceMarks(block.marks, text.length - line.length, text.length));
         continue;
       }
       const followedByAnswer = answerPrefix.test(blocks[idx + 1]?.text || "");
       if (questionStyles.has(style) || followedByAnswer || !current) {
         finish();
-        current = {type, section, prompt: text, answerLines: [], paragraphId: block.paragraphId};
+        current = {type, section, prompt:"", answer:"", paragraphId:block.paragraphId};
+        append("prompt", text, block.marks);
         answering = false;
-      } else if (answering) current.answerLines.push(text);
-      else current.prompt += "\n" + text;
+      } else append(answering ? "answer" : "prompt", text, block.marks);
     }
     finish();
     const missing = [...types].filter(([, key]) => !questions.some(q => q.type === key));
@@ -1188,11 +1244,22 @@ https://github.com/nodeca/pako/blob/main/LICENSE
   function fingerprint(bank) {
     // Use content as well as IDs so a published answer correction is detectable.
     const source = JSON.stringify(bank, [
-      "chapter", "questions", "id", "type", "section", "prompt", "promptTable", "answer", "paragraphId"
+      "chapter", "questions", "id", "type", "section", "prompt", "promptTable", "answer", "paragraphId",
+      "classQuiz", "quizHighlights", "redText", "boldText"
     ]);
     let hash = 2166136261;
     for (let i = 0; i < source.length; i++) hash = Math.imul(hash ^ source.charCodeAt(i), 16777619);
     return source.length + "-" + (hash >>> 0).toString(16);
+  }
+
+  function validMarks(question, marks) {
+    if (marks === undefined) return true;
+    if (!marks || typeof marks !== "object" || Array.isArray(marks)) return false;
+    return Object.entries(marks).every(([field, ranges]) =>
+      (field === "prompt" || field === "answer") && Array.isArray(ranges) &&
+      ranges.every((range, i) => Array.isArray(range) && range.length === 2 &&
+        range.every(Number.isInteger) && range[0] >= 0 && range[0] < range[1] &&
+        range[1] <= question[field].length && (!i || range[0] >= ranges[i - 1][1])));
   }
 
   function validate(bank) {
@@ -1206,6 +1273,8 @@ https://github.com/nodeca/pako/blob/main/LICENSE
         typeof q.answer !== "string" || !q.answer.trim() ||
         (q.section !== undefined && typeof q.section !== "string") ||
         (q.paragraphId !== undefined && typeof q.paragraphId !== "string") ||
+        (q.classQuiz !== undefined && typeof q.classQuiz !== "boolean") ||
+        ![q.quizHighlights, q.redText, q.boldText].every(marks => validMarks(q, marks)) ||
         (q.promptTable !== undefined && !(Array.isArray(q.promptTable) && q.promptTable.every(row =>
           Array.isArray(row) && row.every(cell => typeof cell === "string"))))) {
         throw new Error("题目编号、题干、答案或表格有误，原题库已保留。");
@@ -1955,18 +2024,55 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     timer = setTimeout(() => { toast.hidden = true; }, 3600);
   }
 
-  function promptText(text) {
-    const node = $("prompt");
-    node.replaceChildren();
-    const clean = text.replace(/^\s*★\s*/, "");
-    for (const part of clean.split(/(_{2,})/g)) {
-      if (!/^_{2,}$/.test(part)) { node.append(part); continue; }
-      const blank = document.createElement("span");
-      blank.className = "blank";
-      blank.setAttribute("role", "img");
-      blank.setAttribute("aria-label", "填空");
-      node.append(blank);
+  const wordMarks = {quizHighlights:"word-quiz", redText:"word-red", boldText:"word-bold"};
+
+  function appendWordText(parent, q, field, start, end) {
+    const text = q[field];
+    const marks = [];
+    for (const [key, className] of Object.entries(wordMarks)) {
+      for (const [lo, hi] of q[key]?.[field] || []) {
+        if (lo < end && hi > start) marks.push({lo, hi, className});
+      }
     }
+    // Word can apply several marks to the same characters. Split only at actual
+    // boundaries, including when a marked phrase runs through a fill-in blank.
+    function appendRun(from, to, isBlank) {
+      if (from === to) return;
+      const relevant = marks.filter(m => m.lo < to && m.hi > from);
+      let container = parent;
+      if (isBlank) {
+        container = document.createElement("span");
+        container.className = "blank";
+        container.setAttribute("role", "img");
+        container.setAttribute("aria-label", "填空");
+        parent.append(container);
+        if (!relevant.length) return;
+        container.classList.add("marked-blank");
+      }
+      const cuts = new Set([from, to]);
+      for (const m of relevant) { cuts.add(Math.max(from, m.lo)); cuts.add(Math.min(to, m.hi)); }
+      const positions = [...cuts].sort((a,b) => a-b);
+      for (let i=1; i<positions.length; i++) {
+        const lo = positions[i-1], hi = positions[i];
+        const classes = relevant.filter(m => m.lo <= lo && m.hi >= hi).map(m => m.className);
+        if (!classes.length && !isBlank) { container.append(text.slice(lo,hi)); continue; }
+        const piece = document.createElement(classes.includes("word-quiz") ? "mark" : "span");
+        piece.classList.add(...classes);
+        if (isBlank) piece.style.flexGrow = hi-lo;
+        else piece.textContent = text.slice(lo,hi);
+        container.append(piece);
+      }
+    }
+    let at = start;
+    if (field === "prompt") {
+      for (const match of text.slice(start, end).matchAll(/_{2,}/g)) {
+        const lo = start + match.index;
+        appendRun(at, lo, false);
+        at = lo + match[0].length;
+        appendRun(lo, at, true);
+      }
+    }
+    appendRun(at, end, false);
   }
 
   function drawTable(rows) {
@@ -2024,14 +2130,20 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     const q = view.question;
     $("draw-count").textContent = "第 " + Math.max(1, view.drawTimes) + " 次抽到";
     $("focus-tag").hidden = !/^\s*★/.test(q.prompt);
-    promptText(q.prompt);
+    $("quiz-tag").hidden = !q.classQuiz;
+    const prompt = $("prompt");
+    prompt.replaceChildren();
+    const star = q.prompt.match(/^\s*★\s*/);
+    appendWordText(prompt, q, "prompt", star ? star[0].length : 0, q.prompt.length);
     drawTable(q.promptTable);
     $("source-line").textContent = q.section || "";
     const answer = $("answer");
     answer.replaceChildren();
+    let offset = 0;
     for (const line of q.answer.split(/\n/)) {
       const p = document.createElement("p");
-      p.textContent = line;
+      appendWordText(p, q, "answer", offset, offset + line.length);
+      offset += line.length + 1;
       answer.append(p);
     }
   }
