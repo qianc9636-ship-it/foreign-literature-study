@@ -233,8 +233,9 @@ dialog::backdrop{background:#33261d70}
     <p class="cloud-intro" id="cloud-intro">在手机或电脑的浏览器打开同一网址，就会接上上次的题目。所有访客共用一份进度。两边都开着时，答题和切换题型也会自动更新。</p>
     <p class="muted" id="cloud-detail">第一次打开会合并这个浏览器已经练过的题。离线时可继续练习，重新联网后自动补传。</p>
     <p class="cloud-status" id="cloud-status" role="status"></p>
+    <p class="muted" id="cloud-error" role="status" hidden></p>
     <p class="muted" id="cloud-confirmation">本次打开尚未收到云端确认。</p>
-    <div class="modal-actions"><button class="btn primary" id="cloud-refresh" type="button">立即刷新进度</button></div>
+    <div class="modal-actions"><button class="btn primary" id="cloud-refresh" type="button">立即重试</button></div>
   </dialog>
   <div id="toast" class="toast" role="status" hidden></div>
   <script src="bank.js?v=f569a6f427a9"></script>
@@ -1739,11 +1740,39 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     try { storage = window.localStorage; } catch { /* The current session can still sync online. */ }
     let state = model.empty(), running = null, timer = null;
     let started = false, stopped = false, rerun = false, migrated = false, applying = false;
-    let retries = 0, durable = !!storage, status = "";
-    let unsent = null, sending = null, exiting = null;
+    let retries = 0, durable = !!storage, status = "", statusDetail = "";
+    let unsent = null, exiting = null;
 
-    function tell(text) {
-      if (!stopped && text !== status) { status = text; onStatus(text); }
+    function tell(text, detail = "") {
+      if (!stopped && (text !== status || detail !== statusDetail)) {
+        status = text; statusDetail = detail; onStatus(text, detail);
+      }
+    }
+    function reportFailure(error) {
+      const saved = durable ? "已保存在本机，页面打开时会自动重试，也可以点「立即重试」。"
+        : "请保持本页打开，可以点「立即重试」。";
+      switch (error?.message) {
+        case "offline":
+          tell("当前已离线", "浏览器报告设备已断网。" + saved);
+          break;
+        case "timeout":
+          tell("云端响应超时", "云服务在 25 秒内没有完成响应。" + saved);
+          break;
+        case "http":
+          tell("云服务暂时不可用", "云服务返回 HTTP " + error.status + "。" + saved);
+          break;
+        case "invalid-cloud-record":
+          tell("云端进度格式异常", "收到的云端记录无法识别。" + saved);
+          break;
+        case "unconfirmed-write":
+          tell("云端尚未确认保存", "云服务的回复尚未包含本次进度。" + saved);
+          break;
+        case "connection":
+          tell("暂时连不上云服务", "本页未能连上云服务，手机有网络时也可能出现。" + saved);
+          break;
+        default:
+          tell("本次同步未完成", "同步过程中出现异常。" + saved);
+      }
     }
     function read(key) {
       try { return storage?.getItem(key) ?? null; }
@@ -1829,17 +1858,14 @@ https://github.com/nodeca/pako/blob/main/LICENSE
 
     async function save(combined) {
       tell("正在保存到云端…");
-      sending = combined;
-      try {
-        const entries = await storageAdapter.write(combined);
-        if (!Array.isArray(entries) || !entries.length || entries.some(entry => !model.valid(entry))) {
-          throw new Error("invalid-cloud-record");
-        }
-        const saved = model.merge(...entries);
-        if (!model.sameModel(saved, model.merge(saved, combined))) throw new Error("unconfirmed-write");
-        if (!stopped) onConfirmed?.(saved);
-        return saved;
-      } finally { sending = null; }
+      const entries = await storageAdapter.write(combined);
+      if (!Array.isArray(entries) || !entries.length || entries.some(entry => !model.valid(entry))) {
+        throw new Error("invalid-cloud-record");
+      }
+      const saved = model.merge(...entries);
+      if (!model.sameModel(saved, model.merge(saved, combined))) throw new Error("unconfirmed-write");
+      if (!stopped) onConfirmed?.(saved);
+      return saved;
     }
 
     async function exchange() {
@@ -1922,11 +1948,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
         } catch (error) {
           if (stopped) break;
           retries = Math.min(retries + 1, 6);
-          if (error?.message === "invalid-cloud-record") {
-            tell("云端进度格式异常，已保留本机记录");
-          } else {
-            tell(durable ? "进度已留在本机，联网后自动同步" : "云端尚未同步，请保持本页打开");
-          }
+          reportFailure(error);
           break;
         }
       } while ((rerun || unsent) && !stopped);
@@ -1957,7 +1979,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       // Mobile browsers may suspend the tab as soon as it is hidden. Deliver
       // an in-flight edit on a keepalive request and keep its outbox for replay.
       if (!unsent || window.navigator.onLine === false || exiting === unsent ||
-          !storageAdapter.writeOnExit || (sending && model.sameModel(sending, model.merge(sending, unsent)))) return;
+          !storageAdapter.writeOnExit) return;
       const outgoing = unsent;
       exiting = outgoing;
       storageAdapter.writeOnExit(outgoing).catch(() => {}).finally(() => {
@@ -1973,7 +1995,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       if (running) rerun = true;
       run();
     }
-    function offline() { if (!stopped) tell(durable ? "进度已留在本机，联网后自动同步" : "已离线，请保持本页打开"); }
+    function offline() { if (!stopped) reportFailure(new Error("offline")); }
     function start() {
       if (started || stopped) return running || Promise.resolve();
       started = true;
@@ -2009,7 +2031,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
 
   async function request(data, leaving = false) {
     const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 12000);
+    const timeout = setTimeout(() => controller.abort(), 25000);
     try {
       const options = {
         method: data ? "POST" : "GET",
@@ -2020,14 +2042,25 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       if (data) {
         options.headers = { "Content-Type": "text/plain;charset=UTF-8" };
         options.body = JSON.stringify(data);
-        // Fetch keepalive has a 64 KiB in-flight budget. Larger banks use the
-        // normal foreground upload and retain any unconfirmed edit locally.
-        options.keepalive = new TextEncoder().encode(options.body).byteLength <= 60 * 1024;
-        if (leaving && !options.keepalive) return;
+        // Reserve the browser's small keepalive budget for leaving the page.
+        if (leaving) {
+          if (new TextEncoder().encode(options.body).byteLength > 60 * 1024) return;
+          options.keepalive = true;
+        }
       }
-      const response = await fetch(endpoint, options);
-      if (!response.ok) throw new Error("进度服务暂时无法连接。");
-      return await response.json();
+      let response;
+      try { response = await fetch(endpoint, options); }
+      catch {
+        if (navigator.onLine === false) throw new Error("offline");
+        throw new Error(controller.signal.aborted ? "timeout" : "connection");
+      }
+      if (!response.ok) {
+        const error = new Error("http");
+        error.status = response.status;
+        throw error;
+      }
+      try { return await response.json(); }
+      catch { throw new Error(controller.signal.aborted ? "timeout" : "invalid-cloud-record"); }
     } finally { clearTimeout(timeout); }
   }
 
@@ -2046,9 +2079,11 @@ https://github.com/nodeca/pako/blob/main/LICENSE
         $("cloud-confirmation").textContent = time + " 云端确认 · " + typeLabel(type) +
           "第 " + section.round + " 轮，已记得 " + section.remembered.length + " / " + section.ids.length + " 题";
       }
-      function onStatus(text) {
+      function onStatus(text, detail) {
         $("cloud-label").textContent = text;
         $("cloud-status").textContent = text;
+        $("cloud-error").textContent = detail || "";
+        $("cloud-error").hidden = !detail;
         $("save-note").textContent = "所有访客共用这份学习进度 · " + text;
       }
       $("cloud-open").addEventListener("click", () => dialog.showModal());
