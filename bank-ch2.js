@@ -281,7 +281,7 @@ window.QUESTION_BANK_CH2 = {
       "section": "第二节 欧洲中世纪主要文学样式 · 骑士文学",
       "prompt": "★ 骑士文学两种主要体裁是________与________。",
       "paragraphId": "3946603c",
-      "answer": "骑士抒情诗；",
+      "answer": "1. 骑士抒情诗；2. 骑士传奇",
       "id": "ch2-fill-3946603c"
     },
     {
