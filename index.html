@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#fbf8f1">
-  <meta name="description" content="和小橘一起复习外国文学1。按章练习上古文学、中古文学和14—16世纪文学，也可以选同一题型跨章混合抽题。">
+  <meta name="description" content="和小橘一起复习外国文学1。按章练习上古文学、中古文学、14—16世纪文学、17世纪文学和18世纪文学，也可以选同一题型跨章混合抽题。">
   <title>猫猫文学自习室 · 外国文学1抽题本</title>
   <style>
 :root{--ink:#49382d;--quiet:#786657;--line:#e5d8c6;--paper:#fffdf7;--orange:#ae522d;--green:#4f7558;--serif:"Hedvig Letters Serif","Songti SC","STSong","Noto Serif CJK SC","Source Han Serif SC","SimSun",serif;--sans:"DM Sans","PingFang SC","Microsoft YaHei","Hiragino Sans GB",sans-serif;font-family:var(--sans);color:var(--ink);background:#fbf8f1;font-synthesis:none}
@@ -42,7 +42,7 @@ h1{font-family:var(--serif);font-size:clamp(42px,4.8vw,62px);font-weight:800;let
 .hero-art{align-self:stretch;width:41%;position:relative;display:flex;justify-content:center;align-items:center;mix-blend-mode:multiply;pointer-events:none}
 .hero-art img{width:85%;height:180px;object-fit:contain;mask-image:linear-gradient(to right,transparent 0,#000 9%,#000 92%,transparent 100%);filter:contrast(1.03);transform:rotate(-2deg)}
 .category-nav{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:20px 0}
-.scope-nav{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px;padding:4px;margin-top:18px;background:#f1ebdf;border:1px solid #e5dbcc;border-radius:13px}
+.scope-nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;padding:4px;margin-top:18px;background:#f1ebdf;border:1px solid #e5dbcc;border-radius:13px}
 .scope-nav button{display:flex;align-items:baseline;justify-content:center;flex-wrap:wrap;gap:2px 8px;padding:8px 5px;border:1px solid transparent;border-radius:9px;color:#6d6051;background:transparent}
 .scope-nav button span{font-size:12px}.scope-nav button strong{font-size:15px}
 .scope-nav button[aria-pressed="true"]{background:#fffdf7;color:#68492e;border-color:#d8c6af;box-shadow:0 1px 3px #6d472115}
@@ -75,6 +75,8 @@ h1{font-family:var(--serif);font-size:clamp(42px,4.8vw,62px);font-weight:800;let
 .question-tags{gap:8px;align-items:flex-start;min-height:22px;color:#915a38;font-size:12px}
 .question-labels{display:flex;flex-wrap:wrap;align-items:center;gap:5px 8px}
 #quiz-tag{display:inline-block;color:#195b6c;background:#d8f3f6;border-radius:5px;padding:2px 6px;white-space:nowrap}
+#teacher-tag{display:inline-block;color:#345f81;background:#d9efff;border-radius:5px;padding:2px 6px;white-space:nowrap}
+.word-teacher{background:#d9efff;color:inherit;border-radius:2px}
 .word-quiz{background:#c2eef3;color:inherit;border-radius:2px}
 .word-yellow{background:#fff0a6;color:inherit;border-radius:2px}
 .word-red{color:#a62d32}
@@ -199,6 +201,8 @@ dialog::backdrop{background:#33261d70}
       <button type="button" data-scope="ch1" aria-pressed="true"><span>第一章</span><strong>上古文学</strong></button>
       <button type="button" data-scope="ch2" aria-pressed="false"><span>第二章</span><strong>中古文学</strong></button>
       <button type="button" data-scope="ch3" aria-pressed="false"><span>第三章</span><strong>14—16世纪文学</strong></button>
+      <button type="button" data-scope="ch4" aria-pressed="false"><span>第四章</span><strong>17世纪文学</strong></button>
+      <button type="button" data-scope="ch5" aria-pressed="false"><span>第五章</span><strong>18世纪文学</strong></button>
       <button type="button" data-scope="all" aria-pressed="false"><span>全部章节</span><strong>混合抽题</strong></button>
     </nav>
     <nav aria-label="选择练习题型" class="category-nav" id="category-nav"></nav>
@@ -207,7 +211,7 @@ dialog::backdrop{background:#33261d70}
         <div class="card-head"><h2 id="practice-title"><svg class="icon"><use href="#bookstack"/></svg>随机抽题</h2><span id="round-tag" class="round-tag"></span></div>
         <p id="first-sync" role="status" hidden>小橘正在从云端找回你上次的题目…</p>
         <div id="active-question">
-          <div class="question-body"><div class="question-tags"><div class="question-labels"><span id="type-tag"></span><span id="focus-tag" hidden><svg class="icon"><use href="#star"/></svg>原文重点</span><span id="quiz-tag" hidden>课堂测验考过</span></div><span id="draw-count" title="从本次更新起累计，同一轮重新抽到也算一次"></span></div>
+          <div class="question-body"><div class="question-tags"><div class="question-labels"><span id="type-tag"></span><span id="focus-tag" hidden><svg class="icon"><use href="#star"/></svg>原文重点</span><span id="teacher-tag" hidden>老师重点</span><span id="quiz-tag" hidden>课堂测验考过</span></div><span id="draw-count" title="从本次更新起累计，同一轮重新抽到也算一次"></span></div>
           <h3 class="prompt" id="prompt" tabindex="-1"></h3><div id="prompt-table"></div>
           <div class="source-line" id="source-line"></div></div>
           <button id="toggle-answer" class="answer-toggle" type="button" aria-expanded="false" aria-controls="answer"><svg class="icon"><use href="#eye"/></svg><span>展开答案</span><svg class="icon down"><use href="#chevron"/></svg></button>
@@ -243,18 +247,21 @@ dialog::backdrop{background:#33261d70}
   <script src="bank.js?v=de2a8bc51a2d"></script>
   <script src="bank-ch2.js?v=0a9b8ed654a0"></script>
   <script src="bank-ch3.js?v=0ff3fc15723e"></script>
+  <script src="bank-ch4.js?v=5eb96a491a33"></script>
+  <script src="bank-ch5.js?v=e1464642ec56"></script>
   <script>
 (function () {
   "use strict";
 
   const chapterOneTypes = ["fill", "term", "short", "essay"];
   const twoChapterTypes = [...chapterOneTypes, ...chapterOneTypes.map(t => "ch2-" + t), ...chapterOneTypes.map(t => "all-" + t)];
-  const types = [...chapterOneTypes, ...chapterOneTypes.map(t => "ch2-" + t), ...chapterOneTypes.map(t => "ch3-" + t), ...chapterOneTypes.map(t => "all-" + t)];
+  const threeChapterTypes = [...chapterOneTypes, ...chapterOneTypes.map(t => "ch2-" + t), ...chapterOneTypes.map(t => "ch3-" + t), ...chapterOneTypes.map(t => "all-" + t)];
+  const types = ["", "ch2-", "ch3-", "ch4-", "ch5-", "all-"].flatMap(scope => chapterOneTypes.map(type => scope + type));
   const format = "foreign-lit.chapter-1.progress";
   const has = (value, key) => Object.prototype.hasOwnProperty.call(value, key);
 
   function empty() {
-    return { version: 1, courseVersion: 3, clock: 0, sections: {}, active: null };
+    return { version: 1, courseVersion: 4, clock: 0, sections: {}, active: null };
   }
 
   function object(value) {
@@ -359,7 +366,7 @@ dialog::backdrop{background:#33261d70}
   function valid(model) {
     if (!object(model) || model.version !== 1 || !Number.isSafeInteger(model.clock) ||
         model.clock < 0 || !object(model.sections) ||
-        (model.courseVersion !== undefined && model.courseVersion !== 3)) return false;
+        (model.courseVersion !== undefined && ![3, 4].includes(model.courseVersion))) return false;
     const validRegister = register => object(register) && validStamp(register.stamp) &&
       register.stamp[0] <= model.clock;
     if (model.active !== null && (!validRegister(model.active) || !types.includes(model.active.value))) {
@@ -371,19 +378,25 @@ dialog::backdrop{background:#33261d70}
     if (model.twoChapterActive !== undefined && (!validRegister(model.twoChapterActive) ||
         !twoChapterTypes.includes(model.twoChapterActive.value) || !model.active ||
         latest(model.active, model.twoChapterActive) !== model.active)) return false;
+    if (model.threeChapterActive !== undefined && (!validRegister(model.threeChapterActive) ||
+        !threeChapterTypes.includes(model.threeChapterActive.value) || !model.active ||
+        latest(model.active, model.threeChapterActive) !== model.active)) return false;
     const validSection = section => validIds(section) && (section.current === null ||
         (validRegister(section.current) &&
           (section.current.value === null || section.ids.includes(section.current.value))));
     if (model.legacyMixed !== undefined && (!object(model.legacyMixed) ||
         !Object.entries(model.legacyMixed).every(([type, section]) => type.startsWith("all-") &&
-          types.includes(type) && validSection(section) && section.ids.every(id => !id.startsWith("ch3-"))))) return false;
+          types.includes(type) && validSection(section) && section.ids.every(id => !/^ch[345]-/.test(id))))) return false;
+    if (model.legacyThreeMixed !== undefined && (!object(model.legacyThreeMixed) ||
+        !Object.entries(model.legacyThreeMixed).every(([type, section]) => type.startsWith("all-") &&
+          types.includes(type) && validSection(section) && section.ids.every(id => !/^ch[45]-/.test(id))))) return false;
     return Object.entries(model.sections).every(([type, section]) => types.includes(type) && validSection(section));
   }
 
   function checkProgress(progress) {
     if (!object(progress) || progress.format !== format || progress.version !== 1 ||
         !object(progress.sections) || !chapterOneTypes.every(type => has(progress.sections, type)) ||
-        ![chapterOneTypes, twoChapterTypes, types].some(keys =>
+        ![chapterOneTypes, twoChapterTypes, threeChapterTypes, types].some(keys =>
           keys.length === Object.keys(progress.sections).length && keys.every(key => has(progress.sections, key))) ||
         !Object.keys(progress.sections).every(type => {
           const section = progress.sections[type];
@@ -433,8 +446,8 @@ dialog::backdrop{background:#33261d70}
     };
   }
 
-  function twoChapterSection(section) {
-    const ids = section.ids.filter(id => !id.startsWith("ch3-"));
+  function chapterSection(section, excluded) {
+    const ids = section.ids.filter(id => !excluded.test(id));
     const allowed = new Set(ids);
     return {
       ...section, ids, remembered: section.remembered.filter(id => allowed.has(id)),
@@ -468,27 +481,35 @@ dialog::backdrop{background:#33261d70}
   function merge(...models) {
     const result = empty();
     if (models.some(model => !valid(model))) throw new Error("云端学习记录格式有误，未覆盖本机记录。");
-    const legacyMixed = {};
+    const legacyMixed = {}, legacyThreeMixed = {};
     for (const type of types) {
       let section;
-      let legacy;
+      let legacy, legacyThree;
       for (const model of models) {
         const incoming = model.sections[type];
         if (incoming) {
-          if (type.startsWith("all-") && model.courseVersion !== 3) legacy = combineSection(legacy, incoming);
-          else section = combineSection(section, incoming);
+          if (!type.startsWith("all-") || model.courseVersion === 4) section = combineSection(section, incoming);
+          else if (model.courseVersion === 3) legacyThree = combineSection(legacyThree, incoming);
+          else legacy = combineSection(legacy, incoming);
         }
         if (model.legacyMixed?.[type]) legacy = combineSection(legacy, model.legacyMixed[type]);
+        if (model.legacyThreeMixed?.[type]) legacyThree = combineSection(legacyThree, model.legacyThreeMixed[type]);
       }
       if (section && type.startsWith("all-")) {
-        legacy = combineSection(legacy, twoChapterSection(section));
-        section = bridgeMixed(section, legacy);
+        legacyThree = combineSection(legacyThree, chapterSection(section, /^ch[45]-/));
       }
+      if (legacyThree) {
+        legacy = combineSection(legacy, chapterSection(legacyThree, /^ch[345]-/));
+        legacyThree = bridgeMixed(legacyThree, legacy);
+      }
+      if (section && legacyThree) section = bridgeMixed(section, legacyThree);
       if (legacy) legacyMixed[type] = legacy;
+      if (legacyThree) legacyThreeMixed[type] = legacyThree;
       if (section) result.sections[type] = section;
     }
     if (Object.keys(legacyMixed).length) result.legacyMixed = legacyMixed;
-    let chapterOneActive = null, twoChapterActive = null;
+    if (Object.keys(legacyThreeMixed).length) result.legacyThreeMixed = legacyThreeMixed;
+    let chapterOneActive = null, twoChapterActive = null, threeChapterActive = null;
     for (const model of models) {
       result.clock = Math.max(result.clock, model.clock);
       result.active = latest(result.active, model.active);
@@ -496,6 +517,8 @@ dialog::backdrop{background:#33261d70}
       if (chapterOneTypes.includes(model.active?.value)) chapterOneActive = latest(chapterOneActive, model.active);
       twoChapterActive = latest(twoChapterActive, model.twoChapterActive);
       if (twoChapterTypes.includes(model.active?.value)) twoChapterActive = latest(twoChapterActive, model.active);
+      threeChapterActive = latest(threeChapterActive, model.threeChapterActive);
+      if (threeChapterTypes.includes(model.active?.value)) threeChapterActive = latest(threeChapterActive, model.active);
     }
     if (result.active) result.active = { value: result.active.value, stamp: [...result.active.stamp] };
     // A chapter-one-only browser can resume and acknowledge its own selection
@@ -505,6 +528,9 @@ dialog::backdrop{background:#33261d70}
     }
     if (twoChapterActive && !twoChapterTypes.includes(result.active?.value)) {
       result.twoChapterActive = {value:twoChapterActive.value, stamp:[...twoChapterActive.stamp]};
+    }
+    if (threeChapterActive && !threeChapterTypes.includes(result.active?.value)) {
+      result.threeChapterActive = {value:threeChapterActive.value, stamp:[...threeChapterActive.stamp]};
     }
     return result;
   }
@@ -522,6 +548,18 @@ dialog::backdrop{background:#33261d70}
     const active = twoChapterTypes.includes(normalized.active?.value) ? normalized.active : normalized.twoChapterActive || null;
     const view = {version:1, clock:normalized.clock, sections, active};
     if (normalized.chapterOneActive && active && !chapterOneTypes.includes(active.value)) view.chapterOneActive = normalized.chapterOneActive;
+    return view;
+  }
+
+  function threeChapterView(model) {
+    const normalized = merge(model);
+    const sections = Object.fromEntries(Object.entries(normalized.sections).filter(([key]) => threeChapterTypes.includes(key)));
+    Object.assign(sections, normalized.legacyThreeMixed);
+    const active = threeChapterTypes.includes(normalized.active?.value) ? normalized.active : normalized.threeChapterActive || null;
+    const view = {version:1, courseVersion:3, clock:normalized.clock, sections, active};
+    if (normalized.legacyMixed) view.legacyMixed = normalized.legacyMixed;
+    if (normalized.chapterOneActive && active && !chapterOneTypes.includes(active.value)) view.chapterOneActive = normalized.chapterOneActive;
+    if (normalized.twoChapterActive && active && !twoChapterTypes.includes(active.value)) view.twoChapterActive = normalized.twoChapterActive;
     return view;
   }
 
@@ -575,29 +613,34 @@ dialog::backdrop{background:#33261d70}
       throw new Error("同步操作中的题型或时间标记有误。");
     }
     previous = merge(previous);
+    if (legacyProgress) {
+      const earlier = legacyProgress.previousLegacyProgress || null;
+      if (earlier && (Object.keys(legacyProgress.sections).length !== threeChapterTypes.length ||
+          Object.keys(earlier.sections || {}).length !== twoChapterTypes.length || earlier.previousLegacyProgress)) {
+        throw new Error("旧版学习记录的升级顺序有误，未覆盖本机记录。");
+      }
+      previous = fromProgress(legacyProgress, {previous, legacyProgress:earlier});
+    }
     const local = empty();
-    const oldShape = Object.keys(progress.sections).length === twoChapterTypes.length;
+    const count = Object.keys(progress.sections).length;
+    const oldShape = count === twoChapterTypes.length || count === threeChapterTypes.length;
+    const archiveKey = count === threeChapterTypes.length ? "legacyThreeMixed" : "legacyMixed";
     if (stamp) {
       local.clock = stamp[0];
       if (active) local.active = { value: active, stamp };
     }
     for (const name of Object.keys(progress.sections)) {
       let section = progress.sections[name];
-      const existing = previous.sections[name];
       const mixed = name.startsWith("all-");
+      const existing = mixed && oldShape ? previous[archiveKey]?.[name] : previous.sections[name];
       const baseline = legacyProgress?.sections[name];
-      if (mixed && (oldShape || baseline)) {
-        const oldSection = baseline || section;
-        local.legacyMixed ||= {};
-        local.legacyMixed[name] = {...oldSection, history:sectionHistory(oldSection),
-          current:{value:oldSection.current, stamp:stamp && type === name ? stamp : [0, ""]}};
-      }
-      if (mixed && (oldShape || deferMixed)) continue;
+      const older = previous.legacyThreeMixed?.[name] || previous.legacyMixed?.[name];
+      if (mixed && deferMixed) continue;
       if (mixed && baseline) {
-        section = migratedMixed(section, baseline, existing?.round || previous.legacyMixed?.[name]?.round || baseline.round);
-      } else if (mixed && !existing && previous.legacyMixed?.[name] && section.round === 1) {
+        section = migratedMixed(section, baseline, existing?.round || older?.round || baseline.round);
+      } else if (mixed && !oldShape && !existing && older && section.round === 1) {
         const emptyBaseline = {...section, remembered:[], history:{}};
-        section = migratedMixed(section, emptyBaseline, previous.legacyMixed[name].round);
+        section = migratedMixed(section, emptyBaseline, older.round);
       }
       let current = null;
       if (stamp && type === name) {
@@ -608,7 +651,8 @@ dialog::backdrop{background:#33261d70}
         // such a random, untouched first card as an intentional cloud selection.
         current = { value: section.current, stamp: [0, ""] };
       }
-      local.sections[name] = {
+      const destination = mixed && oldShape ? (local[archiveKey] ||= {}) : local.sections;
+      destination[name] = {
         round: section.round, ids: section.ids, remembered: section.remembered,
         history: sectionHistory(section), draws: section.draws, current
       };
@@ -619,7 +663,9 @@ dialog::backdrop{background:#33261d70}
   function project(model, progress, {legacyProgress = null} = {}) {
     checkProgress(progress);
     const merged = fromProgress(progress, { previous: model, legacyProgress });
-    const view = Object.keys(progress.sections).length === twoChapterTypes.length ? twoChapterView(merged) : merged;
+    const count = Object.keys(progress.sections).length;
+    const view = count === twoChapterTypes.length ? twoChapterView(merged) :
+      count === threeChapterTypes.length ? threeChapterView(merged) : merged;
     const sections = {};
     for (const type of Object.keys(progress.sections)) {
       const local = progress.sections[type];
@@ -673,7 +719,7 @@ dialog::backdrop{background:#33261d70}
 
   const model = {
     empty, valid, merge, fromProgress, nextStamp, project, hasLearning, sameProgress, sameModel,
-    sectionKeys:Object.freeze(types), chapterOneView, twoChapterView,
+    sectionKeys:Object.freeze(types), chapterOneView, twoChapterView, threeChapterView,
     mergeRanges, addRound, countRounds, validHistory, sectionHistory,
     mergeDrawCounts, countDraws, validDraws,
     activeType: value => value.active?.value ?? null
@@ -688,11 +734,13 @@ dialog::backdrop{background:#33261d70}
   "use strict";
 
   const chapterOneTypes = ["fill", "term", "short", "essay"];
-  const chapterScopes = ["", "ch2-", "ch3-", "all-"];
+  const chapterScopes = ["", "ch2-", "ch3-", "ch4-", "ch5-", "all-"];
   const types = chapterScopes.flatMap(scope => chapterOneTypes.map(type => scope + type));
-  const previousTypes = types.filter(type => !type.startsWith("ch3-"));
-  const prefix = "foreign-lit.course.v3/";
-  const previousPrefix = "foreign-lit.chapter-1.v1/";
+  const previousTypes = types.filter(type => !/^ch[45]-/.test(type));
+  const twoChapterTypes = previousTypes.filter(type => !type.startsWith("ch3-"));
+  const prefix = "foreign-lit.course.v4/";
+  const previousPrefix = "foreign-lit.course.v3/";
+  const originalPrefix = "foreign-lit.chapter-1.v1/";
   const format = "foreign-lit.chapter-1.progress";
   const initialDraw = "00000000000000000000000000000000";
   const drawKeyPattern = /^([^/]+)\/draws\/([0-9a-f]{32})\/(.+)$/;
@@ -700,7 +748,7 @@ dialog::backdrop{background:#33261d70}
   let activeEngine = null;
 
   function chapterType(type, id) {
-    const chapter = id.match(/^ch([23])-/);
+    const chapter = id.match(/^ch([2-5])-/);
     return (chapter ? "ch" + chapter[1] + "-" : "") + type;
   }
 
@@ -813,19 +861,36 @@ dialog::backdrop{background:#33261d70}
     }
 
     migratePreviousStorage() {
-      const migrated = new Map();
+      let migrated = new Map();
       if (!this.storage) return migrated;
       try {
         const saved = this.storage.getItem(prefix + "legacy-migration");
         if (saved !== null) return new Map(JSON.parse(saved));
+        const previous = new Map(), original = new Map();
         for (let i = 0; i < this.storage.length; i++) {
           const key = this.storage.key(i);
           if (key?.startsWith(previousPrefix)) {
-            migrated.set(key.slice(previousPrefix.length), this.storage.getItem(key));
+            previous.set(key.slice(previousPrefix.length), this.storage.getItem(key));
+          } else if (key?.startsWith(originalPrefix)) {
+            original.set(key.slice(originalPrefix.length), this.storage.getItem(key));
           }
         }
+        if (previous.size) {
+          // v3 can still read older raw keys from its frozen migration. Flatten
+          // that fallback first, then apply v3's own newer snapshots and edits.
+          const fallback = new Map(JSON.parse(previous.get("legacy-migration") || "[]"));
+          migrated = new Map([...fallback, ...previous]);
+          const pending = previous.get("legacy-progress");
+          if (pending && pending !== "null") migrated.set("previous-legacy-progress", pending);
+          migrated.delete("legacy-migration");
+          migrated.delete("legacy-progress");
+          migrated.set("migration-source", "v3");
+        } else if (original.size) {
+          migrated = original;
+          migrated.set("migration-source", "v2");
+        }
         // Freeze the complete old view atomically, including unsent per-card
-        // actions. Old tabs can then keep writing without replacing v3 records.
+        // actions. Old tabs can then keep writing without replacing v4 records.
         this.storage.setItem(prefix + "legacy-migration", JSON.stringify([...migrated]));
       } catch {
         this.persistent = false;
@@ -837,9 +902,10 @@ dialog::backdrop{background:#33261d70}
       if (this.readRaw("legacy-progress") !== null || !this.migrated.size) return;
       const progress = this.exportProgress();
       const sections = {};
-      for (const type of previousTypes) {
+      const fromThreeChapters = this.migrated.get("migration-source") === "v3";
+      for (const type of fromThreeChapters ? previousTypes : twoChapterTypes) {
         const section = progress.sections[type];
-        const ids = section.ids.filter(id => !id.startsWith("ch3-"));
+        const ids = section.ids.filter(id => !(fromThreeChapters ? /^ch[45]-/ : /^ch[3-5]-/).test(id));
         const kept = new Set(ids), known = new Set(section.remembered);
         const pending = ids.filter(id => !known.has(id));
         sections[type] = {
@@ -849,7 +915,9 @@ dialog::backdrop{background:#33261d70}
           ...(section.draws ? {draws:Object.fromEntries(Object.entries(section.draws).filter(([id]) => kept.has(id)))} : {})
         };
       }
-      this.saveLegacyProgress({...progress, sections});
+      const previousLegacy = this.migrated.get("previous-legacy-progress");
+      this.saveLegacyProgress({...progress, sections,
+        ...(previousLegacy ? {previousLegacyProgress:JSON.parse(previousLegacy)} : {})});
     }
 
     saveLegacyProgress(progress) {
@@ -1141,7 +1209,7 @@ dialog::backdrop{background:#33261d70}
         throw new Error("请选择本站导出的学习进度文件。");
       }
       const supplied = Object.keys(data.sections);
-      const accepted = [chapterOneTypes, previousTypes, types].some(keys =>
+      const accepted = [chapterOneTypes, twoChapterTypes, previousTypes, types].some(keys =>
         supplied.length === keys.length && keys.every(type => supplied.includes(type)));
       if (!accepted) {
         throw new Error("进度文件中的练习范围不完整，请重新导出。");
@@ -1252,7 +1320,8 @@ https://github.com/nodeca/pako/blob/main/LICENSE
   const W = "http://schemas.openxmlformats.org/wordprocessingml/2006/main";
   const W14 = "http://schemas.microsoft.com/office/word/2010/wordml";
   const chapters = new Map([
-    ["第一章 上古文学", "ch1"], ["第二章 中古文学", "ch2"], ["第三章 14—16世纪文学", "ch3"]
+    ["第一章 上古文学", "ch1"], ["第二章 中古文学", "ch2"], ["第三章 14—16世纪文学", "ch3"],
+    ["第四章 17世纪文学", "ch4"], ["第五章 18世纪文学", "ch5"]
   ]);
   const types = new Map([
     ["填空题", "fill"], ["名词解释", "term"], ["简答题", "short"], ["论述题", "essay"]
@@ -1264,6 +1333,189 @@ https://github.com/nodeca/pako/blob/main/LICENSE
   const chapterPattern = /^第[一二三四五六七八九十百零〇两\d]+章/u;
   const quizColors = new Set(["cyan", "blue", "darkCyan", "darkBlue"]);
   const redColors = new Set(["EE0000", "FF0000"]);
+  const numberedAnswer = /^[（(]\d+[）)]/u;
+
+  // Keep the same reviewed source corrections as tools/import_docx.py.
+  const sourceCorrections = {
+  "ch4-7d96b2de": {
+    "prompt": "★ 【巴洛克文学】产生原因：巴洛克的产生与________发动的________的________关系密切。",
+    "answer": "1. 罗马天主教会；2. 反宗教改革运动",
+    "field": "prompt",
+    "start": 40,
+    "end": 49,
+    "replacement": "",
+    "source": "04笔记第26段：巴洛克的产生与罗马天主教会发动的反宗教改革运动关系密切。"
+  },
+  "ch4-0c1de55d": {
+    "prompt": "★ 【古典主义】宣扬理性，要求________。要以理性去处理个人与国家利益、________和________的矛盾，因而________只能放在第二位。",
+    "answer": "1. 克制个人情欲；2. 家庭义务和荣誉观念；3. 爱情或情欲",
+    "field": "answer",
+    "start": 17,
+    "end": 24,
+    "replacement": "；3. 荣誉观念；4",
+    "source": "04笔记第59段，家庭义务、荣誉观念分别对应两空。"
+  },
+  "ch4-403b2213": {
+    "prompt": "★ 《________》在法国剧作中上演次数之最________",
+    "answer": "1. 伪君子",
+    "field": "prompt",
+    "start": 24,
+    "end": 32,
+    "replacement": "",
+    "source": "04笔记第175段：《伪君子》（1664——1669）：上演次数之最。"
+  },
+  "ch4-4153389b": {
+    "prompt": "★ 【《伪君子》】一个笃信天主教的巴黎富商________收留了一个假虔徒________________________名________在家 ，把他奉为________。",
+    "answer": "1. 奥尔恭；2. 答丢夫；3. 良心导师",
+    "field": "prompt",
+    "start": 45,
+    "end": 70,
+    "replacement": "",
+    "source": "04笔记第180段：奥尔恭收留假虔徒答丢夫，把他奉为良心导师。"
+  },
+  "ch4-1bc1337f": {
+    "prompt": "【答丢夫】掌握了他们以________为时髦的社会心理，把自己打扮成虔诚的信士，靠着他在贵族社会中养成的一套伪善手腕，用三分做作，七分奉承的________假虔诚骗取资产者奥尔恭的信任。",
+    "answer": "1. 宗教虔诚；",
+    "field": "prompt",
+    "start": 70,
+    "end": 78,
+    "replacement": "",
+    "source": "04笔记第205段：以宗教虔诚为时髦，用三分做作，七分奉承的假虔诚骗取信任。"
+  },
+  "ch4-68ab47da": {
+    "prompt": "________笔下的吝啬鬼________在哭喊他的银钱被女儿偷走时，还一口一个“我的女儿，我的银钱”，“我的银钱，我的女儿”，表现出他________的________复杂心理。",
+    "answer": "1. 莎士比亚；2. 夏洛克；3. 既心痛银钱又心痛女儿",
+    "field": "prompt",
+    "start": 78,
+    "end": 86,
+    "replacement": "",
+    "source": "04笔记第292段：表现出他既心痛银钱又心痛女儿的复杂心理。"
+  },
+  "ch5-7f3e4244": {
+    "prompt": "★ 意大利：也建立了很多________，它们的主要领导人都自称是________（________）的信徒和学生。",
+    "answer": "1. 启蒙团体；2. 法国启蒙运动思想家",
+    "field": "prompt",
+    "start": 41,
+    "end": 51,
+    "replacement": "",
+    "source": "05笔记第57段：领导人自称法国启蒙运动思想家的信徒和学生。"
+  },
+  "ch5-2926ec53": {
+    "prompt": "★ 第一，（ ________）________\n启蒙作家往往就是启蒙思想家和活动家。他们在作品中猛烈抨击封建制度和教会，热情宣传自由、平等、博爱思想，描绘理性王国蓝图。",
+    "answer": "鲜明的政治倾向",
+    "field": "prompt",
+    "start": 5,
+    "end": 16,
+    "replacement": "",
+    "source": "05笔记第69段：第一，鲜明的政治倾向。"
+  },
+  "ch5-09027f70": {
+    "prompt": "★ 第二，（ ________）________\n启蒙作家常常有意识地把自己的政治观点、哲学思想融入作品中，对生活进行分析、思索和评论，使作品带有寓意和象征性。",
+    "answer": "深厚的哲理色彩",
+    "field": "prompt",
+    "start": 5,
+    "end": 16,
+    "replacement": "",
+    "source": "05笔记第73段：第二，深厚的哲理色彩。"
+  },
+  "ch5-31a48291": {
+    "prompt": "★ 第三，（ ________）________\n狄德罗提出文学创作“要真实、要自然”的主张，为近代资产阶级文学指出了新的方向。",
+    "answer": "真实自然的创作风格",
+    "field": "prompt",
+    "start": 5,
+    "end": 16,
+    "replacement": "",
+    "source": "05笔记第76段：第三，真实自然的创作风格。"
+  },
+  "ch5-7a7f3edc": {
+    "prompt": "★ 第四，（ ________）________\n为了更好地宣传启蒙思想，启蒙作家摒弃了古典主义的清规戒律，创造了许多新的文学形式，",
+    "answer": "活泼多样的文学形式",
+    "field": "prompt",
+    "start": 5,
+    "end": 16,
+    "replacement": "",
+    "source": "05笔记第79段：第四，活泼多样的文学形式。"
+  },
+  "ch5-01755974": {
+    "prompt": "★ 【塞缪尔·理查生】他的小说集中描写________，以日常生活中的________（________）等问题为内容。他特别注意分析和描写________。",
+    "answer": "1. 一件事的始末；2. 婚姻、道德；3. 人物的情感和心理",
+    "field": "answer",
+    "start": 15,
+    "end": 20,
+    "replacement": "；3. 道德；4",
+    "source": "05笔记第120段：以日常生活中的婚姻、道德等问题为内容，分析人物的情感和心理。"
+  },
+  "ch5-27543273": {
+    "prompt": "★ 1719年，近60岁的笛福发表了第一部小说，世界上著名的冒险小说之一《________》。",
+    "answer": "1. 1719年；2. 鲁滨逊漂流记",
+    "field": "answer",
+    "start": 0,
+    "end": 12,
+    "replacement": "",
+    "source": "05笔记第145段：1719年已在题干给出，唯一作品空为《鲁滨逊漂流记》。"
+  },
+  "ch5-24d185d9": {
+    "prompt": "★ 【狄德罗】法国杰出的启蒙思想家、唯物主义哲学家和教育理论家。最大成就主编《________》。",
+    "answer": "百科全书\n2. 新兴资产阶级与反动势力进行斗争的理论阵地；3. 法国启蒙运动",
+    "field": "answer",
+    "start": 4,
+    "end": 38,
+    "replacement": "",
+    "source": "05笔记第233段：最大成就主编《百科全书》。后续旧答案项对应第234段，当前题干未留空。"
+  },
+  "ch5-2756ae97": {
+    "prompt": "★ 【卢梭启蒙思想的五部著作】《________》《________》《________》",
+    "answer": "《论人类不平等的起源和基础》；《社会契约论》；《爱弥儿》；《忏悔录》；《新爱洛伊丝》",
+    "field": "prompt",
+    "start": 45,
+    "end": 45,
+    "replacement": "《________》《________》",
+    "source": "原题明确写五部著作，原答案完整列出五部，补齐对应的两个作品名空格。"
+  },
+  "ch5-32bc43ff": {
+    "prompt": "【《新爱洛伊丝》】书名借自12世纪少女________和她的老师的爱情悲剧，小说的女主人公朱丽也与她的老师圣普乐相恋而未能如愿。",
+    "answer": "1. 爱洛依丝；2. 阿贝拉尔",
+    "field": "answer",
+    "start": 0,
+    "end": 15,
+    "replacement": "爱洛依丝",
+    "source": "05笔记第408段：少女爱洛依丝与老师阿贝拉尔；当前题干只留少女名字一空。"
+  },
+  "ch5-6fe21e7e": {
+    "prompt": "★ 【卢梭《一个孤独散步者的遐想》】________一部作品（地位）。",
+    "answer": "最后\n答案：1. 感伤情调；2. 罗曼·罗兰；3. 不屈不挠的精神",
+    "field": "answer",
+    "start": 2,
+    "end": 33,
+    "replacement": "",
+    "source": "05笔记第420段：最后一部作品。当前题干仅问作品地位，额外答案属于已删掉的其他空。"
+  },
+  "ch5-5087d610": {
+    "prompt": "★ 当歌德在韦茨拉尔的帝国最高法院实习期间，他结识了年轻的________，并爱上了她。",
+    "answer": "1. 韦茨拉尔；2. 夏洛特·布夫",
+    "field": "answer",
+    "start": 0,
+    "end": 11,
+    "replacement": "",
+    "source": "05笔记第467段：在韦茨拉尔实习，结识年轻的夏洛特·布夫。地点已经在题干给出。"
+  },
+  "ch5-42cd0254": {
+    "prompt": "★ ________：“《少年维特之烦恼》用艺术手法揭露了社会的全部腐败现象，指出了社会弊病中最深刻的根源。”",
+    "answer": "恩格斯\n、",
+    "field": "answer",
+    "start": 3,
+    "end": 5,
+    "replacement": "",
+    "source": "05笔记第505段确认为恩格斯的话，答案末尾独立顿号无对应内容。"
+  }
+};
+
+  function normalizeStyle(name) {
+    const question = name.match(/^第[一二三四五六七八九十]+章 (填空题|名词解释|简答题|论述题) (?:Normal|Heading [1-9])$/u);
+    if (question) return question[1] + "题干";
+    if (/^第[一二三四五六七八九十]+章 填空答案$/u.test(name)) return "填空题答案";
+    return name;
+  }
 
   function children(node, name) {
     return Array.from(node.children).filter(el => el.namespaceURI === W && el.localName === name);
@@ -1295,16 +1547,21 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     for (const run of p.getElementsByTagNameNS(W, "r")) {
       const properties = children(run, "rPr")[0];
       const start = raw.length;
+      let text = "";
       for (const node of run.children) {
         if (node.namespaceURI !== W) continue;
-        if (node.localName === "t") raw += node.textContent;
-        else if (node.localName === "tab") raw += "\t";
-        else if (node.localName === "br" || node.localName === "cr") raw += "\n";
+        if (node.localName === "t") text += node.textContent;
+        else if (node.localName === "tab") text += "\t";
+        else if (node.localName === "br" || node.localName === "cr") text += "\n";
       }
+      const underline = properties && children(properties, "u")[0];
+      if (underline && underline.getAttributeNS(W, "val") !== "none" && /^[ \u00a0\u2000-\u200a\u202f\u205f\u3000]+$/u.test(text)) text = "________";
+      raw += text;
       if (raw.length === start || !properties) continue;
       const value = name => children(properties, name)[0]?.getAttributeNS(W, "val");
       if (quizColors.has(value("highlight"))) mark("quizHighlights", start, raw.length);
       if (value("highlight") === "yellow") mark("yellowHighlights", start, raw.length);
+      if (children(properties, "shd")[0]?.getAttributeNS(W, "fill")?.toUpperCase() === "D9EFFF") mark("teacherHighlights", start, raw.length);
       if (redColors.has(value("color")?.toUpperCase())) mark("redText", start, raw.length);
       const bold = children(properties, "b")[0];
       if (bold && !["0", "false", "off"].includes(bold.getAttributeNS(W, "val"))) mark("boldText", start, raw.length);
@@ -1338,7 +1595,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     const styles = new Map();
     for (const style of stylesXML.getElementsByTagNameNS(W, "style")) {
       const name = children(style, "name")[0]?.getAttributeNS(W, "val") || "";
-      styles.set(style.getAttributeNS(W, "styleId"), name);
+      styles.set(style.getAttributeNS(W, "styleId"), normalizeStyle(name));
     }
     const body = documentXML.getElementsByTagNameNS(W, "body")[0];
     if (!body) throw new Error("文档缺少正文。");
@@ -1386,6 +1643,8 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     const questions = [];
     const sectionTitles = new Set(blocks.filter(b => sectionPattern.test(b.text || "") &&
       !questionStyles.has(b.style) && !answerStyles.has(b.style)).map(b => b.text));
+    const subheadings = new Set(blocks.filter(b => b.style?.toLowerCase() === "heading 3" &&
+      !numberedAnswer.test(b.text) && !answerPrefix.test(b.text)).map(b => b.text.replace(/^[★☆\s]+/u, "")));
     let type = "", mainSection = "", section = "", current = null, answering = false;
     let firstPromptLength = 0;
     function append(field, text, marks = {}) {
@@ -1393,6 +1652,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       const offset = current[field] ? current[field].length + 1 : 0;
       current[field] += (offset ? "\n" : "") + text;
       if (marks.quizHighlights) current.classQuiz = true;
+      if (marks.teacherHighlights) current.teacherFocus = true;
       for (const [kind, ranges] of Object.entries(marks)) {
         if (!current[kind]) current[kind] = {};
         const destination = current[kind][field] || (current[kind][field] = []);
@@ -1406,7 +1666,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
         const fullPrompt = current.prompt;
         current.prompt = fullPrompt.slice(0, firstPromptLength);
         current.answer = fullPrompt.slice(firstPromptLength + 1);
-        for (const kind of ["quizHighlights", "yellowHighlights", "redText", "boldText"]) {
+        for (const kind of ["quizHighlights", "yellowHighlights", "teacherHighlights", "redText", "boldText"]) {
           if (!current[kind]) continue;
           const ranges = current[kind].prompt || [];
           const prompt = sliceRanges(ranges, 0, firstPromptLength);
@@ -1448,10 +1708,11 @@ https://github.com/nodeca/pako/blob/main/LICENSE
         mainSection = section = text;
         continue;
       }
-      if (style.toLowerCase() === "heading 3") {
+      const subheading = text.replace(/^[★☆\s]+/u, "");
+      if (subheadings.has(subheading)) {
         finish();
         current = null;
-        section = [mainSection, text].filter(Boolean).join(" · ");
+        section = [mainSection, subheading].filter(Boolean).join(" · ");
         continue;
       }
       if (styleType && styleType !== type) {
@@ -1466,7 +1727,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
         continue;
       }
       const followedByAnswer = answerPrefix.test(blocks[idx + 1]?.text || "");
-      if (questionStyles.has(style) || followedByAnswer || !current) {
+      if (questionStyles.has(style) || (followedByAnswer && answering) || !current) {
         finish();
         current = {type, section, prompt:"", answer:"", paragraphId:block.paragraphId};
         firstPromptLength = text.length;
@@ -1528,6 +1789,30 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     }
   }
 
+  function applySourceCorrections(questions, chapterKey) {
+    for (const question of questions) {
+      const correction = sourceCorrections[chapterKey + "-" + question.paragraphId];
+      if (!correction || question.prompt !== correction.prompt || question.answer !== correction.answer) continue;
+      const {field, start, end, replacement} = correction;
+      question[field] = question[field].slice(0, start) + replacement + question[field].slice(end);
+      const change = replacement.length - (end - start);
+      for (const kind of ["quizHighlights", "yellowHighlights", "teacherHighlights", "redText", "boldText"]) {
+        const marks = question[kind];
+        if (!marks?.[field]) continue;
+        const revised = [];
+        for (let [left, right] of marks[field]) {
+          if (left > start) left = left >= end ? left + change : start;
+          if (right >= end) right += change;
+          else if (right >= start) right = start + replacement.length;
+          if (left < right) revised.push([left, right]);
+        }
+        if (revised.length) marks[field] = revised;
+        else delete marks[field];
+        if (!Object.keys(marks).length) delete question[kind];
+      }
+    }
+  }
+
   window.readChapterWord = async function readChapterWord(file, previousBank) {
     const blocks = await readBlocks(file);
     const chapter = identifyChapter(blocks);
@@ -1535,6 +1820,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       throw new Error(`这份 Word 是「${chapter}」，请在对应章节的题库管理中导入。`);
     }
     const questions = extract(blocks);
+    applySourceCorrections(questions, chapters.get(chapter));
     assignIds(questions, previousBank?.questions || [], chapters.get(chapter));
     return {chapter, questions};
   };
@@ -1552,7 +1838,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     // Use content as well as IDs so a published answer correction is detectable.
     const source = JSON.stringify(bank, [
       "chapter", "questions", "id", "type", "section", "prompt", "promptTable", "answer", "paragraphId",
-      "classQuiz", "quizHighlights", "yellowHighlights", "redText", "boldText"
+      "classQuiz", "quizHighlights", "yellowHighlights", "redText", "boldText", "teacherFocus", "teacherHighlights"
     ]);
     let hash = 2166136261;
     for (let i = 0; i < source.length; i++) hash = Math.imul(hash ^ source.charCodeAt(i), 16777619);
@@ -1581,7 +1867,8 @@ https://github.com/nodeca/pako/blob/main/LICENSE
         (q.section !== undefined && typeof q.section !== "string") ||
         (q.paragraphId !== undefined && typeof q.paragraphId !== "string") ||
         (q.classQuiz !== undefined && typeof q.classQuiz !== "boolean") ||
-        ![q.quizHighlights, q.yellowHighlights, q.redText, q.boldText].every(marks => validMarks(q, marks)) ||
+        (q.teacherFocus !== undefined && typeof q.teacherFocus !== "boolean") ||
+        ![q.quizHighlights, q.yellowHighlights, q.redText, q.boldText, q.teacherHighlights].every(marks => validMarks(q, marks)) ||
         (q.promptTable !== undefined && !(Array.isArray(q.promptTable) && q.promptTable.every(row =>
           Array.isArray(row) && row.every(cell => typeof cell === "string"))))) {
         throw new Error("题目编号、题干、答案或表格有误，原题库已保留。");
@@ -1926,8 +2213,8 @@ https://github.com/nodeca/pako/blob/main/LICENSE
 (function () {
   "use strict";
 
-  const prefix = "foreign-lit.course.shared.v3/";
-  const previousCoursePrefix = "foreign-lit.course.shared.v2/";
+  const prefix = "foreign-lit.course.shared.v4/";
+  const previousCoursePrefixes = ["foreign-lit.course.shared.v2/", "foreign-lit.course.shared.v3/"];
   const chapterOnePrefix = "foreign-lit.chapter-1.shared.v1/";
   const legacyPrefix = "foreign-lit.chapter-1.cloud.v1/";
   function randomId() {
@@ -2031,8 +2318,8 @@ https://github.com/nodeca/pako/blob/main/LICENSE
           const key = storage.key(i);
           const oldShared = key?.startsWith(chapterOnePrefix) &&
             /^(?:seen|pending\/[0-9a-f]{32})$/.test(key.slice(chapterOnePrefix.length));
-          const previousCourse = key?.startsWith(previousCoursePrefix) &&
-            /^(?:seen|pending\/[0-9a-f]{32})$/.test(key.slice(previousCoursePrefix.length));
+          const previousCourse = previousCoursePrefixes.some(oldPrefix => key?.startsWith(oldPrefix) &&
+            /^(?:seen|pending\/[0-9a-f]{32})$/.test(key.slice(oldPrefix.length)));
           const legacy = key?.startsWith(legacyPrefix) &&
             /^[^/]+\/(?:seen|pending\/[0-9a-f]{32})$/.test(key.slice(legacyPrefix.length));
           if (!oldShared && !previousCourse && !legacy) continue;
@@ -2234,7 +2521,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
 (function () {
   "use strict";
 
-  const endpoint = "https://literature-study-progress-cq.satiny-note-9705.chatgpt.site/v3/progress";
+  const endpoint = "https://literature-study-progress-cq.satiny-note-9705.chatgpt.site/v4/progress";
 
   async function request(data, leaving = false) {
     const controller = new AbortController();
@@ -2330,12 +2617,16 @@ https://github.com/nodeca/pako/blob/main/LICENSE
   const banks = {
     ch1: window.getLocalBank(window.QUESTION_BANK, "ch1"),
     ch2: window.getLocalBank(window.QUESTION_BANK_CH2, "ch2"),
-    ch3: window.getLocalBank(window.QUESTION_BANK_CH3, "ch3")
+    ch3: window.getLocalBank(window.QUESTION_BANK_CH3, "ch3"),
+    ch4: window.getLocalBank(window.QUESTION_BANK_CH4, "ch4"),
+    ch5: window.getLocalBank(window.QUESTION_BANK_CH5, "ch5")
   };
   const scopes = {
     ch1: {caption:"第一章", title:"上古文学"},
     ch2: {caption:"第二章", title:"中古文学"},
     ch3: {caption:"第三章", title:"14—16世纪文学"},
+    ch4: {caption:"第四章", title:"17世纪文学"},
+    ch5: {caption:"第五章", title:"18世纪文学"},
     all: {caption:"全部章节", title:"混合抽题"}
   };
   let sectionCounts = {};
@@ -2416,7 +2707,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     timer = setTimeout(() => { toast.hidden = true; }, 3600);
   }
 
-  const wordMarks = {quizHighlights:"word-quiz", yellowHighlights:"word-yellow", redText:"word-red", boldText:"word-bold"};
+  const wordMarks = {teacherHighlights:"word-teacher", quizHighlights:"word-quiz", yellowHighlights:"word-yellow", redText:"word-red", boldText:"word-bold"};
 
   function appendWordText(parent, q, field, start, end) {
     const text = q[field];
@@ -2531,6 +2822,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     $("draw-count").textContent = "第 " + Math.max(1, view.drawTimes) + " 次抽到";
     $("focus-tag").hidden = !/^\s*★/.test(q.prompt);
     $("quiz-tag").hidden = !q.classQuiz;
+    $("teacher-tag").hidden = !q.teacherFocus;
     const prompt = $("prompt");
     prompt.replaceChildren();
     const star = q.prompt.match(/^\s*★\s*/);
@@ -2607,7 +2899,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
         active = nextActive;
         try { localStorage.setItem(typeKey, active); } catch { /* Keep the current choice in memory. */ }
       }
-      if (!window.CloudModel.sameProgress(engine.exportProgress(), progress)) {
+      if (engine.legacyProgress() || !window.CloudModel.sameProgress(engine.exportProgress(), progress)) {
         engine.importProgress(progress, {allowMemoryFallback: true});
       }
       else render(true);
