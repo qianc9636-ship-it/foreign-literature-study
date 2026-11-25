@@ -259,7 +259,7 @@ dialog::backdrop{background:#33261d70}
   <div id="toast" class="toast" role="status" hidden></div>
   <script src="bank.js?v=86a8989f6b62"></script>
   <script src="bank-ch2.js?v=c822ceaf7e7a"></script>
-  <script src="bank-ch3.js?v=0ff3fc15723e"></script>
+  <script src="bank-ch3.js?v=a59d38f32548"></script>
   <script src="bank-ch4.js?v=5eb96a491a33"></script>
   <script src="bank-ch5.js?v=e1464642ec56"></script>
   <script src="bank-ch6.js?v=9d38b3dc9cd7"></script>
@@ -1424,6 +1424,25 @@ https://github.com/nodeca/pako/blob/main/LICENSE
   const types = new Map([
     ["填空题", "fill"], ["名词解释", "term"], ["简答题", "short"], ["论述题", "essay"]
   ]);
+  // Reviewed wording edits whose Word save also regenerated every paragraph ID.
+  const questionPromptAliases = {
+  "ch3": {
+    "short": {
+      "★ 简述人文主义思潮的思想内涵。": "★ 简述人文主义思潮的思想内涵及五项基本主张。"
+    },
+    "essay": {
+      "★ 结合《哈姆莱特》等作品，从情节结构、人物塑造、语言艺术、戏剧冲突、思想与舞台五方面论述莎士比亚戏剧的艺术特色。(老师提到艺术特色)": "★ 结合《哈姆莱特》等作品，从情节结构、人物塑造、语言艺术、戏剧冲突、思想与舞台五方面论述莎士比亚戏剧的艺术特色。"
+    }
+  }
+};
+  // This new question was first assigned a text ID before Word added a paragraph ID.
+  const questionCanonicalIds = {
+  "ch3": {
+    "essay": {
+      "★ 结合堂吉诃德与桑丘·潘沙的主仆对照，论述二人的理想与现实追求。如何理解堂吉诃德属于过去、桑丘·潘沙属于未来？": "ch3-essay-t3f420868"
+    }
+  }
+};
   const questionStyles = new Map([...types].map(([name, type]) => [name + "题干", type]));
   const answerStyles = new Map([...types].map(([name, type]) => [name + "答案", type]));
   const answerPrefix = /^(?:参考答案|答案)\s*[:：]\s*/u;
@@ -1732,6 +1751,15 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     "end": 18,
     "replacement": "",
     "source": "按题干可见空逐项核对：后续原答案内容已直接出现在题干，无对应空。只删除冗余项，保留所有实际填空答案。"
+  },
+  "ch3-605f0980": {
+    "prompt": "《________》为莎士比亚传奇剧代表。",
+    "answer": "1. 暴风雨；2. 宽恕、和解；3. 超自然力量",
+    "field": "answer",
+    "start": 6,
+    "end": 24,
+    "replacement": "",
+    "source": "03笔记第203段（40ABD737）与第382段（2CA31A69）均明确《暴风雨》是传奇剧代表作。题干仅有作品名一空，原答案后两项宽恕、和解与超自然力量无对应空，移除冗余项。"
   }
 };
 
@@ -1884,7 +1912,12 @@ https://github.com/nodeca/pako/blob/main/LICENSE
 
   function wordStyleContext(stylesXML) {
     const definitions = new Map([...stylesXML.getElementsByTagNameNS(W, "style")].map(node => [node.getAttributeNS(W, "styleId"), node]));
-    const properties = node => Object.fromEntries(wordChildren(node).filter(child => child.namespaceURI === W).map(child => [child.localName, Object.fromEntries([...child.attributes].filter(a => a.namespaceURI === W).map(a => [a.localName, a.value]))]));
+    const properties = node => {
+      const result = Object.fromEntries(wordChildren(node).filter(child => child.namespaceURI === W).map(child => [child.localName, Object.fromEntries([...child.attributes].filter(a => a.namespaceURI === W).map(a => [a.localName, a.value]))]));
+      const numPr = node && children(node, "numPr")[0];
+      if (numPr) result.numPr = Object.fromEntries([...numPr.children].filter(child => child.namespaceURI === W).map(child => [child.localName, child.getAttributeNS(W, "val") || ""]));
+      return result;
+    };
     const merge = (base, extra) => {
       const result = Object.fromEntries(Object.entries(base).map(([key, value]) => [key, {...value}]));
       for (const [key, values] of Object.entries(extra)) {
@@ -1919,11 +1952,11 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     return {properties, merge, base, resolve};
   }
 
-  function wordParagraphLayout(paragraph, context) {
+  function wordParagraphLayout(paragraph, context, numberingProperties = {}, label = null) {
     const {properties, merge} = context, paragraphProps = children(paragraph, "pPr")[0];
     const styleNode = paragraphProps && children(paragraphProps, "pStyle")[0];
     const inherited = context.resolve(styleNode ? styleNode.getAttributeNS(W, "val") : "Normal");
-    const p = merge(merge(context.base.pPr, inherited.pPr), properties(paragraphProps));
+    const p = merge(merge(merge(context.base.pPr, numberingProperties), inherited.pPr), properties(paragraphProps));
     const r = merge(context.base.rPr, inherited.rPr);
     const val = (data, key, attr = "val", fallback = null) => data[key]?.[attr] ?? fallback;
     const number = (value, fallback = 0) => value === null || value === undefined || value === "" || !Number.isFinite(Number(value)) ? fallback : Number(value);
@@ -1941,6 +1974,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       return result;
     };
     const style = characterStyle(r), size = style.fontSize || 12, layout = {...style};
+    if (label) layout.label = label;
     const align = {left:"left", start:"left", right:"right", end:"right", center:"center", both:"justify", distribute:"justify"}[val(p, "jc")];
     if (align) layout.align = align;
     const spacing = p.spacing || {}, ind = p.ind || {};
@@ -2046,6 +2080,38 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     return labels;
   }
 
+  function wordNumberingLayouts(documentXML, numbering, context) {
+    const layouts = new Map(); if (!numbering) return layouts;
+    const abstracts = new Map([...numbering.getElementsByTagNameNS(W, "abstractNum")].map(n => [n.getAttributeNS(W, "abstractNumId"), n]));
+    const numbers = new Map([...numbering.getElementsByTagNameNS(W, "num")].map(n => [n.getAttributeNS(W, "numId"), n]));
+    const counts = new Map();
+    for (const paragraph of documentXML.getElementsByTagNameNS(W, "p")) {
+      const ppr = children(paragraph, "pPr")[0], style = ppr && children(ppr, "pStyle")[0];
+      const inherited = context.resolve(style ? style.getAttributeNS(W, "val") : "Normal").pPr;
+      const effective = context.merge(context.merge(context.base.pPr, inherited), context.properties(ppr));
+      const numpr = effective.numPr || {}, numId = numpr.numId, level = numpr.ilvl || "0", number = numbers.get(numId);
+      if (!number || numId === "0") continue;
+      const reference = children(number, "abstractNumId")[0], abstract = abstracts.get(reference?.getAttributeNS(W, "val"));
+      let definition = abstract && children(abstract, "lvl").find(n => n.getAttributeNS(W, "ilvl") === level);
+      const override = children(number, "lvlOverride").find(n => n.getAttributeNS(W, "ilvl") === level);
+      if (override && children(override, "lvl")[0]) definition = children(override, "lvl")[0];
+      if (!definition) continue;
+      const template = children(definition, "lvlText")[0], form = children(definition, "numFmt")[0];
+      let start = children(definition, "start")[0];
+      if (!template) continue;
+      if (override && children(override, "startOverride")[0]) start = children(override, "startOverride")[0];
+      const key = numId + "|" + level, value = (counts.get(key) ?? Number(start?.getAttributeNS(W, "val") || "1") - 1) + 1;
+      counts.set(key, value); let valueText = String(value);
+      if (["japaneseCounting", "chineseCounting"].includes(form?.getAttributeNS(W, "val")) && value > 0 && value < 100) {
+        const digits = "零一二三四五六七八九";
+        valueText = value < 10 ? digits[value] : (value >= 20 ? digits[Math.floor(value / 10)] : "") + "十" + (value % 10 ? digits[value % 10] : "");
+      }
+      const label = (template.getAttributeNS(W, "val") || "").replace("%" + (Number(level) + 1), valueText);
+      layouts.set(paragraph, wordParagraphLayout(paragraph, context, context.properties(children(definition, "pPr")[0]), label));
+    }
+    return layouts;
+  }
+
   async function readBlocks(file) {
     let zip;
     try {
@@ -2059,6 +2125,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     const numbering = zip.file("word/numbering.xml") ? await readXML(zip, "word/numbering.xml") : null;
     const numberingLabels = wordNumberingLabels(documentXML, numbering);
     const layoutContext = wordStyleContext(stylesXML);
+    const numberedLayouts = wordNumberingLayouts(documentXML, numbering, layoutContext);
     const styles = new Map();
     for (const style of stylesXML.getElementsByTagNameNS(W, "style")) {
       const name = children(style, "name")[0]?.getAttributeNS(W, "val") || "";
@@ -2081,7 +2148,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
         const styleId = props && children(props, "pStyle")[0]?.getAttributeNS(W, "val");
         blocks.push({
           number, text, marks, style: styles.get(styleId) || "",
-          paragraphId: (node.getAttributeNS(W14, "paraId") || "").toLowerCase(), layout: wordParagraphLayout(node, layoutContext), sectionLabel: numberingLabels.get(node) || ""
+          paragraphId: (node.getAttributeNS(W14, "paraId") || "").toLowerCase(), layout: wordParagraphLayout(node, layoutContext), sectionLabel: numberingLabels.get(node) || "", numberedLayout: numberedLayouts.get(node) || null
         });
       } else if (node.getElementsByTagNameNS(W, "t").length) {
         throw new Error(`正文第 ${number} 处有暂不支持的内容结构，请检查 Word。`);
@@ -2127,7 +2194,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       if (!text) return;
       const offset = current[field] ? current[field].length + 1 : 0;
       current[field] += (offset ? "\n" : "") + text;
-      if (["ch1", "ch2"].includes(chapterKey) && layout) {
+      if (["ch1", "ch2", "ch3"].includes(chapterKey) && layout) {
         if (!current.wordLayout) current.wordLayout = {};
         if (!current.wordLayout[field]) current.wordLayout[field] = {paragraphs:[]};
         const p = {...layout, start:offset, end:offset + text.length};
@@ -2222,12 +2289,12 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       }
       if (!type) continue;
       const explicitQuestion = questionStyles.has(style);
-      const trustedQuestionStyle = ["ch1", "ch2"].includes(chapterKey) && explicitQuestion;
-      const mainHeading = ["ch1", "ch2"].includes(chapterKey) && style.toLowerCase() === "heading 2" && !answerPrefix.test(text) && !numberedAnswer.test(text);
+      const trustedQuestionStyle = ["ch1", "ch2", "ch3"].includes(chapterKey) && explicitQuestion;
+      const mainHeading = ["ch1", "ch2", "ch3"].includes(chapterKey) && style.toLowerCase() === "heading 2" && !answerPrefix.test(text) && !numberedAnswer.test(text);
       if (!trustedQuestionStyle && (sectionTitles.has(text) || mainHeading)) {
         finish();
         current = null;
-        mainSection = section = (["ch1", "ch2"].includes(chapterKey) && block.sectionLabel ? block.sectionLabel + " " : "") + text;
+        mainSection = section = (["ch1", "ch2", "ch3"].includes(chapterKey) && block.sectionLabel ? block.sectionLabel + " " : "") + text;
         continue;
       }
       const subheading = text.replace(/^[★☆\s]+/u, "");
@@ -2240,12 +2307,13 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       if (styleType && styleType !== type) {
         throw new Error(`正文第 ${block.number} 处题型与段落样式「${style}」不一致。`);
       }
+      const layout = (chapterKey === "ch3" ? block.numberedLayout : null) || block.layout;
       const marker = answerPrefix.test(text);
       if (answerStyles.has(style) || marker) {
         if (!current) throw new Error(`正文第 ${block.number} 处答案没有对应的题干。`);
         const line = marker && !answering ? text.replace(answerPrefix, "") : text;
         answering = true;
-        if (!line && marker && ["ch1", "ch2"].includes(chapterKey) && !current.answer && block.layout) {
+        if (!line && marker && ["ch1", "ch2", "ch3"].includes(chapterKey) && !current.answer && block.layout) {
           const label = {...block.layout, start:0, end:0, label:text.trim()};
           const first = block.layout.runs?.find(run => run.start === 0);
           if (first) Object.assign(label, Object.fromEntries(Object.entries(first).filter(([key]) => !["start", "end"].includes(key))));
@@ -2253,19 +2321,19 @@ https://github.com/nodeca/pako/blob/main/LICENSE
           if (!current.wordLayout) current.wordLayout = {};
           current.wordLayout.answer = {paragraphs:[label]};
         }
-        append("answer", line, sliceMarks(block.marks, text.length - line.length, text.length), sliceWordParagraph(block.layout, text.length - line.length, text.length));
+        append("answer", line, sliceMarks(block.marks, text.length - line.length, text.length), sliceWordParagraph(layout, text.length - line.length, text.length));
         continue;
       }
       const followedByAnswer = answerPrefix.test(blocks[idx + 1]?.text || "");
-      const bodyQuestion = ["ch1", "ch2"].includes(chapterKey) && ["short", "essay"].includes(type) && /^[★☆]\s*(?:简述|试述|试论|论述|比较|结合|列举)/u.test(text);
+      const bodyQuestion = ["ch1", "ch2", "ch3"].includes(chapterKey) && ["short", "essay"].includes(type) && /^[★☆]\s*(?:简述|试述|试论|论述|比较|结合|列举)/u.test(text);
       const continuesLabel = current && type === "fill" && !answering && labelOnly.test(current.prompt);
       if (!continuesLabel && (explicitQuestion || bodyQuestion || (followedByAnswer && answering) || !current)) {
         finish();
         current = {type, section, prompt:"", answer:"", paragraphId:block.paragraphId};
         firstPromptLength = text.length;
-        append("prompt", text, block.marks, block.layout);
+        append("prompt", text, block.marks, layout);
         answering = false;
-      } else append(answering ? "answer" : "prompt", text, block.marks, block.layout);
+      } else append(answering ? "answer" : "prompt", text, block.marks, layout);
     }
     finish();
     const missing = [...types].filter(([, key]) => !questions.some(q => q.type === key));
@@ -2304,7 +2372,12 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       }
       for (const q of questions) {
         if (q.id) continue;
-        const available = (candidates.get(keyOf(q)) || []).filter(id => !used.has(id));
+        let lookup = keyOf(q);
+        if (keyOf === keyFunctions[0] && !candidates.has(lookup)) {
+          const previousPrompt = questionPromptAliases[chapterKey]?.[q.type]?.[q.prompt];
+          if (previousPrompt) lookup = keyOf({...q, prompt:previousPrompt});
+        }
+        const available = (candidates.get(lookup) || []).filter(id => !used.has(id));
         if (available.length === 1) {
           q.id = available[0];
           used.add(q.id);
@@ -2313,7 +2386,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     }
     for (const q of questions) {
       if (q.id) continue;
-      const base = `${chapterKey}-${q.type}-${q.paragraphId || textToken(normalizedText(q))}`;
+      const base = questionCanonicalIds[chapterKey]?.[q.type]?.[q.prompt] || `${chapterKey}-${q.type}-${q.paragraphId || textToken(normalizedText(q))}`;
       let id = base, occurrence = 1;
       while (used.has(id)) id = base + "-" + ++occurrence;
       q.id = id;
@@ -2335,7 +2408,8 @@ https://github.com/nodeca/pako/blob/main/LICENSE
           }
         }
       }
-      const correction = sourceCorrections[chapterKey + "-" + question.paragraphId];
+      const correction = sourceCorrections[chapterKey + "-" + question.paragraphId] || (chapterKey === "ch3" ?
+        Object.entries(sourceCorrections).find(([key, entry]) => key.startsWith("ch3-") && question.prompt === entry.prompt && question.answer === entry.answer)?.[1] : undefined);
       if (!correction || question.prompt !== correction.prompt || question.answer !== correction.answer) continue;
       if (correction.section !== undefined && question.section !== correction.section) continue;
       const {field, start, end, replacement} = correction;
@@ -3443,6 +3517,13 @@ https://github.com/nodeca/pako/blob/main/LICENSE
         label.className = "word-label";
         label.textContent = paragraph.label + "\u00a0";
         applyWordStyle(label, {underline:paragraph.underline, strike:paragraph.strike});
+        if (paragraph.firstLine < 0) {
+          // Numbered Word paragraphs reserve the hanging indent as a tab stop.
+          // Keep the first line's text aligned with the wrapped lines.
+          label.style.display = "inline-block";
+          label.style.textIndent = "0";
+          label.style.width = label.style.minWidth = -paragraph.firstLine + "em";
+        }
         p.append(label);
       }
       const from = Math.max(start, paragraph.start);

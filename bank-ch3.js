@@ -5,7 +5,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 文艺复兴的概念与三次思想文化运动",
       "prompt": "★ 文艺复兴发生在________，首先在________产生，然后在欧洲其他国家相继发展起来。",
-      "paragraphId": "317e2688",
+      "paragraphId": "1fd1a411",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "1.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 48
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 21
+            }
+          ]
+        }
+      },
       "answer": "1. 14世纪到17世纪初期；2. 意大利",
       "id": "ch3-fill-317e2688"
     },
@@ -13,7 +47,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 文艺复兴的概念与三次思想文化运动",
       "prompt": "★ 西欧近代三大思想解放运动依次是________、________、________。",
-      "paragraphId": "3e0cfba9",
+      "paragraphId": "518955e6",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "2.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 44
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        }
+      },
       "answer": "1. 文艺复兴；2. 宗教改革；3. 启蒙运动",
       "id": "ch3-fill-3e0cfba9"
     },
@@ -21,7 +89,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 文艺复兴的概念与三次思想文化运动",
       "prompt": "★ “文艺复兴”中所谓“复兴”，其对象是________。",
-      "paragraphId": "35bd747c",
+      "paragraphId": "55beb4aa",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "3.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 29
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        }
+      },
       "answer": "古希腊、古罗马的文学艺术",
       "id": "ch3-fill-35bd747c"
     },
@@ -29,7 +131,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 文艺复兴的概念与三次思想文化运动",
       "prompt": "★ 16世纪欧洲新兴资产阶级发动、主要反对教皇通过教会进行控制以及天主教会骄奢腐化的大规模反封建社会政治运动称为________。",
-      "paragraphId": "33231fa5",
+      "paragraphId": "119c9ec9",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "4.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 65
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      },
       "answer": "宗教改革",
       "id": "ch3-fill-33231fa5"
     },
@@ -37,7 +173,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 文艺复兴的概念与三次思想文化运动",
       "prompt": "★ 就运动性质而言，文艺复兴是中世纪后期的________，宗教改革是反封建的________。",
-      "paragraphId": "418c8328",
+      "paragraphId": "2a05627e",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "5.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 48
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 19
+            }
+          ]
+        }
+      },
       "answer": "1. 思想文化运动；2. 社会政治运动",
       "id": "ch3-fill-418c8328"
     },
@@ -45,7 +215,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 文艺复兴的概念与三次思想文化运动",
       "prompt": "★ 宗教改革的领袖________提出，________是信仰的最高权威，不承认教皇和教会有解释教义的绝对权力。",
-      "paragraphId": "2c47359e",
+      "paragraphId": "401e23ed",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "6.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 56
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 16
+            }
+          ]
+        }
+      },
       "answer": "1. 马丁·路德；2. 《圣经》",
       "id": "ch3-fill-2c47359e"
     },
@@ -53,7 +257,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 文艺复兴的概念与三次思想文化运动",
       "prompt": "★ 三次思想文化运动中，文艺复兴被概括为“________”，宗教改革被概括为“________”，启蒙运动被概括为“________”。",
-      "paragraphId": "5cf758f4",
+      "paragraphId": "5b0bcfa6",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "7.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 69
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 25
+            }
+          ]
+        }
+      },
       "answer": "1. 人的发现；2. 信仰的重构；3. 理性的解放",
       "id": "ch3-fill-5cf758f4"
     },
@@ -61,7 +299,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 文艺复兴的概念与三次思想文化运动",
       "prompt": "★ 从人的权利、生活态度和知识三个方面概括，文艺复兴的口号可简记为________、________、________。",
-      "paragraphId": "136b20d3",
+      "paragraphId": "35d1ddbf",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "8.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 60
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 25
+            }
+          ]
+        }
+      },
       "answer": "1. 人权至上；2. 反对禁欲；3. 理性（知识）",
       "id": "ch3-fill-136b20d3"
     },
@@ -69,7 +341,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 文艺复兴的概念与三次思想文化运动",
       "prompt": "宗教改革强调________、简化仪式、民族教会、个人判断；启蒙运动则以________重审政治、宗教和社会秩序。",
-      "paragraphId": "462495dd",
+      "paragraphId": "322f293b",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "9.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 57
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 因信称义；2. 理性与自然法",
       "id": "ch3-fill-462495dd"
     },
@@ -77,7 +383,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 文艺复兴的概念与三次思想文化运动",
       "prompt": "三次思想文化运动依次关注人的价值、________、________，共同主线是“________”。",
-      "paragraphId": "0e96638f",
+      "paragraphId": "793490fa",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "10.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 51
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 25
+            }
+          ]
+        }
+      },
       "answer": "1. 个体信仰；2. 理性与社会；3. 个体的崛起",
       "id": "ch3-fill-0e96638f"
     },
@@ -85,7 +425,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 文艺复兴的概念与三次思想文化运动",
       "prompt": "文艺复兴、宗教改革、启蒙运动之间的逻辑递进可概括为“________→________→________”。",
-      "paragraphId": "5e187057",
+      "paragraphId": "63d874f5",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "11.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 54
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        }
+      },
       "answer": "1. 价值肯定；2. 信仰自主；3. 社会重构",
       "id": "ch3-fill-5e187057"
     },
@@ -93,7 +467,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 文艺复兴运动产生的原因",
       "prompt": "意大利最早产生________，商业城市兴起、手工工场发展、经济繁荣，是文艺复兴运动产生的________。",
-      "paragraphId": "6fc30dfa",
+      "paragraphId": "0301ca8c",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "12.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 54
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 资本主义萌芽；2. 物质基础",
       "id": "ch3-fill-6fc30dfa"
     },
@@ -101,7 +509,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 文艺复兴运动产生的原因",
       "prompt": "从阶级基础看，文艺复兴时期壮大的________要求以________为根本、以________为理想的文化。",
-      "paragraphId": "2580e1bc",
+      "paragraphId": "5b8dfb16",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "13.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 55
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 25
+            }
+          ]
+        }
+      },
       "answer": "1. 新兴资产阶级；2. 世俗生活；3. 现世政治",
       "id": "ch3-fill-2580e1bc"
     },
@@ -109,7 +551,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 文艺复兴运动产生的原因",
       "prompt": "★ 意大利相对邻近________，较早接受了________、________等技术，促进先进知识传播。",
-      "paragraphId": "29575b23",
+      "paragraphId": "51be251e",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "14.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 53
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 19
+            }
+          ]
+        }
+      },
       "answer": "1. 东方；2. 造纸术；3. 印刷术",
       "id": "ch3-fill-29575b23"
     },
@@ -117,7 +593,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 文艺复兴运动产生的原因",
       "prompt": "文艺复兴产生的深层原因之一，是教会严格控制思想，激起________的不满；教廷腐败、分裂和________削弱其权威。",
-      "paragraphId": "77f090ee",
+      "paragraphId": "2ce5f78f",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "15.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 60
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 18
+            }
+          ]
+        }
+      },
       "answer": "1. 资产阶级与平民；2. 异端纷争",
       "id": "ch3-fill-77f090ee"
     },
@@ -125,7 +635,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 佛罗伦萨、美第奇家族与代表人物",
       "prompt": "★ 意大利资本主义萌芽较早、商业发达的代表城市是________和________。",
-      "paragraphId": "67df2956",
+      "paragraphId": "7f698268",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "16.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 42
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 14
+            }
+          ]
+        }
+      },
       "answer": "1. 佛罗伦萨；2. 威尼斯",
       "id": "ch3-fill-67df2956"
     },
@@ -133,7 +677,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 佛罗伦萨、美第奇家族与代表人物",
       "prompt": "★ 佛罗伦萨15世纪至18世纪中期在欧洲拥有强大势力、曾网罗并资助艺术家的名门望族是________。",
-      "paragraphId": "2007bf73",
+      "paragraphId": "1de8bab7",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "17.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 51
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "美第奇家族",
       "id": "ch3-fill-2007bf73"
     },
@@ -141,7 +719,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 佛罗伦萨、美第奇家族与代表人物",
       "prompt": "洛伦佐·美第奇注意到14岁的________的才能，让他出入宫殿、观摩艺术品。",
-      "paragraphId": "021b0b85",
+      "paragraphId": "026d5e88",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "18.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 39
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "米开朗基罗",
       "id": "ch3-fill-021b0b85"
     },
@@ -149,7 +761,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 佛罗伦萨、美第奇家族与代表人物",
       "prompt": "★ 佛罗伦萨文坛“三杰”指________、________、________。",
-      "paragraphId": "20e4a1d2",
+      "paragraphId": "260e31af",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "19.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 40
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 20
+            }
+          ]
+        }
+      },
       "answer": "1. 但丁；2. 彼特拉克；3. 薄伽丘",
       "id": "ch3-fill-20e4a1d2"
     },
@@ -157,7 +803,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 佛罗伦萨、美第奇家族与代表人物",
       "prompt": "★ 文艺复兴“艺术三杰”指________、________、________。",
-      "paragraphId": "4758c8f8",
+      "paragraphId": "2e4ce15f",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "20.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 40
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        }
+      },
       "answer": "1. 达·芬奇；2. 拉斐尔；3. 米开朗基罗",
       "id": "ch3-fill-4758c8f8"
     },
@@ -165,7 +845,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 佛罗伦萨、美第奇家族与代表人物",
       "prompt": "★ 既是“中世纪的最后一位诗人”又是“新时代的最初一位诗人”的是________，他的代表作为《________》。",
-      "paragraphId": "2fe3103e",
+      "paragraphId": "745e78fc",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "21.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 58
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 11
+            }
+          ]
+        }
+      },
       "answer": "1. 但丁；2. 神曲",
       "id": "ch3-fill-2fe3103e"
     },
@@ -173,7 +887,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 佛罗伦萨、美第奇家族与代表人物",
       "prompt": "把艺术创作与科学探索结合起来、创造完美生动的人物形象的是________；深刻批判封建道德伦理和社会陋习的英国文学巨匠是________。",
-      "paragraphId": "632e9827",
+      "paragraphId": "2a4ae6c2",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "22.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 69
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 达·芬奇；2. 莎士比亚",
       "id": "ch3-fill-632e9827"
     },
@@ -181,7 +929,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 佛罗伦萨、美第奇家族与代表人物",
       "prompt": "达·芬奇表现耶稣宣布将被出卖时十二门徒反应的作品是《________》。出卖耶稣的是________，双方约定的辨认信号是________。",
-      "paragraphId": "65a0d9ee",
+      "paragraphId": "496ecfd6",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "23.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 70
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 20
+            }
+          ]
+        }
+      },
       "answer": "1. 最后的晚餐；2. 犹大；3. 亲吻",
       "id": "ch3-fill-65a0d9ee"
     },
@@ -189,7 +971,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 佛罗伦萨、美第奇家族与代表人物",
       "prompt": "★ 达·芬奇描绘女性形象、反映文艺复兴时期对女性美的审美理念与追求的代表作是《________》。",
-      "paragraphId": "255c07c8",
+      "paragraphId": "0c2a3750",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "24.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 49
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      },
       "answer": "蒙娜丽莎",
       "id": "ch3-fill-255c07c8"
     },
@@ -197,7 +1013,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 佛罗伦萨、美第奇家族与代表人物",
       "prompt": "米开朗基罗展现人体神圣美的男性人体雕像是《________》。",
-      "paragraphId": "4ec6222d",
+      "paragraphId": "61215a76",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "25.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 31
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      },
       "answer": "1. 大卫；",
       "id": "ch3-fill-4ec6222d"
     },
@@ -205,7 +1055,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 人文主义思想内涵",
       "prompt": "★ 文艺复兴的口号是________。",
-      "paragraphId": "3dd58193",
+      "paragraphId": "60c9470c",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "26.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 19
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 8
+            }
+          ]
+        }
+      },
       "answer": "1. 人文主义；",
       "id": "ch3-fill-3dd58193"
     },
@@ -213,7 +1097,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 人文主义思想内涵",
       "prompt": "★ 人文主义五项基本主张中，与反对神权相对应的是________，与反对禁欲相对应的是________。",
-      "paragraphId": "0202e05d",
+      "paragraphId": "3094d420",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "27.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 52
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 主张人权；2. 宣扬个性解放",
       "id": "ch3-fill-0202e05d"
     },
@@ -221,7 +1139,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 人文主义思想内涵",
       "prompt": "★ 人文主义反对等级观念，________；反对蒙昧，________。",
-      "paragraphId": "3b83d3eb",
+      "paragraphId": "3fbd5367",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "28.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 36
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 追求自由平等；2. 崇尚理性",
       "id": "ch3-fill-3b83d3eb"
     },
@@ -229,7 +1181,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 人文主义思想内涵",
       "prompt": "★ 人文主义政治主张是“拥护________，主张________”；",
-      "paragraphId": "1a4ceaca",
+      "paragraphId": "67625729",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "29.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 35
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 君主立宪制；2. 国家统一；",
       "id": "ch3-fill-1a4ceaca"
     },
@@ -237,7 +1223,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 文艺复兴运动的历史价值",
       "prompt": "将文艺复兴称为“一个需要巨人而且产生了巨人”的时代的是________。文艺复兴运动标志着________的开端。",
-      "paragraphId": "12968066",
+      "paragraphId": "78bdbbe8",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "30.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 57
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 恩格斯；2. 欧洲近代史",
       "id": "ch3-fill-12968066"
     },
@@ -245,7 +1265,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 人文主义文学的特点",
       "prompt": "★ 文艺复兴时期的欧洲新兴文学以________为内容，因而被称为________。",
-      "paragraphId": "551cb1ba",
+      "paragraphId": "751bb1f7",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "31.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 42
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 19
+            }
+          ]
+        }
+      },
       "answer": "1. 人文主义思想；2. 人文主义文学",
       "id": "ch3-fill-551cb1ba"
     },
@@ -253,7 +1307,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 人文主义文学的特点",
       "prompt": "★ 【人文主义文学的特点1】人文主义文学在思想倾向上具有鲜明的________色彩，薄伽丘的《________》是笔记所举的例子。",
-      "paragraphId": "19409166",
+      "paragraphId": "5c49f1cb",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "32.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 65
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 19
+            }
+          ]
+        }
+      },
       "answer": "1. 反天主教会、反封建；2. 十日谈",
       "id": "ch3-fill-19409166"
     },
@@ -261,7 +1349,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 人文主义文学的特点",
       "prompt": "★ 【人文主义文学的特点2】创作手法的写实性。人文主义文学在创作方法上主要采用________，提倡“________”，表现生动活泼的________。",
-      "paragraphId": "7039b986",
+      "paragraphId": "4519d360",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "33.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 77
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        }
+      },
       "answer": "1. 现实主义；2. 摹仿自然；3. 写实精神",
       "id": "ch3-fill-7039b986"
     },
@@ -269,7 +1391,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 人文主义文学的特点",
       "prompt": "★ 【人文主义文学的特点2】人文主义文学摒弃中古________、________和________的手法。",
-      "paragraphId": "1c77a9e0",
+      "paragraphId": "3e89cf13",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "34.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 54
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 梦幻；2. 寓意；3. 象征",
       "id": "ch3-fill-1c77a9e0"
     },
@@ -277,7 +1433,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 人文主义文学的特点",
       "prompt": "★ 人文主义文学主张各民族采用________写作，反映________。但丁阐述俗语问题的作品是《________》。",
-      "paragraphId": "230913a5",
+      "paragraphId": "0cf65fb5",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "35.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 60
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        }
+      },
       "answer": "1. 本民族语言；2. 民族生活；3. 论俗语",
       "id": "ch3-fill-230913a5"
     },
@@ -285,7 +1475,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 人文主义文学的特点",
       "prompt": "★ 【人文主义文学的特点3】人文主义文学在反映民族生活方面则表现为“民族意识的觉醒与________”。",
-      "paragraphId": "69075329",
+      "paragraphId": "56477206",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "36.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 52
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      },
       "answer": "民族性的追求",
       "id": "ch3-fill-69075329"
     },
@@ -293,7 +1517,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 人文主义文学的特点",
       "prompt": "★ 人文主义文学的体裁领域扩大，抒情诗、叙事诗、戏剧等继续成熟，________、________等获得发展。尤其是________发端于这一时期。",
-      "paragraphId": "1266906b",
+      "paragraphId": "078f13cf",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "37.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 74
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 26
+            }
+          ]
+        }
+      },
       "answer": "1. 十四行诗；2. 框架式短篇小说；3. 长篇小说",
       "id": "ch3-fill-1266906b"
     },
@@ -301,7 +1559,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 人文主义文学的总体评价与发展分期",
       "prompt": "★ 人文主义文学进步性是在当时沉重打击了________。其局限在于作家所肯定的“人”“人性”掩盖了人的________。",
-      "paragraphId": "11d77ca2",
+      "paragraphId": "65babd2f",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "38.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 61
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 27
+            }
+          ]
+        }
+      },
       "answer": "1. 封建神学体系和僧侣文学；2. 社会属性和阶级属性",
       "id": "ch3-fill-11d77ca2"
     },
@@ -309,7 +1601,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 人文主义文学的总体评价与发展分期",
       "prompt": "★ 人文主义文学早期是________，主要成就在________，强调________。",
-      "paragraphId": "1118b96c",
+      "paragraphId": "25ae1894",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "39.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 45
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 37
+            }
+          ]
+        }
+      },
       "answer": "1. 14世纪初—15世纪中叶；2. 意大利；3. 个性解放及享受世俗生活",
       "id": "ch3-fill-1118b96c"
     },
@@ -317,7 +1643,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 人文主义文学的总体评价与发展分期",
       "prompt": "★ 人文主义文学中期是________，主要成就在________，着力描绘________。",
-      "paragraphId": "7610262b",
+      "paragraphId": "2bec560a",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "40.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 47
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 35
+            }
+          ]
+        }
+      },
       "answer": "1. 15世纪下半叶—16世纪上半叶；2. 法国；3. 巨人的思想行动",
       "id": "ch3-fill-7610262b"
     },
@@ -325,7 +1685,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 人文主义文学的总体评价与发展分期",
       "prompt": "★ 人文主义文学后期是________，主要成就在________，探讨________。",
-      "paragraphId": "4c56d80e",
+      "paragraphId": "2f517465",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "41.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 45
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 47
+            }
+          ]
+        }
+      },
       "answer": "1. 16世纪下半叶—17世纪初；2. 西班牙和英国；3. 由于人性的弱点所造成的社会丑恶现象",
       "id": "ch3-fill-4c56d80e"
     },
@@ -333,7 +1727,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 意大利文学",
       "prompt": "★ 被称为“人文主义之父”的意大利诗人是________。",
-      "paragraphId": "391c4c53",
+      "paragraphId": "5e28ffbc",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "42.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 29
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      },
       "answer": "彼特拉克",
       "id": "ch3-fill-391c4c53"
     },
@@ -341,7 +1769,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 意大利文学",
       "prompt": "★ 彼特拉克的代表作是意大利语抒情诗集《________》，继承“________”诗派传统，采用________。",
-      "paragraphId": "245b09a3",
+      "paragraphId": "060dd5d6",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "43.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 58
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        }
+      },
       "answer": "1. 歌集；2. 温柔的新体；3. 十四行诗体",
       "id": "ch3-fill-245b09a3"
     },
@@ -349,7 +1811,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 意大利文学",
       "prompt": "★ ________以1348佛罗伦萨的瘟疫为背景，历时五年写成《________》。",
-      "paragraphId": "7e6211e3",
+      "paragraphId": "006c52c3",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "44.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 43
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 8
+            }
+          ]
+        }
+      },
       "answer": "薄伽丘； 十日谈",
       "id": "ch3-fill-7e6211e3"
     },
@@ -357,7 +1853,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 意大利文学",
       "prompt": "★ 《十日谈》为“________”，其主题是________。",
-      "paragraphId": "47a13062",
+      "paragraphId": "2f4b0395",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "45.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 32
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 35
+            }
+          ]
+        }
+      },
       "answer": "1. 欧洲文学史上第一部现实主义著作；2. 反禁欲主义、反教会、反封建",
       "id": "ch3-fill-47a13062"
     },
@@ -365,7 +1895,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 意大利文学",
       "prompt": "★ 《十日谈》开欧洲近代________的先河，影响了英国乔叟的《________》与法国那伐尔的《________》。",
-      "paragraphId": "193f4c8b",
+      "paragraphId": "6c4b77ba",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "46.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 60
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 25
+            }
+          ]
+        }
+      },
       "answer": "1. 短篇小说；2. 坎特伯雷故事集；3. 七日谈",
       "id": "ch3-fill-193f4c8b"
     },
@@ -373,7 +1937,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 意大利文学",
       "prompt": "★ 【《十日谈》艺术特色】《十日谈》体现中世纪短篇小说特色，以________见长；结构上借鉴《________》编制故事的方法，即________；还运用________。",
-      "paragraphId": "344ca134",
+      "paragraphId": "0c8765bd",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "47.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 87
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 36
+            }
+          ]
+        }
+      },
       "answer": "1. 情节铺述；2. 一千零一夜；3. 大故事套小故事；4. 夸张和讽刺",
       "id": "ch3-fill-344ca134"
     },
@@ -381,7 +1979,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 法国文学",
       "prompt": "★ 法国人文主义运动开始于________，自始至终存在________两种倾向。",
-      "paragraphId": "1d7330fc",
+      "paragraphId": "6a697c4e",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "48.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 41
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 15世纪末；2. 贵族与平民",
       "id": "ch3-fill-1d7330fc"
     },
@@ -389,7 +2021,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 法国文学",
       "prompt": "★ 法国人文主义文学中，代表贵族倾向的诗社是________，由七位人文主义诗人组成。其中心人物为 ________。",
-      "paragraphId": "7762fb04",
+      "paragraphId": "0eee07ee",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "49.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 59
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 14
+            }
+          ]
+        }
+      },
       "answer": "1. 七星诗社；2. 龙沙；",
       "id": "ch3-fill-7762fb04"
     },
@@ -397,7 +2063,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 法国文学",
       "prompt": "★ 1549年________发表《________》，代表七星诗社主张用________写作、推崇古代诗歌格律。",
-      "paragraphId": "0842ed3f",
+      "paragraphId": "55462061",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "50.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 57
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 26
+            }
+          ]
+        }
+      },
       "answer": "1. 杜倍雷；2. 保卫与发扬法兰西语言；3. 法语",
       "id": "ch3-fill-0842ed3f"
     },
@@ -405,7 +2105,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 法国文学",
       "prompt": "★ 法国文艺复兴时期代表平民倾向、创作《巨人传》的作家是________。",
-      "paragraphId": "2a944e02",
+      "paragraphId": "1db1aff5",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "51.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 37
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      },
       "answer": "拉伯雷",
       "id": "ch3-fill-2a944e02"
     },
@@ -413,7 +2147,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 法国文学",
       "prompt": "★ 拉伯雷的《________》讲述两代巨人国王________及其儿子________的事迹，写到远渡重洋寻访智慧源泉“________”。",
-      "paragraphId": "7da37a3a",
+      "paragraphId": "653e7e6b",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "52.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 71
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 27
+            }
+          ]
+        }
+      },
       "answer": "1. 巨人传；2. 高康大；3. 庞大固埃；4. 神瓶",
       "id": "ch3-fill-7da37a3a"
     },
@@ -421,7 +2189,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 法国文学",
       "prompt": "★ 《巨人传》肯定人、人性和________，特别痛斥天主教毒害儿童的________。",
-      "paragraphId": "076edd63",
+      "paragraphId": "63264a52",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "53.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 44
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 16
+            }
+          ]
+        }
+      },
       "answer": "1. 人的创造力；2. 经院教育",
       "id": "ch3-fill-076edd63"
     },
@@ -429,7 +2231,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 法国文学",
       "prompt": "《巨人传》中，高康大接受旧式教育后越学越蠢，后来学习新知识才聪明起来，强调了________的重要；巨人纵情享乐则体现________。",
-      "paragraphId": "1be2b3a6",
+      "paragraphId": "0310b8d1",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "54.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 68
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 26
+            }
+          ]
+        }
+      },
       "answer": "1. 人文主义教育和知识；2. 对人及世俗生活的肯定",
       "id": "ch3-fill-1be2b3a6"
     },
@@ -437,7 +2273,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 法国文学",
       "prompt": "★ 拉伯雷的人文主义“理想国”是________，创立者是________。",
-      "paragraphId": "5e1601d1",
+      "paragraphId": "0d152ff9",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "55.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 38
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 特莱美修道院；2. 约翰修士",
       "id": "ch3-fill-5e1601d1"
     },
@@ -445,7 +2315,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 西班牙文学",
       "prompt": "★ 西班牙的________和________（两种文学类型）畸形繁荣，是人文主义文学带来了西班牙文学史上的“________”。",
-      "paragraphId": "68baf003",
+      "paragraphId": "34c66dc3",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "56.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 65
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 24
+            }
+          ]
+        }
+      },
       "answer": "1. 流浪汉小说；2. 骑士文学；3. 黄金时代",
       "id": "ch3-fill-68baf003"
     },
@@ -453,7 +2357,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 西班牙文学",
       "prompt": "★ 16世纪在________开始流行、以流浪汉为主人公和题材，以城市下层生活为中心、从下层人物角度观察分析社会丑恶的小说类型是________。",
-      "paragraphId": "38becb8d",
+      "paragraphId": "762708ff",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "57.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 73
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 西班牙；2. 流浪汉小说",
       "id": "ch3-fill-38becb8d"
     },
@@ -461,7 +2399,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 西班牙文学",
       "prompt": "流浪汉小说以________为形式，风格________，语言________。",
-      "paragraphId": "61c2d90f",
+      "paragraphId": "234d9bcf",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "58.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 40
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 24
+            }
+          ]
+        }
+      },
       "answer": "1. 人物流浪史；2. 幽默俏皮；3. 简洁流畅",
       "id": "ch3-fill-61c2d90f"
     },
@@ -469,7 +2441,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 西班牙文学",
       "prompt": "★ 最早的西班牙流浪汉小说是1554年的《________》，作者________；教材又题为《________》。",
-      "paragraphId": "327827aa",
+      "paragraphId": "1f96aaf2",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "59.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 58
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 25
+            }
+          ]
+        }
+      },
       "answer": "1. 小癞子；2. 佚名；3. 托美思河的小拉撒路",
       "id": "ch3-fill-327827aa"
     },
@@ -477,7 +2483,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 西班牙文学",
       "prompt": "16世纪中叶，西班牙经济开始衰落，________破产，沦为________，流浪汉小说就是在这样一种社会状况下产生的。",
-      "paragraphId": "165e26f0",
+      "paragraphId": "2059f79f",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "60.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 60
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 20
+            }
+          ]
+        }
+      },
       "answer": "1. 大批农民、手工业者；2. 无业游民",
       "id": "ch3-fill-165e26f0"
     },
@@ -485,7 +2525,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 西班牙文学",
       "prompt": "《小癞子》的主人公出身贫困，曾给________领路，为________服役，替________行乞。",
-      "paragraphId": "234029f4",
+      "paragraphId": "01768c67",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "61.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 51
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 22
+            }
+          ]
+        }
+      },
       "answer": "1. 刻薄瞎子；2. 吝啬教士；3. 穷绅士",
       "id": "ch3-fill-234029f4"
     },
@@ -493,7 +2567,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 西班牙文学",
       "prompt": "★ 被称为“西班牙戏剧之父”的民族戏剧奠基者是________，写村民集体反抗领主的代表作是《________》。",
-      "paragraphId": "1310dee8",
+      "paragraphId": "3e54065a",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "62.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 57
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 洛佩·德·维加；2. 羊泉村",
       "id": "ch3-fill-1310dee8"
     },
@@ -501,7 +2609,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 西班牙文学",
       "prompt": "《羊泉村》写1476年羊泉村人民反抗领主的史实，主要主题是反抗暴政、________，次要主题是________。",
-      "paragraphId": "0adfa39e",
+      "paragraphId": "4d987c0e",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "63.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 57
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "歌颂君主政治；忠贞的爱情与荣誉",
       "id": "ch3-fill-0adfa39e"
     },
@@ -509,7 +2651,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 英国文学",
       "prompt": "文艺复兴时期达到欧洲文学顶峰的是________。其繁荣期为________。",
-      "paragraphId": "055fbe06",
+      "paragraphId": "567890ec",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "64.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 39
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        }
+      },
       "answer": "1. 英国文学；2. 16世纪中叶至17世纪初",
       "id": "ch3-fill-055fbe06"
     },
@@ -517,7 +2693,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 英国文学",
       "prompt": "★ 英国作家________的《________》（1516）是________，也是________最初的著作之一。",
-      "paragraphId": "50784405",
+      "paragraphId": "7dbde20f",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "65.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 59
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 37
+            }
+          ]
+        }
+      },
       "answer": "1. 托马斯·莫尔；2. 乌托邦；3. 对话体幻想小说；4. 空想社会主义",
       "id": "ch3-fill-50784405"
     },
@@ -525,7 +2735,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 英国文学",
       "prompt": "★ 关于乔叟的地位，称其为“________”。",
-      "paragraphId": "2cd4407f",
+      "paragraphId": "39761ecd",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "66.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 24
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      },
       "answer": "1. 英国诗歌之父；",
       "id": "ch3-fill-2cd4407f"
     },
@@ -533,7 +2777,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 英国文学",
       "prompt": "★ 乔叟以一群香客轮流讲故事来反映14世纪英国社会现实的代表作是《________》，这部作品效仿了《________》的框架。",
-      "paragraphId": "55f9922a",
+      "paragraphId": "2291085c",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "67.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 64
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 坎特伯雷故事集；2. 十日谈",
       "id": "ch3-fill-55f9922a"
     },
@@ -541,7 +2819,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 英国文学",
       "prompt": "英国戏剧形成于________，以________为基础；繁荣期始于________，出现“大学才子派”和莎士比亚。",
-      "paragraphId": "5e64ec86",
+      "paragraphId": "1644a072",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "68.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 58
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 32
+            }
+          ]
+        }
+      },
       "answer": "1. 16世纪中叶；2. 中世纪民间戏剧；3. 16世纪80年代",
       "id": "ch3-fill-5e64ec86"
     },
@@ -549,7 +2861,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 英国文学",
       "prompt": "★ 16世纪80年代，英国出现一批具有丰富古典文化修养的戏剧作家，多出身于________，被称为“________”。",
-      "paragraphId": "0678ae86",
+      "paragraphId": "69922364",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "69.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 60
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 16
+            }
+          ]
+        }
+      },
       "answer": "1. 中产阶级；2. 大学才子派",
       "id": "ch3-fill-0678ae86"
     },
@@ -557,7 +2903,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 英国文学",
       "prompt": "大学才子派将古罗马戏剧、中世纪道德剧及当代意大利与法国戏剧融为一体，创造________、________、________等形式。",
-      "paragraphId": "5482e373",
+      "paragraphId": "7d571bf5",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "70.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 66
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 22
+            }
+          ]
+        }
+      },
       "answer": "1. 复仇悲剧；2. 浪漫喜剧；3. 历史剧",
       "id": "ch3-fill-5482e373"
     },
@@ -565,7 +2945,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第一节 概述 · 英国文学",
       "prompt": "★  大学才子派中，莎士比亚在喜剧创作方面的楷模是________。",
-      "paragraphId": "47e9dfc8",
+      "paragraphId": "3b64e835",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "71.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 34
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 9
+            }
+          ]
+        }
+      },
       "answer": "1. 约翰·李利；",
       "id": "ch3-fill-47e9dfc8"
     },
@@ -573,7 +2987,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 生平与创作",
       "prompt": "★ 威廉·莎士比亚（1564—1616）被称为“________”。",
-      "paragraphId": "1f7f6eef",
+      "paragraphId": "542fbd14",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "72.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 34
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      },
       "answer": "英国戏剧之父",
       "id": "ch3-fill-1f7f6eef"
     },
@@ -581,7 +3029,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 生平与创作",
       "prompt": "课件引作英国谚语的“宁可不要100个印度，也不能没有________”，说明了这位剧作家在英国的文化地位。",
-      "paragraphId": "1425c486",
+      "paragraphId": "24df198d",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "73.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 53
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      },
       "answer": "莎士比亚",
       "id": "ch3-fill-1425c486"
     },
@@ -589,7 +3071,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 生平与创作",
       "prompt": "★ 莎士比亚写有叙事长诗________部，十四行诗一卷，共154首。",
-      "paragraphId": "4fe9c936",
+      "paragraphId": "4f99dae2",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "74.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 35
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "1. 两；",
       "id": "ch3-fill-4fe9c936"
     },
@@ -597,7 +3113,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 生平与创作",
       "prompt": "★ 莎士比亚创作的第一时期（1590—1600），主要写作________、________及诗歌。",
-      "paragraphId": "2259016f",
+      "paragraphId": "26a70d80",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "75.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 50
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      },
       "answer": "历史剧；喜剧",
       "id": "ch3-fill-2259016f"
     },
@@ -605,7 +3155,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 生平与创作",
       "prompt": "★ 莎士比亚创作的第一时期，历史剧着重塑造________，喜剧和诗歌歌颂________，体现________思想。",
-      "paragraphId": "3c946e32",
+      "paragraphId": "143f5fdb",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "76.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 59
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 25
+            }
+          ]
+        }
+      },
       "answer": "1. 理想君主形象；2. 爱情自由；3. 人文主义",
       "id": "ch3-fill-3c946e32"
     },
@@ -613,7 +3197,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 生平与创作",
       "prompt": "★ 莎士比亚创作的第二时期（1601—1607），主要写作________、________。这一时期，他感受到________之间的巨大反差。",
-      "paragraphId": "2e864aef",
+      "paragraphId": "4b6b1c41",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "77.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 72
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 18
+            }
+          ]
+        }
+      },
       "answer": "悲剧； 悲喜剧； 人文主义理想与现实",
       "id": "ch3-fill-2e864aef"
     },
@@ -621,7 +3239,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 生平与创作",
       "prompt": "★ 莎士比亚创作的第三时期（1608—1612），主要从事________创作，代表作是《________》。",
-      "paragraphId": "13be0e7d",
+      "paragraphId": "79e9dd2c",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "78.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 55
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      },
       "answer": "传奇剧；暴风雨",
       "id": "ch3-fill-13be0e7d"
     },
@@ -629,7 +3281,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 生平与创作",
       "prompt": "莎士比亚的剧作分为历史剧、喜剧、悲剧、________和________五类。",
-      "paragraphId": "64f52daf",
+      "paragraphId": "1eee3026",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "79.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 39
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 13
+            }
+          ]
+        }
+      },
       "answer": "1. 悲喜剧；2. 传奇剧",
       "id": "ch3-fill-64f52daf"
     },
@@ -637,7 +3323,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 生平与创作",
       "prompt": "★ 按课件的剧作分类，莎士比亚的三部悲喜剧以________结尾，中间的冲突________。",
-      "paragraphId": "20e518a5",
+      "paragraphId": "231a6493",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "80.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 47
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 11
+            }
+          ]
+        }
+      },
       "answer": "1. 喜剧；2. 激烈",
       "id": "ch3-fill-20e518a5"
     },
@@ -645,7 +3365,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 生平与创作",
       "prompt": "莎士比亚的历史剧取材涉及霍尔的《________》和霍林希德的《________》。",
-      "paragraphId": "66ff2e92",
+      "paragraphId": "4772ee36",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "81.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 42
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 33
+            }
+          ]
+        }
+      },
       "answer": "1. 兰开斯特与约克两大显贵家族的联合；2. 英格兰与苏格兰编年史",
       "id": "ch3-fill-66ff2e92"
     },
@@ -653,7 +3407,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 生平与创作",
       "prompt": "莎士比亚的《错误的喜剧》由古罗马喜剧家________的《________》改编。",
-      "paragraphId": "70c1ae9f",
+      "paragraphId": "10baf8f7",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "82.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 41
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 普劳图斯；2. 孪生兄弟",
       "id": "ch3-fill-70c1ae9f"
     },
@@ -661,7 +3449,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 生平与创作",
       "prompt": "《仲夏夜之梦》的故事背景设在________，主要场景是雅典附近的森林。",
-      "paragraphId": "4f5bf75e",
+      "paragraphId": "13a2b9dd",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "83.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 36
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      },
       "answer": "古希腊",
       "id": "ch3-fill-4f5bf75e"
     },
@@ -669,7 +3491,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 生平与创作",
       "prompt": "★  莎士比亚喜剧有10部，主要是《________》（1592）、《________》（1594）、《________》（1595，成熟标志）、《________》（1596，最富社会讽刺性）。",
-      "paragraphId": "737337c1",
+      "paragraphId": "60158b81",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "84.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 98
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 31
+            }
+          ]
+        }
+      },
       "answer": "《错误的喜剧》、《爱的徒劳》、《仲夏夜之梦》、《威尼斯商人》。",
       "id": "ch3-fill-737337c1"
     },
@@ -677,7 +3533,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 生平与创作",
       "prompt": "★ 莎士比亚的“四大悲剧”中，写“生存还是毁灭”独白的是《________》，写摩尔人轻信谗言而扼杀妻子的是《________》，写弑君篡位的是《________》，写父亲与子女关系的是《________》。还有《________》也是著名悲剧",
-      "paragraphId": "528772e0",
+      "paragraphId": "4db0bbf9",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "85.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 122
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 41
+            }
+          ]
+        }
+      },
       "answer": "1. 哈姆莱特；2. 奥赛罗；3. 麦克白；4. 李尔王；5. 《罗密欧与朱丽叶》",
       "id": "ch3-fill-528772e0"
     },
@@ -685,7 +3575,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 生平与创作",
       "prompt": "莎士比亚的三部悲喜剧是《________》《________》《________》。",
-      "paragraphId": "7f4f59ac",
+      "paragraphId": "6b935ef9",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "86.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 42
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 30
+            }
+          ]
+        }
+      },
       "answer": "1. 特洛伊罗斯与克瑞西达；2. 终成眷属；3. 一报还一报",
       "id": "ch3-fill-7f4f59ac"
     },
@@ -693,7 +3617,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 生平与创作",
       "prompt": "课件列莎士比亚的传奇剧四部，除《暴风雨》外，还有《________》《________》《________》。",
-      "paragraphId": "28fc739f",
+      "paragraphId": "54aaf9b7",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "87.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 55
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 28
+            }
+          ]
+        }
+      },
       "answer": "1. 泰尔亲王配里克里斯；2. 辛白林；3. 冬天的故事",
       "id": "ch3-fill-28fc739f"
     },
@@ -701,7 +3659,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 莎士比亚之问",
       "prompt": "1588年，英国击败________，民族意识和爱国热情空前高涨。莎士比亚早期的历史剧和喜剧洋溢着________的气氛。",
-      "paragraphId": "7f219132",
+      "paragraphId": "1f1b7829",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "88.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 61
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 13
+            }
+          ]
+        }
+      },
       "answer": "西班牙无敌舰队；乐观与欢快",
       "id": "ch3-fill-7f219132"
     },
@@ -709,7 +3701,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 莎士比亚之问",
       "prompt": "★ 课件从社会环境、女王和创作团队三个角度解释莎士比亚时代戏剧的辉煌，分别概括为“________”“________”和“________”。",
-      "paragraphId": "45c23a39",
+      "paragraphId": "7a5d7079",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "89.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 72
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 25
+            }
+          ]
+        }
+      },
       "answer": "1. 太平盛世；2. 女王是戏迷；3. 大学才子派",
       "id": "ch3-fill-45c23a39"
     },
@@ -717,7 +3743,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 莎士比亚之问",
       "prompt": "★ 按课堂旁注，莎士比亚戏剧以________为主，结合写给社会上层的________，还运用散文和________。",
-      "paragraphId": "0d02a234",
+      "paragraphId": "3130db06",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "90.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 59
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        }
+      },
       "answer": "1. 无韵体诗；2. 有押韵的诗歌；3. 独白",
       "id": "ch3-fill-0d02a234"
     },
@@ -725,7 +3785,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 莎士比亚之问",
       "prompt": "谈到莎士比亚如何与戏剧结缘，课件给出的两个线索是“________”与“________”。",
-      "paragraphId": "00e3973c",
+      "paragraphId": "1015becd",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "91.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 46
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 18
+            }
+          ]
+        }
+      },
       "answer": "1. 剧团巡演；2. 斯特拉斯夫小镇",
       "id": "ch3-fill-00e3973c"
     },
@@ -733,7 +3827,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "★ 标志莎士比亚喜剧成熟的作品是《________》。",
-      "paragraphId": "49f476bd",
+      "paragraphId": "22a3d905",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "92.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 27
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "仲夏夜之梦",
       "id": "ch3-fill-49f476bd"
     },
@@ -741,7 +3869,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "按课件所列顺序，《仲夏夜之梦》中的四个青年是________、________、________、________。",
-      "paragraphId": "2e26e598",
+      "paragraphId": "7eefd687",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "93.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 58
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 27
+            }
+          ]
+        }
+      },
       "answer": "1. 赫米娅；2. 狄米奇；3. 拉山德；4. 海伦娜",
       "id": "ch3-fill-2e26e598"
     },
@@ -749,7 +3911,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "★ 莎士比亚早期喜剧中， “最富社会讽刺性”的代表作是《________》。",
-      "paragraphId": "07ce4af9",
+      "paragraphId": "484c449a",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "94.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 38
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "威尼斯商人",
       "id": "ch3-fill-07ce4af9"
     },
@@ -757,7 +3953,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "★ 《威尼斯商人》的两条并行线索，一条是安东尼奥与夏洛克的“________”契约及冲突，另一条是巴萨尼奥与鲍西娅的“________”。",
-      "paragraphId": "09d2b13f",
+      "paragraphId": "1a2251b4",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "95.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 69
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 14
+            }
+          ]
+        }
+      },
       "answer": "1. 一磅肉；2. 三匣选婿",
       "id": "ch3-fill-09d2b13f"
     },
@@ -765,7 +3995,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "《威尼斯商人》的“三匣选婿”情节中，课件依次展示________、________和________的选择。",
-      "paragraphId": "5bc14cec",
+      "paragraphId": "27b2b63e",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "96.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 54
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 25
+            }
+          ]
+        }
+      },
       "answer": "1. 摩洛哥王子；2. 阿拉贡王子；3. 巴萨尼奥",
       "id": "ch3-fill-5bc14cec"
     },
@@ -773,7 +4037,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "★ 《威尼斯商人》中，表面遵从父亲遗嘱选夫，暗中自主选择爱人，后来女扮男装出庭、凭借法律智慧挫败夏洛克的人物是________。",
-      "paragraphId": "17c2bf4d",
+      "paragraphId": "1e2d3dfd",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "97.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 64
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      },
       "answer": "鲍西娅",
       "id": "ch3-fill-17c2bf4d"
     },
@@ -781,7 +4079,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "★ 鲍西娅的形象打破“________”的父权偏见，肯定________，歌颂________。",
-      "paragraphId": "7ddf16af",
+      "paragraphId": "1e348948",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "98.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 48
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 32
+            }
+          ]
+        }
+      },
       "answer": "1. 女性无智、不能参与公共事务；2. 女性才智；3. 爱情自主",
       "id": "ch3-fill-7ddf16af"
     },
@@ -789,7 +4121,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "★ 莎士比亚喜剧《________》中的________在海难后女扮男装，隐忍守护爱人________。",
-      "paragraphId": "3cbf599c",
+      "paragraphId": "2771e916",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "99.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 52
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 21
+            }
+          ]
+        }
+      },
       "answer": "1. 第十二夜；2. 薇奥拉；3. 奥西诺",
       "id": "ch3-fill-3cbf599c"
     },
@@ -797,7 +4163,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "《第十二夜》借女扮男装的情节消解________，揭示________高于性别身份，体现人文主义对________的重视。",
-      "paragraphId": "33e33cc4",
+      "paragraphId": "3914f791",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "100.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 61
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 26
+            }
+          ]
+        }
+      },
       "answer": "1. 性别壁垒；2. 人性价值；3. 情感与个体尊严",
       "id": "ch3-fill-33e33cc4"
     },
@@ -805,7 +4205,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "★ 《哈姆雷特》中，________依附父兄与哈姆雷特，缺乏________，在父权、爱情双重打击下精神崩溃，________。",
-      "paragraphId": "00b9dde2",
+      "paragraphId": "2d14b127",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "101.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 64
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        }
+      },
       "answer": "1. 奥菲利娅；2. 独立判断；3. 溺水而亡",
       "id": "ch3-fill-00b9dde2"
     },
@@ -813,7 +4247,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "★ 莎士比亚悲剧中的________不顾种族、门第差距，主动爱上摩尔人________，却被________构陷。",
-      "paragraphId": "0f668b91",
+      "paragraphId": "70bfd1f3",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "102.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 57
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 24
+            }
+          ]
+        }
+      },
       "answer": "1. 苔丝狄蒙娜；2. 奥赛罗；3. 嫉妒与谎言",
       "id": "ch3-fill-0f668b91"
     },
@@ -821,7 +4289,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "★ 《麦克白》中，________主动怂恿丈夫________，后期被________吞噬，精神崩溃自杀。",
-      "paragraphId": "13f9839e",
+      "paragraphId": "6335acc2",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "103.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 53
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        }
+      },
       "answer": "1. 麦克白夫人；2. 弑君夺权；3. 罪恶感",
       "id": "ch3-fill-13f9839e"
     },
@@ -829,7 +4331,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "★ 《李尔王》中，________对父亲保有纯粹孝心，因不愿________被驱逐，最终卷入战乱死去。",
-      "paragraphId": "02e77426",
+      "paragraphId": "0eba77ba",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "104.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 51
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 考狄利娅；2. 花言巧语",
       "id": "ch3-fill-02e77426"
     },
@@ -837,7 +4373,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "与两个虚伪姐姐形成对比的考狄利娅，代表人文主义的________、________与________。",
-      "paragraphId": "613094ac",
+      "paragraphId": "018d17c9",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "105.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 51
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 真诚；2. 良知；3. 道德",
       "id": "ch3-fill-613094ac"
     },
@@ -845,7 +4415,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "★ 从总体特征看，莎士比亚的喜剧女性________，敢于争取爱情、展现才智；悲剧女性或________，或________。",
-      "paragraphId": "4f1ae75b",
+      "paragraphId": "60348bf4",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "106.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 63
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 24
+            }
+          ]
+        }
+      },
       "answer": "1. 机智灵动；2. 纯真受难；3. 被权力异化",
       "id": "ch3-fill-4f1ae75b"
     },
@@ -853,7 +4457,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "★ 莎士比亚的女性形象整体上高扬________，肯定女性的情感、智慧与人的价值，但也保留文艺复兴时代局限，没有完全脱离________。",
-      "paragraphId": "36bdb340",
+      "paragraphId": "5e1a2e03",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "107.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 69
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 人文主义；2. 父权视角",
       "id": "ch3-fill-36bdb340"
     },
@@ -861,7 +4499,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "★ 《威尼斯商人》中，被列为“四大吝啬鬼之一”的人物是________。",
-      "paragraphId": "59c2d6cc",
+      "paragraphId": "72f07db0",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "108.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 36
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      },
       "answer": "夏洛克",
       "id": "ch3-fill-59c2d6cc"
     },
@@ -869,7 +4541,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "★ 理解夏洛克的复杂性格需要看到三重身份：可憎的________、视财如命的________、值得同情的________。",
-      "paragraphId": "691bb213",
+      "paragraphId": "5cec7092",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "109.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 61
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 22
+            }
+          ]
+        }
+      },
       "answer": "1. 高利贷者；2. 吝啬鬼；3. 犹太教徒",
       "id": "ch3-fill-691bb213"
     },
@@ -877,7 +4583,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "《威尼斯商人》中，“你拿走我支撑我房子的支柱，就是拿走我的房子”是________的台词，体现出他对________的强烈执着。",
-      "paragraphId": "0f17ecab",
+      "paragraphId": "345cd8a9",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "110.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 64
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        }
+      },
       "answer": "1. 夏洛克；2. 财产",
       "id": "ch3-fill-0f17ecab"
     },
@@ -885,7 +4625,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "★ 《威尼斯商人》讽刺的四个社会问题分别是借债契约所反映的________、夏洛克受不公正对待所反映的________、父亲遗命与自主爱情冲突所涉及的________，以及鲍西娅出庭所突破的________。",
-      "paragraphId": "5573497f",
+      "paragraphId": "6fa16744",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "111.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 104
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 31
+            }
+          ]
+        }
+      },
       "answer": "1. 金钱至上；2. 宗教歧视；3. 纲常人伦；4. 性别偏见",
       "id": "ch3-fill-5573497f"
     },
@@ -893,7 +4667,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "★ 莎士比亚喜剧以青年男女爱情、真挚友谊为中心，歌颂________、________，反对________、________。",
-      "paragraphId": "5ce3f300",
+      "paragraphId": "06fd5905",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "112.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 64
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 35
+            }
+          ]
+        }
+      },
       "answer": "1. 个性解放；2. 爱情自由；3. 封建门第观念；4. 宗教禁欲主义",
       "id": "ch3-fill-5ce3f300"
     },
@@ -901,7 +4709,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "★ 莎士比亚喜剧采用________的复合结构，常以女扮男装、________、________等手段制造悬念与趣味。",
-      "paragraphId": "5df003f5",
+      "paragraphId": "5eb4ff82",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "113.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 59
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 27
+            }
+          ]
+        }
+      },
       "answer": "1. 主副线索交叉编织；2. 身份错认；3. 误会巧合",
       "id": "ch3-fill-5df003f5"
     },
@@ -909,7 +4751,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "★ 莎士比亚喜剧中，鲍西娅、________、薇奥拉等都属于________形象。",
-      "paragraphId": "091af0ed",
+      "paragraphId": "02ed71c5",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "114.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 41
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 罗瑟琳；2. 人文主义新女性",
       "id": "ch3-fill-091af0ed"
     },
@@ -917,7 +4793,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "★ 莎士比亚喜剧中，森林、仙境、庄园等远离宫廷与城市现实秩序的理想化空间被称为“________”；《仲夏夜之梦》中的________就是一例。",
-      "paragraphId": "400a02d6",
+      "paragraphId": "25cfc482",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "115.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 72
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 绿色世界；2. 雅典森林",
       "id": "ch3-fill-400a02d6"
     },
@@ -925,7 +4835,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "★ 莎士比亚喜剧的语言雅俗交融，贵族抒情段落多用________，市井戏谑场景使用________。",
-      "paragraphId": "50dc9d95",
+      "paragraphId": "10137bf1",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "116.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 50
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        }
+      },
       "answer": "1. 无韵诗；2. 散文",
       "id": "ch3-fill-50dc9d95"
     },
@@ -933,7 +4877,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "莎士比亚喜剧大量运用双关、________、________、机智对白，语言兼具________与________。",
-      "paragraphId": "3003f70d",
+      "paragraphId": "7fed6998",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "117.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 58
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 27
+            }
+          ]
+        }
+      },
       "answer": "1. 反讽；2. 比喻；3. 诗意美感；4. 民间诙谐",
       "id": "ch3-fill-3003f70d"
     },
@@ -941,7 +4919,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 喜剧专题",
       "prompt": "★ 莎士比亚喜剧打破古典戏剧严格的________，整体基调________，最终以和解、婚礼、________收尾。",
-      "paragraphId": "09b8a2b5",
+      "paragraphId": "525ca1f8",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "118.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 59
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 27
+            }
+          ]
+        }
+      },
       "answer": "1. 悲喜二分法；2. 明朗乐观；3. 社会秩序的修复",
       "id": "ch3-fill-09b8a2b5"
     },
@@ -949,7 +4961,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 悲剧专题导入",
       "prompt": "★ “生存还是毁灭？这是一个问题。”这一独白出自莎士比亚的悲剧《________》。",
-      "paragraphId": "38b3a9b5",
+      "paragraphId": "32c87b8a",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "119.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 42
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      },
       "answer": "哈姆莱特",
       "id": "ch3-fill-38b3a9b5"
     },
@@ -957,7 +5003,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 悲剧专题导入",
       "prompt": "“一个人就算是没有眼睛，也可以看见这世界的丑恶。”课件引句出自《________》，所展示的译本出自________。",
-      "paragraphId": "28bb7026",
+      "paragraphId": "188d7587",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "120.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 59
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 13
+            }
+          ]
+        }
+      },
       "answer": "1. 李尔王；2. 梁实秋",
       "id": "ch3-fill-28bb7026"
     },
@@ -965,7 +5045,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 悲剧专题导入",
       "prompt": "★ 莎士比亚四大悲剧之首、也是其戏剧艺术高峰的作品是《________》。",
-      "paragraphId": "275ef30f",
+      "paragraphId": "5be58717",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "121.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 37
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      },
       "answer": "哈姆莱特",
       "id": "ch3-fill-275ef30f"
     },
@@ -973,7 +5087,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 悲剧专题导入",
       "prompt": "★ 《奥赛罗》中，________利用奥赛罗________的弱点，使他误信妻子不贞；真相大白后，他以________表达忏悔。",
-      "paragraphId": "7bcdd91b",
+      "paragraphId": "30c523db",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "122.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 64
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 25
+            }
+          ]
+        }
+      },
       "answer": "1. 伊阿古；2. 过于轻信、嫉妒心强；3. 自杀",
       "id": "ch3-fill-7bcdd91b"
     },
@@ -981,7 +5129,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 悲剧专题导入",
       "prompt": "★ 《麦克白》中，麦克白受________和________而弑君篡位；作品写其权欲膨胀、________的斗争。",
-      "paragraphId": "0b59de8f",
+      "paragraphId": "3008ea87",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "123.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 57
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 24
+            }
+          ]
+        }
+      },
       "answer": "1. 女巫预言；2. 妻子怂恿；3. 良知与野心",
       "id": "ch3-fill-0b59de8f"
     },
@@ -989,7 +5171,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 悲剧专题导入",
       "prompt": "《李尔王》与《________》主题相似，可以从________的关系、________的冲突联系理解。",
-      "paragraphId": "6cde46c2",
+      "paragraphId": "3f0f833e",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "124.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 52
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 24
+            }
+          ]
+        }
+      },
       "answer": "1. 高老头；2. 父亲与子女；3. 亲情与利益",
       "id": "ch3-fill-6cde46c2"
     },
@@ -997,7 +5213,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 悲剧专题导入",
       "prompt": "“杜丽如何朱丽叶，情深真已到梅根”出自________，诗句把中国戏剧人物________与朱丽叶相联系。",
-      "paragraphId": "78618401",
+      "paragraphId": "6e5a3c5a",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "125.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 53
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        }
+      },
       "answer": "1. 田汉；2. 杜丽娘",
       "id": "ch3-fill-78618401"
     },
@@ -1005,7 +5255,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "★ 《哈姆莱特》的创作背景是文艺复兴晚期的社会现实。在“________”的旗帜下，人们开始“________”，带来私欲的泛滥和社会的混乱。",
-      "paragraphId": "625ca573",
+      "paragraphId": "05ef2a8d",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "126.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 71
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 个性解放；2. 为所欲为",
       "id": "ch3-fill-625ca573"
     },
@@ -1013,7 +5297,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "★ 莎士比亚借古代丹麦的复仇故事反映自己时代的社会矛盾和人文主义思想，创作目的是________。可将这一做法概括为“________”。",
-      "paragraphId": "2c81763d",
+      "paragraphId": "0c632653",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "127.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 69
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 18
+            }
+          ]
+        }
+      },
       "answer": "1. 借古喻今；2. 旧题材，新思想",
       "id": "ch3-fill-2c81763d"
     },
@@ -1021,7 +5339,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "按课件列出的《哈姆莱特》故事演变，12世纪丹麦历史学家________的《________》记载了这一故事；",
-      "paragraphId": "424ba2a9",
+      "paragraphId": "7559bf6a",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "128.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 54
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 14
+            }
+          ]
+        }
+      },
       "answer": "1. 萨科索；2. 丹麦史；",
       "id": "ch3-fill-424ba2a9"
     },
@@ -1029,7 +5381,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "哈姆莱特是________，原在德国威登堡大学读书；父王去世后，他回国奔丧。",
-      "paragraphId": "2e0d9011",
+      "paragraphId": "25d71b6a",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "129.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 38
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      },
       "answer": "1. 丹麦王子",
       "id": "ch3-fill-2e0d9011"
     },
@@ -1037,7 +5423,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "《哈姆莱特》中，已故丹麦国王________以________的身份出现，揭示被害真相。",
-      "paragraphId": "556081e2",
+      "paragraphId": "6242c722",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "130.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 44
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 14
+            }
+          ]
+        }
+      },
       "answer": "1. 老哈姆莱特；2. 鬼魂",
       "id": "ch3-fill-556081e2"
     },
@@ -1045,7 +5465,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "《哈姆莱特》中，毒死兄长、篡夺王位的是王子的叔父________；改嫁叔父的是王子的母亲________。",
-      "paragraphId": "712d7508",
+      "paragraphId": "076b2c24",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "131.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 53
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 克劳狄斯；2. 乔特鲁德",
       "id": "ch3-fill-712d7508"
     },
@@ -1053,7 +5507,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "《哈姆莱特》中，御前大臣________是________与雷欧提斯的父亲，女儿是哈姆莱特的恋人。",
-      "paragraphId": "3ef2098b",
+      "paragraphId": "65510f7e",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "132.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 49
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 波洛涅斯；2. 奥菲莉娅",
       "id": "ch3-fill-3ef2098b"
     },
@@ -1061,7 +5549,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "《哈姆莱特》中，奥菲莉娅的哥哥________为父复仇，与________合谋决斗毒计。",
-      "paragraphId": "4a6d7530",
+      "paragraphId": "41eb65c9",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "133.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 44
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 雷欧提斯；2. 克劳狄斯",
       "id": "ch3-fill-4a6d7530"
     },
@@ -1069,7 +5591,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "《哈姆莱特》中，王子为迷惑对手、保护自己，决定________；又借“________”证实鬼魂所说的罪行。",
-      "paragraphId": "77a376d2",
+      "paragraphId": "3e904a87",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "134.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 54
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        }
+      },
       "answer": "1. 装疯；2. 戏中戏",
       "id": "ch3-fill-77a376d2"
     },
@@ -1077,7 +5633,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "克劳狄斯独自________时，哈姆莱特放过了他；后来哈姆莱特与母亲谈话，以为叔父躲在帷幕后偷听，误杀了________。",
-      "paragraphId": "3abdfad5",
+      "paragraphId": "3c30c11a",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "135.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 61
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 13
+            }
+          ]
+        }
+      },
       "answer": "1. 祈祷；2. 波洛涅斯",
       "id": "ch3-fill-3abdfad5"
     },
@@ -1085,7 +5675,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "克劳狄斯派哈姆莱特出使________，准备借当地国王之手除掉他；王子途中识破阴谋，折回________。",
-      "paragraphId": "05c5375b",
+      "paragraphId": "293251e3",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "136.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 53
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 11
+            }
+          ]
+        }
+      },
       "answer": "1. 英国；2. 丹麦",
       "id": "ch3-fill-05c5375b"
     },
@@ -1093,7 +5717,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "《哈姆莱特》中，因父死与爱情受挫而精神失常、落水而死的人物是________。她的真疯与王子的装疯形成对照。",
-      "paragraphId": "085c95c3",
+      "paragraphId": "5b4b1910",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "137.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 54
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      },
       "answer": "奥菲莉娅",
       "id": "ch3-fill-085c95c3"
     },
@@ -1101,7 +5759,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "《哈姆莱特》的决斗中，王后________误饮毒酒；________用毒剑刺伤王子，自己也被毒剑所伤。",
-      "paragraphId": "48d1254e",
+      "paragraphId": "79475e68",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "138.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 51
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 乔特鲁德；2. 雷欧提斯",
       "id": "ch3-fill-48d1254e"
     },
@@ -1109,7 +5801,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "★ 《哈姆莱特》的结尾，雷欧提斯临死揭露阴谋，哈姆莱特杀死________，为父复仇，自己也________。",
-      "paragraphId": "452f13f8",
+      "paragraphId": "3c7257b1",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "139.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 55
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 克劳狄斯；2. 中毒身亡",
       "id": "ch3-fill-452f13f8"
     },
@@ -1117,7 +5843,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "★ 课件以“________”引入哈姆莱特的人物解读：“一千个读者，就有一千个哈姆莱特。”哈姆莱特是处于________中的________形象。",
-      "paragraphId": "2b098aa2",
+      "paragraphId": "1b423300",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "140.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 73
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 29
+            }
+          ]
+        }
+      },
       "answer": "1. 斯芬克斯之谜；2. 理想与现实矛盾；3. 人文主义者",
       "id": "ch3-fill-2b098aa2"
     },
@@ -1125,7 +5885,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "课件用“________”概括哈姆莱特在威登堡大学读书时的精神状态。当时他受到人文主义思想的熏陶，相信人的________。",
-      "paragraphId": "42e932d2",
+      "paragraphId": "274db0b5",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "141.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 62
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 20
+            }
+          ]
+        }
+      },
       "answer": "1. 快乐的王子；2. 价值、理性和力量",
       "id": "ch3-fill-42e932d2"
     },
@@ -1133,7 +5927,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "哈姆莱特赞美人的名句以“人是一件多么了不起的杰作”开头，以“________，________”结尾。",
-      "paragraphId": "10ec3d8f",
+      "paragraphId": "6aa8cac4",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "142.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 51
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 宇宙的精华；2. 万物的灵长",
       "id": "ch3-fill-10ec3d8f"
     },
@@ -1141,7 +5969,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "★ 《哈姆莱特》中王子的复仇行动不断推迟。称他为“________”或 “________”。",
-      "paragraphId": "55005b58",
+      "paragraphId": "5107d535",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "143.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 47
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 延宕的王子；2. 犹豫的王子",
       "id": "ch3-fill-55005b58"
     },
@@ -1149,7 +6011,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "★ 课件分析哈姆莱特延宕的理性原因时指出，他具有________，怀疑________，坚持求证，借助“________”验证克劳狄斯的罪行。",
-      "paragraphId": "3a899f8a",
+      "paragraphId": "5cf32630",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "144.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 71
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 28
+            }
+          ]
+        }
+      },
       "answer": "1. 近代人文主义理性思维；2. 鬼魂真伪；3. 戏中戏",
       "id": "ch3-fill-3a899f8a"
     },
@@ -1157,7 +6053,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "★ 在哈姆莱特眼中，丹麦是“________”。王子的复仇由________变为________，但个人力量无法承担救世重任。",
-      "paragraphId": "1ff819dc",
+      "paragraphId": "4459da8f",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "145.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 63
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 26
+            }
+          ]
+        }
+      },
       "answer": "1. 荒芜不治的花园；2. 私人恩怨；3. 社会责任",
       "id": "ch3-fill-1ff819dc"
     },
@@ -1165,7 +6095,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "★ 哈姆莱特受到人文伦理束缚，厌恶暴力，坚守道德底线。他________，反对野蛮的________。",
-      "paragraphId": "2d899866",
+      "paragraphId": "325f5acd",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "146.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 51
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 19
+            }
+          ]
+        }
+      },
       "answer": "1. 尊重人的生命；2. 封建血亲复仇",
       "id": "ch3-fill-2d899866"
     },
@@ -1173,7 +6137,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "★ 克劳狄斯祷告时，哈姆莱特放弃刺杀，因为他“不愿让________升入________”。这一选择体现宗教观念与复仇愿望的交织。",
-      "paragraphId": "6004513e",
+      "paragraphId": "0581b56f",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "147.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 65
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 14
+            }
+          ]
+        }
+      },
       "answer": "1. 罪人的灵魂；2. 天堂",
       "id": "ch3-fill-6004513e"
     },
@@ -1181,7 +6179,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "★ 课件用“________、________”形容哈姆莱特的思辨性格矛盾；过度沉思消解了他的________。",
-      "paragraphId": "3d91afc0",
+      "paragraphId": "707941ad",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "148.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 56
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 25
+            }
+          ]
+        }
+      },
       "answer": "1. 思想的巨人；2. 行动的矮子；3. 行动意志",
       "id": "ch3-fill-3d91afc0"
     },
@@ -1189,7 +6221,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "★ 从现实处境看，克劳狄斯掌握王权、把持宫廷，哈姆莱特却势单力薄。课件将这一延宕原因概括为“现实处境险恶：________，________”。",
-      "paragraphId": "1dcd9864",
+      "paragraphId": "105e7fd2",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "149.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 72
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 敌我力量悬殊；2. 孤立无援",
       "id": "ch3-fill-1dcd9864"
     },
@@ -1197,7 +6263,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "★ 课件将哈姆莱特称为“________”，指出他的延宕深刻反映了________，又以“________”“________”概括这一精神处境。",
-      "paragraphId": "2b03370a",
+      "paragraphId": "68d9f7df",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "150.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 73
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 42
+            }
+          ]
+        }
+      },
       "answer": "1. 悲剧的王子；2. 文艺复兴晚期人文主义的危机；3. 多余人；4. 精神的流浪儿",
       "id": "ch3-fill-2b03370a"
     },
@@ -1205,7 +6305,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "★ 课件所列批评观点中，________认为哈姆莱特“________”，不适合从事报仇这类流血杀人的事情。",
-      "paragraphId": "41473f9f",
+      "paragraphId": "639a3cf3",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "151.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 54
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 歌德；2. 意志过于纤弱",
       "id": "ch3-fill-41473f9f"
     },
@@ -1213,7 +6347,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "★ 课件介绍的精神分析解释中，________运用________的性心理学理论，认为哈姆莱特与克劳狄斯有一样的潜在欲望，即________。",
-      "paragraphId": "421a1254",
+      "paragraphId": "225d219b",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "152.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 71
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 21
+            }
+          ]
+        }
+      },
       "answer": "1. 琼斯；2. 弗洛伊德；3. 弑父娶母",
       "id": "ch3-fill-421a1254"
     },
@@ -1221,7 +6389,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "★ 按琼斯对复仇延宕的解释，哈姆莱特自己想做而不敢做的事被________抢先做了，杀死对方等于杀死________。",
-      "paragraphId": "4cc8d198",
+      "paragraphId": "2cc17a91",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "153.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 59
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 16
+            }
+          ]
+        }
+      },
       "answer": "1. 克劳狄斯；2. 另一个自己",
       "id": "ch3-fill-4cc8d198"
     },
@@ -1229,7 +6431,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "哈姆莱特著名独白的英文首句为“________ — that is the question.”，译文开头是“________，这是一个值得考虑的问题”。",
-      "paragraphId": "3bf0e658",
+      "paragraphId": "15ffd188",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "154.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 77
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 32
+            }
+          ]
+        }
+      },
       "answer": "1. To be, or not to be；2. 生存还是毁灭",
       "id": "ch3-fill-3bf0e658"
     },
@@ -1237,7 +6473,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "★ 按译文，哈姆莱特在独白中把“默然忍受________”与“挺身反抗________”并置，追问哪一种行为更高贵。",
-      "paragraphId": "56e39b1c",
+      "paragraphId": "70225a7b",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "155.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 58
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        }
+      },
       "answer": "1. 命运的暴虐的毒箭；2. 人世的无涯的苦难",
       "id": "ch3-fill-56e39b1c"
     },
@@ -1245,7 +6515,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "按译文，哈姆莱特以“________使我们全变成了懦夫”描绘思考对行动的影响，最后说伟大的事业“也会逆流而退，失去了________”。",
-      "paragraphId": "5fa30e54",
+      "paragraphId": "29c09f99",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "156.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 68
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 重重的顾虑；2. 行动的意义",
       "id": "ch3-fill-5fa30e54"
     },
@@ -1253,7 +6557,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "★ 按译文补全独白：“在那死的睡眠里，究竟将要做些什么梦，那不能不使我们________。人们甘心久困于患难之中，也就是为了这个缘故。”",
-      "paragraphId": "2711832d",
+      "paragraphId": "62ab40e8",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "157.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 68
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      },
       "answer": "踌躇顾虑",
       "id": "ch3-fill-2711832d"
     },
@@ -1261,7 +6599,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "★ 按译文补全独白：“重重的顾虑使我们全变成了懦夫，决心的赤热的光彩，被________盖上了一层灰色”。",
-      "paragraphId": "2ff164db",
+      "paragraphId": "38c2a0ab",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "158.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 53
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "审慎的思维",
       "id": "ch3-fill-2ff164db"
     },
@@ -1269,7 +6641,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "★ “生存还是毁灭”这段独白集中展现哈姆莱特作为________的________；面对社会苦难与不公，他思考是忍受苦难，还是________。",
-      "paragraphId": "3509f06c",
+      "paragraphId": "4ea9c8b2",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "159.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 72
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 24
+            }
+          ]
+        }
+      },
       "answer": "1. 人文主义者；2. 内心矛盾；3. 奋起反抗",
       "id": "ch3-fill-3509f06c"
     },
@@ -1277,7 +6683,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "★ 在“生存还是毁灭”独白中，哈姆莱特认为死亡或许能________，却又惧怕________，不敢轻易赴死。",
-      "paragraphId": "4f7f191b",
+      "paragraphId": "2981261b",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "160.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 55
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 18
+            }
+          ]
+        }
+      },
       "answer": "1. 解脱痛苦；2. 死后未知的世界",
       "id": "ch3-fill-4f7f191b"
     },
@@ -1285,7 +6725,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 《哈姆莱特》",
       "prompt": "★ “生存还是毁灭”独白体现________造成的________，折射文艺复兴人文主义理想与黑暗现实之间的巨大冲突，是________的写照。",
-      "paragraphId": "5d12db1c",
+      "paragraphId": "3b5fbd1e",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "161.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 72
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 27
+            }
+          ]
+        }
+      },
       "answer": "1. 理性思辨；2. 行动延宕；3. 人文主义精神危机",
       "id": "ch3-fill-5d12db1c"
     },
@@ -1293,7 +6767,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 莎士比亚戏剧艺术特色",
       "prompt": "★ 莎士比亚戏剧在情节结构上采用________的戏剧结构，主线与副线并行推进，互相________。",
-      "paragraphId": "38d592d3",
+      "paragraphId": "61a2d769",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "162.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 51
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 多线索复合；2. 映衬、对照",
       "id": "ch3-fill-38d592d3"
     },
@@ -1301,7 +6809,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 莎士比亚戏剧艺术特色",
       "prompt": "★ 按主副线划分，《哈姆莱特》的主线为________，副线有________和________的军事行动。",
-      "paragraphId": "4e0f9344",
+      "paragraphId": "02086e85",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "163.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 54
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 28
+            }
+          ]
+        }
+      },
       "answer": "1. 哈姆莱特复仇；2. 雷欧提斯复仇；3. 福丁布拉斯",
       "id": "ch3-fill-4e0f9344"
     },
@@ -1309,7 +6851,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 莎士比亚戏剧艺术特色",
       "prompt": "《威尼斯商人》的三条线索分别是安东尼奥________线、鲍西娅________线、杰西卡________线。",
-      "paragraphId": "53bafece",
+      "paragraphId": "2f28164c",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "164.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 55
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 借贷；2. 选亲；3. 私奔",
       "id": "ch3-fill-53bafece"
     },
@@ -1317,7 +6893,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 莎士比亚戏剧艺术特色",
       "prompt": "★ 《哈姆莱特》中的________在悲剧的紧张氛围中加入民间喜剧场面，强化对生死的反思，体现了莎剧情节结构上________的特点。",
-      "paragraphId": "4875d911",
+      "paragraphId": "1141e407",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "165.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 67
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 16
+            }
+          ]
+        }
+      },
       "answer": "1. 掘墓人片段；2. 悲喜交融",
       "id": "ch3-fill-4875d911"
     },
@@ -1325,7 +6935,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 莎士比亚戏剧艺术特色",
       "prompt": "★ 哈姆莱特既有________，又________；麦克白勇武却又野心膨胀。这些形象体现了莎剧人物性格的________。",
-      "paragraphId": "2ae597bb",
+      "paragraphId": "46cd5ecd",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "166.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 62
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 28
+            }
+          ]
+        }
+      },
       "answer": "1. 崇高人文理想；2. 犹豫延宕；3. 多面性、复杂性",
       "id": "ch3-fill-2ae597bb"
     },
@@ -1333,7 +6977,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 莎士比亚戏剧艺术特色",
       "prompt": "★ 莎剧人物的性格在________，人物的________是戏剧冲突的核心。",
-      "paragraphId": "5f806ac2",
+      "paragraphId": "47a57919",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "167.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 39
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 18
+            }
+          ]
+        }
+      },
       "answer": "1. 冲突中动态发展；2. 内心矛盾",
       "id": "ch3-fill-5f806ac2"
     },
@@ -1341,7 +7019,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 莎士比亚戏剧艺术特色",
       "prompt": "★ 莎士比亚用________塑造人物，如哈姆莱特与________、克劳狄斯与________两两对照，突出性格差异。",
-      "paragraphId": "1595c6e4",
+      "paragraphId": "1a6cd85f",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "168.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 60
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 24
+            }
+          ]
+        }
+      },
       "answer": "1. 对比手法；2. 雷欧提斯；3. 老哈姆莱特",
       "id": "ch3-fill-1595c6e4"
     },
@@ -1349,7 +7061,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 莎士比亚戏剧艺术特色",
       "prompt": "★ 莎剧语言文体混合，主要采用________；庄重场景用________，普通人、市井人物多用________。",
-      "paragraphId": "6848bfcb",
+      "paragraphId": "3a3a3a5a",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "169.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 57
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 18
+            }
+          ]
+        }
+      },
       "answer": "1. 无韵诗；2. 诗体；3. 散文",
       "id": "ch3-fill-6848bfcb"
     },
@@ -1357,7 +7103,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 莎士比亚戏剧艺术特色",
       "prompt": "★ 莎剧中的贵族多用________，底层人物语言通俗、充满________，这体现了语言________的特点。",
-      "paragraphId": "02255b86",
+      "paragraphId": "587010e3",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "170.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 57
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 24
+            }
+          ]
+        }
+      },
       "answer": "1. 典雅诗行；2. 民间俚语；3. 高度个性化",
       "id": "ch3-fill-02255b86"
     },
@@ -1365,7 +7145,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 莎士比亚戏剧艺术特色",
       "prompt": "★ 莎剧使用比喻、隐喻、________、________、独白等手法，使语言生动活泼、富于表现力。",
-      "paragraphId": "7bd2ef57",
+      "paragraphId": "0d3e683c",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "171.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 50
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 11
+            }
+          ]
+        }
+      },
       "answer": "1. 双关；2. 反讽",
       "id": "ch3-fill-7bd2ef57"
     },
@@ -1373,7 +7187,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 莎士比亚戏剧艺术特色",
       "prompt": "★ 莎士比亚直接袒露人物内心活动、展现思想斗争的标志性手法是________，《哈姆莱特》中的“________”即其典型。",
-      "paragraphId": "152a4166",
+      "paragraphId": "3a59cbdd",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "172.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 62
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 独白；2. 生存还是毁灭",
       "id": "ch3-fill-152a4166"
     },
@@ -1381,7 +7229,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 莎士比亚戏剧艺术特色",
       "prompt": "★ 莎剧中的外部冲突集中表现为________；内在心理冲突则把人物内心的________作为冲突重心。",
-      "paragraphId": "1abb069f",
+      "paragraphId": "5ab27dcd",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "173.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 52
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 27
+            }
+          ]
+        }
+      },
       "answer": "1. 人文理想与黑暗现实的冲突；2. 挣扎、欲望、良知",
       "id": "ch3-fill-1abb069f"
     },
@@ -1389,7 +7271,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 莎士比亚戏剧艺术特色",
       "prompt": "★ 可用 “与社会、与个人”概括莎剧的戏剧冲突。其中，人与人、阶级、理念之间的矛盾属于________；人物内心的挣扎、欲望、良知属于________。",
-      "paragraphId": "6ed88940",
+      "paragraphId": "31d4f46d",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "174.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 76
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 外部冲突；2. 内在心理冲突",
       "id": "ch3-fill-6ed88940"
     },
@@ -1397,7 +7313,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 莎士比亚戏剧艺术特色",
       "prompt": "★ 莎剧探讨人性、善恶、正义、爱情、权力，反思________的社会矛盾，体现了戏剧的________。",
-      "paragraphId": "67395314",
+      "paragraphId": "29bf32c3",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "175.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 52
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 19
+            }
+          ]
+        }
+      },
       "answer": "1. 文艺复兴晚期；2. 人文主义内核",
       "id": "ch3-fill-67395314"
     },
@@ -1405,7 +7355,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 莎士比亚戏剧艺术特色",
       "prompt": "★ 莎剧舞台性强，适合________，兼顾________与________，既有宏大史诗场面，也有生活化场景。",
-      "paragraphId": "1b08fba8",
+      "paragraphId": "75462f54",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "176.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 57
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 29
+            }
+          ]
+        }
+      },
       "answer": "1. 伊丽莎白时代公共剧场；2. 宫廷贵族；3. 普通市民",
       "id": "ch3-fill-1b08fba8"
     },
@@ -1413,15 +7397,83 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 传奇剧与暴风雨",
       "prompt": "《________》为莎士比亚传奇剧代表。",
-      "paragraphId": "605f0980",
-      "answer": "1. 暴风雨；2. 宽恕、和解；3. 超自然力量",
+      "paragraphId": "1237d30e",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "177.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 21
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      },
+      "answer": "1. 暴风雨",
       "id": "ch3-fill-605f0980"
     },
     {
       "type": "fill",
       "section": "第二节 莎士比亚戏剧 · 传奇剧与暴风雨",
       "prompt": "《暴风雨》的三项特色是浪漫情节中的________、田园背景里的________、象征结构里的________。",
-      "paragraphId": "438e8480",
+      "paragraphId": "13e4a74c",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "178.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 56
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 20
+            }
+          ]
+        }
+      },
       "answer": "1. 奇特美；2. 恬适美；3. 和谐美",
       "id": "ch3-fill-438e8480"
     },
@@ -1429,7 +7481,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第三节 塞万提斯 · 生平与创作",
       "prompt": "★ 西班牙小说家________的《________》被称为文学史上的第一部现代小说。",
-      "paragraphId": "1f9227b0",
+      "paragraphId": "54112da2",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "179.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 43
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 塞万提斯；2. 堂吉诃德",
       "id": "ch3-fill-1f9227b0"
     },
@@ -1437,7 +7523,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第三节 塞万提斯 · 堂吉诃德的创作背景与概况",
       "prompt": "《堂吉诃德》的全名是《________》。",
-      "paragraphId": "19e140fe",
+      "paragraphId": "496d1742",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "180.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 21
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        }
+      },
       "answer": "拉曼却的机敏堂·吉诃德传",
       "id": "ch3-fill-19e140fe"
     },
@@ -1445,7 +7565,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第三节 塞万提斯 · 堂吉诃德的创作背景与概况",
       "prompt": "★ 《堂吉诃德》的创作目的可概括为“________”。课堂笔记以“________”概括作品对骑士小说的态度。",
-      "paragraphId": "67a70061",
+      "paragraphId": "2e2ce3ef",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "181.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 56
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 24
+            }
+          ]
+        }
+      },
       "answer": "1. 把骑士文学的地盘完全摧毁；2. 反骑士小说",
       "id": "ch3-fill-67a70061"
     },
@@ -1453,7 +7607,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第三节 塞万提斯 · 堂吉诃德的创作背景与概况",
       "prompt": "为了讽刺当时流行的骑士小说，塞万提斯沿用骑士作为主角的形式，将________与________漫画化。",
-      "paragraphId": "18d07873",
+      "paragraphId": "730e34a8",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "182.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 52
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 骑士制度；2. 骑士精神",
       "id": "ch3-fill-18d07873"
     },
@@ -1461,7 +7649,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第三节 塞万提斯 · 三次出游",
       "prompt": "★ 堂吉诃德原名________，因沉迷于________，以“________”为目标游走天下。",
-      "paragraphId": "12fadac7",
+      "paragraphId": "275f582a",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "183.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 49
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 26
+            }
+          ]
+        }
+      },
       "answer": "1. 阿隆索·吉哈诺；2. 骑士小说；3. 行侠仗义",
       "id": "ch3-fill-12fadac7"
     },
@@ -1469,7 +7691,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第三节 塞万提斯 · 三次出游",
       "prompt": "★ 《堂吉诃德》的情节围绕三次出游展开。第一次________，第二次________，第三次________。",
-      "paragraphId": "088cba64",
+      "paragraphId": "3d518586",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "184.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 56
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 25
+            }
+          ]
+        }
+      },
       "answer": "1. 行侠除恶；2. 大战风车；3. 大战白月骑士",
       "id": "ch3-fill-088cba64"
     },
@@ -1477,7 +7733,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第三节 塞万提斯 · 三次出游",
       "prompt": "第一次出游时，堂吉诃德把客店当作________，硬要________封自己为骑士。",
-      "paragraphId": "709cfdac",
+      "paragraphId": "6741d2a2",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "185.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 42
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 11
+            }
+          ]
+        }
+      },
       "answer": "1. 城堡；2. 店主",
       "id": "ch3-fill-709cfdac"
     },
@@ -1485,7 +7775,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第三节 塞万提斯 · 三次出游",
       "prompt": "第一次出游时，堂吉诃德制止财主鞭打孩子，自己一走，孩子反遭________。遇见商人时，他又强迫他们承认杜尔西内娅是天下最美的女人。",
-      "paragraphId": "4b514b47",
+      "paragraphId": "58ca5888",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "186.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 66
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      },
       "answer": "1. 更凶狠的毒打；",
       "id": "ch3-fill-4b514b47"
     },
@@ -1493,7 +7817,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第三节 塞万提斯 · 三次出游",
       "prompt": "第二次出游时，堂吉诃德把________看作巨人，横托长枪冲杀；最后被锁在________里，装上________送回家。",
-      "paragraphId": "243fb5eb",
+      "paragraphId": "2a651fa9",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "187.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 61
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 风车；2. 笼子；3. 牛车",
       "id": "ch3-fill-243fb5eb"
     },
@@ -1501,7 +7859,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第三节 塞万提斯 · 三次出游",
       "prompt": "第三次出游时，堂吉诃德向狮子挑战，自封“________”。主仆二人随后被________戏弄。",
-      "paragraphId": "3e68cb77",
+      "paragraphId": "3038f587",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "188.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 48
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 狮子骑士；2. 公爵夫妇",
       "id": "ch3-fill-3e68cb77"
     },
@@ -1509,7 +7901,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第三节 塞万提斯 · 堂吉诃德的形象与性格两重性",
       "prompt": "★ 堂吉诃德是矛盾的结合体。他既是“________”，又是“________”。",
-      "paragraphId": "2ce2ef21",
+      "paragraphId": "4df46b71",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "189.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 41
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 19
+            }
+          ]
+        }
+      },
       "answer": "1. 耽于幻想的疯子；2. 勇敢的战士",
       "id": "ch3-fill-2ce2ef21"
     },
@@ -1517,7 +7943,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第三节 塞万提斯 · 堂吉诃德的形象与性格两重性",
       "prompt": "★ 堂吉诃德虽然神智不清、疯狂可笑，却代表着高尚的道德原则、________、英雄的行为、________、________。",
-      "paragraphId": "22e44675",
+      "paragraphId": "5e74fd8a",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "190.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 63
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 28
+            }
+          ]
+        }
+      },
       "answer": "1. 无畏的精神；2. 对正义的坚信；3. 对爱情的忠贞",
       "id": "ch3-fill-22e44675"
     },
@@ -1525,7 +7985,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第三节 塞万提斯 · 堂吉诃德的形象与性格两重性",
       "prompt": "★ 堂吉诃德是________的化身。他认为________是人的天然权利，主张________为贵、出身不分贵贱。",
-      "paragraphId": "2be693b3",
+      "paragraphId": "402cc2ab",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "191.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 58
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 19
+            }
+          ]
+        }
+      },
       "answer": "1. 理想主义；2. 自由；3. 美德",
       "id": "ch3-fill-2be693b3"
     },
@@ -1533,7 +8027,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第三节 塞万提斯 · 堂吉诃德的形象与性格两重性",
       "prompt": "★ 堂吉诃德向往人人真诚相待、财富不分你我、公正和平的“________”。",
-      "paragraphId": "3720f1d4",
+      "paragraphId": "57fef2e1",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "192.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 38
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      },
       "answer": "黄金时代",
       "id": "ch3-fill-3720f1d4"
     },
@@ -1541,7 +8069,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第三节 塞万提斯 · 堂吉诃德的形象与性格两重性",
       "prompt": "堂吉诃德这一典型以悲哀的方式宣告“________”，反映旧信仰解体、新信仰尚未提出时的社会心态。",
-      "paragraphId": "0972bded",
+      "paragraphId": "42165230",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "193.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 49
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      },
       "answer": "信仰主义的终结",
       "id": "ch3-fill-0972bded"
     },
@@ -1549,7 +8111,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第三节 塞万提斯 · 桑丘与主仆对照",
       "prompt": "★ 西班牙作家塞万提斯笔下，堂吉诃德的侍从名叫________。按朱光潜的评论，堂吉诃德属于________，他的侍从属于________。",
-      "paragraphId": "122e913a",
+      "paragraphId": "56f158e6",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "194.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 70
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 20
+            }
+          ]
+        }
+      },
       "answer": "1. 桑丘·潘沙；2. 过去；3. 未来",
       "id": "ch3-fill-122e913a"
     },
@@ -1557,7 +8153,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第三节 塞万提斯 · 桑丘与主仆对照",
       "prompt": "★ ________把堂吉诃德概括为“________”，把桑丘概括为“________”。",
-      "paragraphId": "75e8d331",
+      "paragraphId": "1d12defc",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "195.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 46
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 30
+            }
+          ]
+        }
+      },
       "answer": "1. 朱光潜；2. 可笑的理想主义者；3. 可笑的实用主义者",
       "id": "ch3-fill-75e8d331"
     },
@@ -1565,7 +8195,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第三节 塞万提斯 · 艺术特色",
       "prompt": "★ 《堂吉诃德》以主人公游历统领情节，采用________；三次出游每次都以________结束，又形成三个环形。",
-      "paragraphId": "71a95617",
+      "paragraphId": "050f7c6f",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "196.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 57
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 13
+            }
+          ]
+        }
+      },
       "answer": "1. 线性结构；2. 返家",
       "id": "ch3-fill-71a95617"
     },
@@ -1573,7 +8237,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第三节 塞万提斯 · 艺术特色",
       "prompt": "★ 《堂吉诃德》把骑士小说典型情节移入现实环境，以________暴露其荒谬；把主仆写成一瘦一胖、一高一矮，则使用了________手法。",
-      "paragraphId": "51571f95",
+      "paragraphId": "3b8a629e",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "197.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 69
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 13
+            }
+          ]
+        }
+      },
       "answer": "1. 滑稽模仿；2. 对比",
       "id": "ch3-fill-51571f95"
     },
@@ -1581,7 +8279,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "fill",
       "section": "第三节 塞万提斯 · 艺术特色",
       "prompt": "★ 《堂吉诃德》交代故事由谁记录、由谁翻译，还让翻译者评论原作。这种艺术特点概括为“________”，并用“________”加以说明。",
-      "paragraphId": "62350319",
+      "paragraphId": "6cb643b3",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "198.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 69
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.583333,
+              "start": 0,
+              "end": 16
+            }
+          ]
+        }
+      },
       "answer": "1. 多元叙事技巧；2. 元小说",
       "id": "ch3-fill-62350319"
     },
@@ -1589,8 +8321,63 @@ window.QUESTION_BANK_CH3 = {
       "type": "term",
       "section": "第一节 概述",
       "prompt": "★ 文艺复兴",
-      "paragraphId": "36476dcb",
+      "paragraphId": "7ad41a87",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "1.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 6
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 181,
+              "runs": [
+                {
+                  "start": 50,
+                  "end": 56,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 72,
+                  "end": 86,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "文艺复兴是14世纪到17世纪初期，首先在意大利产生，然后在欧洲其他国家相继发展起来的一次中世纪后期的思想文化运动，是西欧近代三大思想解放运动——文艺复兴、宗教改革、启蒙运动之一。它以研究古希腊罗马文化典籍为先导，以复兴古希腊罗马文化为号召；但并不单纯复兴古代文化，还借此摆脱中世纪神学和封建主义的精神桎梏，表达新兴资产阶级的愿望和要求，是资产阶级思想文化的发端。",
+      "classQuiz": true,
+      "quizHighlights": {
+        "prompt": [
+          [
+            0,
+            6
+          ]
+        ]
+      },
       "redText": {
         "answer": [
           [
@@ -1609,7 +8396,58 @@ window.QUESTION_BANK_CH3 = {
       "type": "term",
       "section": "第一节 概述",
       "prompt": "★ 宗教改革",
-      "paragraphId": "12af91c7",
+      "paragraphId": "520cc269",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "2.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 6
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 174,
+              "runs": [
+                {
+                  "start": 0,
+                  "end": 4,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 37,
+                  "end": 43,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 70,
+                  "end": 75,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "宗教改革是16世纪欧洲新兴资产阶级以宗教改革为旗号发动的一次大规模反封建的社会政治运动。主要反对教皇通过教会进行控制以及天主教会的骄奢腐化。马丁·路德提出：《圣经》是信仰的最高权威，不承认教皇和教会有解释教义的绝对权力。宗教改革强调通过个人虔诚信仰获得救赎，使人从繁琐礼仪和严密组织控制中解放，给个人精神以自由，与人格独立、自由的人文主义思想相通。",
       "redText": {
         "answer": [
@@ -1633,8 +8471,118 @@ window.QUESTION_BANK_CH3 = {
       "type": "term",
       "section": "第一节 概述",
       "prompt": "★ 人文主义文学",
-      "paragraphId": "008246cc",
-      "answer": "文艺复兴时期的欧洲新兴文学以人文主义思想为内容，因而被称为人文主义文学。有着鲜明的反天主教会、反封建色彩。揭露封建贵族和教士的恶德败行，嘲讽教会禁欲主义和封建道德，抨击封建割据，歌颂国家民族统一，表现人文主义理想。在创作方法上主要采用现实主义，提倡“摹仿自然”。各民族采用本民族语言写作，强调反映民族生活，使文学富有民族特色。这一时期艺术风貌也发生深刻变化，尤其是长篇小说均发端于这一时期。",
+      "paragraphId": "4bdc3b15",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "3.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 8
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 186,
+              "runs": [
+                {
+                  "start": 14,
+                  "end": 20,
+                  "bold": true
+                },
+                {
+                  "start": 38,
+                  "end": 50,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 50,
+                  "end": 52,
+                  "color": "EE0000",
+                  "bold": true
+                },
+                {
+                  "start": 52,
+                  "end": 53,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 99,
+                  "end": 103,
+                  "bold": true
+                },
+                {
+                  "start": 127,
+                  "end": 134,
+                  "bold": true
+                },
+                {
+                  "start": 158,
+                  "end": 162,
+                  "bold": true
+                },
+                {
+                  "start": 170,
+                  "end": 186,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "文艺复兴时期的欧洲新兴文学以人文主义思想为内容，因而被称为人文主义文学。有着鲜明的反天主教会、反封建色彩，揭露封建贵族和教士的恶德败行，嘲讽教会禁欲主义和封建道德，抨击封建割据，歌颂国家民族统一。在创作方法上主要采用现实主义，提倡“摹仿自然”。各民族采用本民族语言写作，强调反映民族生活，使文学富有民族特色。这一时期艺术风貌也发生深刻变化，尤其是长篇小说均发端于这一时期。",
+      "classQuiz": true,
+      "quizHighlights": {
+        "prompt": [
+          [
+            0,
+            8
+          ]
+        ]
+      },
+      "boldText": {
+        "answer": [
+          [
+            14,
+            20
+          ],
+          [
+            50,
+            52
+          ],
+          [
+            99,
+            103
+          ],
+          [
+            127,
+            134
+          ],
+          [
+            158,
+            162
+          ]
+        ]
+      },
       "redText": {
         "answer": [
           [
@@ -1642,8 +8590,8 @@ window.QUESTION_BANK_CH3 = {
             53
           ],
           [
-            179,
-            195
+            170,
+            186
           ]
         ]
       },
@@ -1653,7 +8601,63 @@ window.QUESTION_BANK_CH3 = {
       "type": "term",
       "section": "第一节 概述",
       "prompt": "★ 《十日谈》",
-      "paragraphId": "63338d87",
+      "paragraphId": "7f1ec249",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "4.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 7
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 195,
+              "runs": [
+                {
+                  "start": 15,
+                  "end": 30,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 63,
+                  "end": 77,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 173,
+                  "end": 182,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 189,
+                  "end": 194,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "意大利文艺复兴先驱薄伽丘创作的欧洲文学史上第一部现实主义著作。薄伽丘以佛罗伦萨的可怕瘟疫为背景，历时五年写成《十日谈》。主题为反禁欲主义、反教会、反封建。体现中世纪短篇小说特色，以情节铺述见长，人物性格塑造相对不足。在结构上借鉴《一千零一夜》编制故事的方法，即大故事套小故事。运用了夸张和讽刺的表现手法。它开欧洲近代短篇小说的先河，影响英国乔叟的《坎特伯雷故事集》与法国那伐尔的《七日谈》。",
       "redText": {
         "answer": [
@@ -1681,8 +8685,68 @@ window.QUESTION_BANK_CH3 = {
       "type": "term",
       "section": "第一节 概述",
       "prompt": "★ 七星诗社",
-      "paragraphId": "050e2528",
+      "paragraphId": "408807a6",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "5.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 6
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 143,
+              "runs": [
+                {
+                  "start": 0,
+                  "end": 4,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 34,
+                  "end": 36,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 74,
+                  "end": 77,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "七星诗社是法国文学文艺复兴时期产生的流派。由七位人文主义诗人组成，以龙沙为中心人物，宗旨是研究古希腊罗马文学，并借鉴其成就革新法国诗歌。1549年，杜倍雷发表《保卫与发扬法兰西语言》，代表诗社主张：用法语写作，推崇古代诗歌格律等。诗社是受人文主义影响的文学革新运动产物，有一定进步意义。",
+      "classQuiz": true,
+      "quizHighlights": {
+        "prompt": [
+          [
+            0,
+            6
+          ]
+        ]
+      },
       "redText": {
         "answer": [
           [
@@ -1705,41 +8769,112 @@ window.QUESTION_BANK_CH3 = {
       "type": "term",
       "section": "第一节 概述",
       "prompt": "★ 《巨人传》",
-      "paragraphId": "3b9316b1",
-      "answer": "拉伯雷是法国文艺复兴时期最重要的人文主义作家。《巨人传》讲述两代巨人国王高康大及其儿子庞大固埃的神奇事迹。作品以荒诞巨人之旅讽刺中世纪教会与经院哲学，宣扬人的解放、个性自由与现世幸福。通过两代巨人形象，全面展示人文主义理想，强调人文主义教育和知识的重要，体现欧洲近代文学中人的形象首次顶天立地在神面前的成功尝试。特莱美修道院是拉伯雷的人文主义“理想国”。",
+      "paragraphId": "63a5ff3d",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "6.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 7
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 174,
+              "runs": [
+                {
+                  "start": 19,
+                  "end": 22,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 33,
+                  "end": 36,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 50,
+                  "end": 89,
+                  "bold": true
+                },
+                {
+                  "start": 91,
+                  "end": 97,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 124,
+                  "end": 153,
+                  "bold": true
+                },
+                {
+                  "start": 153,
+                  "end": 159,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "由法国文艺复兴时期最重要的人文主义作家拉伯雷创作。讲述两代巨人国王高康大及其儿子庞大固埃的神奇事迹。作品以荒诞巨人之旅讽刺中世纪教会与经院哲学，宣扬人的解放、个性自由与现世幸福。通过两代巨人形象，全面展示人文主义理想，强调人文主义教育和知识的重要，体现欧洲近代文学中人的形象首次顶天立地在神面前的成功尝试。特莱美修道院是拉伯雷的人文主义“理想国”。",
+      "classQuiz": true,
+      "quizHighlights": {
+        "prompt": [
+          [
+            0,
+            7
+          ]
+        ]
+      },
       "redText": {
         "answer": [
           [
-            0,
-            3
+            19,
+            22
           ],
           [
-            23,
-            28
+            33,
+            36
           ],
           [
-            36,
-            39
+            91,
+            97
           ],
           [
-            94,
-            100
-          ],
-          [
-            156,
-            162
+            153,
+            159
           ]
         ]
       },
       "boldText": {
         "answer": [
           [
-            53,
-            92
+            50,
+            89
           ],
           [
-            127,
-            156
+            124,
+            153
           ]
         ]
       },
@@ -1749,10 +8884,97 @@ window.QUESTION_BANK_CH3 = {
       "type": "term",
       "section": "第一节 概述",
       "prompt": "★ 流浪汉小说",
-      "paragraphId": "18b6589d",
+      "paragraphId": "44fc84a4",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "7.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 7
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 179,
+              "runs": [
+                {
+                  "start": 0,
+                  "end": 5,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 25,
+                  "end": 31,
+                  "color": "1F497D"
+                },
+                {
+                  "start": 35,
+                  "end": 39,
+                  "bold": true
+                },
+                {
+                  "start": 80,
+                  "end": 86,
+                  "bold": true
+                },
+                {
+                  "start": 114,
+                  "end": 119,
+                  "color": "1F497D"
+                },
+                {
+                  "start": 123,
+                  "end": 127,
+                  "color": "1F497D"
+                },
+                {
+                  "start": 131,
+                  "end": 135,
+                  "color": "1F497D"
+                },
+                {
+                  "start": 147,
+                  "end": 151,
+                  "bold": true
+                },
+                {
+                  "start": 173,
+                  "end": 178,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "流浪汉小说是16世纪在西班牙开始流行的、以流浪汉为主人公和题材的小说。产生背景是西班牙经济开始衰落，人民群众日益穷困，大批农民、手工业者破产，沦为无业游民。它以城市下层生活为中心，从下层人物角度去观察分析社会上的种种丑恶现象，以人物流浪史的形式、幽默俏皮的风格、简洁流畅的语言，广泛地反映当时的社会生活，具有一定的思想意义和艺术价值。最早的作品是《小癞子》。",
       "classQuiz": true,
       "quizHighlights": {
+        "prompt": [
+          [
+            0,
+            7
+          ]
+        ],
         "answer": [
           [
             0,
@@ -1772,13 +8994,70 @@ window.QUESTION_BANK_CH3 = {
           ]
         ]
       },
+      "boldText": {
+        "answer": [
+          [
+            35,
+            39
+          ],
+          [
+            80,
+            86
+          ],
+          [
+            147,
+            151
+          ]
+        ]
+      },
       "id": "ch3-term-18b6589d"
     },
     {
       "type": "term",
       "section": "第一节 概述",
       "prompt": "《小癞子》",
-      "paragraphId": "093338cc",
+      "paragraphId": "1a0e125f",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "8.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 144,
+              "runs": [
+                {
+                  "start": 0,
+                  "end": 25,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "《小癞子》是西班牙16世纪流行的最早的流浪汉小说。作者佚名。16世纪中叶，西班牙经济衰退，农民、手工业者破产，大量无业游民出现，构成流浪汉小说产生的社会背景。主人公以自述方式展开故事，他出身贫困，从小供人驱使，给刻薄瞎子领路，为吝啬教士服役，替穷绅士行乞；最后靠不义之财，过着富裕的生活。",
       "redText": {
         "answer": [
@@ -1794,7 +9073,48 @@ window.QUESTION_BANK_CH3 = {
       "type": "term",
       "section": "第一节 概述",
       "prompt": "《羊泉村》",
-      "paragraphId": "35e7e957",
+      "paragraphId": "3dc542cd",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "9.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 106,
+              "runs": [
+                {
+                  "start": 2,
+                  "end": 5,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "作者维加，西班牙文艺复兴时期的剧作家，被称为“西班牙戏剧之父”，是民族戏剧奠基者。《羊泉村》描叙1476年羊泉村人民反抗领主的史实。主题是反抗暴政，歌颂君主政治，要求正义、忠诚与秩序；次要主题是忠贞的爱情与荣誉。",
       "redText": {
         "answer": [
@@ -1810,8 +9130,49 @@ window.QUESTION_BANK_CH3 = {
       "type": "term",
       "section": "第一节 概述",
       "prompt": "★ 大学才子派",
-      "paragraphId": "7adf04b4",
-      "answer": "16世纪80年代英国戏剧进入繁荣期，出现一批中产阶级出身、在大学念过书的作家。他们大多受人文主义熏陶，具有丰富古典文化修养。他们致力于戏剧改革，将古罗马戏剧、中世纪道德剧、当代意大利与法国戏剧融为一体，创造出结构严谨、情节生动、诗意盎然的复仇悲剧、浪漫喜剧、历史剧等形式，为英国戏剧成熟作出贡献。剧作家包括马斯·洛奇、约翰·李利等。李利是莎士比亚在喜剧创作方面的楷模。",
+      "paragraphId": "50fa2d52",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "10.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 7
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 186,
+              "runs": [
+                {
+                  "start": 168,
+                  "end": 186,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "指16世纪80年代英国戏剧进入繁荣期，出现的一批中产阶级出身、在大学念过书的作家。他们大多受人文主义熏陶，具有丰富古典文化修养。他们致力于戏剧改革，将古罗马戏剧、中世纪道德剧、当代意大利与法国戏剧融为一体，创造出结构严谨、情节生动、诗意盎然的复仇悲剧、浪漫喜剧、历史剧等形式，为英国戏剧成熟作出贡献。剧作家包括马斯·洛奇、约翰·李利等。李利是莎士比亚在喜剧创作方面的楷模。",
       "classQuiz": true,
       "quizHighlights": {
         "prompt": [
@@ -1824,8 +9185,8 @@ window.QUESTION_BANK_CH3 = {
       "redText": {
         "answer": [
           [
-            166,
-            184
+            168,
+            186
           ]
         ]
       },
@@ -1835,7 +9196,54 @@ window.QUESTION_BANK_CH3 = {
       "type": "term",
       "section": "第二节 莎士比亚戏剧",
       "prompt": "★ 《仲夏夜之梦》",
-      "paragraphId": "240d6e75",
+      "paragraphId": "2c4a38a2",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "11.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 9
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 154,
+              "runs": [
+                {
+                  "start": 0,
+                  "end": 8,
+                  "bold": true
+                },
+                {
+                  "start": 8,
+                  "end": 23,
+                  "color": "EE0000",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "《仲夏夜之梦》是标志莎士比亚喜剧的成熟的作品。四个年轻人发生爱情纠葛，在经历考验和历练后，认识了自我，走向成熟，也收获了美满的爱情。四条剧情线索交叉并行，最后在盛大的婚礼庆典中结束。主要场景是雅典附近的森林，这种世界为人物的欢恋和舞蹈提供诗意场所，增加抒情和梦幻色彩；戏中戏与小丑等因素加强了全剧的喜庆气氛。",
       "boldText": {
         "answer": [
@@ -1867,7 +9275,63 @@ window.QUESTION_BANK_CH3 = {
       "type": "term",
       "section": "第二节 莎士比亚戏剧",
       "prompt": "★ 《威尼斯商人》",
-      "paragraphId": "3f5a7d35",
+      "paragraphId": "5072b8f8",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "12.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 9
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 117,
+              "runs": [
+                {
+                  "start": 12,
+                  "end": 16,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 23,
+                  "end": 40,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 49,
+                  "end": 54,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 69,
+                  "end": 75,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "《威尼斯商人》是莎士比亚早期喜剧的代表作之一，最富社会讽刺性。两条线索并行发展：安东尼奥与夏洛克的“一磅肉”契约及冲突；巴萨尼奥与鲍西娅的“三匣选婿”。该剧表彰了真挚爱情和无私友谊，讽刺了社会的金钱至上、宗教歧视、纲常人伦、性别偏见。",
       "redText": {
         "answer": [
@@ -1895,7 +9359,41 @@ window.QUESTION_BANK_CH3 = {
       "type": "term",
       "section": "第二节 莎士比亚戏剧",
       "prompt": "★ 莎士比亚的“四大悲剧”",
-      "paragraphId": "5532d2c5",
+      "paragraphId": "0cf48ec9",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "13.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 13
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 90
+            }
+          ]
+        }
+      },
       "answer": "是莎士比亚的第二个时期悲剧时期产生的，也是戏剧创作的高峰期；分别为《哈姆莱特》、《奥赛罗》、《李尔王》、《麦克白》。《哈姆莱特》是莎士比亚四大悲剧之首，也是莎士比亚戏剧艺术的高峰。",
       "id": "ch3-term-5532d2c5"
     },
@@ -1903,7 +9401,58 @@ window.QUESTION_BANK_CH3 = {
       "type": "term",
       "section": "第二节 莎士比亚戏剧",
       "prompt": "★ 《哈姆莱特》",
-      "paragraphId": "5df010e8",
+      "paragraphId": "7e29d386",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "14.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 8
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 181,
+              "runs": [
+                {
+                  "start": 71,
+                  "end": 89,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 105,
+                  "end": 107,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 112,
+                  "end": 125,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "《哈姆莱特》是莎士比亚四大悲剧之首，也是莎士比亚戏剧艺术的高峰。莎士比亚以古代丹麦的复仇故事，反映自己时代的社会矛盾和人文主义思想。哈姆莱特是处于理想与现实矛盾中的人文主义者形象。从为父复仇到“重整乾坤”，他的延宕深刻反映了文艺复兴晚期人文主义的危机：先进的人文理想与黑暗丑恶的封建现实激烈冲突；先进知识分子看清社会弊病，却无力变革，最终陷入精神痛苦与行动困境。",
       "redText": {
         "answer": [
@@ -1927,7 +9476,53 @@ window.QUESTION_BANK_CH3 = {
       "type": "term",
       "section": "第二节 莎士比亚戏剧",
       "prompt": "“莎士比亚化”",
-      "paragraphId": "700c0b8e",
+      "paragraphId": "3a16924d",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "15.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 7
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 129,
+              "runs": [
+                {
+                  "start": 38,
+                  "end": 54,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 74,
+                  "end": 129,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "“情节的生动性和丰富性”、复杂人物与多彩语言，被概括为“莎士比亚化”。情节上双线或多线交织，悲喜交融。人物上塑造了立体鲜活的人文主义群像。语言艺术上诗体与散文并用，个性化语言。戏剧的内外冲突结合，内涵深刻。思想上扎根时代面向大众，体现人文主义内核。舞台性强。",
       "redText": {
         "answer": [
@@ -1947,8 +9542,73 @@ window.QUESTION_BANK_CH3 = {
       "type": "term",
       "section": "第三节 塞万提斯",
       "prompt": "★ 《堂吉诃德》",
-      "paragraphId": "0b7f9503",
-      "answer": "西班牙最伟大的小说家塞万提斯创作的文学史上的第一部现代小说。作品围绕主人公阿隆索行侠除恶、大战风车、大战白月骑士的三次出游展开。他沿用骑士作为主角的形式，将骑士制度与骑士精神漫画化，反对胡编乱造、情节离奇的骑士小说及其对人们造成的恶劣影响。堂吉诃德的形象与性格的两重性触及理想与现实的矛盾。作者借此以悲哀的心情宣告“信仰主义的终结”，反映文艺复兴时期旧信仰解体、新信仰尚未提出时的社会心态。",
+      "paragraphId": "57ca977c",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "16.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 8
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 195,
+              "runs": [
+                {
+                  "start": 10,
+                  "end": 14,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 17,
+                  "end": 29,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 36,
+                  "end": 56,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 91,
+                  "end": 93,
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "西班牙最伟大的小说家塞万提斯创作的文学史上第一部现代小说。作品围绕主人公阿隆索行侠除恶、大战风车、大战白月骑士的三次出游展开。作者沿用骑士作为主角的形式，将骑士制度与骑士精神漫画化，反对胡编乱造、情节离奇的骑士小说及其对人们造成的恶劣影响。堂吉诃德的形象与性格的两重性触及理想与现实的矛盾。作者借此以悲哀的心情宣告“信仰主义的终结”，反映文艺复兴时期旧信仰解体、新信仰尚未提出时的社会心态。",
+      "classQuiz": true,
+      "quizHighlights": {
+        "prompt": [
+          [
+            0,
+            8
+          ]
+        ]
+      },
       "redText": {
         "answer": [
           [
@@ -1957,11 +9617,19 @@ window.QUESTION_BANK_CH3 = {
           ],
           [
             17,
-            30
+            29
           ],
           [
-            37,
-            57
+            36,
+            56
+          ]
+        ]
+      },
+      "boldText": {
+        "answer": [
+          [
+            91,
+            93
           ]
         ]
       },
@@ -1970,30 +9638,189 @@ window.QUESTION_BANK_CH3 = {
     {
       "type": "short",
       "section": "第一节 概述",
-      "prompt": "★ 简述人文主义思潮的思想内涵及五项基本主张。",
-      "paragraphId": "748df3dd",
-      "answer": "人文主义主张以人为本，以人作为衡量万物的标准和尺度，以人性及其成就为研究对象。\n（1）反对神权，主张人权。从神的权威转向人的价值，肯定人的尊严、力量与创造力。\n（2）反对禁欲，宣扬个性解放。肯定追求现世幸福和世俗享乐的权利，赞美爱情，承认精神愉悦、感官满足和自然欲望；认为现世物质财富能带来优裕、有尊严的生活。\n（3）反对等级观念，追求自由平等。反对封建等级制度和门第观念，歌颂友谊、美德与才能，反对包办婚姻，主张爱情自由。\n（4）反对蒙昧，崇尚理性。反对神秘主义和蒙昧主义，提倡科学与理性，崇尚知识与创造，重视教育、经验科学和实证方法。\n（5）拥护君主立宪制，主张国家统一。教材相应论述强调民族国家的形成、中央集权和开明君主，反对封建割据。",
+      "prompt": "★ 简述人文主义思潮的思想内涵。",
+      "paragraphId": "69f21215",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "1.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 16
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 0,
+              "label": "答案："
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 39,
+              "runs": [
+                {
+                  "start": 3,
+                  "end": 13,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 14,
+                  "end": 39,
+                  "strike": true
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 40,
+              "end": 115,
+              "runs": [
+                {
+                  "start": 43,
+                  "end": 55,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 55,
+                  "end": 115,
+                  "strike": true
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 116,
+              "end": 172,
+              "runs": [
+                {
+                  "start": 119,
+                  "end": 133,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 133,
+                  "end": 172,
+                  "strike": true
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 173,
+              "end": 229,
+              "runs": [
+                {
+                  "start": 176,
+                  "end": 186,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 186,
+                  "end": 229,
+                  "strike": true
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 230,
+              "end": 281,
+              "runs": [
+                {
+                  "start": 235,
+                  "end": 240,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 248,
+                  "end": 281,
+                  "strike": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "（1）反对神权，主张人权。从神的权威转向人的价值，肯定人的尊严、力量与创造力。\n（2）反对禁欲，宣扬个性解放。肯定追求现世幸福和世俗享乐的权利，赞美爱情，承认精神愉悦、感官满足和自然欲望；认为现世物质财富能带来优裕、有尊严的生活。\n（3）反对等级观念，追求自由平等。反对封建等级制度和门第观念，歌颂友谊、美德与才能，反对包办婚姻，主张爱情自由。\n（4）反对蒙昧，崇尚理性。反对神秘主义和蒙昧主义，提倡科学与理性，崇尚知识与创造，重视教育、经验科学和实证方法。\n（5）拥护君主立宪制，主张国家统一。教材相应论述强调民族国家的形成、中央集权和开明君主，反对封建割据。",
+      "classQuiz": true,
+      "quizHighlights": {
+        "prompt": [
+          [
+            0,
+            15
+          ]
+        ]
+      },
       "redText": {
         "answer": [
           [
+            3,
+            13
+          ],
+          [
             43,
-            53
+            55
           ],
           [
-            83,
-            95
+            119,
+            133
           ],
           [
-            159,
-            173
+            176,
+            186
           ],
           [
-            216,
-            226
-          ],
-          [
-            275,
-            280
+            235,
+            240
           ]
         ]
       },
@@ -2003,8 +9830,133 @@ window.QUESTION_BANK_CH3 = {
       "type": "short",
       "section": "第一节 概述",
       "prompt": "★ 简述文艺复兴时期人文主义文学的主要特点。",
-      "paragraphId": "5d285399",
-      "answer": "文艺复兴时期的欧洲新兴文学以人文主义思想为内容，因而被称为人文主义文学。主要特点有：\n（1）鲜明的反天主教会、反封建色彩。揭露封建贵族和教士的恶德败行，嘲讽教会禁欲主义和封建道德，抨击封建割据，歌颂国家民族统一，表现人文主义理想。\n（2）创作手法的写实性。在创作方法上主要采用现实主义，提倡“摹仿自然”，摒弃中古梦幻、寓意和象征的手法，表现生动活泼的写实精神。\n（3）表现民族意识的觉醒与民族性的追求。在文学发展上形成民族文学，各民族采用本民族语言写作，强调反映民族生活，使文学富有民族特色。\n（4）艺术风貌的深刻变化。展示人的精神世界、情感特征、欲望要求；关注现实、关注人生的新方法；体裁领域扩大，抒情诗、叙事诗、戏剧等继续成熟，十四行诗、框架式短篇小说等获得发展。尤其是长篇小说均发端于这一时期。",
+      "paragraphId": "2cd63047",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "2.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 22
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 42
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 43,
+              "end": 106,
+              "runs": [
+                {
+                  "start": 46,
+                  "end": 61,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 107,
+              "end": 171,
+              "runs": [
+                {
+                  "start": 110,
+                  "end": 119,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 143,
+                  "end": 158,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 172,
+              "end": 237,
+              "runs": [
+                {
+                  "start": 175,
+                  "end": 205,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 238,
+              "end": 341,
+              "runs": [
+                {
+                  "start": 241,
+                  "end": 251,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 325,
+                  "end": 341,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "文艺复兴时期的欧洲新兴文学以人文主义思想为内容，因而被称为人文主义文学。主要特点有：\n（1）鲜明的反天主教会、反封建色彩。揭露封建贵族和教士的恶德败行，嘲讽教会禁欲主义和封建道德，抨击封建割据，歌颂国家民族统一。\n（2）创作手法的写实性。在创作方法上主要采用现实主义，提倡“摹仿自然”，摒弃中古梦幻、寓意和象征的手法，表现生动活泼的写实精神。\n（3）表现民族意识的觉醒与民族性的追求。在文学发展上形成民族文学，各民族采用本民族语言写作，强调反映民族生活，使文学富有民族特色。\n（4）艺术风貌的深刻变化。展示人的精神世界、情感特征、欲望要求；关注现实、关注人生的新方法；体裁领域扩大，抒情诗、叙事诗、戏剧等继续成熟，十四行诗、框架式短篇小说等获得发展。尤其是长篇小说均发端于这一时期。",
+      "classQuiz": true,
+      "quizHighlights": {
+        "prompt": [
+          [
+            0,
+            22
+          ]
+        ]
+      },
       "redText": {
         "answer": [
           [
@@ -2012,24 +9964,24 @@ window.QUESTION_BANK_CH3 = {
             61
           ],
           [
-            119,
-            128
+            110,
+            119
           ],
           [
-            152,
-            167
+            143,
+            158
           ],
           [
-            184,
-            214
+            175,
+            205
           ],
           [
-            250,
-            260
+            241,
+            251
           ],
           [
-            334,
-            350
+            325,
+            341
           ]
         ]
       },
@@ -2039,7 +9991,76 @@ window.QUESTION_BANK_CH3 = {
       "type": "short",
       "section": "第一节 概述",
       "prompt": "怎样评价人文主义文学的进步性与局限性？",
-      "paragraphId": "2cc90c56",
+      "paragraphId": "48e6e999",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "3.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 19
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 75,
+              "runs": [
+                {
+                  "start": 3,
+                  "end": 6,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 52,
+                  "end": 63,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 76,
+              "end": 154,
+              "runs": [
+                {
+                  "start": 79,
+                  "end": 82,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 114,
+                  "end": 128,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "（1）进步性：作家用美学和艺术的方式展示对人的认识不断深化的过程；这种新型文学在当时历史条件下，沉重打击封建神学体系和僧侣文学，具有巨大的历史进步性。\n（2）局限性：人文主义作家所肯定的“人”“人性”掩盖人的社会属性和阶级属性；由于抛掉了人的社会性和阶级性，他们所描写的人也体现新兴资产阶级自身的立场与要求。",
       "redText": {
         "answer": [
@@ -2067,7 +10088,7 @@ window.QUESTION_BANK_CH3 = {
       "type": "short",
       "section": "第一节 概述",
       "prompt": "★ 根据表中的作品线索，填写相应的作家、国别和作品名。",
-      "paragraphId": "24525bb0",
+      "paragraphId": "4602458a",
       "promptTable": [
         [
           "序号",
@@ -2105,6 +10126,106 @@ window.QUESTION_BANK_CH3 = {
           ""
         ]
       ],
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "4.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 27
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 17,
+              "runs": [
+                {
+                  "start": 3,
+                  "end": 7,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 18,
+              "end": 34,
+              "runs": [
+                {
+                  "start": 21,
+                  "end": 25,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 28,
+                  "end": 34,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 35,
+              "end": 51,
+              "runs": [
+                {
+                  "start": 38,
+                  "end": 40,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 52,
+              "end": 71,
+              "runs": [
+                {
+                  "start": 55,
+                  "end": 61,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "（1）彼特拉克，意大利，《歌集》。\n（2）拉伯雷，法国，《巨人传》。\n（3）维加，西班牙，《羊泉村》。\n（4）托马斯·莫尔，英国，《乌托邦》。",
       "redText": {
         "answer": [
@@ -2136,7 +10257,75 @@ window.QUESTION_BANK_CH3 = {
       "type": "short",
       "section": "第二节 莎士比亚戏剧",
       "prompt": "★ 结合选夫和法庭情节，简析《威尼斯商人》中鲍西娅的形象及其时代意义。",
-      "paragraphId": "58a5b27d",
+      "paragraphId": "09c13e04",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "5.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 35
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 70
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 71,
+              "end": 131
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 132,
+              "end": 236,
+              "runs": [
+                {
+                  "start": 135,
+                  "end": 152,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 169,
+                  "end": 173,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "（1）聪慧博学、果敢机智。表面遵从父亲遗嘱选夫，暗中自主选择爱人巴萨尼奥；女扮男装出庭，凭借法律智慧挫败夏洛克。有独立人格，兼具温柔与理性。\n（2）时代意义：打破“女性无智、不能参与公共事务”的父权偏见，肯定女性才智，歌颂爱情自主，是文艺复兴理想人文女性的代表。\n（3）莎士比亚女性形象总体特征：喜剧女性机智灵动，敢于争取爱情、展现才智；悲剧女性或纯真受难，或被权力异化。整体上高扬人文主义，肯定女性的情感、智慧与人的价值，但也保留文艺复兴时代局限，没有完全脱离父权视角。",
       "yellowHighlights": {
         "answer": [
@@ -2164,7 +10353,103 @@ window.QUESTION_BANK_CH3 = {
       "type": "short",
       "section": "第二节 莎士比亚戏剧",
       "prompt": "《威尼斯商人》的社会讽刺性体现在哪里？",
-      "paragraphId": "372c57ac",
+      "paragraphId": "45bd3207",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "6.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 19,
+              "runs": [
+                {
+                  "start": 0,
+                  "end": 19,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 7.5,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 28
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 7.5,
+              "firstLine": 2.0,
+              "start": 29,
+              "end": 40
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 7.5,
+              "firstLine": 2.0,
+              "start": 41,
+              "end": 103
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 7.5,
+              "firstLine": 2.0,
+              "start": 104,
+              "end": 155
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 7.5,
+              "firstLine": 2.0,
+              "start": 156,
+              "end": 208
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 7.5,
+              "firstLine": 2.0,
+              "start": 209,
+              "end": 257
+            }
+          ]
+        }
+      },
       "answer": "补充出四个方面：金钱至上、宗教歧视、纲常人伦、性别偏见。\n（补充具体的内容例子）\n①金钱至上：围绕借债、利息、契约与“一磅肉”的冲突，揭露金钱对人的支配及贪欲对人性的扭曲；真挚友谊和爱情与自私贪欲形成对照。\n②宗教歧视：夏洛克既是可憎的高利贷者，又是遭到不公正对待的犹太教徒；其怨恨与长期的宗教、民族偏见有关。\n③纲常人伦：三匣选婿所体现的父亲遗命与青年自主爱情之间存在张力；婚姻、亲情和个人选择的关系进入戏剧冲突。\n④性别偏见：鲍西娅通过女扮男装进入法庭，显露法律智慧与行动能力，突破女性不能参与公共事务的成见。",
       "redText": {
         "prompt": [
@@ -2180,7 +10465,150 @@ window.QUESTION_BANK_CH3 = {
       "type": "short",
       "section": "第二节 莎士比亚戏剧",
       "prompt": "莎翁喜剧特色",
-      "paragraphId": "5e14740e",
+      "paragraphId": "380b0580",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "7.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 6,
+              "runs": [
+                {
+                  "start": 0,
+                  "end": 6,
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 7.5,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 111,
+              "runs": [
+                {
+                  "start": 3,
+                  "end": 7,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 7.5,
+              "firstLine": 2.0,
+              "start": 112,
+              "end": 185,
+              "runs": [
+                {
+                  "start": 115,
+                  "end": 124,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 7.5,
+              "firstLine": 2.0,
+              "start": 186,
+              "end": 261,
+              "runs": [
+                {
+                  "start": 189,
+                  "end": 207,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 229,
+                  "end": 232,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 7.5,
+              "firstLine": 2.0,
+              "start": 262,
+              "end": 351,
+              "runs": [
+                {
+                  "start": 265,
+                  "end": 282,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 7.5,
+              "firstLine": 2.0,
+              "start": 352,
+              "end": 450,
+              "runs": [
+                {
+                  "start": 355,
+                  "end": 359,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 7.5,
+              "firstLine": 2.0,
+              "start": 451,
+              "end": 530,
+              "runs": [
+                {
+                  "start": 454,
+                  "end": 466,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "（1）思想主题：宣扬人文主义爱情与友谊理想。以青年男女爱情、真挚友谊为中心，歌颂个性解放、爱情自由，反对封建门第观念、宗教禁欲主义。冲突多是人文主义美好人性与封建偏见、自私贪欲之间的矛盾，结局多为矛盾和解、有情人终成眷属。\n（2）情节结构：多线并行，以误会、伪装推动戏剧冲突。采用主副线索交叉编织的复合结构；广泛运用女扮男装、身份错认、误会巧合等喜剧手段制造悬念与趣味。\n（3）人物塑造：人文主义新女性形象光彩突出。塑造一大批聪慧、果敢、主动追求爱情的女性（鲍西娅、罗瑟琳、薇奥拉），她们有独立思考能力，敢于冲破世俗束缚。\n（4）空间构想：“绿色世界”的理想舞台。设置森林、仙境、庄园等远离宫廷与城市现实秩序的理想化空间。现实世界的矛盾进入绿色世界，在自然、自由的氛围中得到调解，寄托人文主义社会理想。\n（5）语言艺术：雅俗交融，诗体与散文并用。贵族抒情段落多用无韵诗，市井戏谑场景使用散文；大量运用双关、反讽、比喻、机智对白。语言兼具诗意美感与民间诙谐，不同人物语言高度个性化，充满生活气息与哲理。\n（6）风格特征：悲喜因素交融，乐观浪漫。打破古典戏剧严格的悲喜二分法，喜剧之中可融入一定悲剧性因素，但整体基调明朗乐观，最终以和解、婚礼、社会秩序的修复收尾。",
       "boldText": {
         "prompt": [
@@ -2228,7 +10656,81 @@ window.QUESTION_BANK_CH3 = {
       "type": "short",
       "section": "第二节 莎士比亚戏剧",
       "prompt": "★ 哈姆莱特“生存还是毁灭”这段独白展示了什么？",
-      "paragraphId": "4874a856",
+      "paragraphId": "5588c332",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "8.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 24
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 58,
+              "runs": [
+                {
+                  "start": 3,
+                  "end": 28,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 59,
+              "end": 98
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 99,
+              "end": 127
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 128,
+              "end": 169
+            }
+          ]
+        }
+      },
       "answer": "（1）这段独白集中展现哈姆莱特作为人文主义者的内心矛盾。清醒认识到社会充满苦难与不公，思考是忍受苦难，还是奋起反抗。\n（2）思辨死亡，认为死亡或许能解脱痛苦，但又惧怕死后未知的世界，不敢轻易赴死。\n（3）体现理性思辨造成的行动延宕：过多思考削弱行动决心。\n（4）折射文艺复兴人文主义理想与黑暗现实之间的巨大冲突，是人文主义精神危机的写照。",
       "redText": {
         "answer": [
@@ -2244,7 +10746,185 @@ window.QUESTION_BANK_CH3 = {
       "type": "essay",
       "section": "第一节 概述",
       "prompt": "★ 结合莎士比亚喜剧和悲剧中的女性形象，论述其作品如何表现人文主义思想及其时代局限。",
-      "paragraphId": "54b4f56b",
+      "paragraphId": "1f10ef09",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "1.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 42
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 83
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 84,
+              "end": 141
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 142,
+              "end": 210
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 211,
+              "end": 269
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 270,
+              "end": 334
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 335,
+              "end": 388
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 389,
+              "end": 460
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 461,
+              "end": 527
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 528,
+              "end": 593
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 594,
+              "end": 660
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 661,
+              "end": 728
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 729,
+              "end": 797
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 798,
+              "end": 902,
+              "runs": [
+                {
+                  "start": 801,
+                  "end": 818,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 835,
+                  "end": 839,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "（1）鲍西娅——《威尼斯商人》。聪慧博学、果敢机智。表面遵从父亲遗嘱选夫，暗中自主选择爱人巴萨尼奥；女扮男装出庭，凭借法律智慧挫败夏洛克。有独立人格，兼具温柔与理性。\n时代意义：打破“女性无智、不能参与公共事务”的父权偏见，肯定女性才智，歌颂爱情自主，是文艺复兴理想人文女性的代表。\n（2）薇奥拉——《第十二夜》。温柔忠贞、机敏善良。海难后女扮男装，隐忍守护爱人奥西诺；内心真诚，尊重他人情感，在身份错位中保持人性善良。\n时代意义：借女扮男装的情节消解性别壁垒，赞美真挚爱情，揭示人性价值高于性别身份，体现人文主义对情感与个体尊严的重视。\n（3）奥菲利娅——《哈姆雷特》。纯真柔弱、善良敏感，依附父兄与哈姆雷特，缺乏独立判断。在父权、爱情双重打击下精神崩溃，溺水而亡。\n时代意义：父权社会下被动女性的悲剧缩影。展现当时贵族女性缺少自主选择权，美好人性被封建伦理与权力斗争摧毁。\n（4）苔丝狄蒙娜——《奥赛罗》。勇敢坚贞，追求平等爱情，不顾种族、门第差距，主动爱上摩尔人奥赛罗；天性善良包容，却被嫉妒与谎言构陷，无辜惨死。\n时代意义：敢于冲破种族与阶层偏见追求自由爱情；她的悲剧揭示父权社会中女性的脆弱处境，人文主义美好的人性理想在猜忌与偏见面前不堪一击。\n（5）麦克白夫人——《麦克白》。野心极强、意志强悍，主动怂恿丈夫弑君夺权；压抑女性柔情，冷酷果决；后期被罪恶感吞噬，精神崩溃自杀。\n时代意义：颠覆传统女性温顺刻板印象；既写出人性欲望的破坏力，也揭示：在男权秩序里，女性若要获取权力，必须抛弃女性特质，最终走向毁灭。\n（6）考狄利娅——《李尔王》。真诚质朴、坚守本心，拒绝虚伪谄媚；对父亲保有纯粹孝心，性格坚韧。因不愿花言巧语被驱逐，最终卷入战乱死去。\n时代意义：代表人文主义真诚、良知与道德；对比两个虚伪姐姐，批判功利虚伪的社会风气，彰显人性本真的可贵，也见证善良者在黑暗王权世界的悲剧。\n（4）莎士比亚女性形象总体特征：喜剧女性机智灵动，敢于争取爱情、展现才智；悲剧女性或纯真受难，或被权力异化。整体上高扬人文主义，肯定女性的情感、智慧与人的价值，但也保留文艺复兴时代局限，没有完全脱离父权视角。",
       "yellowHighlights": {
         "answer": [
@@ -2272,7 +10952,158 @@ window.QUESTION_BANK_CH3 = {
       "type": "essay",
       "section": "第一节 概述",
       "prompt": "★ 试论莎士比亚喜剧的思想主题和艺术特色，并结合《仲夏夜之梦》《威尼斯商人》举例说明。",
-      "paragraphId": "0b4ba327",
+      "paragraphId": "5fd757b1",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "2.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 43
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 150,
+              "runs": [
+                {
+                  "start": 3,
+                  "end": 7,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 151,
+              "end": 257,
+              "runs": [
+                {
+                  "start": 154,
+                  "end": 163,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 224,
+                  "end": 232,
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 258,
+              "end": 379,
+              "runs": [
+                {
+                  "start": 261,
+                  "end": 265,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 270,
+                  "end": 279,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 301,
+                  "end": 304,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 380,
+              "end": 520,
+              "runs": [
+                {
+                  "start": 383,
+                  "end": 400,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 470,
+                  "end": 477,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 521,
+              "end": 619,
+              "runs": [
+                {
+                  "start": 524,
+                  "end": 528,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 620,
+              "end": 699,
+              "runs": [
+                {
+                  "start": 623,
+                  "end": 634,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "（1）思想主题：宣扬人文主义爱情与友谊理想。以青年男女爱情、真挚友谊为中心，歌颂个性解放、爱情自由，反对封建门第观念、宗教禁欲主义。冲突多是人文主义美好人性与封建偏见、自私贪欲之间的矛盾，结局多为矛盾和解、有情人终成眷属。《威尼斯商人》表彰了真挚爱情和无私友谊，对人性中的贪婪、凶狠和仇恨进行了谴责。\n（2）情节结构：多线并行，以误会、伪装推动戏剧冲突。采用主副线索交叉编织的复合结构；广泛运用女扮男装、身份错认、误会巧合等喜剧手段制造悬念与趣味。《仲夏夜之梦》：四条剧情线索交叉并行，最后在盛大的婚礼庆典中结束。\n（3）人物塑造：人文主义新女性形象光彩突出。塑造一大批聪慧、果敢、主动追求爱情的女性（鲍西娅、罗瑟琳、薇奥拉），她们有独立思考能力，敢于冲破世俗束缚。鲍西娅表面遵从父亲遗嘱选夫，暗中自主选择爱人巴萨尼奥；女扮男装出庭，凭借法律智慧挫败夏洛克。\n（4）空间构想：“绿色世界”的理想舞台。设置森林、仙境、庄园等远离宫廷与城市现实秩序的理想化空间。现实世界的矛盾进入绿色世界，在自然、自由的氛围中得到调解，寄托人文主义社会理想。如《仲夏夜之梦》主要场景是雅典附近的森林，这种世界为人物的欢恋和舞蹈提供诗意场所，增加抒情和梦幻色彩；\n（5）语言艺术：雅俗交融，诗体与散文并用。贵族抒情段落多用无韵诗，市井戏谑场景使用散文；大量运用双关、反讽、比喻、机智对白。语言兼具诗意美感与民间诙谐，不同人物语言高度个性化，充满生活气息与哲理。\n（6）风格特征：悲喜因素交融，乐观浪漫。打破古典戏剧严格的悲喜二分法，喜剧之中可融入一定悲剧性因素，但整体基调明朗乐观，最终以和解、婚礼、社会秩序的修复收尾。",
       "redText": {
         "answer": [
@@ -2336,69 +11167,298 @@ window.QUESTION_BANK_CH3 = {
       "type": "essay",
       "section": "第一节 概述",
       "prompt": "★ 结合哈姆莱特对人的赞美、复仇使命的变化及其结局，论述他作为人文主义者的形象及其意义。",
-      "paragraphId": "00da134b",
-      "answer": "（1）哈姆莱特是处于理想与现实矛盾中的人文主义者形象。在威登堡大学读书时，他是“快乐的王子”，他接受了人文主义思想的熏陶，把世界看成美好的，相信人的价值、理性和力量。他关于人的赞美集中体现了这一思想：“人是一件多么了不起的杰作！……宇宙的精华，万物的灵长！”\n（4）哈姆莱特也是犹豫的王子。\n理性精神：怀疑鬼魂真伪，坚持求证。哈姆莱特具有近代人文主义理性思维，不轻信超自然的鬼魂。他无法确定鬼魂是先王亡灵还是恶魔诱惑，害怕误杀无辜、铸成罪孽。因此刻意推迟行动，借助“戏中戏”验证克劳狄斯的罪行，体现现代理性对盲目复仇的克制。\n使命升华：复仇由私人恩怨变为社会责任。他发现宫廷腐朽、人性堕落、社会秩序崩坏，丹麦是“荒芜不治的花园”。任务不再只是报杀父之仇，而是重整乾坤、改造黑暗社会。个人力量无法承担救世重任，理想与现实的巨大落差使他陷入行动困境。\n人文伦理束缚：厌恶暴力，坚守道德底线。作为典型人文主义者，他尊重人的生命，崇尚人性美好，反对野蛮的封建血亲复仇。他也受到宗教观念束缚：克劳狄斯祷告时，他放弃刺杀，不愿让罪人的灵魂升入天堂。课件将道德、宗教、人性良知视为阻碍暴力行动的多重因素。\n思辨性格矛盾：思想压倒行动，过度内耗。他善于哲学思辨，不断追问生死、善恶、命运等终极问题；过度沉思消解行动意志，使其成为“思想的巨人、行动的矮子”。理性反思不断解构复仇的意义，造成持续犹豫延宕。\n现实处境险恶：敌我力量悬殊，孤立无援。克劳狄斯掌握王权、把持宫廷，势力强大，处处设防并借刀杀人。哈姆莱特势单力薄，凶险的政治环境使贸然行动可能成为无谓牺牲，迫使他谨慎迟疑。\n他的延宕深刻反映了文艺复兴晚期人文主义的危机：先进的人文理想与黑暗丑恶的封建现实激烈冲突；先进知识分子看清社会弊病，却无力变革，最终陷入精神痛苦与行动困境。",
+      "paragraphId": "17f19830",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "3.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 44
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 129,
+              "runs": [
+                {
+                  "start": 5,
+                  "end": 23,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 39,
+                  "end": 47,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 130,
+              "end": 153,
+              "runs": [
+                {
+                  "start": 145,
+                  "end": 153,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 154,
+              "end": 272,
+              "runs": [
+                {
+                  "start": 154,
+                  "end": 169,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 181,
+                  "end": 191,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 192,
+                  "end": 201,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 244,
+                  "end": 249,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 273,
+              "end": 388,
+              "runs": [
+                {
+                  "start": 273,
+                  "end": 280,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 281,
+                  "end": 283,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 290,
+                  "end": 296,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 356,
+                  "end": 368,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 389,
+              "end": 487,
+              "runs": [
+                {
+                  "start": 389,
+                  "end": 398,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 423,
+                  "end": 429,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 488,
+              "end": 590,
+              "runs": [
+                {
+                  "start": 488,
+                  "end": 497,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 591,
+              "end": 680,
+              "runs": [
+                {
+                  "start": 591,
+                  "end": 607,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 681,
+              "end": 770,
+              "runs": [
+                {
+                  "start": 694,
+                  "end": 696,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 701,
+                  "end": 714,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "哈姆莱特是处于理想与现实矛盾中的人文主义者形象。首先，在威登堡大学读书时，他是“快乐的王子”，他接受了人文主义思想的熏陶，把世界看成美好的，相信人的价值、理性和力量。他关于人的赞美集中体现了这一思想：“人是一件多么了不起的杰作！……宇宙的精华，万物的灵长！”\n同时，哈姆莱特也是犹豫的王子。延宕的原因如下：\n第一，理性精神：他怀疑鬼魂真伪，坚持求证。哈姆莱特具有近代人文主义理性思维，不轻信超自然的鬼魂。他无法确定鬼魂是先王亡灵还是恶魔诱惑，害怕误杀无辜、铸成罪孽。因此刻意推迟行动，借助“戏中戏”验证克劳狄斯的罪行，体现理性对盲目复仇的克制。\n第二，使命升华：他的复仇由私人恩怨变为社会责任。他发现宫廷腐朽、人性堕落、社会秩序崩坏，丹麦是“荒芜不治的花园”。任务不再只是报杀父之仇，而是重整乾坤、改造黑暗社会。个人力量无法承担救世重任，理想与现实的巨大落差使他陷入行动困境。\n第三，人文伦理束缚：他厌恶暴力，坚守道德底线。作为典型人文主义者，他尊重人的生命，崇尚人性美好，反对野蛮的封建血亲复仇。他也受到宗教观念束缚：克劳狄斯祷告时，他放弃刺杀，不愿让罪人的灵魂升入天堂。\n第四，思辨性格矛盾：他的思想压倒行动，过度内耗。他善于哲学思辨，不断追问生死、善恶、命运等终极问题；过度沉思消解行动意志，使其成为“思想的巨人、行动的矮子”。理性反思不断解构复仇的意义，造成持续犹豫延宕。\n第五，现实处境险恶：敌我力量悬殊，孤立无援。克劳狄斯掌握王权、把持宫廷，势力强大，处处设防并借刀杀人。哈姆莱特势单力薄，凶险的政治环境使贸然行动可能成为无谓牺牲，迫使他谨慎迟疑。\n哈姆莱特是悲剧的王子，他的延宕深刻反映了文艺复兴晚期人文主义的危机：先进的人文理想与黑暗丑恶的封建现实激烈冲突；先进知识分子看清社会弊病，却无力变革，最终陷入精神痛苦与行动困境。",
+      "classQuiz": true,
+      "quizHighlights": {
+        "prompt": [
+          [
+            0,
+            44
+          ]
+        ]
+      },
       "redText": {
         "answer": [
           [
-            8,
-            26
+            5,
+            23
           ],
           [
             39,
             47
           ],
           [
-            146,
-            157
+            145,
+            153
           ],
           [
-            169,
-            179
+            154,
+            169
           ],
           [
-            180,
-            189
+            181,
+            191
           ],
           [
-            232,
-            237
+            192,
+            201
           ],
           [
-            263,
-            267
+            244,
+            249
           ],
           [
-            275,
-            281
+            273,
+            280
           ],
           [
-            341,
-            353
+            281,
+            283
           ],
           [
-            374,
-            380
+            290,
+            296
           ],
           [
-            404,
-            410
+            356,
+            368
           ],
           [
-            496,
-            502
+            389,
+            398
           ],
           [
-            594,
+            423,
+            429
+          ],
+          [
+            488,
+            497
+          ],
+          [
+            591,
             607
           ],
           [
-            683,
-            685
+            694,
+            696
           ],
           [
-            690,
-            703
+            701,
+            714
           ]
         ]
       },
@@ -2408,8 +11468,165 @@ window.QUESTION_BANK_CH3 = {
       "type": "essay",
       "section": "第一节 概述",
       "prompt": "★ 按课件的五点分析，结合剧情论述哈姆莱特为何迟迟不杀克劳狄斯，以及这一延宕反映了怎样的时代困境。",
-      "paragraphId": "05681c4a",
+      "paragraphId": "7ae4a803",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "4.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 49
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 119,
+              "runs": [
+                {
+                  "start": 3,
+                  "end": 14,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 26,
+                  "end": 36,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 89,
+                  "end": 94,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 120,
+              "end": 233,
+              "runs": [
+                {
+                  "start": 123,
+                  "end": 127,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 135,
+                  "end": 141,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 201,
+                  "end": 213,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 234,
+              "end": 358,
+              "runs": [
+                {
+                  "start": 237,
+                  "end": 243,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 267,
+                  "end": 273,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 359,
+              "end": 459,
+              "runs": [
+                {
+                  "start": 362,
+                  "end": 368,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 460,
+              "end": 630,
+              "runs": [
+                {
+                  "start": 463,
+                  "end": 476,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 554,
+                  "end": 556,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 561,
+                  "end": 574,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "（1）理性精神：怀疑鬼魂真伪，坚持求证。哈姆莱特具有近代人文主义理性思维，不轻信超自然的鬼魂。他无法确定鬼魂是先王亡灵还是恶魔诱惑，害怕误杀无辜、铸成罪孽。因此刻意推迟行动，借助“戏中戏”验证克劳狄斯的罪行，体现现代理性对盲目复仇的克制。\n（2）使命升华：复仇由私人恩怨变为社会责任。他发现宫廷腐朽、人性堕落、社会秩序崩坏，丹麦是“荒芜不治的花园”。任务不再只是报杀父之仇，而是重整乾坤、改造黑暗社会。个人力量无法承担救世重任，理想与现实的巨大落差使他陷入行动困境。\n（3）人文伦理束缚：厌恶暴力，坚守道德底线。作为典型人文主义者，他尊重人的生命，崇尚人性美好，反对野蛮的封建血亲复仇。他也受到宗教观念束缚：克劳狄斯祷告时，他放弃刺杀，不愿让罪人的灵魂升入天堂。课件将道德、宗教、人性良知视为阻碍暴力行动的多重因素。\n（4）思辨性格矛盾：思想压倒行动，过度内耗。他善于哲学思辨，不断追问生死、善恶、命运等终极问题；过度沉思消解行动意志，使其成为“思想的巨人、行动的矮子”。理性反思不断解构复仇的意义，造成持续犹豫延宕。\n（5）现实处境险恶：敌我力量悬殊，孤立无援。克劳狄斯掌握王权、把持宫廷，势力强大，处处设防并借刀杀人。哈姆莱特势单力薄，凶险的政治环境使贸然行动可能成为无谓牺牲，迫使他谨慎迟疑。哈姆莱特的延宕深刻反映了文艺复兴晚期人文主义的危机：先进的人文理想与黑暗丑恶的封建现实激烈冲突；先进知识分子看清社会弊病，却无力变革，最终陷入精神痛苦与行动困境。",
+      "classQuiz": true,
+      "quizHighlights": {
+        "prompt": [
+          [
+            0,
+            49
+          ]
+        ]
+      },
       "redText": {
         "answer": [
           [
@@ -2468,8 +11685,126 @@ window.QUESTION_BANK_CH3 = {
       "type": "essay",
       "section": "第一节 概述",
       "prompt": "★ 结合“生存还是毁灭”独白的具体语句，论述哈姆莱特对苦难、生死及行动的思考，说明它所反映的时代矛盾。",
-      "paragraphId": "33c637db",
+      "paragraphId": "21e024aa",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "5.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 51
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "bold": true,
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 111,
+              "runs": [
+                {
+                  "start": 0,
+                  "end": 3,
+                  "bold": false
+                },
+                {
+                  "start": 3,
+                  "end": 29,
+                  "color": "EE0000",
+                  "bold": false
+                },
+                {
+                  "start": 29,
+                  "end": 81,
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "bold": true,
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 112,
+              "end": 202,
+              "runs": [
+                {
+                  "start": 112,
+                  "end": 166,
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "bold": true,
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 203,
+              "end": 301,
+              "runs": [
+                {
+                  "start": 203,
+                  "end": 276,
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 302,
+              "end": 343,
+              "runs": [
+                {
+                  "start": 305,
+                  "end": 343,
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "（1）这段独白集中展现哈姆莱特作为人文主义者的内心矛盾。“默然忍受命运的暴虐的毒箭，或是挺身反抗人世的无涯的苦难，通过斗争把它们扫清，这两种行为，哪一种更高贵？”清醒认识到社会充满苦难与不公，思考是忍受苦难，还是奋起反抗。\n（2）“因为当我们摆脱了这一具朽腐的皮囊以后，在那死的睡眠里，究竟将要做些什么梦，那不能不使我们踌躇顾虑。”思辨死亡，认为死亡或许能解脱痛苦，但又惧怕死后未知的世界，不敢轻易赴死。\n（3）“重重的顾虑使我们全变成了懦夫，决心的赤热的光彩，被审慎的思维盖上了一层灰色，伟大的事业在这一种考虑之下，也会逆流而退，失去了行动的意义。”体现理性思辨造成的行动延宕：过多思考削弱行动决心。\n（4）折射文艺复兴人文主义理想与黑暗现实之间的巨大冲突，是人文主义精神危机的写照。",
+      "classQuiz": true,
+      "quizHighlights": {
+        "prompt": [
+          [
+            0,
+            51
+          ]
+        ]
+      },
       "redText": {
         "answer": [
           [
@@ -2478,14 +11813,245 @@ window.QUESTION_BANK_CH3 = {
           ]
         ]
       },
+      "boldText": {
+        "answer": [
+          [
+            305,
+            343
+          ]
+        ]
+      },
       "id": "ch3-essay-33c637db"
     },
     {
       "type": "essay",
       "section": "第一节 概述",
-      "prompt": "★ 结合《哈姆莱特》等作品，从情节结构、人物塑造、语言艺术、戏剧冲突、思想与舞台五方面论述莎士比亚戏剧的艺术特色。",
-      "paragraphId": "78bfbc50",
+      "prompt": "★ 结合《哈姆莱特》等作品，从情节结构、人物塑造、语言艺术、戏剧冲突、思想与舞台五方面论述莎士比亚戏剧的艺术特色。(老师提到艺术特色)",
+      "paragraphId": "74f3a8b6",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "6.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 67
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 202,
+              "runs": [
+                {
+                  "start": 3,
+                  "end": 22,
+                  "bold": true
+                },
+                {
+                  "start": 22,
+                  "end": 30,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 58,
+                  "end": 64,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 68,
+                  "end": 74,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 75,
+                  "end": 80,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 135,
+                  "end": 140,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 161,
+                  "end": 174,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 203,
+              "end": 390,
+              "runs": [
+                {
+                  "start": 206,
+                  "end": 227,
+                  "bold": true
+                },
+                {
+                  "start": 227,
+                  "end": 240,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 269,
+                  "end": 275,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 277,
+                  "end": 281,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 307,
+                  "end": 314,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 347,
+                  "end": 351,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 391,
+              "end": 573,
+              "runs": [
+                {
+                  "start": 394,
+                  "end": 400,
+                  "bold": true
+                },
+                {
+                  "start": 400,
+                  "end": 414,
+                  "color": "EE0000",
+                  "bold": true
+                },
+                {
+                  "start": 414,
+                  "end": 418,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 423,
+                  "end": 426,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 453,
+                  "end": 461,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 503,
+                  "end": 508,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 574,
+              "end": 684,
+              "runs": [
+                {
+                  "start": 577,
+                  "end": 595,
+                  "bold": true
+                },
+                {
+                  "start": 595,
+                  "end": 600,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 633,
+                  "end": 640,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 685,
+              "end": 792,
+              "runs": [
+                {
+                  "start": 688,
+                  "end": 705,
+                  "bold": true
+                },
+                {
+                  "start": 705,
+                  "end": 711,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 745,
+                  "end": 749,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "（1）在情节结构上，是多线索复合的戏剧结构。双线或多线交织。主线与副线并行推进，互相映衬、对照。《哈姆莱特》的主线为哈姆莱特复仇，副线有雷欧提斯复仇和福丁布拉斯的军事行动；《威尼斯商人》有安东尼奥借贷线、鲍西娅选亲线、杰西卡私奔线。多条线索在关键节点汇合，丰富戏剧容量。悲喜交融。悲剧中穿插喜剧调剂，喜剧中暗含严肃思考。如《哈姆莱特》中的掘墓人片段，在悲剧的紧张氛围中加入民间喜剧场面，强化对生死的反思。\n（2）人物塑造上，展现了立体鲜活的人文主义群像。人物性格的多面性、复杂性。摒弃扁平的善恶脸谱，人物不是单纯的好人或坏人。哈姆莱特既有崇高人文理想，又犹豫延宕；麦克白勇武，但野心膨胀，良知与欲望持续挣扎。性格在冲突中动态发展。人物性格随戏剧冲突推进而变化，人物的内心矛盾是戏剧冲突的核心。以对比手法塑造人物。如哈姆莱特与雷欧提斯、克劳狄斯与老哈姆莱特，两两对照，突出性格差异。\n（3）语言艺术上，诗体与散文并用，个性化语言。文体混合，主要采用无韵诗；庄重场景用诗体，普通人、市井人物多用散文，雅俗结合。语言高度个性化。不同身份、性格的人物各具语言风格。贵族多用典雅诗行；底层人物语言通俗、充满民间俚语。大量修辞。使用比喻、隐喻、双关、反讽、独白等手法。独白是莎士比亚的标志性手法，直接袒露内心活动，展现思想斗争，“生存还是毁灭”独白即其典型。\n（4）戏剧冲突上，内外冲突结合，内涵深刻。外部冲突：人与人、阶级、理念之间的矛盾，集中表现为人文理想与黑暗现实的冲突。内在心理冲突：重视挖掘人的精神世界，把人物内心的挣扎、欲望、良知作为冲突重心，这是莎剧非常突出的特点。\n（5）在思想与舞台上，扎根时代面向大众。人文主义内核：戏剧探讨人性、善恶、正义、爱情、权力，反思文艺复兴晚期的社会矛盾。舞台性强：适合伊丽莎白时代公共剧场，兼顾宫廷贵族与普通市民，既有宏大史诗场面，也有生活化场景。",
+      "classQuiz": true,
+      "quizHighlights": {
+        "prompt": [
+          [
+            45,
+            57
+          ]
+        ]
+      },
       "boldText": {
         "answer": [
           [
@@ -2596,7 +12162,123 @@ window.QUESTION_BANK_CH3 = {
       "type": "essay",
       "section": "第三节 塞万提斯",
       "prompt": "★ 结合堂吉诃德出游中的具体事例，论述他的性格两重性及其思想意义。",
-      "paragraphId": "3a06ba27",
+      "paragraphId": "2ac7dc49",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "7.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 33
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 37,
+              "runs": [
+                {
+                  "start": 9,
+                  "end": 18,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 21,
+                  "end": 28,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 38,
+              "end": 161,
+              "runs": [
+                {
+                  "start": 41,
+                  "end": 53,
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 162,
+              "end": 263,
+              "runs": [
+                {
+                  "start": 165,
+                  "end": 179,
+                  "bold": true
+                },
+                {
+                  "start": 196,
+                  "end": 229,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 264,
+              "end": 381,
+              "runs": [
+                {
+                  "start": 267,
+                  "end": 283,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 382,
+              "end": 537
+            }
+          ]
+        }
+      },
       "answer": "（1）堂吉诃德既是“耽于幻想的疯子”，又是“勇敢的战士”，是矛盾的结合体。\n（2）沉溺于幻想脱离实际的疯子。他沉溺于骑士小说，处处模仿骑士的装备、服饰、举止和行动，完全沉浸在幻想世界，却生活在受日常生活逻辑支配的现实世界。把旅店当城堡、把傀儡戏台当战场、把羊群当军队、把村姑当贵妇人、把酒囊当巨人头，以及不求回报的行动。。\n（3）信仰坚定高洁勇于行动的战士。他虽然神智不清、疯狂可笑，却代表着高尚的道德原则、无畏的精神、英雄的行为、对正义的坚信、对爱情的忠贞。他释放苦役犯是出于反对官府裁判不公的判断；面对受虐孩子也立即制止。\n（4）性格的两重性——理想主义的化身。①通晓天文、地理、法学、神学、医学、数学；②除恶扬善、扶弱济贫、爱国爱民、维护正义；③认为自由是人的天然权利，主张美德为贵，出身不分贵贱；④向往人人真诚相待、财富不分你我、公正和平的“黄金时代”。\n（5）塞万提斯通过这一典型，以悲哀的心情宣告“信仰主义的终结”，反映文艺复兴时期旧信仰解体、新信仰尚未提出时的社会心态。体现人生中难以解决的难题——理想与现实之间的矛盾。堂吉诃德一心完成虚幻的骑士梦想，以过度理想化的方式介入生活，却被现实打得一败涂地。创作目的则是反对胡编乱造、情节离奇的骑士小说及其恶劣影响。",
       "redText": {
         "answer": [
@@ -2636,7 +12318,90 @@ window.QUESTION_BANK_CH3 = {
       "type": "essay",
       "section": "第三节 塞万提斯",
       "prompt": "试结合三次出游、主仆对照和故事的叙述来源，论述《堂吉诃德》的艺术特色。",
-      "paragraphId": "77e1f5e0",
+      "paragraphId": "30a15e02",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "8.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 35
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 68,
+              "runs": [
+                {
+                  "start": 3,
+                  "end": 16,
+                  "bold": true
+                },
+                {
+                  "start": 16,
+                  "end": 20,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 69,
+              "end": 317,
+              "runs": [
+                {
+                  "start": 72,
+                  "end": 77,
+                  "color": "EE0000",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 318,
+              "end": 565,
+              "runs": [
+                {
+                  "start": 321,
+                  "end": 334,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "（1）线性结构与环形结构相结合。线性结构。作品以主人公游历统领情节，三次出游每次都以返家结束，形成三个环形；独立故事与游侠主线丝缕交织。\n（2）喜剧手法。主要包括滑稽模仿、对比、夸张、双关语、笑话、反话、文字游戏。滑稽模仿：骑士的命名、意中人的指认、受封仪式、向贵夫人献殷勤等典型情节，均被移入现实环境，使堂吉诃德与骑士小说中的光辉典型严重不符，从而暴露骑士文学的荒谬。对比：堂吉诃德与桑丘一主一仆、一瘦一胖、一高一矮，一个重理想、一个讲实际，一个英勇无畏、一个胆小怕事，从外形到性格形成鲜明对照，相映生辉。夸张：在活生生的人物身上突出某些性格特征，使其趋于极端，强化幽默和讽刺效果。双关、笑话、反语与文字游戏等则丰富了语言的喜剧性。\n（3）多元叙事技巧（“元小说”）。第一人称叙述人“我”并不直接讲述全部故事，而像一位搜集整理者；主要记录者被设定为阿拉伯历史学家熙德·阿梅德·贝南恩利，“我”偶然获得其书稿，请摩尔人从阿拉伯文译成西班牙文。翻译者并不完全认同原作，还不时评论；此外又有老医生手中得到的羊皮纸手稿及地方传说等来源。作者有意把叙述层次复杂化，形成不同叙述人相互补充、印证、反诘的叙述场，使各层次产生戏谑与张力，打破单一叙述的稳定性和权威性，加强小说的纵深感。这种多元叙事显示了作品作为欧洲现代小说奠基之作的创新意义。",
       "boldText": {
         "answer": [
@@ -2667,6 +12432,80 @@ window.QUESTION_BANK_CH3 = {
         ]
       },
       "id": "ch3-essay-77e1f5e0"
+    },
+    {
+      "type": "essay",
+      "section": "第三节 塞万提斯",
+      "prompt": "★ 结合堂吉诃德与桑丘·潘沙的主仆对照，论述二人的理想与现实追求。如何理解堂吉诃德属于过去、桑丘·潘沙属于未来？",
+      "paragraphId": "3988ed4f",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "label": "9.",
+              "align": "justify",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.583333,
+              "firstLine": -2.583333,
+              "start": 0,
+              "end": 56
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 69
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "left",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": 0.0,
+              "start": 70,
+              "end": 234
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 235,
+              "end": 520
+            }
+          ]
+        }
+      },
+      "answer": "对比：堂吉诃德与桑丘一主一仆、一瘦一胖、一高一矮，一个重理想、一个讲实际，一个英勇无畏、一个胆小怕事，从外形到性格形成鲜明对照，相映生辉。\n“一个是满脑子虚幻理想、持长矛来和风车搏斗，以显出骑士威风的唐·吉诃德本人，另一个是要从美酒佳肴和高官厚禄中享受人生滋味的桑丘·潘沙。他们一个是可笑的理想主义者，一个是可笑的实用主义者。但是唐·吉诃德属于过去，桑丘·潘沙却属于未来。随着资产阶级势力的日渐上升，理想的人就不是唐·吉诃德，而是桑丘·潘沙了。”——朱光潜（课件引文）\n桑丘是农夫，被许诺“海岛总督”之职而担任侍从，满脑子是功利实际的考虑。他胆小怕事、目光短浅、贪小便宜，却也朴实善良、忠心耿耿，有同情心、正义感及处理日常生活的经验和智慧，是封建宗法制度下小户农民的典型。桑丘的性格也在发展。他逐渐受到堂吉诃德崇高品格与理想影响，价值观上出现向主人趋同的倾向，成为真正的游侠搭档。任“海岛总督”时，他断案如神、无辜者清白得以伸张，将罪犯绳之以法，把主人在虚幻世界中追求的理想变为现实，显示出超越所属社会阶层的思想境界。因此，主仆二人既有对照，也相互补充、相互影响。桑丘不能只被概括为贪吃享乐，他还起到烘托、映衬主人以及增加小说喜剧性的作用。",
+      "teacherFocus": true,
+      "teacherHighlights": {
+        "prompt": [
+          [
+            0,
+            56
+          ]
+        ]
+      },
+      "id": "ch3-essay-t3f420868"
     }
   ]
 };
