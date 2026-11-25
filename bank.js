@@ -6,6 +6,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "如果“文艺”指文艺复兴，那么文艺复兴是________，________是其核心思想；",
       "paragraphId": "2161e7a7",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 43
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 文化运动；2. 人文主义",
       "id": "ch1-fill-2161e7a7"
     },
@@ -14,6 +45,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "文学流派（有共同文学倾向的作家）：卡夫卡（________）、贝克特（________）、普鲁斯特（________）、马尔克斯（________）",
       "paragraphId": "6be85ec7",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 74
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 35
+            }
+          ]
+        }
+      },
       "answer": "1. 表现主义；2. 荒诞派戏剧；3. 意识流小说；4. 魔幻现实主义",
       "id": "ch1-fill-6be85ec7"
     },
@@ -22,6 +84,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 欧洲文化源头：________。",
       "paragraphId": "3bcf079c",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 18
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      },
       "answer": "希腊",
       "id": "ch1-fill-3bcf079c"
     },
@@ -30,6 +123,44 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 古希腊文学是西方文学的开端，开创了欧洲文学的________、________和________，为后世西方文学提供了丰富的艺术表现手段。",
       "paragraphId": "5fdc15e8",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 71,
+              "runs": [
+                {
+                  "start": 2,
+                  "end": 7,
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 25
+            }
+          ]
+        }
+      },
       "answer": "1. 叙事传统；2. 抒情传统；3. 人本主义传统",
       "boldText": {
         "prompt": [
@@ -46,6 +177,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 课件：公元前20世纪初，古希腊人进入巴尔干半岛定居，后来逐渐向爱琴海、小亚细亚西岸、意大利南部海岸移民，文化随之传播，“形成‘________’时期”。",
       "paragraphId": "08af57cb",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 78
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      },
       "answer": "大希腊",
       "id": "ch1-fill-08af57cb"
     },
@@ -54,6 +216,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ ________为迈锡尼国王、远征特洛伊的希腊联军统帅。",
       "paragraphId": "5aa44731",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 30
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      },
       "answer": "阿伽门农",
       "id": "ch1-fill-5aa44731"
     },
@@ -62,12 +255,58 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 特洛伊战争结束后的三个世纪里，在________基础上，荷马史诗逐渐形成，描写了特洛伊战争及多位英雄，所以这个时代又称为“________”。",
       "paragraphId": "61274335",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 73,
+              "runs": [
+                {
+                  "start": 1,
+                  "end": 7,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 16
+            }
+          ]
+        }
+      },
       "answer": "游吟诗人口头创作的歌谣；荷马时代",
       "redText": {
         "prompt": [
           [
             1,
             7
+          ]
+        ]
+      },
+      "yellowHighlights": {
+        "answer": [
+          [
+            12,
+            16
           ]
         ]
       },
@@ -78,7 +317,53 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 【荷马时代】主要文学成就：________与________。（“记载英雄传说”“最重要的英雄史诗”）",
       "paragraphId": "09ea5387",
-      "answer": "1. 神话；2. 荷马史诗",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 53
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 20,
+              "runs": [
+                {
+                  "start": 14,
+                  "end": 16,
+                  "font": "Apple Color Emoji"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "1. 神话；2. 荷马史诗（🦌一般般）",
+      "yellowHighlights": {
+        "answer": [
+          [
+            0,
+            20
+          ]
+        ]
+      },
       "id": "ch1-fill-09ea5387"
     },
     {
@@ -86,7 +371,46 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "________和________都以特洛伊战争为背景，前者主要写战争，后者主要写奥德修斯战后返乡的经历。",
       "paragraphId": "11eefb7d",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 53
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 18
+            }
+          ]
+        }
+      },
       "answer": "1. 《伊利亚特》；2. 《奥德赛》",
+      "yellowHighlights": {
+        "answer": [
+          [
+            0,
+            18
+          ]
+        ]
+      },
       "id": "ch1-fill-11eefb7d"
     },
     {
@@ -94,12 +418,58 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 【古希腊抒情诗】抒情诗代表为女诗人________，称为“________”",
       "paragraphId": "0b925801",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 40,
+              "runs": [
+                {
+                  "start": 2,
+                  "end": 10,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 16
+            }
+          ]
+        }
+      },
       "answer": "1. 萨福；2. 第十位文艺女神",
       "redText": {
         "prompt": [
           [
             2,
             10
+          ]
+        ]
+      },
+      "yellowHighlights": {
+        "answer": [
+          [
+            0,
+            16
           ]
         ]
       },
@@ -110,13 +480,59 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "【古希腊叙事长诗】叙事长诗：_______（作者） _______ ________（其两个作品）",
       "paragraphId": "21e6e005",
-      "answer": "1. 赫西俄德；2. 《工作与时日》；3. 《神谱》",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 49
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 33,
+              "runs": [
+                {
+                  "start": 27,
+                  "end": 29,
+                  "font": "Apple Color Emoji"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "1. 赫西俄德；2. 《工作与时日》；3. 《神谱》（🦌一般般）",
       "classQuiz": true,
       "quizHighlights": {
         "prompt": [
           [
             0,
             9
+          ]
+        ]
+      },
+      "yellowHighlights": {
+        "answer": [
+          [
+            0,
+            33
           ]
         ]
       },
@@ -127,6 +543,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "【古希腊抒情诗】还有________等抒情诗人的创作。",
       "paragraphId": "202b707d",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 27
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "阿那克里翁",
       "id": "ch1-fill-202b707d"
     },
@@ -135,6 +582,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 【古希腊寓言】寓言故事：________。",
       "paragraphId": "06761c96",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      },
       "answer": "《伊索寓言》",
       "id": "ch1-fill-06761c96"
     },
@@ -143,12 +621,65 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 古希腊时期两大诗人：________、________。",
       "paragraphId": "57c79f82",
-      "answer": "1. 荷马；2. 萨福",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 30,
+              "runs": [
+                {
+                  "start": 2,
+                  "end": 11,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 18,
+              "runs": [
+                {
+                  "start": 12,
+                  "end": 14,
+                  "font": "Apple Color Emoji"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "1. 荷马；2. 萨福（🦌一般般）",
       "redText": {
         "prompt": [
           [
             2,
             11
+          ]
+        ]
+      },
+      "yellowHighlights": {
+        "answer": [
+          [
+            0,
+            18
           ]
         ]
       },
@@ -159,6 +690,44 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 【古典时代】希腊奴隶制国家发展的全盛时期，文化艺术达到高峰；________是希腊文化艺术的中心。",
       "paragraphId": "1919194c",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 51,
+              "runs": [
+                {
+                  "start": 18,
+                  "end": 22,
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      },
       "answer": "雅典",
       "boldText": {
         "prompt": [
@@ -175,6 +744,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 【古典时代】最主要的文学成就是________。",
       "paragraphId": "5cfeff51",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 26
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      },
       "answer": "戏剧",
       "id": "ch1-fill-5cfeff51"
     },
@@ -183,12 +783,58 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 【古希腊戏剧】三大悲剧家（必须记住！！）：________、________、________。",
       "paragraphId": "175add66",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 50,
+              "runs": [
+                {
+                  "start": 2,
+                  "end": 22,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 26
+            }
+          ]
+        }
+      },
       "answer": "1. 埃斯库罗斯；2. 索福克勒斯；3. 欧里庇得斯",
       "redText": {
         "prompt": [
           [
             2,
             22
+          ]
+        ]
+      },
+      "yellowHighlights": {
+        "answer": [
+          [
+            0,
+            26
           ]
         ]
       },
@@ -199,7 +845,53 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 【古希腊戏剧】喜剧家：________。",
       "paragraphId": "6aa45f08",
-      "answer": "阿里斯托芬",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 22
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 12,
+              "runs": [
+                {
+                  "start": 6,
+                  "end": 8,
+                  "font": "Apple Color Emoji"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "阿里斯托芬（🦌一般般）",
+      "yellowHighlights": {
+        "answer": [
+          [
+            0,
+            12
+          ]
+        ]
+      },
       "id": "ch1-fill-6aa45f08"
     },
     {
@@ -207,6 +899,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "【古希腊哲学】哲学：________、________、________。",
       "paragraphId": "7fd50f29",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 37
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        }
+      },
       "answer": "1. 苏格拉底；2. 柏拉图；3. 亚里士多德",
       "id": "ch1-fill-7fd50f29"
     },
@@ -215,6 +938,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "【古希腊文学】第一个巅峰：________（神话） 第二个：________",
       "paragraphId": "242c6544",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 38
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 荷马史诗；2. 戏剧艺术",
       "id": "ch1-fill-242c6544"
     },
@@ -223,6 +977,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 【亚历山大帝国】将希腊文化带到东方，又将东方文化带回希腊，形成欧洲历史上的“________”。",
       "paragraphId": "13192ea0",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 50
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "希腊化时期",
       "id": "ch1-fill-13192ea0"
     },
@@ -231,6 +1016,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "【希腊化时期】这一时期以________的新喜剧和________的田园诗成就较高。",
       "paragraphId": "53c29b61",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 42
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 16
+            }
+          ]
+        }
+      },
       "answer": "1. 米南德；2. 忒奥克里托斯",
       "id": "ch1-fill-53c29b61"
     },
@@ -239,6 +1055,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ （古希腊）这种环境造就了古希腊人________、________的民族性格，也培育了追求现世生命价值、注重个人尊严的文化价值观念。",
       "paragraphId": "7a33c88d",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 68
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 16
+            }
+          ]
+        }
+      },
       "answer": "1. 自由奔放；2. 富于想象力",
       "id": "ch1-fill-7a33c88d"
     },
@@ -247,6 +1094,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "“________”：将自然界与神等同起来，认为神存在于自然界一切事物之中，并没有另外的超自然主宰或精神力量。",
       "paragraphId": "703d6d70",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 55
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      },
       "answer": "“泛神论”盛行",
       "id": "ch1-fill-703d6d70"
     },
@@ -255,6 +1133,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 希腊神话的内容：________、________、________。",
       "paragraphId": "293409be",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 37
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 31
+            }
+          ]
+        }
+      },
       "answer": "1. 神的故事；2. 英雄传说；3. 反映希腊人日常生活的故事",
       "id": "ch1-fill-293409be"
     },
@@ -263,6 +1172,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ ________与________是希腊神话最重要的两部典籍",
       "paragraphId": "1173494c",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 32
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 荷马史诗；2. 《神谱》",
       "id": "ch1-fill-1173494c"
     },
@@ -271,6 +1211,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "文字记载的希腊神话最早见于________；________对宇宙起源和神的谱系作了最早的系统描绘。",
       "paragraphId": "4c4ad92f",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 50
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 荷马史诗；2. 《神谱》",
       "id": "ch1-fill-4c4ad92f"
     },
@@ -279,7 +1250,46 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "_______ （人）的________（书籍）汇集古希腊罗马神话、英雄传说和历史人物故事，成为后代创作的重要材料来源。",
       "paragraphId": "7488dfb2",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 60
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 奥维德；2. 《变形记》",
+      "yellowHighlights": {
+        "answer": [
+          [
+            0,
+            15
+          ]
+        ]
+      },
       "id": "ch1-fill-7488dfb2"
     },
     {
@@ -287,6 +1297,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "赫西俄德《神谱》：最详细记_______（文明地）。奥维德《变形记》：最详细记_______。（文明地）",
       "paragraphId": "36d3f3be",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 52
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "希腊；罗马",
       "id": "ch1-fill-36d3f3be"
     },
@@ -295,7 +1336,46 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "西方文学三部《忏悔录》：________（古罗马）、________、________。",
       "paragraphId": "473440ac",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 44
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 21
+            }
+          ]
+        }
+      },
       "answer": "1. 奥古斯丁；2. 卢梭；3. 托尔斯泰",
+      "yellowHighlights": {
+        "answer": [
+          [
+            0,
+            21
+          ]
+        ]
+      },
       "id": "ch1-fill-473440ac"
     },
     {
@@ -303,6 +1383,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 【三代天神图】第三代神系：________",
       "paragraphId": "55b6ae1b",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      },
       "answer": "奥林匹斯神系",
       "id": "ch1-fill-55b6ae1b"
     },
@@ -311,6 +1422,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 【三代天神图 第三代神系】天神：________",
       "paragraphId": "71a9a443",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 26
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      },
       "answer": "宙斯",
       "id": "ch1-fill-71a9a443"
     },
@@ -319,6 +1461,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 【三代天神图】天后、婚姻女神：________",
       "paragraphId": "371102ef",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 25
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      },
       "answer": "赫拉",
       "id": "ch1-fill-371102ef"
     },
@@ -327,6 +1500,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 【三代天神图】海皇：________",
       "paragraphId": "7aa5e4cd",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 20
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      },
       "answer": "波塞冬",
       "id": "ch1-fill-7aa5e4cd"
     },
@@ -335,6 +1539,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 【三代天神图】冥王：________",
       "paragraphId": "591d7852",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 20
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      },
       "answer": "哈帝斯",
       "id": "ch1-fill-591d7852"
     },
@@ -343,6 +1578,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 【三代天神图】农林女神：________",
       "paragraphId": "7122766c",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 22
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      },
       "answer": "德墨忒尔",
       "id": "ch1-fill-7122766c"
     },
@@ -351,6 +1617,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 【三代天神图】月亮女神：________",
       "paragraphId": "1948ae94",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 22
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "阿耳忒弥斯",
       "id": "ch1-fill-1948ae94"
     },
@@ -359,6 +1656,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 【三代天神图】智慧女神：________",
       "paragraphId": "78c29649",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 22
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      },
       "answer": "雅典娜",
       "id": "ch1-fill-78c29649"
     },
@@ -367,6 +1695,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 【三代天神图】火神：________",
       "paragraphId": "655c513a",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 20
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "赫淮斯托斯",
       "id": "ch1-fill-655c513a"
     },
@@ -375,6 +1734,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 【三代天神图】美神：________",
       "paragraphId": "5678d5bf",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 20
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "阿弗洛狄忒",
       "id": "ch1-fill-5678d5bf"
     },
@@ -383,6 +1773,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 【三代天神图】太阳神：________",
       "paragraphId": "2941f1f5",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 21
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      },
       "answer": "阿波罗",
       "id": "ch1-fill-2941f1f5"
     },
@@ -391,6 +1812,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 【三代天神图】战神：________",
       "paragraphId": "350bf526",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 20
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      },
       "answer": "阿瑞斯",
       "id": "ch1-fill-350bf526"
     },
@@ -399,6 +1851,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 【三代天神图】神使：________",
       "paragraphId": "75d132bb",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 20
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      },
       "answer": "赫尔墨斯",
       "id": "ch1-fill-75d132bb"
     },
@@ -407,6 +1890,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "宙斯与诸神共同居住在________，构成“________”，是现实________的缩影。",
       "paragraphId": "5254f176",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 47
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 29
+            }
+          ]
+        }
+      },
       "answer": "1. 奥林匹斯山；2. 奥林匹斯神话系统；3. 父权制社会",
       "id": "ch1-fill-5254f176"
     },
@@ -415,6 +1929,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "希腊爱与美神：________——罗马爱与美神：________",
       "paragraphId": "25642591",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 32
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 阿芙洛狄忒；2. 维纳斯",
       "id": "ch1-fill-25642591"
     },
@@ -423,6 +1968,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 赫拉克勒斯：一个人物，________（数量）功勋。",
       "paragraphId": "7df3b21f",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 28
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      },
       "answer": "十二件",
       "id": "ch1-fill-7df3b21f"
     },
@@ -431,6 +2007,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 俄狄浦斯王的故事：“________”“________”“________”。",
       "paragraphId": "2d084b7f",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 42
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 25
+            }
+          ]
+        }
+      },
       "answer": "1. 肿疼的脚；2. 俄狄浦斯情结；3. 杀父娶母",
       "id": "ch1-fill-2d084b7f"
     },
@@ -439,7 +2046,46 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ ________：________三部曲——《阿伽门农》《奠酒人》《报仇神》。",
       "paragraphId": "07c824d4",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 41
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 19
+            }
+          ]
+        }
+      },
       "answer": "1. 埃斯库罗斯；2. 《俄瑞斯忒斯》",
+      "yellowHighlights": {
+        "answer": [
+          [
+            0,
+            19
+          ]
+        ]
+      },
       "id": "ch1-fill-07c824d4"
     },
     {
@@ -447,6 +2093,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "英雄传说四大体系：________；________；________；________。",
       "paragraphId": "500ea117",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 45
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 39
+            }
+          ]
+        }
+      },
       "answer": "1. 俄狄浦斯系统；2. 阿伽门农系统；3. 赫拉克勒斯系统；4. 伊阿宋系统",
       "id": "ch1-fill-500ea117"
     },
@@ -455,6 +2132,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ “________”是希腊神话最基本的特点/最本质特征。在世界神话中，希腊神话的“人话”色彩尤为浓郁。",
       "paragraphId": "09ca9046",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 53
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      },
       "answer": "神人同形同性",
       "classQuiz": true,
       "quizHighlights": {
@@ -465,6 +2173,14 @@ window.QUESTION_BANK = {
           ]
         ]
       },
+      "yellowHighlights": {
+        "answer": [
+          [
+            0,
+            6
+          ]
+        ]
+      },
       "id": "ch1-fill-09ca9046"
     },
     {
@@ -472,6 +2188,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 【希腊神话浓厚的人本主义色彩】神所经历的生活，实际上就是________。对神的肯定与赞扬，实际上就是________。",
       "paragraphId": "0dcf9036",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 62
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 22
+            }
+          ]
+        }
+      },
       "answer": "1. 人的社会化生活；2. 对人的肯定和赞扬",
       "id": "ch1-fill-0dcf9036"
     },
@@ -480,6 +2227,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ 希腊神话________、________，想象与现实相结合；在艺术手法上，既有________，又有________，表现了古希腊人丰富的想象力和极大的创造力。",
       "paragraphId": "0bda66f9",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 83
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 31
+            }
+          ]
+        }
+      },
       "answer": "1. 形象生动；2. 意境优美；3. 浪漫夸张；4. 现实描写",
       "id": "ch1-fill-0bda66f9"
     },
@@ -488,6 +2266,37 @@ window.QUESTION_BANK = {
       "section": "第一节 古希腊文学概述",
       "prompt": "★ “________”是希腊神话的特点。希腊神话与中国神话一样相信命运，认为人不能战胜命运，如俄狄浦斯杀父娶母的故事；但又强调________。",
       "paragraphId": "10227da7",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 73
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 14
+            }
+          ]
+        }
+      },
       "answer": "1. 宿命论；2. 以人为本",
       "id": "ch1-fill-10227da7"
     },
@@ -496,6 +2305,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 史诗是古代________中的________（体裁），以________为题材，歌颂每个民族在其形成和发展过程中战胜艰难险阻、克服自然灾害、抵御外敌的斗争及其英雄业绩（内容）。",
       "paragraphId": "13eb34be",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 91
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 29
+            }
+          ]
+        }
+      },
       "answer": "1. 民间文学；2. 长篇叙事诗；3. 传说和重大历史事件",
       "id": "ch1-fill-13eb34be"
     },
@@ -504,6 +2344,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ ________是公认的欧洲最早和最伟大的诗人。",
       "paragraphId": "2da96dc6",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 26
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      },
       "answer": "荷马",
       "id": "ch1-fill-2da96dc6"
     },
@@ -512,7 +2383,46 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 在历史传说中，荷马是一位盲诗人，对民间流传的古代诗歌进行了加工整理，留下________和________两部史诗。",
       "paragraphId": "087be40a",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 60
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 18
+            }
+          ]
+        }
+      },
       "answer": "1. 《伊利亚特》；2. 《奥德赛》",
+      "yellowHighlights": {
+        "answer": [
+          [
+            0,
+            18
+          ]
+        ]
+      },
       "id": "ch1-fill-087be40a"
     },
     {
@@ -520,7 +2430,46 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "巴比伦________世界第一部史诗；",
       "paragraphId": "48a1c09e",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 19
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      },
       "answer": "《吉尔伽美什》",
+      "yellowHighlights": {
+        "answer": [
+          [
+            0,
+            7
+          ]
+        ]
+      },
       "id": "ch1-fill-48a1c09e"
     },
     {
@@ -528,7 +2477,46 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "________世界最长的史诗：是世界上迄今发现的史诗中演唱篇幅最长的，它代表着古代藏族、蒙古族民间文化与口头叙事艺术的最高成就。",
       "paragraphId": "1621b574",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 65
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      },
       "answer": "《格萨尔王传》",
+      "yellowHighlights": {
+        "answer": [
+          [
+            0,
+            7
+          ]
+        ]
+      },
       "id": "ch1-fill-1621b574"
     },
     {
@@ -536,6 +2524,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 古印度两大史诗为________和________（季羡林翻译）",
       "paragraphId": "3d5be801",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 34
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 20
+            }
+          ]
+        }
+      },
       "answer": "1. 《摩诃婆罗多》；2. 《罗摩衍那》",
       "classQuiz": true,
       "quizHighlights": {
@@ -546,6 +2565,14 @@ window.QUESTION_BANK = {
           ]
         ]
       },
+      "yellowHighlights": {
+        "answer": [
+          [
+            0,
+            20
+          ]
+        ]
+      },
       "id": "ch1-fill-3d5be801"
     },
     {
@@ -553,6 +2580,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【特洛伊战争的神话背景】________、________和________争夺金苹果。",
       "paragraphId": "7a253cbe",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 46
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 21
+            }
+          ]
+        }
+      },
       "answer": "1. 赫拉；2. 雅典娜；3. 阿芙洛狄忒",
       "id": "ch1-fill-7a253cbe"
     },
@@ -561,6 +2619,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【特洛伊战争的神话背景】阿芙洛狄忒许诺帮助特洛伊王子________获得世界上最美的女人，",
       "paragraphId": "4a14aeb3",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 47
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      },
       "answer": "帕里斯",
       "id": "ch1-fill-4a14aeb3"
     },
@@ -569,6 +2658,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 在爱神帮助下，斯巴达国王墨涅拉俄斯的妻子________随帕里斯来到特洛伊。",
       "paragraphId": "1baa291b",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 40
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      },
       "answer": "海伦",
       "id": "ch1-fill-1baa291b"
     },
@@ -577,6 +2697,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 希腊各部落联合，推举迈锡尼国王________为统帅，渡海远征特洛伊。______是战争导火索",
       "paragraphId": "61401e52",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 49
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      },
       "answer": "阿伽门农；海伦被劫走",
       "id": "ch1-fill-61401e52"
     },
@@ -585,6 +2736,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【特洛伊战争的神话背景】众神分为两派：________、________等帮助希腊人，________、________等庇护特洛伊人。",
       "paragraphId": "454ed09f",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 70
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 28
+            }
+          ]
+        }
+      },
       "answer": "1. 赫拉；2. 雅典娜；3. 阿波罗；4. 阿芙洛狄忒",
       "id": "ch1-fill-454ed09f"
     },
@@ -593,6 +2775,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【特洛伊战争的神话背景】战争持续________，最后________设计________，希腊军队里应外合，攻克特洛伊城。",
       "paragraphId": "3373902c",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 64
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 20
+            }
+          ]
+        }
+      },
       "answer": "1. 十年；2. 奥德修斯；3. 木马计",
       "id": "ch1-fill-3373902c"
     },
@@ -601,6 +2814,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 《伊利亚特》的正文并未叙述到木马屠城，而是结束于________。",
       "paragraphId": "76e6fd2c",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 35
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      },
       "answer": "赫克托耳的葬仪",
       "id": "ch1-fill-76e6fd2c"
     },
@@ -609,6 +2853,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "《伊利亚特》：全诗以________为中心。",
       "paragraphId": "2c200fdb",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 22
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      },
       "answer": "阿喀琉斯的愤怒",
       "id": "ch1-fill-2c200fdb"
     },
@@ -617,6 +2892,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "【《伊利亚特》】________与________在如何处理被俘女祭司的问题上发生争吵，",
       "paragraphId": "3e4f1a89",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 44
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 阿伽门农；2. 阿喀琉斯",
       "id": "ch1-fill-3e4f1a89"
     },
@@ -625,6 +2931,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 《奥德赛》叙述希腊英雄________战后回家的故事。他在海上漂流________（年份），经历种种磨难，终于回到故乡。主要线索为“海上漂流返乡”与“回国惩罚求婚者”。",
       "paragraphId": "319c0e21",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 86
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 13
+            }
+          ]
+        }
+      },
       "answer": "1. 奥德修斯；2. 十年",
       "id": "ch1-fill-319c0e21"
     },
@@ -633,6 +2970,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "【荷马史诗人物形象】阿喀琉斯——典型的________。性格特征是________。",
       "paragraphId": "610d20c7",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 0.5,
+              "firstLine": 0.5,
+              "start": 0,
+              "end": 42
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 21
+            }
+          ]
+        }
+      },
       "answer": "1. 个人主义英雄；2. 勇武、暴躁、易怒",
       "id": "ch1-fill-610d20c7"
     },
@@ -641,6 +3009,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "【笔记】阿喀琉斯为“________”；“________”；“阿喀琉斯之踵”",
       "paragraphId": "1721c476",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 39
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 无冕之王；2. 希腊第一勇士",
       "id": "ch1-fill-1721c476"
     },
@@ -649,6 +3048,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "【荷马史诗人物形象】________——________的典型。他对国家怀有深厚感情，对集体利益有高度责任感。“家国情怀”",
       "paragraphId": "49f7ea60",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 61
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 赫克托尔；2. 集体英雄主义",
       "id": "ch1-fill-49f7ea60"
     },
@@ -657,6 +3087,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "【荷马史诗人物形象】________——史诗中的智者形象，主要特征是________。早期奴隶主代言人",
       "paragraphId": "04ea133e",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 51
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 16
+            }
+          ]
+        }
+      },
       "answer": "1. 奥德修斯；2. 机智和刚毅",
       "id": "ch1-fill-04ea133e"
     },
@@ -665,6 +3126,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【荷马史诗的思想性】（1）________——歌颂英雄。史诗的主题思想是歌颂民族部落的英雄，只要是代表民族理想的英雄，不管属于战争哪一方，都在歌颂之列。",
       "paragraphId": "570f0263",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 78
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      },
       "answer": "英雄主义",
       "id": "ch1-fill-570f0263"
     },
@@ -673,6 +3165,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【荷马史诗的思想性】（2）________——以人为本。荷马史诗赞美人的勇敢、正义、无私、勤劳等品质，肯定人的智慧、情感和现实生活价值。",
       "paragraphId": "7fb5bba4",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 70
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      },
       "answer": "人本主义",
       "id": "ch1-fill-7fb5bba4"
     },
@@ -681,6 +3204,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【荷马史诗的思想性】（3）________。英雄的个人尊严、自主意识和冒险精神。",
       "paragraphId": "7e87e540",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 42
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      },
       "answer": "自由主义",
       "id": "ch1-fill-7e87e540"
     },
@@ -689,6 +3243,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【荷马史诗的艺术性】（1）________，________。两部史诗以宏伟规模展现过渡时期希腊社会生活，涉及前后二十年的历史事件，却不作流水账式叙述，而采用高度集中、高度概括的手法，既突出重点，又照顾全局。",
       "paragraphId": "5161bfd7",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 106
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 规模宏大；2. 构思精巧",
       "id": "ch1-fill-5161bfd7"
     },
@@ -697,6 +3282,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【荷马史诗的艺术性】（2）________，具有________。________既体现口头传唱的来源，也有助于加深印象和形成节奏感。",
       "paragraphId": "2b456274",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 69
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 25
+            }
+          ]
+        }
+      },
       "answer": "1. 语言口语化；2. 口头艺术特色 3.重复套语",
       "id": "ch1-fill-2b456274"
     },
@@ -705,6 +3321,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 《荷马史诗》最独特的艺术特色是________：荷马史诗中的诗句流畅、自然、优美、比喻生动形象，常根据生活中的直接观察，取自然现象作比，借用________来喻人。",
       "paragraphId": "45aab2ec",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 84
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 14
+            }
+          ]
+        }
+      },
       "answer": "荷马式比喻；自然界中的动植物",
       "id": "ch1-fill-45aab2ec"
     },
@@ -713,6 +3360,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【荷马史诗的人物形象塑造手法1】________：不直接铺陈海伦的容貌，而通过长老看到她时惊讶的表情和议论，烘托其惊人姿色。",
       "paragraphId": "616bb28b",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 64
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      },
       "answer": "侧面烘托",
       "id": "ch1-fill-616bb28b"
     },
@@ -721,6 +3399,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【荷马史诗的人物形象塑造手法2】________：如“________”“________”，突出人物特征。",
       "paragraphId": "451fa189",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 56
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 32
+            }
+          ]
+        }
+      },
       "answer": "1. 固定修饰语；2. 捷足的阿喀琉斯；3. 足智多谋的奥德修斯",
       "id": "ch1-fill-451fa189"
     },
@@ -729,6 +3438,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【荷马史诗的艺术性】（4）________。希腊神话本身包含着丰富多彩的想象，把它们纳入到具有独特表现力的诗歌当中，使得全诗在现实主义的基础之上增加了浪漫主义色彩。",
       "paragraphId": "26b0b720",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 84
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        }
+      },
       "answer": "现实主义与浪漫主义相结合",
       "id": "ch1-fill-26b0b720"
     },
@@ -737,6 +3477,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【古希腊戏剧的起源】悲剧起源于祭祀酒神________的________。“悲剧”原意为“________”。",
       "paragraphId": "723c3a64",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 57
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 24
+            }
+          ]
+        }
+      },
       "answer": "1. 狄俄尼索斯；2. 酒神颂歌；3. 山羊之歌",
       "classQuiz": true,
       "quizHighlights": {
@@ -754,6 +3525,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【古希腊戏剧的起源】参加歌舞的人________，装扮成酒神的随从________。",
       "paragraphId": "0a2b4505",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 44
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 19
+            }
+          ]
+        }
+      },
       "answer": "1. 身披羊皮，头戴羊角；2. 萨提儿",
       "id": "ch1-fill-0a2b4505"
     },
@@ -762,6 +3564,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【古希腊戏剧的起源】喜剧起源于________，“喜剧”原意为“________”。酒神祭典中的戏谑、调笑和讽刺，构成喜剧的重要因素。",
       "paragraphId": "556d34a2",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 69
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 20
+            }
+          ]
+        }
+      },
       "answer": "1. 祭祀酒神的狂欢歌舞；2. 狂欢之歌",
       "id": "ch1-fill-556d34a2"
     },
@@ -770,6 +3603,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【古希腊悲剧】古希腊悲剧具有相对固定的结构，依次为________、________、________和________。",
       "paragraphId": "7204b441",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 63
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        }
+      },
       "answer": "1. 开场；2. 入场；3. 插曲；4. 退场",
       "id": "ch1-fill-7204b441"
     },
@@ -778,6 +3642,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【古希腊悲剧】________共同参与戏剧表现：演员通过对话和行动展开冲突，合唱队则通过歌唱、舞蹈参与剧情，评论事件、安慰人物并烘托气氛，是整个悲剧的有机组成部分。",
       "paragraphId": "1a29a218",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 84
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      },
       "answer": "演员与合唱队",
       "id": "ch1-fill-1a29a218"
     },
@@ -786,6 +3681,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【希腊悲剧的发展阶段】公元前534年，雅典悲剧诗人________在上演“山羊之歌”时，加入________。",
       "paragraphId": "731d0eb9",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 57
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 19
+            }
+          ]
+        }
+      },
       "answer": "1. 忒斯庇斯；2. 一个不唱歌的演员",
       "id": "ch1-fill-731d0eb9"
     },
@@ -794,12 +3720,58 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【古希腊三大悲剧家】________——“悲剧之父”；",
       "paragraphId": "31212fda",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 29,
+              "runs": [
+                {
+                  "start": 2,
+                  "end": 12,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "埃斯库罗斯",
       "redText": {
         "prompt": [
           [
             2,
             12
+          ]
+        ]
+      },
+      "yellowHighlights": {
+        "answer": [
+          [
+            0,
+            5
           ]
         ]
       },
@@ -810,11 +3782,64 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【古希腊三大悲剧家】________——“戏剧艺术的荷马”；",
       "paragraphId": "5ca6ca83",
-      "answer": "索福克勒斯",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 32,
+              "runs": [
+                {
+                  "start": 2,
+                  "end": 12,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 12,
+              "runs": [
+                {
+                  "start": 6,
+                  "end": 8,
+                  "font": "Apple Color Emoji"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "索福克勒斯（🦌一般般）",
       "redText": {
         "prompt": [
           [
             2,
+            12
+          ]
+        ]
+      },
+      "yellowHighlights": {
+        "answer": [
+          [
+            0,
             12
           ]
         ]
@@ -826,11 +3851,64 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【古希腊三大悲剧家】________——“心理戏剧的鼻祖”。",
       "paragraphId": "65335dba",
-      "answer": "欧里庇得斯",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 32,
+              "runs": [
+                {
+                  "start": 2,
+                  "end": 12,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 12,
+              "runs": [
+                {
+                  "start": 6,
+                  "end": 8,
+                  "font": "Apple Color Emoji"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "欧里庇得斯（🦌一般般）",
       "redText": {
         "prompt": [
           [
             2,
+            12
+          ]
+        ]
+      },
+      "yellowHighlights": {
+        "answer": [
+          [
+            0,
             12
           ]
         ]
@@ -842,13 +3920,59 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 埃斯库罗斯：_______ ________（两本书）",
       "paragraphId": "1a03baad",
-      "answer": "1. 《波斯人》；2. 《七将攻忒拜》",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 29
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 26,
+              "runs": [
+                {
+                  "start": 20,
+                  "end": 22,
+                  "font": "Apple Color Emoji"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "1. 《波斯人》；2. 《七将攻忒拜》（🦌一般般）",
       "classQuiz": true,
       "quizHighlights": {
         "prompt": [
           [
             2,
             8
+          ]
+        ]
+      },
+      "yellowHighlights": {
+        "answer": [
+          [
+            0,
+            26
           ]
         ]
       },
@@ -859,6 +3983,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 埃斯库罗斯：在表演中加入________，使演员之间的对白成为可能，推动戏剧冲突的发展。",
       "paragraphId": "2af77f99",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 46
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "第二个演员",
       "id": "ch1-fill-2af77f99"
     },
@@ -867,13 +4022,59 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【埃斯库罗斯】“俄瑞斯忒斯”三部曲。（_______ _______ ________）",
       "paragraphId": "786c3490",
-      "answer": "1. 《阿伽门农》；2. 《奠酒人》；3. 《复仇女神》",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 46
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 35,
+              "runs": [
+                {
+                  "start": 29,
+                  "end": 31,
+                  "font": "Apple Color Emoji"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "1. 《阿伽门农》；2. 《奠酒人》；3. 《复仇女神》（🦌一般般）",
       "classQuiz": true,
       "quizHighlights": {
         "prompt": [
           [
             9,
             16
+          ]
+        ]
+      },
+      "yellowHighlights": {
+        "answer": [
+          [
+            0,
+            35
           ]
         ]
       },
@@ -884,6 +4085,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ “普罗米修斯”三部曲，包括《被缚的普罗米修斯》________和________，其中只有《被缚的普罗米修斯》完整传世。",
       "paragraphId": "555fe1ec",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 62
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 28
+            }
+          ]
+        }
+      },
       "answer": "1. 《被释放的普罗米修斯》；2. 《带火的普罗米修斯》",
       "id": "ch1-fill-555fe1ec"
     },
@@ -892,6 +4124,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "“俄瑞斯忒斯”三部曲：三部曲反映________的冲突。",
       "paragraphId": "0f56312a",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 28
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      },
       "answer": "母权制与父权制",
       "id": "ch1-fill-0f56312a"
     },
@@ -900,6 +4163,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 索福克勒斯：_______ _______",
       "paragraphId": "27314cc6",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 20
+            }
+          ]
+        }
+      },
       "answer": "1. 《俄狄浦斯王》；2. 《安提戈涅》",
       "id": "ch1-fill-27314cc6"
     },
@@ -908,6 +4202,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 索福克勒斯：（1）增加________，加强动作和对话成分；",
       "paragraphId": "2431c206",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 32
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "第三个演员",
       "classQuiz": true,
       "quizHighlights": {
@@ -925,6 +4250,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 索福克勒斯：（2）打破________的形式，变成了________。",
       "paragraphId": "592ee4ab",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 37
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 三部曲；2. 三个独立的悲剧",
       "id": "ch1-fill-592ee4ab"
     },
@@ -933,6 +4289,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【索福克勒斯】________是必须掌握的代表作。课堂以“________”强调其结构与艺术成就。",
       "paragraphId": "6f045f80",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 51
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 21
+            }
+          ]
+        }
+      },
       "answer": "1. 《俄狄浦斯王》；2. 十全十美的悲剧",
       "id": "ch1-fill-6f045f80"
     },
@@ -941,6 +4328,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 《俄狄浦斯王》：剧本从________开始，把主人公过去的经历逐层揭开。查案者最终发现自己就是所要追究的凶手；本来意在解除灾难的行动，反而揭开自身的不幸命运。________紧密结合，形成强烈的悲剧效果。",
       "paragraphId": "01a89ede",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 104
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 19
+            }
+          ]
+        }
+      },
       "answer": "1. 瘟疫和追查凶手；2. 发现与突转",
       "id": "ch1-fill-01a89ede"
     },
@@ -949,6 +4367,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 《俄狄浦斯王》：教材指出，作品从表面上看写的是人的意志与命运的冲突，然而本质上反映的是人类文明发展过程中的________。",
       "paragraphId": "78377376",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 64
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "伦理道德矛盾及社会新秩序的确立问题",
       "id": "ch1-fill-78377376"
     },
@@ -957,6 +4406,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "俄狄浦斯：他来到忒拜，解开________的谜语，拯救城邦，被拥立为王，并娶前王之妻伊俄卡斯忒，即自己的母亲。",
       "paragraphId": "5bad5d3d",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 55
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 8
+            }
+          ]
+        }
+      },
       "answer": "1. 斯芬克斯；",
       "id": "ch1-fill-5bad5d3d"
     },
@@ -965,6 +4445,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【俄狄浦斯王】“________”是德尔斐神庙的箴言。",
       "paragraphId": "71427067",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 29
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "认识你自己",
       "id": "ch1-fill-71427067"
     },
@@ -973,6 +4484,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【课堂重点 古希腊命运观】命运被视为________；",
       "paragraphId": "37b5bdf6",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 29
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 14
+            }
+          ]
+        }
+      },
       "answer": "预先确定、难以逃脱的宇宙秩序",
       "id": "ch1-fill-37b5bdf6"
     },
@@ -981,6 +4523,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【课堂重点 古希腊命运观】人拥有________，却无力改写________。",
       "paragraphId": "466f7221",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 41
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 行动的自由；2. 最终的定数",
       "id": "ch1-fill-466f7221"
     },
@@ -989,6 +4562,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【《俄狄浦斯王》】________触犯人类社会的重要________。",
       "paragraphId": "38922aa0",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 37
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 弑父娶母；2. 伦理禁忌",
       "id": "ch1-fill-38922aa0"
     },
@@ -997,7 +4601,53 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 欧里庇得斯：_______ ________。（著作）",
       "paragraphId": "19758d39",
-      "answer": "1. 《美狄亚》；2. 《特洛伊妇女》",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 29
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 26,
+              "runs": [
+                {
+                  "start": 20,
+                  "end": 22,
+                  "font": "Apple Color Emoji"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "1. 《美狄亚》；2. 《特洛伊妇女》（🦌一般般）",
+      "yellowHighlights": {
+        "answer": [
+          [
+            0,
+            26
+          ]
+        ]
+      },
       "id": "ch1-fill-19758d39"
     },
     {
@@ -1005,6 +4655,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 欧里庇得斯：他对政治现实抱有________，关心现实人生，反对战争，同情________。",
       "paragraphId": "1477dfd3",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 48
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 21
+            }
+          ]
+        }
+      },
       "answer": "1. 怀疑和批判态度；2. 妇女和受压迫者",
       "id": "ch1-fill-1477dfd3"
     },
@@ -1013,6 +4694,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 欧里庇得斯：他被称为“________”，还称其为“________”。",
       "paragraphId": "01c23d09",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 38
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 21
+            }
+          ]
+        }
+      },
       "answer": "1. 舞台上的哲学家；2. 心理戏剧的鼻祖",
       "id": "ch1-fill-01c23d09"
     },
@@ -1021,6 +4733,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 欧里庇得斯：_______ _______ ________",
       "paragraphId": "380ae455",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 32
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 30
+            }
+          ]
+        }
+      },
       "answer": "1. 《美狄亚》；2. 《特洛伊妇女》；3. 《希波吕托斯》",
       "id": "ch1-fill-380ae455"
     },
@@ -1029,6 +4772,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【三大悲剧家比较】课堂比较：________、________更突出神与英雄的世界；________更关注现实中的“人”。",
       "paragraphId": "671760d3",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 63
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 26
+            }
+          ]
+        }
+      },
       "answer": "1. 埃斯库罗斯；2. 索福克勒斯；3. 欧里庇得斯",
       "id": "ch1-fill-671760d3"
     },
@@ -1037,6 +4811,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 《美狄亚》批判________和________，痛责男子的不道德和自私自利，美狄亚的遭遇是当日妇女的共同命运，诗人表达对妇女处境的同情。",
       "paragraphId": "73acd56f",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 71
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        }
+      },
       "answer": "1. 不合理的婚姻制度；2. 男女地位的不平等",
       "id": "ch1-fill-73acd56f"
     },
@@ -1045,6 +4850,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【欧里庇得斯】________等作品表现战争给妇女带来的深重苦难，进一步体现其对战争的批判和对弱者的同情。",
       "paragraphId": "5811dd0b",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 55
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      },
       "answer": "《特洛伊妇女》",
       "id": "ch1-fill-5811dd0b"
     },
@@ -1053,6 +4889,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【埃斯库罗斯对古希腊文学艺术的核心贡献】________：正式确立古希腊悲剧的体裁范式，奠定悲剧崇高美学风格，树立宏大庄严的悲剧精神，开创西方悲剧传统。",
       "paragraphId": "5160558f",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 78
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      },
       "answer": "奠基者",
       "id": "ch1-fill-5160558f"
     },
@@ -1061,6 +4928,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【索福克勒斯对古希腊文学艺术的核心贡献】________：完善悲剧的结构与舞台艺术，《俄狄浦斯王》成为亚里士多德《诗学》悲剧典范，将古希腊悲剧推至艺术顶峰。",
       "paragraphId": "7a984a0b",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 80
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      },
       "answer": "集大成者",
       "id": "ch1-fill-7a984a0b"
     },
@@ -1069,6 +4967,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【欧里庇得斯对古希腊文学艺术的核心贡献】________：拓展悲剧的思想边界，从写神转向写人，深挖人物内心，开启现实主义悲剧倾向，深刻影响后世欧洲戏剧。",
       "paragraphId": "02f11643",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 78
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "革新开拓者",
       "id": "ch1-fill-02f11643"
     },
@@ -1077,6 +5006,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【古希腊三大悲剧家】命运与悲剧重心：________强调命运和神的秩序，同时赞美英雄的反抗；________突出人在命运面前的抗争、责任和自我认识；________把悲剧更多引向现实社会关系，尤其是女性的处境与心理冲突。",
       "paragraphId": "4f7a0416",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 112
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 26
+            }
+          ]
+        }
+      },
       "answer": "1. 埃斯库罗斯；2. 索福克勒斯；3. 欧里庇得斯",
       "id": "ch1-fill-4f7a0416"
     },
@@ -1085,6 +5045,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "【古希腊喜剧】旧喜剧：指公元前5世纪在雅典上演的喜剧作品。此时雅典城邦处于兴盛时期，人民享有民主权利，诗人敢于批评政治。喜剧创作主要是________，以________为代表。",
       "paragraphId": "4b88e63a",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 89
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 11
+            }
+          ]
+        }
+      },
       "answer": "政治讽刺剧；阿里斯托芬",
       "id": "ch1-fill-4b88e63a"
     },
@@ -1093,6 +5084,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "【古希腊喜剧】中喜剧：他们逐渐放弃政治讽刺剧，更多地选择________。",
       "paragraphId": "1d53c522",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 37
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      },
       "answer": "市民生活中的讽刺对象",
       "id": "ch1-fill-1d53c522"
     },
@@ -1101,6 +5123,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "新喜剧：主要描写________和________，编剧技巧有了明显提高。",
       "paragraphId": "6eb705ca",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 37
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 爱情故事；2. 家庭生活",
       "id": "ch1-fill-6eb705ca"
     },
@@ -1109,6 +5162,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "【古希腊喜剧的发展】发展线索：________ → ________ → ________。",
       "paragraphId": "2aff26f3",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 46
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 28
+            }
+          ]
+        }
+      },
       "answer": "1. 政治讽刺；2. 市民生活；3. 爱情故事与家庭生活",
       "id": "ch1-fill-2aff26f3"
     },
@@ -1117,6 +5201,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【古希腊喜剧】________“喜剧之父”",
       "paragraphId": "478e9947",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "阿里斯托芬",
       "id": "ch1-fill-478e9947"
     },
@@ -1125,6 +5240,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 阿里斯托芬是旧喜剧的代表作家，创作喜剧44部，现存11部，主要有________《鸟》《蛙》等。他的作品讽刺政治弊端、权势人物和社会风气，反映当时的公共生活。",
       "paragraphId": "0ba82838",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 81
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      },
       "answer": "《阿卡奈人》",
       "id": "ch1-fill-0ba82838"
     },
@@ -1133,6 +5279,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【阿里斯托芬的喜剧】《阿卡奈人》政治作用在于扫除雅典公民的________，号召________。",
       "paragraphId": "1d23ad1a",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 51
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 主战心理；2. 订立和约",
       "id": "ch1-fill-1d23ad1a"
     },
@@ -1141,6 +5318,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【阿里斯托芬的喜剧】________以幻想形式描绘理想社会，寄托自由农民的愿望。",
       "paragraphId": "31b6fa14",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 42
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      },
       "answer": "《鸟》",
       "id": "ch1-fill-31b6fa14"
     },
@@ -1149,6 +5357,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "米南德是________的代表作家，创作105部喜剧，曾8次获奖。",
       "paragraphId": "6f9578db",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 33
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      },
       "answer": "1. 新喜剧",
       "id": "ch1-fill-6f9578db"
     },
@@ -1157,6 +5396,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "米南德：现存作品包括_______ ________等，另有《公断》《剪发》等作品的传世部分。",
       "paragraphId": "45ab70e1",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 47
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 19
+            }
+          ]
+        }
+      },
       "answer": "1. 《恨世者》；2. 《萨摩斯女子》",
       "id": "ch1-fill-45ab70e1"
     },
@@ -1165,6 +5435,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 17世纪法国古典主义喜剧家________及________。",
       "paragraphId": "3b45ec46",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 33
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 莫里哀；2. 《伪君子》",
       "id": "ch1-fill-3b45ec46"
     },
@@ -1173,6 +5474,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【古希腊戏剧的中译】抗日战争时期，在大后方出版了________和________等译作。",
       "paragraphId": "63a60653",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 47
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 《美狄亚》；2. 《特洛伊》",
       "id": "ch1-fill-63a60653"
     },
@@ -1181,6 +5513,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ ________的主要作品有________《工作与时日》和________《神谱》。",
       "paragraphId": "4f9df150",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 45
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 22
+            }
+          ]
+        }
+      },
       "answer": "1. 赫西俄德；2. 教诲诗；3. 叙事长诗",
       "id": "ch1-fill-4f9df150"
     },
@@ -1189,6 +5552,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【赫西俄德的叙事诗】________是古希腊文学中最早以________为主要内容的长诗，具有鲜明的教诲性质。",
       "paragraphId": "1121b87f",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 57
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 18
+            }
+          ]
+        }
+      },
       "answer": "1. 《工作与时日》；2. 现实生活",
       "id": "ch1-fill-1121b87f"
     },
@@ -1197,6 +5591,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ ________是古希腊抒情诗的重要代表。她的诗歌________，________，题材范围相对狭小，注重个人情感与内心体验。",
       "paragraphId": "0c8a8be2",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 66
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 21
+            }
+          ]
+        }
+      },
       "answer": "1. 萨福；2. 感情真挚；3. 语言朴素",
       "id": "ch1-fill-0c8a8be2"
     },
@@ -1205,6 +5630,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 【萨福】________称她为“第十位文艺女神”。英国诗人________在长诗________中以“如火焰一般炽热的萨福”歌颂希腊的光荣历史。",
       "paragraphId": "3c360136",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 74
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 20
+            }
+          ]
+        }
+      },
       "answer": "1. 柏拉图；2. 拜伦；3. 《唐璜》",
       "id": "ch1-fill-3c360136"
     },
@@ -1213,6 +5669,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 萨福的诗歌采用________，诗体短小，以________为主，音节单纯、明澈。",
       "paragraphId": "72a0a4cb",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 43
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 20
+            }
+          ]
+        }
+      },
       "answer": "1. 独唱形式；2. 抒情和倾诉内心情怀",
       "id": "ch1-fill-72a0a4cb"
     },
@@ -1221,6 +5708,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "“萨福体”每节________，长短音节按相对固定的格律组织；________较长，________较短，形成干脆明快的收束。",
       "paragraphId": "5e61bdcd",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 63
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 19
+            }
+          ]
+        }
+      },
       "answer": "1. 四行；2. 前三行；3. 第四行",
       "id": "ch1-fill-5e61bdcd"
     },
@@ -1229,6 +5747,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "课堂以________为例，说明萨福诗歌借用古希腊神话故事表达情感和观念的特点。",
       "paragraphId": "3c1aecfb",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 40
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        }
+      },
       "answer": "《并非每个人都想要爱情》",
       "id": "ch1-fill-3c1aecfb"
     },
@@ -1237,6 +5786,37 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 莎士比亚四大悲剧_______ _______ _______ ________。",
       "paragraphId": "373c05ab",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 43
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 36
+            }
+          ]
+        }
+      },
       "answer": "1. 《哈姆雷特》；2. 《奥赛罗》；3. 《李尔王》；4. 《麦克白》",
       "id": "ch1-fill-373c05ab"
     },
@@ -1245,6 +5825,37 @@ window.QUESTION_BANK = {
       "section": "第三节 古罗马文学概述",
       "prompt": "古罗马文学主要成果，欧洲第一部文人史诗：______（作者）________（著作）",
       "paragraphId": "5971655b",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 42
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      },
       "answer": "维吉尔《埃涅阿斯纪》",
       "classQuiz": true,
       "quizHighlights": {
@@ -1262,6 +5873,37 @@ window.QUESTION_BANK = {
       "section": "第三节 古罗马文学概述",
       "prompt": "屋大维凭借与凯撒的亲属关系取得政治优势，后来被授予“________”称号，意为“________”。",
       "paragraphId": "73656e56",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 51
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 18
+            }
+          ]
+        }
+      },
       "answer": "1. 奥古斯都；2. 神圣者，至尊者",
       "id": "ch1-fill-73656e56"
     },
@@ -1270,6 +5912,37 @@ window.QUESTION_BANK = {
       "section": "第三节 古罗马文学概述",
       "prompt": "★ 与希腊多偏重于________的特点不同，罗马的建筑多表现为________、________等实用性的世俗作品。",
       "paragraphId": "4eb5d83b",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 59
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 21
+            }
+          ]
+        }
+      },
       "answer": "1. 神庙建筑；2. 凯旋门；3. 斗兽场",
       "id": "ch1-fill-4eb5d83b"
     },
@@ -1278,6 +5951,37 @@ window.QUESTION_BANK = {
       "section": "第三节 古罗马文学概述",
       "prompt": "★ 罗马文学早期主要成果为________，后期主要成果为________。",
       "paragraphId": "5e43e232",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 38
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 11
+            }
+          ]
+        }
+      },
       "answer": "1. 喜剧；2. 诗歌",
       "id": "ch1-fill-5e43e232"
     },
@@ -1286,6 +5990,37 @@ window.QUESTION_BANK = {
       "section": "第四节 罗马文学早期主要成果 喜剧",
       "prompt": "★ 【罗马戏剧】民间曾流行两种民间戏：________和________",
       "paragraphId": "6b5b8922",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 36
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 14
+            }
+          ]
+        }
+      },
       "answer": "1. 阿特拉笑剧；2. 拟剧",
       "id": "ch1-fill-6b5b8922"
     },
@@ -1294,6 +6029,37 @@ window.QUESTION_BANK = {
       "section": "第四节 罗马文学早期主要成果 喜剧",
       "prompt": "★ 披衫剧模仿、移植________，因演员身披________而得名；代表作家中有完整作品流传下来的，主要是________和________。",
       "paragraphId": "1627c90b",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 73
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 32
+            }
+          ]
+        }
+      },
       "answer": "1. 希腊新喜剧；2. 希腊式披肩；3. 普劳图斯；4. 泰伦斯",
       "id": "ch1-fill-1627c90b"
     },
@@ -1302,6 +6068,37 @@ window.QUESTION_BANK = {
       "section": "第四节 罗马文学早期主要成果 喜剧",
       "prompt": "★ ________（约前254—前184）是罗马著名喜剧作家。",
       "paragraphId": "2c8bab5b",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 32
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      },
       "answer": "普劳图斯",
       "id": "ch1-fill-2c8bab5b"
     },
@@ -1310,6 +6107,37 @@ window.QUESTION_BANK = {
       "section": "第四节 罗马文学早期主要成果 喜剧",
       "prompt": "【普劳图斯】其喜剧改编自________，但反映的是________，揭露罗马上层贵族的腐化、下层妇女的苦难和婚姻的不自由。",
       "paragraphId": "0d977e4f",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 62
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 18
+            }
+          ]
+        }
+      },
       "answer": "1. 古希腊题材；2. 罗马人的生活",
       "id": "ch1-fill-0d977e4f"
     },
@@ -1318,6 +6146,37 @@ window.QUESTION_BANK = {
       "section": "第四节 罗马文学早期主要成果 喜剧",
       "prompt": "【普劳图斯】特色：________，________，接近于________。",
       "paragraphId": "1da83d91",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 39
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 25
+            }
+          ]
+        }
+      },
       "answer": "1. 情节巧妙；2. 对话生动；3. 民间喜剧风格",
       "id": "ch1-fill-1da83d91"
     },
@@ -1326,6 +6185,37 @@ window.QUESTION_BANK = {
       "section": "第四节 罗马文学早期主要成果 喜剧",
       "prompt": "★ 【普劳图斯】________影响莎士比亚________（著作）。",
       "paragraphId": "6ae05fae",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 35
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 20
+            }
+          ]
+        }
+      },
       "answer": "1. 《孪生兄弟》；2. 《错误的喜剧》",
       "id": "ch1-fill-6ae05fae"
     },
@@ -1334,6 +6224,37 @@ window.QUESTION_BANK = {
       "section": "第四节 罗马文学早期主要成果 喜剧",
       "prompt": "★ 【普劳图斯】________影响莫里哀________，塑造了（莫里哀的）吝啬鬼________。",
       "paragraphId": "32fe99d4",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 51
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 25
+            }
+          ]
+        }
+      },
       "answer": "1. 《一罐金子》；2. 《悭吝人》；3. 阿巴贡",
       "id": "ch1-fill-32fe99d4"
     },
@@ -1342,6 +6263,37 @@ window.QUESTION_BANK = {
       "section": "第四节 罗马文学早期主要成果 喜剧",
       "prompt": "【外国文学中的四大吝啬鬼1】放高利贷，坚持按契约割取安东尼奥“一磅肉”，表现出贪婪与报复心理。人物：________；作者与国家：________·________；作品：________。",
       "paragraphId": "5f0475a9",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 95
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 31
+            }
+          ]
+        }
+      },
       "answer": "1. 夏洛克；2. 莎士比亚；3. 英国；4. 《威尼斯商人》",
       "id": "ch1-fill-5f0475a9"
     },
@@ -1350,6 +6302,37 @@ window.QUESTION_BANK = {
       "section": "第四节 罗马文学早期主要成果 喜剧",
       "prompt": "★ 【外国文学中的四大吝啬鬼2】爱钱如命，把钱箱视为命根子，连子女的婚姻也以省钱、获利为标准。人物：________；作者与国家：________·________；作品：________。",
       "paragraphId": "5c4c9b24",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 95
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 37
+            }
+          ]
+        }
+      },
       "answer": "1. 阿巴贡；2. 莫里哀；3. 法国；4. 《悭吝人》（又译《吝啬鬼》）",
       "id": "ch1-fill-5c4c9b24"
     },
@@ -1358,6 +6341,37 @@ window.QUESTION_BANK = {
       "section": "第四节 罗马文学早期主要成果 喜剧",
       "prompt": "【外国文学中的四大吝啬鬼3】家财万贯却极度节省，克扣家人生活开支；临终还想抓住镀金十字架。人物：________；作者与国家：________·________；作品：________。",
       "paragraphId": "523ffa8b",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 93
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 33
+            }
+          ]
+        }
+      },
       "answer": "1. 葛朗台；2. 巴尔扎克；3. 法国；4. 《欧也妮·葛朗台》",
       "id": "ch1-fill-523ffa8b"
     },
@@ -1366,6 +6380,37 @@ window.QUESTION_BANK = {
       "section": "第四节 罗马文学早期主要成果 喜剧",
       "prompt": "【外国文学中的四大吝啬鬼】疯狂囤积废物，任粮食、衣物腐烂也不肯使用，把自己和庄园都拖入衰败。人物：________；作者与国家：________·________；作品：________。",
       "paragraphId": "4a92dbf4",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 94
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 29
+            }
+          ]
+        }
+      },
       "answer": "1. 泼留希金；2. 果戈理；3. 俄国；4. 《死魂灵》",
       "id": "ch1-fill-4a92dbf4"
     },
@@ -1374,6 +6419,37 @@ window.QUESTION_BANK = {
       "section": "第四节 罗马文学早期主要成果 喜剧",
       "prompt": "★ 泰伦提乌斯：改编古希腊喜剧，风格严肃文雅；代表作_______ ________。",
       "paragraphId": "3038f071",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 43
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 《婆母》；2. 《两兄弟》；",
       "id": "ch1-fill-3038f071"
     },
@@ -1382,6 +6458,37 @@ window.QUESTION_BANK = {
       "section": "第五节 罗马文学后期主要成果 诗歌",
       "prompt": "★ “麦凯纳斯文学集团”是古罗马________（时代）的核心作家圈子，代表罗马文学的黄金时代。",
       "paragraphId": "5d337f99",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 48
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 9
+            }
+          ]
+        }
+      },
       "answer": "1. 奥古斯都时代",
       "id": "ch1-fill-5d337f99"
     },
@@ -1390,6 +6497,37 @@ window.QUESTION_BANK = {
       "section": "第五节 罗马文学后期主要成果 诗歌",
       "prompt": "★ 屋大维的亲信________负责资助、团结文人，将文学创作与________结合，歌颂罗马和平与文明使命。",
       "paragraphId": "3a1cffce",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 55
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 麦凯纳斯；2. 帝国秩序",
       "id": "ch1-fill-3a1cffce"
     },
@@ -1398,6 +6536,37 @@ window.QUESTION_BANK = {
       "section": "第五节 罗马文学后期主要成果 诗歌",
       "prompt": "★ 【麦凯纳斯文学集团】三位核心诗人：________、________、________",
       "paragraphId": "3dfbb494",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 45
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 20
+            }
+          ]
+        }
+      },
       "answer": "1. 维吉尔；2. 贺拉斯；3. 奥维德",
       "classQuiz": true,
       "quizHighlights": {
@@ -1415,6 +6584,37 @@ window.QUESTION_BANK = {
       "section": "第五节 罗马文学后期主要成果 诗歌",
       "prompt": "★ 【三位核心诗人】维吉尔________（著作），为罗马首创英雄史诗；贺拉斯________（著作），构建古罗马诗歌创作理论；奥维德________（著作），是一部记录希腊和罗马神话的总集。",
       "paragraphId": "712490be",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 96
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 27
+            }
+          ]
+        }
+      },
       "answer": "1. 《埃涅阿斯纪》；2. 《诗艺》；3. 《变形记》",
       "id": "ch1-fill-712490be"
     },
@@ -1423,6 +6623,44 @@ window.QUESTION_BANK = {
       "section": "第五节 罗马文学后期主要成果 诗歌",
       "prompt": "★ 贺拉斯（前65—前8）是杰出的________（两类诗人、一类家）。作品集________；文艺理论著作________。",
       "paragraphId": "616cf27e",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 63,
+              "runs": [
+                {
+                  "start": 48,
+                  "end": 54,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 34
+            }
+          ]
+        }
+      },
       "answer": "1. 讽刺诗人、抒情诗人、文艺理论家；2. 《歌集》；3. 《诗艺》",
       "classQuiz": true,
       "quizHighlights": {
@@ -1448,6 +6686,37 @@ window.QUESTION_BANK = {
       "section": "第五节 罗马文学后期主要成果 诗歌",
       "prompt": "★ 文艺理论著作《诗艺》讲述________、________、________，其主张对后来的________产生很大影响。",
       "paragraphId": "121e6cb2",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 63
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 48
+            }
+          ]
+        }
+      },
       "answer": "1. 诗歌创作的一般原则；2. 诗歌的形式和技巧；3. 诗人的任务和修养；4. 古典主义文艺理论",
       "id": "ch1-fill-121e6cb2"
     },
@@ -1456,6 +6725,37 @@ window.QUESTION_BANK = {
       "section": "第五节 罗马文学后期主要成果 诗歌",
       "prompt": "★ 【古希腊和古罗马文艺理论】可将________与________联系记忆，分别对应古希腊和古罗马文艺理论。",
       "paragraphId": "75129d0a",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 55
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 《诗学》；2. 《诗艺》",
       "id": "ch1-fill-75129d0a"
     },
@@ -1464,6 +6764,37 @@ window.QUESTION_BANK = {
       "section": "第五节 罗马文学后期主要成果 诗歌",
       "prompt": "★ 奥维德（前43—公元17）是奥古斯都时期第三个重要诗人。早年写爱情诗，中年创作________和________，晚年创作《哀歌》《黑海零简》等诗。",
       "paragraphId": "60058b9d",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 76
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 18
+            }
+          ]
+        }
+      },
       "answer": "1. 《岁时记》；2. 《变形记》；",
       "id": "ch1-fill-60058b9d"
     },
@@ -1472,6 +6803,37 @@ window.QUESTION_BANK = {
       "section": "第五节 罗马文学后期主要成果 诗歌",
       "prompt": "★ 《变形记》用“变形”这一线索贯穿全书250个大小故事，即人由于某种原因被变成动物、植物、星辰、石头等，是一部________的总集。",
       "paragraphId": "12da154b",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 68
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      },
       "answer": "希腊和罗马神话",
       "id": "ch1-fill-12da154b"
     },
@@ -1480,6 +6842,37 @@ window.QUESTION_BANK = {
       "section": "第五节 罗马文学后期主要成果 诗歌",
       "prompt": "★ 【《变形记》】最终以________遇刺变为________、________建立统治结束。",
       "paragraphId": "24813f1c",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 48
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 18
+            }
+          ]
+        }
+      },
       "answer": "1. 凯撒；2. 星辰；3. 屋大维",
       "id": "ch1-fill-24813f1c"
     },
@@ -1488,6 +6881,37 @@ window.QUESTION_BANK = {
       "section": "第五节 罗马文学后期主要成果 诗歌",
       "prompt": "【《变形记》】核心叙事特征：________。每个小故事独立，但以“变形”为线索互相勾连，故事内部嵌套故事。",
       "paragraphId": "0bab52cb",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 54
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 11
+            }
+          ]
+        }
+      },
       "answer": "串珠式结构（故事套盒）",
       "id": "ch1-fill-0bab52cb"
     },
@@ -1496,6 +6920,37 @@ window.QUESTION_BANK = {
       "section": "第五节 罗马文学后期主要成果 诗歌",
       "prompt": "【《变形记》】叙事走向：________ → ________ → ________。",
       "paragraphId": "35edc448",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 43
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 27
+            }
+          ]
+        }
+      },
       "answer": "1. 宇宙神话；2. 城邦英雄神话；3. 罗马早期历史",
       "id": "ch1-fill-35edc448"
     },
@@ -1504,6 +6959,37 @@ window.QUESTION_BANK = {
       "section": "第五节 罗马文学后期主要成果 诗歌",
       "prompt": "【《变形记》 桂冠诗人的来源】________追求达芙妮，达芙妮化为________；",
       "paragraphId": "029e3210",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 43
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 13
+            }
+          ]
+        }
+      },
       "answer": "1. 阿波罗；2. 月桂树",
       "id": "ch1-fill-029e3210"
     },
@@ -1512,6 +6998,37 @@ window.QUESTION_BANK = {
       "section": "第五节 罗马文学后期主要成果 诗歌",
       "prompt": "【《变形记》变形分类】①________：阿克泰翁、那耳喀索斯、弥尼阿斯之女。",
       "paragraphId": "06d461a6",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 39
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "惩罚性变形",
       "id": "ch1-fill-06d461a6"
     },
@@ -1520,6 +7037,37 @@ window.QUESTION_BANK = {
       "section": "第五节 罗马文学后期主要成果 诗歌",
       "prompt": "★ 【《变形记》变形分类】②________：河神之女达芙妮为逃避阿波罗求爱而变形。",
       "paragraphId": "1117b051",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 42
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "逃离式变形",
       "id": "ch1-fill-1117b051"
     },
@@ -1528,6 +7076,37 @@ window.QUESTION_BANK = {
       "section": "第五节 罗马文学后期主要成果 诗歌",
       "prompt": "【《变形记》变形分类】③________：法厄同姐妹、阿多尼斯流血化为花。",
       "paragraphId": "5cf24d09",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 37
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 8
+            }
+          ]
+        }
+      },
       "answer": "哀恸／纪念式变形",
       "id": "ch1-fill-5cf24d09"
     },
@@ -1536,6 +7115,37 @@ window.QUESTION_BANK = {
       "section": "第五节 罗马文学后期主要成果 诗歌",
       "prompt": "【《变形记》变形分类】④________：凯撒化为星辰。",
       "paragraphId": "5c41b011",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 28
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      },
       "answer": "神性升华变形",
       "id": "ch1-fill-5c41b011"
     },
@@ -1544,6 +7154,37 @@ window.QUESTION_BANK = {
       "section": "第五节 罗马文学后期主要成果 诗歌",
       "prompt": "【《变形记》】哲学依托：联系_______（学者） ________（著作）“一切在变”的原子论宇宙观，即万物由原子聚散、重组、消亡；又联系________（学者）“人不能两次踏入同一条河流”“万物皆流”及恩培多克勒的元素变化说。",
       "paragraphId": "24073d97",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 115
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 26
+            }
+          ]
+        }
+      },
       "answer": "1. 卢克莱修；2. 《物性论》；3. 赫拉克利特；",
       "classQuiz": true,
       "quizHighlights": {
@@ -1561,6 +7202,37 @@ window.QUESTION_BANK = {
       "section": "第五节 罗马文学后期主要成果 诗歌",
       "prompt": "★ ________（希腊哲学家）：万物皆流，一切事物都处在不断运动变化之中，静止只是表象。",
       "paragraphId": "5bfc2215",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 46
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "赫拉克利特",
       "id": "ch1-fill-5bfc2215"
     },
@@ -1569,6 +7241,37 @@ window.QUESTION_BANK = {
       "section": "第五节 罗马文学后期主要成果 诗歌",
       "prompt": "★ ________（罗马哲学家）：一切在变。",
       "paragraphId": "0cbf17ec",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      },
       "answer": "卢克莱修",
       "id": "ch1-fill-0cbf17ec"
     },
@@ -1577,6 +7280,37 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "★ ________（前70—前19）是罗马最重要的诗人。",
       "paragraphId": "12d3ef30",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 29
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      },
       "answer": "维吉尔",
       "id": "ch1-fill-12d3ef30"
     },
@@ -1585,6 +7319,37 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "★ 【《埃涅阿斯纪》】又译________。",
       "paragraphId": "79f55151",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 22
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 9
+            }
+          ]
+        }
+      },
       "answer": "1. 《伊尼特》；",
       "id": "ch1-fill-79f55151"
     },
@@ -1593,6 +7358,37 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "★ 【维吉尔】一生创作三部作品：________10首、________4卷、________12卷。",
       "paragraphId": "7cb418b7",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 51
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 27
+            }
+          ]
+        }
+      },
       "answer": "1. 《牧歌》；2. 《农事诗》；3. 《埃涅阿斯纪》",
       "id": "ch1-fill-7cb418b7"
     },
@@ -1601,6 +7397,37 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "★ 《埃涅阿斯纪》是欧洲文学史上________",
       "paragraphId": "2365d9ff",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 24
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      },
       "answer": "第一部个人创作的史诗",
       "id": "ch1-fill-2365d9ff"
     },
@@ -1609,6 +7436,37 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "★ 【《埃涅阿斯纪》】全书12卷，近万行。前六卷摹仿________，后六卷摹仿________。",
       "paragraphId": "7135eda6",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 49
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        }
+      },
       "answer": "《奥德赛》；《伊利亚特》",
       "id": "ch1-fill-7135eda6"
     },
@@ -1617,6 +7475,37 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "★ 《埃涅阿斯纪》由________提议、宫廷诗人________一人写成。",
       "paragraphId": "1c2b10b8",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 38
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 13
+            }
+          ]
+        }
+      },
       "answer": "1. 统治者；2. 维吉尔",
       "id": "ch1-fill-1c2b10b8"
     },
@@ -1625,6 +7514,37 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "【《埃涅阿斯纪》】史诗以________为基础，叙述特洛伊英雄埃涅阿斯在城池被希腊联军攻破后，率众来到意大利拉丁姆地区，奠定罗马建国基础的经历。课件称其为罗马帝国的“________”。",
       "paragraphId": "7d4f81fd",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 93
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      },
       "answer": "特洛伊战争传说；史记",
       "id": "ch1-fill-7d4f81fd"
     },
@@ -1633,6 +7553,37 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "★ 【《埃涅阿斯纪》第二卷】埃涅阿斯回忆________情景。",
       "paragraphId": "0cec3bfd",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 31
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "特洛伊攻陷",
       "id": "ch1-fill-0cec3bfd"
     },
@@ -1641,6 +7592,37 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "【《埃涅阿斯纪》第六卷】埃涅阿斯向________询问________。",
       "paragraphId": "3538517f",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 36
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 亡父鬼魂；2. 罗马未来命运",
       "id": "ch1-fill-3538517f"
     },
@@ -1649,6 +7631,37 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "★ 【《埃涅阿斯纪》第七卷】埃涅阿斯到达________，当地各族准备抵抗。",
       "paragraphId": "7dfad570",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 38
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      },
       "answer": "意大利",
       "id": "ch1-fill-7dfad570"
     },
@@ -1657,6 +7670,37 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "【《埃涅阿斯纪》第八卷】埃涅阿斯到达未来都城________所在地。",
       "paragraphId": "61d504c0",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 34
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      },
       "answer": "罗马",
       "id": "ch1-fill-61d504c0"
     },
@@ -1665,6 +7709,37 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "★ 【《埃涅阿斯纪》主题】歌颂奥古斯都王朝的神圣，宣扬屋大维的________。即 “________。”",
       "paragraphId": "6044fe2d",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 53
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 天赋神权；2. 君权神授",
       "id": "ch1-fill-6044fe2d"
     },
@@ -1673,6 +7748,37 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "★ 【《埃涅阿斯纪》主题】歌颂罗马人的________和________，以此激励罗马人的________。",
       "paragraphId": "66a0cd7d",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 54
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        }
+      },
       "answer": "1. 光荣历史；2. 民族精神；3. 爱国热情",
       "id": "ch1-fill-66a0cd7d"
     },
@@ -1681,6 +7787,37 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "★ 【埃涅阿斯】他和________同是流浪者，但他负有重大使命，是________的执行者。",
       "paragraphId": "66f68003",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 47
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 奥德修斯；2. 神的意志",
       "id": "ch1-fill-66f68003"
     },
@@ -1689,6 +7826,37 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "★ 【埃涅阿斯】他和________同为大将，却不像后者为争夺女俘而放弃责任；为了建国兴邦，他用________克制了________。",
       "paragraphId": "3e266350",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 68
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 21
+            }
+          ]
+        }
+      },
       "answer": "1. 阿喀琉斯；2. 理智；3. 私人情感",
       "id": "ch1-fill-3e266350"
     },
@@ -1697,6 +7865,37 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "★ 《埃涅阿斯纪》以________为范本，后人称它为“________”。",
       "paragraphId": "43518947",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 38
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 18
+            }
+          ]
+        }
+      },
       "answer": "1. 荷马史诗；2. 罗马的荷马史诗",
       "id": "ch1-fill-43518947"
     },
@@ -1705,6 +7904,37 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "★ 【《埃涅阿斯纪》】第一，与荷马史诗的相似性。如整体布局、结构安排上的模仿，以及大量________手法的运用。",
       "paragraphId": "33aa0f6c",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 57
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 8
+            }
+          ]
+        }
+      },
       "answer": "比喻、重复、对比",
       "id": "ch1-fill-33aa0f6c"
     },
@@ -1713,6 +7943,37 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "★ 【《埃涅阿斯纪》】第二，________________。具有成熟的思想和沉重的历史感。",
       "paragraphId": "19d9fb94",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 46
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      },
       "answer": "民族史诗的典范",
       "id": "ch1-fill-19d9fb94"
     },
@@ -1721,6 +7982,37 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "★ 【《埃涅阿斯纪》】第三，具有________的艺术风格。音律谨严，语言简练，尤其注重________的细腻描写。",
       "paragraphId": "0f269da2",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 58
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 21
+            }
+          ]
+        }
+      },
       "answer": "1. 乐观勇武、严肃而哀婉；2. 人物心理",
       "id": "ch1-fill-0f269da2"
     },
@@ -1729,6 +8021,37 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "★ 【《埃涅阿斯纪》】第四，用________写成。",
       "paragraphId": "0156e2bd",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 26
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      },
       "answer": "拉丁语",
       "id": "ch1-fill-0156e2bd"
     },
@@ -1737,6 +8060,37 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "★ 【荷马史诗英雄内核】________（kleos）；阿喀琉斯重________，奥德修斯重________、追求回归家庭。",
       "paragraphId": "61f9d8d9",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 63
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 21
+            }
+          ]
+        }
+      },
       "answer": "1. 个人荣光；2. 个人尊严；3. 智略",
       "id": "ch1-fill-61f9d8d9"
     },
@@ -1745,6 +8099,37 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "【《埃涅阿斯纪》英雄内核】________（pietas）；舍弃爱情和个人幸福，履行神赋予的________。",
       "paragraphId": "4476e545",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 55
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 13
+            }
+          ]
+        }
+      },
       "answer": "1. 虔敬；2. 建国使命",
       "id": "ch1-fill-4476e545"
     },
@@ -1753,6 +8138,37 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "★ 【《埃涅阿斯纪》借鉴与超越】第一，维吉尔并非简单复刻荷马，而是借用史诗外壳，将希腊史诗形式改造为________。",
       "paragraphId": "50663273",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 59
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      },
       "answer": "罗马的民族史诗",
       "id": "ch1-fill-50663273"
     },
@@ -1761,6 +8177,37 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "★ 【《埃涅阿斯纪》借鉴与超越】第二，他把英雄的个人奋斗升华为________，赋予史诗更厚重的________，由此奠定拉丁史诗的巅峰地位。",
       "paragraphId": "4bed325d",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 71
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 22
+            }
+          ]
+        }
+      },
       "answer": "1. 民族的天命事业；2. 历史感与伦理深度",
       "id": "ch1-fill-4bed325d"
     },
@@ -1769,6 +8216,37 @@ window.QUESTION_BANK = {
       "section": "第七节 古埃及文学",
       "prompt": "古代埃及人对神的虔诚信仰，使其很早就形成根深蒂固的“________”，他们甚至认为“人生只不过是一个短暂的居留，而死后才是永久的享受”。",
       "paragraphId": "1f4b4c8c",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 69
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      },
       "answer": "来世观念",
       "id": "ch1-fill-1f4b4c8c"
     },
@@ -1777,6 +8255,37 @@ window.QUESTION_BANK = {
       "section": "第七节 古埃及文学",
       "prompt": "★ 文字：大约在公元前4000年后期，埃及人发明了________，或称________。",
       "paragraphId": "0b3439b2",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 45
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 象形文字；2. 图形文字",
       "id": "ch1-fill-0b3439b2"
     },
@@ -1785,6 +8294,44 @@ window.QUESTION_BANK = {
       "section": "第七节 古埃及文学",
       "prompt": "★ 记录：埃及人用尼罗河边的芦苇制成的_____和芦管制成的笔书写记事，许多文学作品就是写在纸草纸上保存下来的。笔记又记作莎草纸。",
       "paragraphId": "306586e2",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 65,
+              "runs": [
+                {
+                  "start": 61,
+                  "end": 64,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      },
       "answer": "1. 纸草纸",
       "redText": {
         "prompt": [
@@ -1801,6 +8348,37 @@ window.QUESTION_BANK = {
       "section": "第七节 古埃及文学",
       "prompt": "★ 3．新王国时期：最突出的文学体裁是________，还有许多对神和法老的________。",
       "paragraphId": "5cac8747",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 47
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 9
+            }
+          ]
+        }
+      },
       "answer": "写实的旅行记；颂歌",
       "id": "ch1-fill-5cac8747"
     },
@@ -1809,6 +8387,37 @@ window.QUESTION_BANK = {
       "section": "第七节 古埃及文学",
       "prompt": "★ 上下埃及统一后，________成为全埃及的最高神，法老被认为是________，代表神统治社会。",
       "paragraphId": "18a99323",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 51
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 太阳神；2. 太阳神之子",
       "id": "ch1-fill-18a99323"
     },
@@ -1817,6 +8426,37 @@ window.QUESTION_BANK = {
       "section": "第七节 古埃及文学",
       "prompt": "★ PPT 的埃及神话体系包括________、________、其他次要神祇、动物神和怪物。",
       "paragraphId": "56643c25",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 47
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        }
+      },
       "answer": "1. 九柱神；2. 死神",
       "id": "ch1-fill-56643c25"
     },
@@ -1825,6 +8465,37 @@ window.QUESTION_BANK = {
       "section": "第七节 古埃及文学",
       "prompt": "① ________：太阳神。",
       "paragraphId": "4513e535",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "拉（Ra）",
       "id": "ch1-fill-4513e535"
     },
@@ -1833,6 +8504,37 @@ window.QUESTION_BANK = {
       "section": "第七节 古埃及文学",
       "prompt": "★ ⑥ ________：冥王和农业之神。",
       "paragraphId": "65145a28",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 21
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        }
+      },
       "answer": "奥西里斯（Osiris）",
       "id": "ch1-fill-65145a28"
     },
@@ -1841,6 +8543,37 @@ window.QUESTION_BANK = {
       "section": "第七节 古埃及文学",
       "prompt": "★古埃及神的外形有________、________、________。",
       "paragraphId": "033a1577",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 36
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        }
+      },
       "answer": "1. 动物形态；2. 人的形态；3. 抽象形态",
       "classQuiz": true,
       "quizHighlights": {
@@ -1858,6 +8591,37 @@ window.QUESTION_BANK = {
       "section": "第七节 古埃及文学",
       "prompt": "★ PPT 强调：埃及神话与希腊神话最大的区别，是埃及神话中大部分神明都是________",
       "paragraphId": "1265781d",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 45
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "人身动物头",
       "id": "ch1-fill-1265781d"
     },
@@ -1866,6 +8630,37 @@ window.QUESTION_BANK = {
       "section": "第七节 古埃及文学",
       "prompt": "古埃及文学：诗歌：________、________、________、________。",
       "paragraphId": "3036e89b",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 45
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 29
+            }
+          ]
+        }
+      },
       "answer": "1. 世俗诗；2. 宗教诗；3. 赞美诗；4. 宗教哲理诗",
       "id": "ch1-fill-3036e89b"
     },
@@ -1874,6 +8669,37 @@ window.QUESTION_BANK = {
       "section": "第七节 古埃及文学",
       "prompt": "古埃及文学：散文：________、________、________和________。",
       "paragraphId": "4e649128",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 45
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 24
+            }
+          ]
+        }
+      },
       "answer": "1. 训言；2. 箴言；3. 故事；4. 旅行记",
       "id": "ch1-fill-4e649128"
     },
@@ -1882,6 +8708,37 @@ window.QUESTION_BANK = {
       "section": "第七节 古埃及文学",
       "prompt": "古埃及文学最古老的形式是________，传世作品题材和内容丰富多彩，常带有浓郁的________。",
       "paragraphId": "3a3ca5b5",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 50
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 13
+            }
+          ]
+        }
+      },
       "answer": "1. 神话；2. 宗教色彩",
       "id": "ch1-fill-3a3ca5b5"
     },
@@ -1890,6 +8747,37 @@ window.QUESTION_BANK = {
       "section": "第七节 古埃及文学",
       "prompt": "★ 《________》是古代颂歌中的名篇，热烈赞颂给万物带来生机的________，代表了古代埃及宗教诗的主要成就。",
       "paragraphId": "010ddd68",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 59
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 16
+            }
+          ]
+        }
+      },
       "answer": "1. 拉太阳神颂诗；2. 太阳神",
       "id": "ch1-fill-010ddd68"
     },
@@ -1898,6 +8786,37 @@ window.QUESTION_BANK = {
       "section": "第七节 古埃及文学",
       "prompt": "★ 《________》是一部古老而宏大的________，共27篇，包括咒语、赞美诗、冗长的开释、各类礼仪真言、神名等，一般被镂刻或书写在金字塔或坟墓壁上，有的印在精美的石棺上。",
       "paragraphId": "1c0aaaf6",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 90
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 18
+            }
+          ]
+        }
+      },
       "answer": "1. 古埃及亡灵书；2. 诗歌总集；",
       "id": "ch1-fill-1c0aaaf6"
     },
@@ -1906,6 +8825,37 @@ window.QUESTION_BANK = {
       "section": "第七节 古埃及文学",
       "prompt": "★ 《亡灵书》：笔记强调：________（地位）。",
       "paragraphId": "1204037c",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 26
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 11
+            }
+          ]
+        }
+      },
       "answer": "古埃及最重要的诗歌总集",
       "classQuiz": true,
       "quizHighlights": {
@@ -1923,6 +8873,37 @@ window.QUESTION_BANK = {
       "section": "第七节 古埃及文学",
       "prompt": "★ 【《亡灵书》】原文是________，早已失传，十九世纪初发现对照碑文后才得以破译。",
       "paragraphId": "0cfc55e2",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 44
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 8
+            }
+          ]
+        }
+      },
       "answer": "1. 象形文字；",
       "id": "ch1-fill-0cfc55e2"
     },
@@ -1931,6 +8912,37 @@ window.QUESTION_BANK = {
       "section": "第八节 古巴比伦文学",
       "prompt": "★ ① 苏美尔时期（PPT：公元前4000年）：居住在此的________已有较为发达的文化，发明了文字和“________”；苏美尔衰落后，巴比伦城兴起。",
       "paragraphId": "1bb20472",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 78
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 14
+            }
+          ]
+        }
+      },
       "answer": "1. 苏美尔人；2. 泥板书",
       "id": "ch1-fill-1bb20472"
     },
@@ -1939,6 +8951,37 @@ window.QUESTION_BANK = {
       "section": "第八节 古巴比伦文学",
       "prompt": "★ 古巴比伦文化的重要载体/文化标签是________、________。",
       "paragraphId": "7c1c1516",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 37
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 楔形文字；2. 泥版文书",
       "classQuiz": true,
       "quizHighlights": {
@@ -1956,6 +8999,37 @@ window.QUESTION_BANK = {
       "section": "第八节 古巴比伦文学",
       "prompt": "★ 【《汉谟拉比法典》 课件原文表述】强调其法典史意义，原文称“人类社会有史以来的________”，并称它为法典领域的开先河之作。",
       "paragraphId": "6ff41100",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 66
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "第一部法典",
       "id": "ch1-fill-6ff41100"
     },
@@ -1964,6 +9038,37 @@ window.QUESTION_BANK = {
       "section": "第八节 古巴比伦文学",
       "prompt": "★ 巴比伦文学是两河流域文化最繁盛时期的文学，以________和________为主，用楔形文字刻在泥版上得以保存。",
       "paragraphId": "239cee66",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 59
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        }
+      },
       "answer": "1. 史诗；2. 叙事诗",
       "id": "ch1-fill-239cee66"
     },
@@ -1972,6 +9077,37 @@ window.QUESTION_BANK = {
       "section": "第八节 古巴比伦文学",
       "prompt": "★ 创世神话《________》的名字取自史诗起首句，是阿卡德语，可译为“________”或“________”。",
       "paragraphId": "59c2666d",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 58
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 29
+            }
+          ]
+        }
+      },
       "answer": "1. 埃努玛·埃立什；2. 天之高兮；3. 当在最高之处时",
       "id": "ch1-fill-59c2666d"
     },
@@ -1980,6 +9116,37 @@ window.QUESTION_BANK = {
       "section": "第八节 古巴比伦文学",
       "prompt": "★ 《________》是已知世界文学中________，也是代表古巴比伦文学最高成就的作品。",
       "paragraphId": "4906b7c1",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 47
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 吉尔伽美什；2. 最早的史诗",
       "classQuiz": true,
       "quizHighlights": {
@@ -1997,6 +9164,37 @@ window.QUESTION_BANK = {
       "section": "第八节 古巴比伦文学",
       "prompt": "★ 【《吉尔伽美什》】天神应人民祈求，让________创造半人半兽的勇士________与之搏斗。",
       "paragraphId": "10b813f5",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 50
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 13
+            }
+          ]
+        }
+      },
       "answer": "1. 阿鲁鲁；2. 恩奇都",
       "id": "ch1-fill-10b813f5"
     },
@@ -2005,6 +9203,37 @@ window.QUESTION_BANK = {
       "section": "第八节 古巴比伦文学",
       "prompt": "★ 【《吉尔伽美什》】二人杀死天牛得罪天神，神决定二人必须死去一个，结果________死去。",
       "paragraphId": "47ef70e2",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 47
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      },
       "answer": "恩奇都",
       "id": "ch1-fill-47ef70e2"
     },
@@ -2013,6 +9242,37 @@ window.QUESTION_BANK = {
       "section": "第八节 古巴比伦文学",
       "prompt": "★ 【《吉尔伽美什》】吉尔伽美什跳入海中取得仙草，谁知洗澡时仙草被________叼走，蛇脱皮后精神焕发，吉尔伽美什却只能灰心丧气地返回乌鲁克。",
       "paragraphId": "3a08457a",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 72
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      },
       "answer": "老蛇",
       "id": "ch1-fill-3a08457a"
     },
@@ -2021,6 +9281,37 @@ window.QUESTION_BANK = {
       "section": "第八节 古巴比伦文学",
       "prompt": "吉尔伽美什：他思念亡友，在神帮助下与恩奇都的幽灵见面，请求其告诉自己“________”，这才明白________。",
       "paragraphId": "370949ab",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 58
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 大地的法则；2. 人不能永生",
       "id": "ch1-fill-370949ab"
     },
@@ -2029,6 +9320,37 @@ window.QUESTION_BANK = {
       "section": "第八节 古巴比伦文学",
       "prompt": "★ 《吉尔伽美什》思想意义：① 颂扬________。",
       "paragraphId": "34206e42",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 27
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 9
+            }
+          ]
+        }
+      },
       "answer": "为民建立功勋的英雄",
       "id": "ch1-fill-34206e42"
     },
@@ -2037,6 +9359,37 @@ window.QUESTION_BANK = {
       "section": "第八节 古巴比伦文学",
       "prompt": "★ 《吉尔伽美什》思想意义：② 表现古巴比伦人________的朴素愿望，歌颂他们________的积极进取精神。",
       "paragraphId": "42cd2ebc",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 57
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 26
+            }
+          ]
+        }
+      },
       "answer": "1. 认识自然法则、探索人生奥秘；2. 敢于违抗神意",
       "id": "ch1-fill-42cd2ebc"
     },
@@ -2045,6 +9398,37 @@ window.QUESTION_BANK = {
       "section": "第九节 古希伯来文学",
       "prompt": "★ “希伯来人”通常解释为 “________”。",
       "paragraphId": "0b49c9bd",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 25
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      },
       "answer": "渡过河而来的人",
       "id": "ch1-fill-0b49c9bd"
     },
@@ -2053,6 +9437,37 @@ window.QUESTION_BANK = {
       "section": "第九节 古希伯来文学",
       "prompt": "★ 希伯来民族：他们用古希伯来语创作大量文学作品，最主要的成就是《________》。",
       "paragraphId": "7f66567f",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 43
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      },
       "answer": "旧约",
       "id": "ch1-fill-7f66567f"
     },
@@ -2061,6 +9476,37 @@ window.QUESTION_BANK = {
       "section": "第九节 古希伯来文学",
       "prompt": "★ 《旧约》（《________》）是________的经典。",
       "paragraphId": "77daf14b",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 31
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 13
+            }
+          ]
+        }
+      },
       "answer": "1. 塔纳赫；2. 犹太教",
       "classQuiz": true,
       "quizHighlights": {
@@ -2078,6 +9524,37 @@ window.QUESTION_BANK = {
       "section": "第九节 古希伯来文学",
       "prompt": "《旧约》：按希伯来文化传统，全书共24卷，分为________、________、________三部分。",
       "paragraphId": "28116b84",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 53
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 13
+            }
+          ]
+        }
+      },
       "answer": "律法书卷；先知书卷；圣文集",
       "id": "ch1-fill-28116b84"
     },
@@ -2086,6 +9563,37 @@ window.QUESTION_BANK = {
       "section": "第九节 古希伯来文学",
       "prompt": "★ 【《旧约》】① 律法书卷 又称“________”（ 5卷）：《________》《________》、《利未记》《民数记》《申命记》，是古代以色列人的法律总汇，也是古代犹太教的基本教律。",
       "paragraphId": "73082f64",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 96
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "摩西五经；5；创世记；出埃及记",
       "classQuiz": true,
       "quizHighlights": {
@@ -2107,6 +9615,37 @@ window.QUESTION_BANK = {
       "section": "第九节 古希伯来文学",
       "prompt": "★ 【《旧约》】② 先知书卷（8卷）：前先知书为《________》《________》《撒母耳记》《列王纪》；后先知书为《以赛亚书》《耶利米书》《以西结书》《十二小先知书》。",
       "paragraphId": "085dcb62",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 88
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 8
+            }
+          ]
+        }
+      },
       "answer": "约书亚记；士师记",
       "id": "ch1-fill-085dcb62"
     },
@@ -2115,6 +9654,37 @@ window.QUESTION_BANK = {
       "section": "第九节 古希伯来文学",
       "prompt": "★ 【《旧约》】③ 圣文集（11卷）：《路得记》《________》《________》《箴言》《传道书》《________》《耶利米哀歌》《以斯帖记》《但以理书》以及《以斯拉—尼希米记》《历代志》。它是了解古代以色列民族精神生活的一面镜子。",
       "paragraphId": "4c79f0f1",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 121
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 9
+            }
+          ]
+        }
+      },
       "answer": "诗篇；约伯记；雅歌",
       "id": "ch1-fill-4c79f0f1"
     },
@@ -2123,6 +9693,37 @@ window.QUESTION_BANK = {
       "section": "第九节 古希伯来文学",
       "prompt": "★ 《圣经》由《________》和《________》组成。“旧约”指________所订之约；“新约”指________重新立约。",
       "paragraphId": "43791698",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 67
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 34
+            }
+          ]
+        }
+      },
       "answer": "1. 旧约全书；2. 新约全书；3. 上帝与犹太人；4. 耶稣与信徒",
       "id": "ch1-fill-43791698"
     },
@@ -2131,6 +9732,37 @@ window.QUESTION_BANK = {
       "section": "第九节 古希伯来文学",
       "prompt": "★ 【基督教文学的产生】① “基督教之父”________的讲学。",
       "paragraphId": "09b859d1",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 33
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      },
       "answer": "斐洛",
       "id": "ch1-fill-09b859d1"
     },
@@ -2139,7 +9771,38 @@ window.QUESTION_BANK = {
       "section": "第九节 古希伯来文学",
       "prompt": "【基督教文学的产生】斐洛是生于亚历山大里亚的犹太学者、思想家，用当时的希腊哲学解释“________”，将柏拉图、毕达哥拉斯、斯多葛学派与犹太神学冶为一炉，促成早期基督教思想的出现。",
       "paragraphId": "23a745f9",
-      "answer": "1. 摩西五经；2. 柏拉图；3. 毕达哥拉斯；4. 斯多葛学派",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 91
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      },
+      "answer": "1. 摩西五经",
       "id": "ch1-fill-23a745f9"
     },
     {
@@ -2147,6 +9810,37 @@ window.QUESTION_BANK = {
       "section": "第九节 古希伯来文学",
       "prompt": "★ 【基督教文学的产生】② “________”的完成。公元前2世纪，72位学贯“二希”的学者将希伯来民族一千多年的文化遗产译为________，为基督教文学的产生铺平道路。",
       "paragraphId": "63f0c864",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 87
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      },
       "answer": "七十士译本； 希腊文",
       "id": "ch1-fill-63f0c864"
     },
@@ -2155,6 +9849,37 @@ window.QUESTION_BANK = {
       "section": "第九节 古希伯来文学",
       "prompt": "★ 【早期基督教文学】到公元3世纪，选出27卷编为经典《________》。",
       "paragraphId": "0ee48d08",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 38
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      },
       "answer": "新约",
       "classQuiz": true,
       "quizHighlights": {
@@ -2176,6 +9901,37 @@ window.QUESTION_BANK = {
       "section": "第九节 古希伯来文学",
       "prompt": "“四福音书”：《________》《________》《________》《________》。",
       "paragraphId": "1f7048ee",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 48
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 31
+            }
+          ]
+        }
+      },
       "answer": "1. 马太福音；2. 马可福音；3. 路加福音；4. 约翰福音",
       "id": "ch1-fill-1f7048ee"
     },
@@ -2184,6 +9940,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ ________是古代印度文学共同使用的语言，古代印度文学通称为________。",
       "paragraphId": "0423126d",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 43
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 13
+            }
+          ]
+        }
+      },
       "answer": "1. 梵语；2. 梵语文学",
       "id": "ch1-fill-0423126d"
     },
@@ -2192,6 +9979,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ 【古印度文学】吠陀时期的代表是以“吠陀”命名的民间集体创作的四大诗歌总集，包括《________》（印度最古老的诗歌总集）《________》《________》《________》，",
       "paragraphId": "0dd8cc1b",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 94
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 32
+            }
+          ]
+        }
+      },
       "answer": "1. 梨俱吠陀；2. 摩挲吠陀；3. 叶桑吠陀；4. 阿达婆吠陀",
       "classQuiz": true,
       "quizHighlights": {
@@ -2209,6 +10027,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ 【古印度文学】史诗时期的代表为《________》和《________》。",
       "paragraphId": "0c86c646",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 39
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 16
+            }
+          ]
+        }
+      },
       "answer": "1. 摩诃婆罗多；2. 罗摩衍那",
       "id": "ch1-fill-0c86c646"
     },
@@ -2217,6 +10066,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ 【古印度文学】梵语古典文学的代表有________的剧本《________》和长篇抒情诗《________》。",
       "paragraphId": "76987af9",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 57
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 21
+            }
+          ]
+        }
+      },
       "answer": "1. 迦梨陀娑；2. 沙恭达罗；3. 云使",
       "id": "ch1-fill-76987af9"
     },
@@ -2225,6 +10105,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ “________”古译为“________”“知识”，即“神圣的知识”，也可译为“________”；",
       "paragraphId": "27c3f9d7",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 54
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 16
+            }
+          ]
+        }
+      },
       "answer": "1. 吠陀；2. 明；3. 智慧",
       "id": "ch1-fill-27c3f9d7"
     },
@@ -2233,6 +10144,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "【吠陀文学】教材指出，最具文学价值的是《________》和《________》。",
       "paragraphId": "555496ed",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 41
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 16
+            }
+          ]
+        }
+      },
       "answer": "1. 梨俱吠陀；2. 阿达婆吠陀",
       "id": "ch1-fill-555496ed"
     },
@@ -2241,6 +10183,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ 《梨俱吠陀》是印度________。",
       "paragraphId": "095e8dd5",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 20
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 9
+            }
+          ]
+        }
+      },
       "answer": "最古老的一部诗歌集",
       "id": "ch1-fill-095e8dd5"
     },
@@ -2249,6 +10222,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "【《梨俱吠陀》】“吠陀”本义是“知识”，“梨俱”是________。",
       "paragraphId": "769cd92f",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 34
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        }
+      },
       "answer": "1. 作品中诗节的名称；",
       "id": "ch1-fill-769cd92f"
     },
@@ -2257,6 +10261,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ 《梨俱吠陀》：内容主要包括：① ________；② ________；③ ________。",
       "paragraphId": "3e34c2c9",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 49
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 34
+            }
+          ]
+        }
+      },
       "answer": "1. 上古神话传说；2. 自然界和现实社会生活描述；3. 祭祀和巫术",
       "id": "ch1-fill-3e34c2c9"
     },
@@ -2265,6 +10300,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "《________》定型较晚，多数诗是祈福消灾、治病驱邪的________，想象丰富，比喻形象，表达人们的思想感情和对神的祈望。",
       "paragraphId": "7d3d1f92",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 64
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 14
+            }
+          ]
+        }
+      },
       "answer": "1. 阿达婆吠陀；2. 咒语",
       "id": "ch1-fill-7d3d1f92"
     },
@@ -2273,6 +10339,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "《摩诃婆罗多》意为“________”；“摩诃”有“________”的意思，是古印度两大史诗之一。",
       "paragraphId": "3a642c22",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 50
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 19
+            }
+          ]
+        }
+      },
       "answer": "1. 伟大的婆罗多族的故事；2. 伟大",
       "id": "ch1-fill-3a642c22"
     },
@@ -2281,6 +10378,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ 《摩诃婆罗多》：传统作者为________，即“________”。 也是________，具有天眼通、天耳通、他心通、宿命通、神足通；传说他制作婆罗门法、造出四吠陀，善知声论，通晓典章书籍。",
       "paragraphId": "3a1dd131",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 98
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 22
+            }
+          ]
+        }
+      },
       "answer": "1. 毗耶娑；2. 广博仙人；3. 五通仙人",
       "id": "ch1-fill-3a1dd131"
     },
@@ -2289,6 +10417,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "《摩诃婆罗多》：史诗以________写成，采用________，共10万颂，每颂为一节双行诗体；现代精校本为8万多颂，全诗分18篇。",
       "paragraphId": "5df1a630",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 67
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 13
+            }
+          ]
+        }
+      },
       "answer": "1. 梵文；2. 对话体；",
       "id": "ch1-fill-5df1a630"
     },
@@ -2297,6 +10456,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "《摩诃婆罗多》： “________”主题：“合久必分，分久必合”。史诗总趋向强调“合”，即统一；表现形式虽然纷争不已，本质上却要达到和合。在纷争与和合的转换中，体现推行“________”、承担责任和义务的思想。",
       "paragraphId": "75bc7b90",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 107
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        }
+      },
       "answer": "1. 分合论；2. 正法",
       "id": "ch1-fill-75bc7b90"
     },
@@ -2305,6 +10495,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ 【《摩诃婆罗多》】________（正法）是史诗的核心价值观。梵文 Dharma，意译正法，词根本义为“________”。",
       "paragraphId": "72fb8d26",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 64
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 14
+            }
+          ]
+        }
+      },
       "answer": "1. 达摩；2. 维系、持守",
       "id": "ch1-fill-72fb8d26"
     },
@@ -2313,6 +10534,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ 达摩：宇宙层面：维系整个世界的________、________；一旦正法崩坏，世界就陷入混乱。",
       "paragraphId": "67bc2a75",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 50
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 自然秩序；2. 万物各有本性",
       "id": "ch1-fill-67bc2a75"
     },
@@ -2321,6 +10573,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "达摩：社会层面：古印度按种姓、身份规定的________。武士应作战，国王应护民，每个人都要履行属于自己的职责。",
       "paragraphId": "303fbe29",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 56
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      },
       "answer": "本分与义务",
       "id": "ch1-fill-303fbe29"
     },
@@ -2329,6 +10612,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "达摩：道德层面：________；相对的是________（Adharma），即不义、破坏秩序。",
       "paragraphId": "7588984e",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 48
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 18
+            }
+          ]
+        }
+      },
       "answer": "1. 正义、善的行为准则；2. 非法",
       "id": "ch1-fill-7588984e"
     },
@@ -2337,6 +10651,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ 【达摩的概念】概念归纳：达摩（正法）是维系宇宙与社会的________，指人依据自身身份必须履行的________。",
       "paragraphId": "2163d957",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 60
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 18
+            }
+          ]
+        }
+      },
       "answer": "1. 根本秩序；2. 道德义务与本分",
       "id": "ch1-fill-2163d957"
     },
@@ -2345,6 +10690,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ 《摩诃婆罗多》艺术特色：① ________。篇幅极长，围绕俱卢族与般度族的王族大战，穿插神话、传说、寓言和哲理故事，故事套故事，形成“________”的框架。智慧的辩论，睿智的思想，崇高的信仰，恢弘的体例。",
       "paragraphId": "1bd298a3",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 107
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 24
+            }
+          ]
+        }
+      },
       "answer": "1. 宏大的史诗结构；2. 大史诗包含众多小文本",
       "id": "ch1-fill-1bd298a3"
     },
@@ -2353,6 +10729,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ 《摩诃婆罗多》艺术特色：② ________手法。由歌人演唱原诗内容，并插入“________”作为楔子，然后正式开篇。",
       "paragraphId": "39817b99",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 62
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 13
+            }
+          ]
+        }
+      },
       "answer": "1. 倒叙；2. 蛇祭缘起",
       "id": "ch1-fill-39817b99"
     },
@@ -2361,6 +10768,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ 《摩诃婆罗多》艺术特色：③ ________。原本世代口传，多用________，大量神、人交织，神话与历史传说混杂。",
       "paragraphId": "4728010c",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 61
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 24
+            }
+          ]
+        }
+      },
       "answer": "1. 民间口头文学性质；2. 重复句式与夸张想象",
       "id": "ch1-fill-4728010c"
     },
@@ -2369,6 +10807,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ 《摩诃婆罗多》艺术特色：④ ________。讲故事的同时大量议论宗教、伦理和正法，既是叙事史诗，也是古印度的________。",
       "paragraphId": "4430362e",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 66
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 21
+            }
+          ]
+        }
+      },
       "answer": "1. 叙事与哲理融合；2. 道德、哲学典籍",
       "id": "ch1-fill-4430362e"
     },
@@ -2377,6 +10846,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ 《罗摩衍那》意为“________”或“________”。",
       "paragraphId": "6575e490",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 32
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 罗摩的历险经历；2. 罗摩传",
       "id": "ch1-fill-6575e490"
     },
@@ -2385,6 +10885,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ 《罗摩衍那》：译者：________。其精通________。",
       "paragraphId": "6b945933",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 33
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        }
+      },
       "answer": "1. 季羡林；2. 梵语",
       "id": "ch1-fill-6b945933"
     },
@@ -2393,6 +10924,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ 【《罗摩衍那》】《________》：最精彩。主要写罗摩与猴王结盟。",
       "paragraphId": "1e01e648",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 36
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      },
       "answer": "猴国篇",
       "id": "ch1-fill-1e01e648"
     },
@@ -2401,6 +10963,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "《罗摩衍那》主题思想：① 宣扬正法（达摩）。罗摩恪守________、忠于________、坚守________，悉多坚守________，体现古印度理想伦理；罗摩代表完美的正法君主。",
       "paragraphId": "1f506970",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 92
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 25
+            }
+          ]
+        }
+      },
       "answer": "1. 孝道；2. 誓言；3. 丈夫本分；4. 贞洁",
       "id": "ch1-fill-1f506970"
     },
@@ -2409,6 +11002,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ 《罗摩衍那》主题思想：② 歌颂________。悉多对罗摩忠贞不渝，罗摩不惜一切营救妻子，赞美夫妻道义。",
       "paragraphId": "2000d81f",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 54
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      },
       "answer": "忠贞爱情与牺牲",
       "id": "ch1-fill-2000d81f"
     },
@@ -2417,6 +11041,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ 《罗摩衍那》主题思想：③________。罗什曼那追随罗摩共赴流放，婆罗多不愿篡守王位，等待罗摩归来，宣扬手足伦理。",
       "paragraphId": "6e709442",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 60
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      },
       "answer": "赞美兄弟情义",
       "id": "ch1-fill-6e709442"
     },
@@ -2425,6 +11080,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "《罗摩衍那》主题思想：④ ________。罗波那代表贪欲、暴行与非法；罗摩作为毗湿奴化身代表正义，正义最终战胜邪恶。",
       "paragraphId": "1424a9a8",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 59
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      },
       "answer": "善恶对立",
       "id": "ch1-fill-1424a9a8"
     },
@@ -2433,6 +11119,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ 《罗摩衍那》艺术特色：① ________。全书围绕罗摩遭遇________，相比《摩诃婆罗多》，插入故事更少，主线清晰。",
       "paragraphId": "0ffb1a8a",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 63
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 20
+            }
+          ]
+        }
+      },
       "answer": "1. 结构完整，情节集中；2. 单线推进",
       "id": "ch1-fill-0ffb1a8a"
     },
@@ -2441,6 +11158,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "《罗摩衍那》艺术特色：② 人物形象鲜明。罗摩是________，悉多是________，人物形象有层次。",
       "paragraphId": "40234c69",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 52
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 20
+            }
+          ]
+        }
+      },
       "answer": "1. 理想正法君主；2. 忠贞妻子的典范",
       "id": "ch1-fill-40234c69"
     },
@@ -2449,6 +11197,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ 《罗摩衍那》艺术特色：③ ________。神猴哈奴曼跨海、飞山等奇幻情节，人、神、妖魔同台，想象瑰丽。",
       "paragraphId": "52ef91ec",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 54
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 11
+            }
+          ]
+        }
+      },
       "answer": "浪漫想象，神话色彩浓厚",
       "id": "ch1-fill-52ef91ec"
     },
@@ -2457,6 +11236,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ 《罗摩衍那》艺术特色：④ ________。不仅叙事，还大量渲染离别、相思和悲苦，充满哀婉悲剧感；结尾________，是古典悲剧范式。",
       "paragraphId": "51918f12",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 70
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        }
+      },
       "answer": "1. 抒情性强；2. 悉多沉入大地",
       "id": "ch1-fill-51918f12"
     },
@@ -2465,6 +11275,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ 《罗摩衍那》艺术特色：⑤ ________。多用比喻、复句、夸张，语言质朴，适合吟诵。",
       "paragraphId": "71c73983",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 45
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      },
       "answer": "口头诗歌特征",
       "id": "ch1-fill-71c73983"
     },
@@ -2473,6 +11314,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ 两大史诗的称号：《罗摩衍那》是“________”；《摩诃婆罗多》是“________”。",
       "paragraphId": "29625aa1",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 47
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 18
+            }
+          ]
+        }
+      },
       "answer": "1. 最初的诗；2. 最初的历史传说",
       "id": "ch1-fill-29625aa1"
     },
@@ -2481,6 +11353,37 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "【孙悟空原型说】外来说：代表人物________，也称“________”。",
       "paragraphId": "30d9b788",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 38
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 14
+            }
+          ]
+        }
+      },
       "answer": "1. 胡适；2. 印度传入说",
       "id": "ch1-fill-30d9b788"
     },
@@ -2489,36 +11392,365 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "【孙悟空原型说】混血说：代表人物________，也称“________”，形成于20世纪80年代初期；",
       "paragraphId": "0eaa6ceb",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 52
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 3.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      },
       "answer": "1. 季羡林；2. 综合典型说",
       "id": "ch1-fill-0eaa6ceb"
+    },
+    {
+      "type": "term",
+      "section": "第一节 古希腊文学概述",
+      "prompt": "★ 古希腊文学（🦌一般）",
+      "paragraphId": "400ea82c",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 13,
+              "runs": [
+                {
+                  "start": 8,
+                  "end": 10,
+                  "font": "Apple Color Emoji"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0375,
+              "start": 0,
+              "end": 141,
+              "runs": [
+                {
+                  "start": 0,
+                  "end": 5,
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "古希腊文学是西方文学的开端，开创了欧洲文学的叙事传统、抒情传统和人本主义传统，为后世西方文学提供了丰富的艺术表现手段。古希腊主要指爱琴海地区，进程包括克里特—迈锡尼时代、荷马时代、古风时代、古典时代、马其顿统治时代。古希腊文学包括希腊神话（荷马史诗、《神谱》）、希腊戏剧、抒情诗等。",
+      "classQuiz": true,
+      "quizHighlights": {
+        "prompt": [
+          [
+            0,
+            7
+          ]
+        ]
+      },
+      "boldText": {
+        "answer": [
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      "id": "ch1-term-400ea82c"
     },
     {
       "type": "term",
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 史诗",
       "paragraphId": "331da01c",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 83,
+              "runs": [
+                {
+                  "start": 5,
+                  "end": 9,
+                  "color": "FF0000"
+                },
+                {
+                  "start": 11,
+                  "end": 20,
+                  "color": "FF0000"
+                },
+                {
+                  "start": 35,
+                  "end": 83,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "史诗是古代民间文学中的长篇叙事诗（体裁），以传说和重大历史事件为题材，歌颂每个民族在其形成和发展过程中战胜艰难险阻、克服自然灾害、抵御外敌的斗争及其英雄业绩（内容）。",
+      "redText": {
+        "answer": [
+          [
+            5,
+            9
+          ],
+          [
+            11,
+            20
+          ],
+          [
+            35,
+            83
+          ]
+        ]
+      },
+      "yellowHighlights": {
+        "answer": [
+          [
+            11,
+            16
+          ]
+        ]
+      },
       "id": "ch1-term-331da01c"
     },
     {
       "type": "term",
       "section": "第二节 古希腊史诗与戏剧",
-      "prompt": "★ 荷马史诗",
+      "prompt": "★ 荷马史诗（最后重点）",
       "paragraphId": "564464f9",
-      "answer": "荷马史诗是指在希腊文明的“荷马时代”开始产生、流传的，由公认的欧洲最早和最伟大的诗人荷马对民间流传的古代诗歌进行了加工整理，留下的《伊利亚特》和《奥德赛》两部史诗。二者都以特洛伊战争为背景，前者主要写战争，后者主要写奥德修斯战后返乡的经历。表现英雄主义、人本主义、自由主义。",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 131,
+              "runs": [
+                {
+                  "start": 102,
+                  "end": 106,
+                  "color": "FF0000"
+                },
+                {
+                  "start": 116,
+                  "end": 120,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 121,
+                  "end": 125,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 126,
+                  "end": 131,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "是指在希腊文明的“荷马时代”开始产生、流传，由公认的欧洲最早和最伟大的诗人荷马对民间流传的古代诗歌进行加工整理，留下的《伊利亚特》和《奥德赛》两部史诗。二者都以特洛伊战争为背景，前者主要写战争，后者主要写奥德修斯战后返乡的经历。表现英雄主义、人本主义、自由主义。",
+      "classQuiz": true,
+      "quizHighlights": {
+        "prompt": [
+          [
+            0,
+            6
+          ]
+        ]
+      },
+      "yellowHighlights": {
+        "answer": [
+          [
+            59,
+            71
+          ]
+        ]
+      },
+      "redText": {
+        "answer": [
+          [
+            102,
+            106
+          ],
+          [
+            116,
+            120
+          ],
+          [
+            121,
+            125
+          ],
+          [
+            126,
+            131
+          ]
+        ]
+      },
       "id": "ch1-term-564464f9"
     },
     {
       "type": "term",
       "section": "第二节 古希腊史诗与戏剧",
-      "prompt": "★ 荷马式比喻",
+      "prompt": "★ 荷马式比喻（最后重点）（🦌可能）",
       "paragraphId": "72f5e2d3",
-      "answer": "荷马史诗中的诗句流畅、自然、优美、比喻生动形象，常根据生活中的直接观察，取自然现象作比，借用自然界中的动植物来喻人。这类比喻生动形象，被后人称为“荷马式比喻”。",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 19,
+              "runs": [
+                {
+                  "start": 14,
+                  "end": 16,
+                  "font": "Apple Color Emoji"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 81,
+              "runs": [
+                {
+                  "start": 45,
+                  "end": 58,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "指荷马史诗中的诗句流畅、自然、优美，比喻生动形象，常根据生活中的直接观察，取自然现象作比，借用自然界中的动植物来喻人。这类比喻生动形象，被后人称为“荷马式比喻”。",
+      "classQuiz": true,
+      "quizHighlights": {
+        "prompt": [
+          [
+            0,
+            7
+          ]
+        ]
+      },
       "redText": {
         "answer": [
           [
-            44,
-            57
+            45,
+            58
+          ]
+        ]
+      },
+      "yellowHighlights": {
+        "answer": [
+          [
+            47,
+            58
           ]
         ]
       },
@@ -2527,9 +11759,103 @@ window.QUESTION_BANK = {
     {
       "type": "term",
       "section": "第二节 古希腊史诗与戏剧",
-      "prompt": "★（老师要求掌握）《俄狄浦斯王》",
+      "prompt": "★（老师要求掌握）《俄狄浦斯王》（🦌可能）",
       "paragraphId": "0a5b03c0",
-      "answer": "《俄狄浦斯王》是古希腊悲剧家索福克勒斯的代表作。剧本从忒拜城发生瘟疫写起。国王俄狄浦斯为解除城邦的灾难，追查杀害前王的凶手，最终发现凶手正是自己，也揭开了自己在不知情中杀父娶母的真相。作品把主人公过去的经历逐层揭开，将 “发现”与“突转”紧密结合，是 “十全十美的悲剧”。表现了人的意志与命运的冲突，更深层地反映了伦理道德观念的矛盾冲突，以及社会新秩序在确立过程中产生的问题。",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 22,
+              "runs": [
+                {
+                  "start": 17,
+                  "end": 19,
+                  "font": "Apple Color Emoji"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 181,
+              "runs": [
+                {
+                  "start": 0,
+                  "end": 1,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 7,
+                  "end": 12,
+                  "color": "FF0000"
+                },
+                {
+                  "start": 12,
+                  "end": 20,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 41,
+                  "end": 45,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 87,
+                  "end": 100,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "是古希腊悲剧家索福克勒斯的代表作。剧本从忒拜城发生瘟疫写起。国王俄狄浦斯为解除城邦的灾难，追查杀害前王的凶手，最终发现凶手正是自己，也揭开了自己在不知情中杀父娶母的真相。作品把主人公过去的经历逐层揭开，将 “发现”与“突转”紧密结合，是 “十全十美的悲剧”。表现了人的意志与命运的冲突，更深层地反映了伦理道德观念的矛盾冲突，以及社会新秩序在确立过程中产生的问题。",
+      "redText": {
+        "answer": [
+          [
+            0,
+            1
+          ],
+          [
+            7,
+            20
+          ],
+          [
+            41,
+            45
+          ],
+          [
+            87,
+            100
+          ]
+        ]
+      },
+      "yellowHighlights": {
+        "answer": [
+          [
+            119,
+            128
+          ]
+        ]
+      },
       "id": "ch1-term-0a5b03c0"
     },
     {
@@ -2537,7 +11863,54 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 俄瑞斯忒斯三部曲",
       "paragraphId": "26cca2ec",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 10
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 204,
+              "runs": [
+                {
+                  "start": 17,
+                  "end": 34,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "由古希腊悲剧家埃斯库罗斯创作，包括《阿伽门农》《奠酒人》《复仇女神》。主要叙述阿伽门农从特洛伊战争归来，被妻子克吕泰涅斯特拉及其情夫杀害；儿子俄瑞斯忒斯为父报仇，杀死母亲，受到复仇神的追逐；最后在雅典，经雅典娜设立的法庭审判，获得赦免。反映母权制与父权制的冲突。母权观念强调母子间的血缘联系，把弑母视为不可饶恕之罪；父权观念维护父亲及丈夫的地位。最终以法庭裁决结束连环复仇，表现新的伦理原则和社会秩序的确立。",
+      "redText": {
+        "answer": [
+          [
+            17,
+            34
+          ]
+        ]
+      },
       "id": "ch1-term-26cca2ec"
     },
     {
@@ -2545,7 +11918,72 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 萨福体",
       "paragraphId": "1f11ba06",
-      "answer": "指古希腊抒情诗代表萨福创作的诗歌体裁。其诗歌采用独唱形式，诗体短小，以抒情和倾诉内心情怀为主，音节单纯、明澈。每节四行，长短音节按相对固定的格律组织；前三行较长，第四行较短，形成干脆明快的收束。如《并非每个人都想要爱情》。她的诗歌感情真挚，语言朴素，题材范围相对狭小，注重个人情感与内心体验。",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 144,
+              "runs": [
+                {
+                  "start": 29,
+                  "end": 33,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 113,
+                  "end": 122,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 129,
+                  "end": 131,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "指古希腊抒情诗代表萨福创作的诗歌体裁。其诗歌采用独唱形式，诗体短小，以抒情和倾诉内心情怀为主，音节单纯、明澈。每节四行，长短音节按相对固定的格律组织；前三行较长，第四行较短，形成干脆明快的收束。如《并非每个人都想要爱情》。诗歌感情真挚，语言朴素，题材范围相对狭小，注重个人情感与内心体验。",
+      "redText": {
+        "answer": [
+          [
+            29,
+            33
+          ],
+          [
+            113,
+            122
+          ],
+          [
+            129,
+            131
+          ]
+        ]
+      },
       "id": "ch1-term-1f11ba06"
     },
     {
@@ -2553,31 +11991,354 @@ window.QUESTION_BANK = {
       "section": "第三节 古罗马文学概述",
       "prompt": "★ 古罗马文学",
       "paragraphId": "4640ad27",
-      "answer": "古罗马文学（公元前146年—公元476年）是在奴隶制社会条件下发展而来的。公元前146年，希腊被罗马灭亡，社会性质的相同，使得罗马接受并继承了古希腊文化。主要文学成果有戏剧（喜剧）、诗歌、文艺理论。早期主要为喜剧，后期主要为诗歌。",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 7
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 99,
+              "runs": [
+                {
+                  "start": 0,
+                  "end": 5,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 21,
+                  "end": 28,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 68,
+                  "end": 74,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 88,
+                  "end": 90,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 96,
+                  "end": 98,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "古罗马文学是在奴隶制社会条件下发展而来的。公元前146年，希腊被罗马灭亡，社会性质的相同，使得罗马接受并继承了古希腊文化。主要文学成果有戏剧（喜剧）、诗歌、文艺理论。早期主要为喜剧，后期主要为诗歌。",
+      "classQuiz": true,
+      "quizHighlights": {
+        "prompt": [
+          [
+            0,
+            7
+          ]
+        ]
+      },
+      "redText": {
+        "answer": [
+          [
+            0,
+            5
+          ],
+          [
+            21,
+            28
+          ],
+          [
+            68,
+            74
+          ],
+          [
+            88,
+            90
+          ],
+          [
+            96,
+            98
+          ]
+        ]
+      },
       "id": "ch1-term-4640ad27"
     },
     {
       "type": "term",
       "section": "第五节 罗马文学后期主要成果 诗歌",
-      "prompt": "★ 麦凯纳斯文学集团",
+      "prompt": "★ 麦凯纳斯文学集团（🦌可能）",
       "paragraphId": "56704d33",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 16,
+              "runs": [
+                {
+                  "start": 11,
+                  "end": 13,
+                  "font": "Apple Color Emoji"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 159,
+              "runs": [
+                {
+                  "start": 0,
+                  "end": 10,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 93,
+                  "end": 103,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 114,
+                  "end": 121,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 134,
+                  "end": 142,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "“麦凯纳斯文学集团”是古罗马奥古斯都时代的核心作家圈子，代表罗马文学的黄金时代。屋大维的亲信麦凯纳斯负责资助、团结文人，将文学创作与帝国秩序结合，歌颂罗马和平与文明使命。核心诗人及作品有维吉尔《埃涅阿斯纪》，为罗马首创英雄史诗；贺拉斯《诗艺》，构建古罗马诗歌创作理论；奥维德《变形记》，是一部记录希腊和罗马神话的总集。",
+      "yellowHighlights": {
+        "prompt": [
+          [
+            0,
+            10
+          ]
+        ]
+      },
+      "redText": {
+        "answer": [
+          [
+            0,
+            10
+          ],
+          [
+            93,
+            103
+          ],
+          [
+            114,
+            121
+          ],
+          [
+            134,
+            142
+          ]
+        ]
+      },
       "id": "ch1-term-56704d33"
     },
     {
       "type": "term",
       "section": "第五节 罗马文学后期主要成果 诗歌",
-      "prompt": "★ 《诗艺》",
+      "prompt": "★ 《诗艺》（🦌可能）",
       "paragraphId": "68863fae",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 12,
+              "runs": [
+                {
+                  "start": 7,
+                  "end": 9,
+                  "font": "Apple Color Emoji"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 71,
+              "runs": [
+                {
+                  "start": 6,
+                  "end": 9,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 12,
+                  "end": 18,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "是由罗马诗人贺拉斯创作的文艺理论著作，讲述诗歌创作的一般原则、诗歌的形式和技巧、诗人的任务和修养，其主张对后来的古典主义文艺理论产生很大影响。",
+      "redText": {
+        "answer": [
+          [
+            6,
+            9
+          ],
+          [
+            12,
+            18
+          ]
+        ]
+      },
+      "yellowHighlights": {
+        "answer": [
+          [
+            12,
+            18
+          ]
+        ]
+      },
       "id": "ch1-term-68863fae"
     },
     {
       "type": "term",
       "section": "第五节 罗马文学后期主要成果 诗歌",
-      "prompt": "★ 《变形记》",
+      "prompt": "★ 《变形记》（🦌可能）",
       "paragraphId": "0021264a",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 13,
+              "runs": [
+                {
+                  "start": 8,
+                  "end": 10,
+                  "font": "Apple Color Emoji"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 145,
+              "runs": [
+                {
+                  "start": 6,
+                  "end": 9,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 12,
+                  "end": 24,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "是由罗马诗人奥维德创作的一部希腊和罗马神话的总集。核心叙事特征为串珠式结构（故事套盒）。每个小故事独立，但用“变形”这一线索贯穿全书250个大小故事，即人由于某种原因被变成动物、植物、星辰、石头等。叙事走向为宇宙神话、城邦英雄神话、罗马早期历史。旨意为歌颂罗马帝国的伟大和屋大维的英明统治。",
+      "yellowHighlights": {
+        "prompt": [
+          [
+            0,
+            13
+          ]
+        ]
+      },
+      "redText": {
+        "answer": [
+          [
+            6,
+            9
+          ],
+          [
+            12,
+            24
+          ]
+        ]
+      },
       "id": "ch1-term-0021264a"
     },
     {
@@ -2585,7 +12346,71 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "★ 《埃涅阿斯纪》",
       "paragraphId": "37614707",
-      "answer": "《埃涅阿斯纪》由罗马诗人维吉尔创作，是欧洲第一部杰出的由一个文人独立创作出来的史诗。全书12卷，近万行。以荷马史诗为范本，前六卷摹仿《奥德赛》，后六卷摹仿《伊利亚特》。史诗以特洛伊战争传说为基础，叙述特洛伊英雄埃涅阿斯在城池被希腊联军攻破后，率众来到意大利拉丁姆地区，奠定罗马建国基础的经历。具有鲜明的时代特征和民族特征，是罗马民族的史诗。维吉尔充分发挥自己的风格和特长，写人物心理细致入微，应用比喻贴切优美，故事性强、语言典雅。",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 9
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 178,
+              "runs": [
+                {
+                  "start": 44,
+                  "end": 67,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 86,
+                  "end": 90,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "由罗马诗人维吉尔创作，是欧洲第一部杰出的由一个文人独立创作出来的史诗。以荷马史诗为范本，前六卷摹仿《奥德赛》，后六卷摹仿《伊利亚特》。以特洛伊战争传说为基础，叙述特洛伊英雄埃涅阿斯在城池被希腊联军攻破后，率众来到意大利拉丁姆地区，奠定罗马建国基础的经历。具有鲜明的时代和民族特征，是罗马民族的史诗。作者写人物心理细致入微，比喻贴切优美，故事性强、语言典雅。",
+      "yellowHighlights": {
+        "prompt": [
+          [
+            0,
+            9
+          ]
+        ]
+      },
+      "redText": {
+        "answer": [
+          [
+            44,
+            67
+          ],
+          [
+            86,
+            90
+          ]
+        ]
+      },
       "id": "ch1-term-37614707"
     },
     {
@@ -2593,7 +12418,62 @@ window.QUESTION_BANK = {
       "section": "第七节 古埃及文学",
       "prompt": "★ 《拉太阳神颂诗》",
       "paragraphId": "2a9a452b",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 10
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 83,
+              "runs": [
+                {
+                  "start": 0,
+                  "end": 8,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "《拉太阳神颂诗》古埃及颂歌中的名篇，热烈赞颂给万物带来生机的太阳神，代表了古代埃及宗教诗的主要成就。古埃及盛行图腾崇拜，中央法老政权强化以后，兴起了统一的太阳神崇拜。",
+      "yellowHighlights": {
+        "answer": [
+          [
+            0,
+            8
+          ]
+        ]
+      },
+      "redText": {
+        "answer": [
+          [
+            0,
+            8
+          ]
+        ]
+      },
       "id": "ch1-term-2a9a452b"
     },
     {
@@ -2601,15 +12481,169 @@ window.QUESTION_BANK = {
       "section": "第七节 古埃及文学",
       "prompt": "《亡灵书》",
       "paragraphId": "1c352784",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 113,
+              "runs": [
+                {
+                  "start": 0,
+                  "end": 21,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 82,
+                  "end": 94,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "《古埃及亡灵书》是一部古老而宏大的诗歌总集，共27篇，包括咒语、赞美诗、冗长的开释、各类礼仪真言、神名等，一般被镂刻或书写在金字塔或坟墓壁上，有的印在精美的石棺上。原文是象形文字，早已失传，十九世纪初发现对照碑文后才得以破译。",
+      "redText": {
+        "answer": [
+          [
+            0,
+            21
+          ],
+          [
+            82,
+            94
+          ]
+        ]
+      },
       "id": "ch1-term-1c352784"
     },
     {
       "type": "term",
       "section": "第八节 古巴比伦文学",
-      "prompt": "★ 《吉尔伽美什》",
+      "prompt": "★ 《吉尔伽美什》（🦌一般）",
       "paragraphId": "69c6f9bc",
-      "answer": "《吉尔伽美什》是已知世界文学中最早的史诗，也是代表古巴比伦文学最高成就的作品。故事分为四个阶段，第一阶段是吉尔伽美什与恩奇都的友谊。第二阶段是二人的英雄业绩。第三阶段是恩奇都去世与吉尔伽美什寻找仙草。第四阶段是吉尔伽美什与恩奇都幽灵会面并发现人生法则。史诗了颂扬为民建立功勋的英雄，同时表现了古巴比伦人认识自然法则、探索人生奥秘的朴素愿望，歌颂了他们敢于违抗神意的积极进取精神。",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 15,
+              "runs": [
+                {
+                  "start": 10,
+                  "end": 12,
+                  "font": "Apple Color Emoji"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 175,
+              "runs": [
+                {
+                  "start": 0,
+                  "end": 13,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 93,
+                  "end": 106,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 114,
+                  "end": 126,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 132,
+                  "end": 155,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "是已知世界文学中最早的史诗，代表古巴比伦文学最高成就。故事分为四个阶段，第一阶段是吉尔伽美什与恩奇都的友谊。第二阶段是二人的英雄业绩。第三阶段是恩奇都去世与吉尔伽美什寻找仙草。第四阶段是吉尔伽美什与恩奇都幽灵会面并发现人生法则。颂扬了为民建立功勋的英雄，同时表现了古巴比伦人认识自然法则、探索人生奥秘的朴素愿望，歌颂了他们敢于违抗神意的积极进取精神。",
+      "classQuiz": true,
+      "quizHighlights": {
+        "prompt": [
+          [
+            0,
+            9
+          ]
+        ]
+      },
+      "redText": {
+        "answer": [
+          [
+            0,
+            13
+          ],
+          [
+            93,
+            106
+          ],
+          [
+            114,
+            126
+          ],
+          [
+            132,
+            155
+          ]
+        ]
+      },
+      "yellowHighlights": {
+        "answer": [
+          [
+            1,
+            13
+          ]
+        ]
+      },
       "id": "ch1-term-69c6f9bc"
     },
     {
@@ -2617,7 +12651,80 @@ window.QUESTION_BANK = {
       "section": "第九节 古希伯来文学",
       "prompt": "★ 《旧约》",
       "paragraphId": "4e4a5ff4",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 6
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 128,
+              "runs": [
+                {
+                  "start": 0,
+                  "end": 18,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 76,
+                  "end": 80,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 111,
+                  "end": 128,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "《旧约》（《塔纳赫》）是犹太教的经典，也是全面展示古代希伯来文化的百科全书式巨著。内容包括神话故事、历史传说、史诗、战歌等。全书共24卷，分为律法书卷（摩西五经）、先知书卷、圣文集三部分。对基督教的影响极其深刻，《圣经》就由《旧约全书》和《新约全书》组成。",
+      "redText": {
+        "answer": [
+          [
+            0,
+            18
+          ],
+          [
+            76,
+            80
+          ],
+          [
+            111,
+            128
+          ]
+        ]
+      },
+      "yellowHighlights": {
+        "answer": [
+          [
+            76,
+            80
+          ]
+        ]
+      },
       "id": "ch1-term-4e4a5ff4"
     },
     {
@@ -2625,23 +12732,257 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "吠陀文学",
       "paragraphId": "36141a03",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 196,
+              "runs": [
+                {
+                  "start": 11,
+                  "end": 24,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 81,
+                  "end": 86,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "是古印度的一种文学，“吠陀”古译为“明”“知识”，即“神圣的知识”，也可译为“智慧”；从经典性质上解释为“经典”“圣经”。祭司将古代流传的诗歌与自己的作品编订为《吠陀本集》，奉为圣典。《吠陀本集》共四种：《梨俱吠陀》《摩挲吠陀》《叶桑吠陀》《阿达婆吠陀》。最具文学价值的是《梨俱吠陀》和《阿达婆吠陀》。它们收入巫术、宗教、礼仪、风俗、哲学等文献，虽非纯粹文学作品集，却保存许多古老的优秀诗歌。",
+      "redText": {
+        "answer": [
+          [
+            11,
+            24
+          ],
+          [
+            81,
+            86
+          ]
+        ]
+      },
       "id": "ch1-term-36141a03"
     },
     {
       "type": "term",
       "section": "第十节 古印度文学",
-      "prompt": "★ 《梨俱吠陀》",
+      "prompt": "★ 《梨俱吠陀》（🦌注意）",
       "paragraphId": "1e06d80b",
-      "answer": "《梨俱吠陀》是印度最古老的一部诗歌集。“吠陀”本义是“知识”，“梨俱”是作品中诗节的名称。共10552节诗，分10卷或8卷；内容主要包括上古神话传说、自然界和现实社会生活描述、祭祀和巫术。关注诗歌的艺术性，常巧妙运用拟人、比喻、双关、夸张和谐音等手法。",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 14,
+              "runs": [
+                {
+                  "start": 9,
+                  "end": 11,
+                  "font": "Apple Color Emoji"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 124,
+              "runs": [
+                {
+                  "start": 7,
+                  "end": 18,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 26,
+                  "end": 30,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 36,
+                  "end": 44,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 66,
+                  "end": 72,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "《梨俱吠陀》是印度最古老的一部诗歌集。“吠陀”本义是“知识”，“梨俱”是作品中诗节的名称。共一万多节诗，分10卷或8卷；内容主要包括上古神话传说、自然界和现实社会生活描述、祭祀和巫术。关注诗歌的艺术性，常巧妙运用拟人、比喻、双关、夸张和谐音等手法。",
+      "yellowHighlights": {
+        "prompt": [
+          [
+            2,
+            8
+          ]
+        ]
+      },
+      "redText": {
+        "answer": [
+          [
+            7,
+            18
+          ],
+          [
+            26,
+            30
+          ],
+          [
+            36,
+            44
+          ],
+          [
+            66,
+            72
+          ]
+        ]
+      },
       "id": "ch1-term-1e06d80b"
     },
     {
       "type": "term",
       "section": "第十节 古印度文学",
-      "prompt": "★ 《摩诃婆罗多》",
+      "prompt": "★ 《摩诃婆罗多》（🦌注意）",
       "paragraphId": "6c050675",
-      "answer": "《摩诃婆罗多》意为“伟大的婆罗多族的故事”；“摩诃”有“伟大”的意思，是古印度两大史诗之一。传统作者为毗耶娑，即“广博仙人”“五通仙人”。史诗以梵文写成，采用对话体，共10万颂，每颂为一节双行诗体；以两族王室纷争和大战为主线，穿插大量神话传说、寓言故事、帝王世系、宗教经律训诫等，反映复杂广阔的古印度社会生活。体现“分合论”主题与达摩（正法）的核心价值观。",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 15,
+              "runs": [
+                {
+                  "start": 10,
+                  "end": 12,
+                  "font": "Apple Color Emoji"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 172,
+              "runs": [
+                {
+                  "start": 0,
+                  "end": 7,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 51,
+                  "end": 54,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 63,
+                  "end": 67,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 163,
+                  "end": 165,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "《摩诃婆罗多》意为“伟大的婆罗多族的故事”；“摩诃”有“伟大”的意思，是古印度两大史诗之一。传统作者为毗耶娑，即“广博仙人”“五通仙人”。以梵文写成，采用对话体，共10万颂，每颂为一节双行诗体；以两族王室纷争和大战为主线，穿插大量神话传说、寓言故事、帝王世系、宗教经律训诫等，反映复杂广阔的古印度社会生活。体现“分合论”主题与达摩的核心价值观。",
+      "yellowHighlights": {
+        "prompt": [
+          [
+            0,
+            9
+          ]
+        ]
+      },
+      "redText": {
+        "answer": [
+          [
+            0,
+            7
+          ],
+          [
+            51,
+            54
+          ],
+          [
+            63,
+            67
+          ],
+          [
+            163,
+            165
+          ]
+        ]
+      },
       "id": "ch1-term-6c050675"
     },
     {
@@ -2649,36 +12990,670 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "★ 达摩",
       "paragraphId": "032dea45",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 0.0,
+              "firstLine": 0.0,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 229,
+              "runs": [
+                {
+                  "start": 0,
+                  "end": 6,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 26,
+                  "end": 30,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 36,
+                  "end": 43,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 100,
+                  "end": 105,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 112,
+                  "end": 138,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 139,
+                  "end": 144,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 189,
+                  "end": 194,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "达摩（正法）是史诗的核心价值观。梵文 Dharma，意译正法，词根本义为“维系、持守”。印度人认为它是人世间最高的存在，真理包含其中；也可理解为万事万物的内在准则和每个人根据其社会地位所应具有的天职。宇宙层面：维系整个世界的自然秩序、万物法则本性；一旦正法崩坏，世界就陷入混乱。社会层面：古印度按种姓、身份规定的本分与义务。武士应作战，国王应护民，每个人都要履行属于自己的职责。道德层面：正义、善的行为准则；相对的是非法（Adharma），即不义、破坏秩序。",
+      "redText": {
+        "answer": [
+          [
+            0,
+            6
+          ],
+          [
+            26,
+            30
+          ],
+          [
+            36,
+            43
+          ],
+          [
+            100,
+            105
+          ],
+          [
+            112,
+            138
+          ],
+          [
+            139,
+            144
+          ],
+          [
+            189,
+            194
+          ]
+        ]
+      },
       "id": "ch1-term-032dea45"
     },
     {
       "type": "term",
       "section": "第十节 古印度文学",
-      "prompt": "★ 《罗摩衍那》",
+      "prompt": "★ 《罗摩衍那》（🦌注意）",
       "paragraphId": "70576d62",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 14,
+              "runs": [
+                {
+                  "start": 9,
+                  "end": 11,
+                  "font": "Apple Color Emoji"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 187,
+              "runs": [
+                {
+                  "start": 0,
+                  "end": 6,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 8,
+                  "end": 23,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 34,
+                  "end": 36,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 44,
+                  "end": 45,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 152,
+                  "end": 160,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 161,
+                  "end": 170,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 171,
+                  "end": 177,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 182,
+                  "end": 186,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "《罗摩衍那》意为“罗摩的历险经历”或“罗摩传”。传说作者是跋弥，意译蚁垤。全诗24000颂，分七篇：《童年篇》《阿逾陀篇》《森林篇》《猴国篇》《美妙篇》《战斗篇》《后篇》。罗摩遭宫廷变故流放，悉多随行；悉多被魔王罗波那掳去，罗摩在猴族帮助下寻找并救回妻子。故事后部又表现夫妻分离及悉多沉入大地的悲剧。史诗宣扬正法（达摩），歌颂忠贞爱情与牺牲，赞美兄弟情义，同时表现善恶对立。",
+      "yellowHighlights": {
+        "prompt": [
+          [
+            2,
+            8
+          ]
+        ],
+        "answer": [
+          [
+            152,
+            160
+          ],
+          [
+            161,
+            170
+          ],
+          [
+            171,
+            177
+          ],
+          [
+            182,
+            186
+          ]
+        ]
+      },
+      "redText": {
+        "answer": [
+          [
+            0,
+            6
+          ],
+          [
+            8,
+            23
+          ],
+          [
+            34,
+            36
+          ],
+          [
+            44,
+            45
+          ],
+          [
+            152,
+            160
+          ],
+          [
+            161,
+            170
+          ],
+          [
+            171,
+            177
+          ],
+          [
+            182,
+            186
+          ]
+        ]
+      },
       "id": "ch1-term-70576d62"
     },
     {
       "type": "short",
       "section": "第一节 古希腊文学概述",
-      "prompt": "★ 简述希腊神话的主要特征。",
+      "prompt": "★ 简述希腊神话的主要特征。（简答题）",
       "paragraphId": "20792222",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 19
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 0,
+              "label": "答案："
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 13,
+              "runs": [
+                {
+                  "start": 3,
+                  "end": 13,
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0375,
+              "start": 14,
+              "end": 57,
+              "runs": [
+                {
+                  "start": 14,
+                  "end": 34,
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 58,
+              "end": 74,
+              "runs": [
+                {
+                  "start": 61,
+                  "end": 74,
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 75,
+              "end": 119,
+              "runs": [
+                {
+                  "start": 96,
+                  "end": 119,
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 120,
+              "end": 145,
+              "runs": [
+                {
+                  "start": 123,
+                  "end": 145,
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0375,
+              "start": 146,
+              "end": 245,
+              "runs": [
+                {
+                  "start": 146,
+                  "end": 181,
+                  "bold": true,
+                  "strike": true
+                },
+                {
+                  "start": 181,
+                  "end": 202,
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 246,
+              "end": 264,
+              "runs": [
+                {
+                  "start": 249,
+                  "end": 264,
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 265,
+              "end": 327,
+              "runs": [
+                {
+                  "start": 265,
+                  "end": 279,
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "（1）特征一：神人同形同性\n“神人同形同性”是希腊神话最基本的特点。在世界神话中，希腊神话的“人话”色彩尤为浓郁。\n（2）特征二：浓厚的人本主义色彩\n神所经历的生活，实际上就是人的社会化生活。对神的肯定与赞扬，实际上就是对人的肯定和赞扬。\n（3）特征三：形象生动、意境优美，想象与现实相结合\n希腊神话形象生动、意境优美；在艺术手法上，既有浪漫夸张，又有现实描写，表现了古希腊人丰富的想象力和极大的创造力。体现了人类童年时代的天真纯朴、活泼浪漫，以及古希腊人渴望征服自然的顽强意志和美好理想。\n（4）特征四：宿命观念与以人为本并存\n“宿命论”是希腊神话的特点。希腊神话与中国神话一样相信命运，认为人不能战胜命运，如俄狄浦斯杀父娶母的故事；但又强调以人为本。",
+      "classQuiz": true,
+      "quizHighlights": {
+        "prompt": [
+          [
+            0,
+            14
+          ]
+        ]
+      },
+      "yellowHighlights": {
+        "answer": [
+          [
+            3,
+            13
+          ],
+          [
+            61,
+            74
+          ],
+          [
+            123,
+            145
+          ],
+          [
+            249,
+            264
+          ]
+        ]
+      },
+      "boldText": {
+        "answer": [
+          [
+            3,
+            13
+          ],
+          [
+            14,
+            34
+          ],
+          [
+            61,
+            74
+          ],
+          [
+            96,
+            119
+          ],
+          [
+            123,
+            145
+          ],
+          [
+            146,
+            202
+          ],
+          [
+            249,
+            264
+          ],
+          [
+            265,
+            279
+          ]
+        ]
+      },
       "id": "ch1-short-20792222"
     },
     {
       "type": "short",
       "section": "第二节 古希腊史诗与戏剧",
-      "prompt": "★ 简述荷马史诗的思想性。",
+      "prompt": "★ 简述荷马史诗的思想性。（🦌扯淡）",
       "paragraphId": "509b47b6",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 19,
+              "runs": [
+                {
+                  "start": 14,
+                  "end": 16,
+                  "font": "Apple Color Emoji"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 0,
+              "label": "答案："
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 107,
+              "runs": [
+                {
+                  "start": 3,
+                  "end": 14,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 14,
+                  "end": 31,
+                  "strike": true
+                },
+                {
+                  "start": 70,
+                  "end": 76,
+                  "font": "楷体",
+                  "color": "FF0000"
+                },
+                {
+                  "start": 76,
+                  "end": 77,
+                  "font": "楷体",
+                  "color": "4472C4"
+                },
+                {
+                  "start": 77,
+                  "end": 94,
+                  "font": "楷体",
+                  "color": "FF0000"
+                },
+                {
+                  "start": 98,
+                  "end": 107,
+                  "font": "楷体",
+                  "color": "FF0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 108,
+              "end": 162,
+              "runs": [
+                {
+                  "start": 111,
+                  "end": 122,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 163,
+              "end": 189,
+              "runs": [
+                {
+                  "start": 166,
+                  "end": 171,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "（1）英雄主义——歌颂英雄。史诗的主题思想是歌颂民族部落的英雄，只要是代表民族理想的英雄，不管属于战争哪一方，都在歌颂之列。举例：阿喀琉斯：“无冕之王”；“希腊第一勇士”；“阿喀琉斯之踵”奥德修斯：早期奴隶主代言人\n（2）人本主义——以人为本。荷马史诗赞美人的勇敢、正义、无私、勤劳等品质，肯定人的智慧、情感和现实生活价值。\n（3）自由主义。英雄的个人尊严、自主意识和冒险精神。",
+      "classQuiz": true,
+      "quizHighlights": {
+        "prompt": [
+          [
+            0,
+            13
+          ]
+        ]
+      },
       "redText": {
         "answer": [
           [
             3,
             14
+          ],
+          [
+            70,
+            76
+          ],
+          [
+            77,
+            94
+          ],
+          [
+            98,
+            107
           ],
           [
             111,
@@ -2694,8 +13669,289 @@ window.QUESTION_BANK = {
     },
     {
       "type": "short",
+      "section": "第二节 古希腊史诗与戏剧",
+      "prompt": "★ 简述荷马史诗的艺术性。",
+      "paragraphId": "7dbd264d",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 13
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 80,
+              "runs": [
+                {
+                  "start": 3,
+                  "end": 13,
+                  "color": "FF0000",
+                  "bold": true
+                },
+                {
+                  "start": 44,
+                  "end": 55,
+                  "strike": true
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 7.8,
+              "firstLine": 2.0375,
+              "start": 81,
+              "end": 180,
+              "runs": [
+                {
+                  "start": 84,
+                  "end": 90,
+                  "color": "FF0000",
+                  "bold": true
+                },
+                {
+                  "start": 99,
+                  "end": 102,
+                  "strike": true
+                },
+                {
+                  "start": 106,
+                  "end": 111,
+                  "strike": true
+                },
+                {
+                  "start": 150,
+                  "end": 154,
+                  "color": "EE0000",
+                  "strike": true
+                },
+                {
+                  "start": 154,
+                  "end": 180,
+                  "strike": true
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 7.8,
+              "firstLine": 2.0,
+              "start": 181,
+              "end": 270,
+              "runs": [
+                {
+                  "start": 181,
+                  "end": 191,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 234,
+                  "end": 247,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 248,
+                  "end": 269,
+                  "strike": true
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 7.8,
+              "firstLine": 2.0375,
+              "start": 271,
+              "end": 287,
+              "runs": [
+                {
+                  "start": 274,
+                  "end": 287,
+                  "color": "FF0000",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 7.8,
+              "firstLine": 2.0,
+              "start": 288,
+              "end": 333,
+              "runs": [
+                {
+                  "start": 288,
+                  "end": 292,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 293,
+                  "end": 329,
+                  "strike": true
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 7.8,
+              "firstLine": 2.0,
+              "start": 334,
+              "end": 361,
+              "runs": [
+                {
+                  "start": 334,
+                  "end": 339,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 7.8,
+              "firstLine": 2.0,
+              "start": 362,
+              "end": 438,
+              "runs": [
+                {
+                  "start": 365,
+                  "end": 378,
+                  "color": "FF0000",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "（1）规模宏大，构思精巧。以宏伟规模展现过渡时期希腊社会生活，涉及前后二十年的历史事件，却不作流水账式叙述，而采用高度集中、概括的手法，既突出重点，又照顾全局。\n（2）语言口语化，具有口头艺术特色。史诗用自然质朴的口语写成，运用夸张、烘托、比喻、固定修饰语和套语等，形成磅礴气势与浓厚的英雄主义气息。重复套语既体现口头传唱的来源，也有助于加深印象和形成节奏感。\n（3）运用荷马式比喻：史诗中的诗句流畅、自然、优美、比喻生动形象，常根据生活中的直接观察，取自然现象作比，借用自然界中的动植物来喻人。这类比喻生动形象，被后人称为“荷马式比喻”。\n（4）多样化的人物形象塑造手法。\n侧面烘托：不直接铺陈海伦的容貌，而通过长老看到她时惊讶的表情和议论，烘托其惊人姿色。如海伦\n固定修饰语：如“捷足的阿喀琉斯”“足智多谋的奥德修斯”\n（5）现实主义与浪漫主义相结合。希腊神话本身包含着丰富多彩的想象，把它们纳入到具有独特表现力的诗歌当中，使得全诗在现实主义的基础之上增加了浪漫主义色彩。",
+      "classQuiz": true,
+      "quizHighlights": {
+        "prompt": [
+          [
+            0,
+            13
+          ]
+        ]
+      },
+      "redText": {
+        "answer": [
+          [
+            3,
+            13
+          ],
+          [
+            84,
+            90
+          ],
+          [
+            150,
+            154
+          ],
+          [
+            181,
+            191
+          ],
+          [
+            234,
+            247
+          ],
+          [
+            274,
+            287
+          ],
+          [
+            288,
+            292
+          ],
+          [
+            334,
+            339
+          ],
+          [
+            365,
+            378
+          ]
+        ]
+      },
+      "boldText": {
+        "answer": [
+          [
+            3,
+            13
+          ],
+          [
+            84,
+            90
+          ],
+          [
+            274,
+            287
+          ],
+          [
+            365,
+            378
+          ]
+        ]
+      },
+      "yellowHighlights": {
+        "answer": [
+          [
+            181,
+            191
+          ],
+          [
+            236,
+            247
+          ]
+        ]
+      },
+      "id": "ch1-short-7dbd264d"
+    },
+    {
+      "type": "short",
       "section": "第四节 罗马文学早期主要成果 喜剧",
-      "prompt": "★ 列举外国文学中的四大吝啬鬼及其作者、国家和作品。",
+      "prompt": "★ 列举外国文学中的四大吝啬鬼及其作者、国家和作品。（原题）",
       "paragraphId": "760ef76d",
       "promptTable": [
         [
@@ -2734,23 +13990,709 @@ window.QUESTION_BANK = {
           ""
         ]
       ],
+      "promptTableMarks": [
+        [
+          {
+            "boldText": [
+              [
+                0,
+                2
+              ]
+            ]
+          },
+          {
+            "boldText": [
+              [
+                0,
+                2
+              ]
+            ]
+          },
+          {
+            "boldText": [
+              [
+                0,
+                7
+              ]
+            ]
+          },
+          {
+            "boldText": [
+              [
+                0,
+                2
+              ]
+            ]
+          },
+          {
+            "boldText": [
+              [
+                0,
+                2
+              ]
+            ]
+          }
+        ],
+        [
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        [
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        [
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        [
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      ],
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 30
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "left",
+              "lineHeight": 1.15,
+              "spaceAfter": 6.0,
+              "firstLine": 0.0,
+              "start": 0,
+              "end": 20,
+              "runs": [
+                {
+                  "start": 0,
+                  "end": 20,
+                  "fontSize": 10.5
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "left",
+              "lineHeight": 1.15,
+              "spaceAfter": 6.0,
+              "firstLine": 0.0,
+              "start": 21,
+              "end": 47,
+              "runs": [
+                {
+                  "start": 21,
+                  "end": 24,
+                  "fontSize": 10.5,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 24,
+                  "end": 40,
+                  "fontSize": 10.5
+                },
+                {
+                  "start": 40,
+                  "end": 46,
+                  "fontSize": 10.5,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 46,
+                  "end": 47,
+                  "fontSize": 10.5
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "left",
+              "lineHeight": 1.15,
+              "spaceAfter": 6.0,
+              "firstLine": 0.0,
+              "start": 48,
+              "end": 70,
+              "runs": [
+                {
+                  "start": 48,
+                  "end": 70,
+                  "fontSize": 10.5
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "left",
+              "lineHeight": 1.15,
+              "spaceAfter": 6.0,
+              "firstLine": 0.0,
+              "start": 71,
+              "end": 89,
+              "runs": [
+                {
+                  "start": 71,
+                  "end": 89,
+                  "fontSize": 10.5
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "夏洛克；《威尼斯商人》 莎士比亚·英国；\n阿巴贡；《悭吝人》（又译《吝啬鬼》）；莫里哀·法国；\n葛朗台；《欧也妮·葛朗台》；巴尔扎克·法国；\n泼留希金；《死魂灵》；果戈理·俄国；",
+      "classQuiz": true,
+      "quizHighlights": {
+        "prompt": [
+          [
+            0,
+            26
+          ]
+        ]
+      },
+      "redText": {
+        "answer": [
+          [
+            21,
+            24
+          ],
+          [
+            40,
+            46
+          ]
+        ]
+      },
       "id": "ch1-short-760ef76d"
     },
     {
       "type": "short",
       "section": "第六节 维吉尔与埃涅阿斯纪",
-      "prompt": "★ 简述《埃涅阿斯纪》的艺术价值与后世影响。",
+      "prompt": "★ 简述《埃涅阿斯纪》的艺术价值与后世影响。（文学史价值）",
       "paragraphId": "39380da7",
-      "answer": "《埃涅阿斯纪》以荷马史诗为范本，后人称它为“罗马的荷马史诗”。但它不是荷马史诗的简单仿作，而有鲜明的时代特征和民族特征，是罗马民族的史诗。维吉尔充分发挥自己的风格和特长，写人物心理细致入微，应用比喻贴切优美，故事性强、语言典雅，是欧洲第一部杰出的由一个文人独立创作出来的史诗。\n第一，与荷马史诗的相似性。如整体布局、结构安排上的模仿，以及大量比喻、重复、对比手法的运用。\n第二，民族史诗的典范。具有成熟的思想和沉重的历史感。\n第三，具有乐观勇武、严肃而哀婉的艺术风格。音律谨严，语言简练，尤其注重人物心理的细腻描写。\n第四，用拉丁语写成。拉丁语在后来长达一千年的中世纪为欧洲各国的“普通话”；中世纪后期诗人逐渐采用本国语言写作，但诗歌形式等仍深受维吉尔影响。",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 29
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 0,
+              "label": "答案："
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 51,
+              "runs": [
+                {
+                  "start": 17,
+                  "end": 26,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 27,
+                  "end": 50,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 52,
+              "end": 98,
+              "runs": [
+                {
+                  "start": 55,
+                  "end": 64,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 99,
+              "end": 197,
+              "runs": [
+                {
+                  "start": 102,
+                  "end": 109,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 174,
+                  "end": 182,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 198,
+              "end": 243,
+              "runs": [
+                {
+                  "start": 198,
+                  "end": 219,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 244,
+              "end": 281,
+              "runs": [
+                {
+                  "start": 244,
+                  "end": 254,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "（1）以荷马史诗为范本，后人称它为“罗马的荷马史诗”，是欧洲第一部杰出的由一个文人独立创作出来的史诗。\n（2）与荷马史诗的相似性。如整体布局、结构安排上的模仿，以及大量比喻、重复、对比手法的运用。\n（3）民族史诗的典范。它不是荷马史诗的简单仿作，而有鲜明的时代特征和民族特征，是罗马民族的史诗。把英雄的个人奋斗升华为民族的天命事业，赋予史诗更厚重的历史感与伦理深度，由此奠定拉丁史诗的巅峰地位。\n（4）具有乐观勇武、严肃而哀婉的艺术风格。音律谨严，语言简练，尤其注重人物心理的细腻描写。\n（5）用拉丁语写成。拉丁语在后来长达一千年的中世纪为欧洲各国的“普通话”；",
+      "classQuiz": true,
+      "quizHighlights": {
+        "prompt": [
+          [
+            2,
+            22
+          ]
+        ]
+      },
+      "redText": {
+        "answer": [
+          [
+            17,
+            26
+          ],
+          [
+            27,
+            50
+          ],
+          [
+            55,
+            64
+          ],
+          [
+            102,
+            109
+          ],
+          [
+            174,
+            182
+          ],
+          [
+            198,
+            219
+          ],
+          [
+            244,
+            254
+          ]
+        ]
+      },
       "id": "ch1-short-39380da7"
     },
     {
       "type": "short",
+      "section": "第六节 维吉尔与埃涅阿斯纪",
+      "prompt": "★ 简述《埃涅阿斯纪》对荷马史诗的借鉴和超越。",
+      "paragraphId": "0a41e587",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 0,
+              "label": "答案："
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 51,
+              "runs": [
+                {
+                  "start": 17,
+                  "end": 26,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 27,
+                  "end": 50,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 52,
+              "end": 98,
+              "runs": [
+                {
+                  "start": 55,
+                  "end": 64,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 99,
+              "end": 197,
+              "runs": [
+                {
+                  "start": 102,
+                  "end": 109,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 174,
+                  "end": 182,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 198,
+              "end": 243,
+              "runs": [
+                {
+                  "start": 198,
+                  "end": 219,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 244,
+              "end": 280,
+              "runs": [
+                {
+                  "start": 244,
+                  "end": 254,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "answer": "（1）以荷马史诗为范本，后人称它为“罗马的荷马史诗”。是欧洲第一部杰出的由一个文人独立创作出来的史诗。\n（2）与荷马史诗的相似性。如整体布局、结构安排上的模仿，以及大量比喻、重复、对比手法的运用。\n（3）民族史诗的典范。它不是荷马史诗的简单仿作，而有鲜明的时代特征和民族特征，是罗马民族的史诗；把英雄的个人奋斗升华为民族的天命事业，赋予史诗更厚重的历史感与伦理深度，由此奠定拉丁史诗的巅峰地位。\n（4）具有乐观勇武、严肃而哀婉的艺术风格。音律谨严，语言简练，尤其注重人物心理的细腻描写。\n（5）用拉丁语写成。拉丁语在后来长达一千年的中世纪为欧洲各国的“普通话”",
+      "classQuiz": true,
+      "quizHighlights": {
+        "prompt": [
+          [
+            2,
+            23
+          ]
+        ]
+      },
+      "redText": {
+        "answer": [
+          [
+            17,
+            26
+          ],
+          [
+            27,
+            50
+          ],
+          [
+            55,
+            64
+          ],
+          [
+            102,
+            109
+          ],
+          [
+            174,
+            182
+          ],
+          [
+            198,
+            219
+          ],
+          [
+            244,
+            254
+          ]
+        ]
+      },
+      "id": "ch1-short-0a41e587"
+    },
+    {
+      "type": "short",
       "section": "第七节 古埃及文学",
-      "prompt": "简述古埃及文学的特征。",
+      "prompt": "简述古埃及文学的特征。（🦌过）",
       "paragraphId": "351e644f",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 16,
+              "runs": [
+                {
+                  "start": 12,
+                  "end": 14,
+                  "font": "Apple Color Emoji"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 75
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 76,
+              "end": 185,
+              "runs": [
+                {
+                  "start": 116,
+                  "end": 121,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 186,
+              "end": 286,
+              "runs": [
+                {
+                  "start": 251,
+                  "end": 259,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 287,
+              "end": 376,
+              "runs": [
+                {
+                  "start": 337,
+                  "end": 342,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 342,
+                  "end": 350,
+                  "font": "楷体",
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "（1）文学形式多样，题材丰富。 神话是古埃及最古老的文学形式。除神话外，还有诗歌、箴言、故事和旅行记等。作品既讲述神的事迹，也描写普通人的生产和生活。\n（2）宗教色彩浓厚，来世观念突出。 古埃及神话保留了图腾崇拜的痕迹，许多神明呈现人身动物头的形象。古埃及人相信灵魂不灭，死后要接受冥王奥西里斯的审判。《亡灵书》汇集了指导亡灵应对冥界考验的诗歌，是古埃及宗教诗的代表作。\n（3）诗歌兼写世俗生活与宗教信仰，以宗教诗和赞美诗的成就较为突出。 劳动歌谣、爱情诗抒写民众的劳动和情感生活，颂歌则赞美神和法老。《拉太阳神颂诗》热烈赞颂给万物带来生机的太阳神，是古埃及颂歌中的名篇。\n（4）在题材、体裁和艺术手法等方面，对古希腊文学、古希伯来文学及中世纪阿拉伯文学产生了深远影响。也对科普特文学（现代埃及文学）和中世纪东方文学产生影响，为人类文明作出了可贵贡献。",
+      "yellowHighlights": {
+        "answer": [
+          [
+            116,
+            121
+          ],
+          [
+            251,
+            259
+          ]
+        ]
+      },
+      "redText": {
+        "answer": [
+          [
+            116,
+            121
+          ],
+          [
+            251,
+            259
+          ],
+          [
+            337,
+            350
+          ]
+        ]
+      },
       "id": "ch1-short-351e644f"
     },
     {
@@ -2758,7 +14700,136 @@ window.QUESTION_BANK = {
       "section": "第八节 古巴比伦文学",
       "prompt": "简述古巴比伦文学的主要特征。",
       "paragraphId": "0ce1dfd3",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 14
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 63
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 64,
+              "end": 156,
+              "runs": [
+                {
+                  "start": 76,
+                  "end": 85,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 134,
+                  "end": 141,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 157,
+              "end": 241,
+              "runs": [
+                {
+                  "start": 177,
+                  "end": 186,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 242,
+              "end": 353,
+              "runs": [
+                {
+                  "start": 263,
+                  "end": 270,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 271,
+                  "end": 282,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 309,
+                  "end": 334,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "1.继承苏美尔、阿卡德文学传统，具有深厚的民间基础。 古巴比伦文学在两河流域民间口头创作的基础上发展起来，与人民生活联系紧密。\n2.风格古朴，类型多样，以史诗和叙事诗为主。 传世作品还有神话传说、赞美诗、祈祷文和智慧文学等，大多用楔形文字刻在泥版上保存下来。其中，史诗《吉尔伽美什》代表了古巴比伦文学的最高成就。\n3.神话幻想中反映着社会现实。 创世神话《埃努玛·埃立什》写马尔都克战胜提阿玛特、创造天地，被尊为众神之主。巴比伦主神地位的提升，反映了古巴比伦统一两河流域的历史现实。\n4.体现强烈的生存意识和勇敢的求索精神。 《吉尔伽美什》既颂扬为民建立功勋的英雄，又通过吉尔伽美什在挚友恩奇都死后寻找仙草的经历，表现表现古巴比伦人认识自然法则、探索人生奥秘的朴素愿望，歌颂他们敢于违抗神意的积极进取精神。",
+      "redText": {
+        "answer": [
+          [
+            76,
+            85
+          ],
+          [
+            134,
+            141
+          ],
+          [
+            177,
+            186
+          ],
+          [
+            263,
+            270
+          ],
+          [
+            271,
+            282
+          ],
+          [
+            309,
+            334
+          ]
+        ]
+      },
       "id": "ch1-short-0ce1dfd3"
     },
     {
@@ -2766,7 +14837,118 @@ window.QUESTION_BANK = {
       "section": "第九节 古希伯来文学",
       "prompt": "简述古希伯来文学的主要特征。（很大程度借鉴教材）",
       "paragraphId": "6872fb36",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 24
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 71,
+              "runs": [
+                {
+                  "start": 0,
+                  "end": 8,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 52,
+                  "end": 58,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 72,
+              "end": 146
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 147,
+              "end": 238,
+              "runs": [
+                {
+                  "start": 168,
+                  "end": 174,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 239,
+              "end": 337
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 338,
+              "end": 409
+            }
+          ]
+        }
+      },
       "answer": "希伯来文化与文学是在广泛接受西亚美索不达米亚文化和北非埃及文化影响的基础上创造的独特文化。最主要的成就是犹太教的经典《旧约》。主要有以下特征：\n1. 宗教色彩浓厚，旨趣崇高庄严。 对耶和华的信仰贯穿许多作品。《诗篇》多咏唱宗教信仰，先知文学则把诚挚热切的宗教信仰与深刻激越的社会批判结合起来。\n2. 与民族历史联系紧密，民族感情深厚。 《出埃及记》叙述摩西带领族人摆脱奴役、奔向迦南的经历，表现了希伯来民族向往自由和独立的精神。《耶利米哀歌》则抒发了圣城陷落、国破家亡的哀痛。\n3. 体裁丰富多样，内容富于智慧。 作品包括神话、传说、史诗、抒情诗、早期小说，以及先知文学、智慧文学和启示文学等。《箴言》以简练的语言总结人生经验，《约伯记》则通过哲理对话探讨正直者受苦的问题。\n4. 语言典雅优美，艺术表现各具特色。 《创世记》中的神话传说简洁流畅，感情强烈。《雅歌》以新鲜奇特的比喻表达浓烈的爱意，意境优美，韵味悠长。",
+      "redText": {
+        "answer": [
+          [
+            0,
+            8
+          ],
+          [
+            52,
+            58
+          ],
+          [
+            168,
+            174
+          ]
+        ]
+      },
       "id": "ch1-short-6872fb36"
     },
     {
@@ -2774,7 +14956,167 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "简述古印度文学的特征。（没有直接的gpt概括的）",
       "paragraphId": "511e54b0",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 24
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 24
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 25,
+              "end": 96,
+              "runs": [
+                {
+                  "start": 40,
+                  "end": 46,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 63,
+                  "end": 77,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 97,
+              "end": 185,
+              "runs": [
+                {
+                  "start": 118,
+                  "end": 124,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 186,
+              "end": 276,
+              "runs": [
+                {
+                  "start": 202,
+                  "end": 208,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 228,
+                  "end": 232,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 233,
+                  "end": 241,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 277,
+              "end": 367,
+              "runs": [
+                {
+                  "start": 296,
+                  "end": 310,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 350,
+                  "end": 367,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "古印度文学通称为梵语文学，其主要特征有以下四点。\n1. 具有深厚的民间口头传统。《梨俱吠陀》保存了古代民间流传的诗歌。两大史诗《摩诃婆罗多》和《罗摩衍那》也在长期口头流传的英雄故事基础上形成。\n2. 文学与宗教、哲学和伦理思想关系密切。《梨俱吠陀》以颂神赞歌为主，两大史诗通过人物的行为和选择探讨“达摩”（正法），佛教文学《本生经》则借通俗生动的故事宣扬教义、劝人行善。\n3. 神话想象与现实生活相结合。《梨俱吠陀》既包含神话传说，也有反映世俗生活的诗歌。迦梨陀娑的诗剧《沙恭达罗》具有浓郁的神话氛围，又通过女主人公的爱情遭遇，引人思考妇女的社会地位。\n4. 文学体裁丰富，史诗成就尤为突出。《摩诃婆罗多》和《罗摩衍那》是史诗时代最重要的文学成就。此外，还有《五卷书》这样的寓言故事集，以及迦梨陀娑的抒情诗《云使》和诗剧《沙恭达罗》。",
+      "redText": {
+        "answer": [
+          [
+            40,
+            46
+          ],
+          [
+            63,
+            77
+          ],
+          [
+            118,
+            124
+          ],
+          [
+            202,
+            208
+          ],
+          [
+            228,
+            232
+          ],
+          [
+            233,
+            241
+          ],
+          [
+            296,
+            310
+          ],
+          [
+            350,
+            367
+          ]
+        ]
+      },
       "id": "ch1-short-511e54b0"
     },
     {
@@ -2782,7 +15124,167 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "简述《摩诃婆罗多》的主题与核心价值观。",
       "paragraphId": "5b62cce2",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 19
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 90
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 91,
+              "end": 194,
+              "runs": [
+                {
+                  "start": 94,
+                  "end": 100,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 120,
+                  "end": 124,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 130,
+                  "end": 137,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 195,
+              "end": 234,
+              "runs": [
+                {
+                  "start": 195,
+                  "end": 200,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 207,
+                  "end": 233,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 235,
+              "end": 285,
+              "runs": [
+                {
+                  "start": 235,
+                  "end": 240,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 286,
+              "end": 335,
+              "runs": [
+                {
+                  "start": 286,
+                  "end": 291,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 330,
+                  "end": 334,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "（1）“分合论”主题：“合久必分，分久必合”。史诗总趋向强调“合”，即统一；表现形式虽然纷争不已，本质上却要达到和合。在纷争与和合的转换中，体现推行“正法”、承担责任和义务的思想。\n（2）达摩（正法）是史诗的核心价值观。梵文 Dharma，意译正法，词根本义为“维系、持守”。印度人认为它是人世间最高的存在，真理包含其中；也可理解为万事万物的内在准则和每个人根据其社会地位所应具有的天职。\n宇宙层面：维系整个世界的自然秩序、万物法则本性；一旦正法崩坏，世界就陷入混乱。\n社会层面：古印度按种姓、身份规定的本分与义务。武士应作战，国王应护民，每个人都要履行属于自己的职责。\n道德层面：正义、善的行为准则；相对的是非法（Adharma），即不义、破坏秩序。笔记强调坚守善念。",
+      "redText": {
+        "answer": [
+          [
+            94,
+            100
+          ],
+          [
+            120,
+            124
+          ],
+          [
+            130,
+            137
+          ],
+          [
+            195,
+            200
+          ],
+          [
+            207,
+            233
+          ],
+          [
+            235,
+            240
+          ],
+          [
+            286,
+            291
+          ],
+          [
+            330,
+            334
+          ]
+        ]
+      },
       "id": "ch1-short-5b62cce2"
     },
     {
@@ -2790,7 +15292,156 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "简述《摩诃婆罗多》的艺术特色。",
       "paragraphId": "1de02e18",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 94,
+              "runs": [
+                {
+                  "start": 2,
+                  "end": 9,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 54,
+                  "end": 66,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 95,
+              "end": 133,
+              "runs": [
+                {
+                  "start": 97,
+                  "end": 101,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 112,
+                  "end": 121,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 134,
+              "end": 182,
+              "runs": [
+                {
+                  "start": 136,
+                  "end": 144,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 183,
+              "end": 233,
+              "runs": [
+                {
+                  "start": 185,
+                  "end": 192,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 209,
+                  "end": 211,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 219,
+                  "end": 232,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "① 宏大的史诗结构。篇幅极长，围绕俱卢族与般度族的王族大战，穿插神话、传说、寓言和哲理故事，故事套故事，形成“大史诗包含众多小文本”的框架。智慧的辩论，睿智的思想，崇高的信仰，恢弘的体例。\n② 倒叙手法。由歌人演唱原诗内容，并插入“蛇祭缘起”作为楔子，然后正式开篇。\n③ 民间口头文学性质。原本世代口传，多用重复句式与夸张想象，大量神、人交织，神话与历史传说混杂。\n④ 叙事与哲理融合。讲故事的同时大量议论宗教、伦理和正法，既是叙事史诗，也是古印度的道德、哲学典籍。",
+      "redText": {
+        "answer": [
+          [
+            2,
+            9
+          ],
+          [
+            54,
+            66
+          ],
+          [
+            97,
+            101
+          ],
+          [
+            112,
+            121
+          ],
+          [
+            136,
+            144
+          ],
+          [
+            185,
+            192
+          ],
+          [
+            209,
+            211
+          ],
+          [
+            219,
+            232
+          ]
+        ]
+      },
       "id": "ch1-short-1de02e18"
     },
     {
@@ -2798,7 +15449,140 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "简述《罗摩衍那》的主题思想。",
       "paragraphId": "51a686a6",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 14
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 59,
+              "runs": [
+                {
+                  "start": 2,
+                  "end": 10,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 60,
+              "end": 100,
+              "runs": [
+                {
+                  "start": 62,
+                  "end": 71,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 101,
+              "end": 147,
+              "runs": [
+                {
+                  "start": 103,
+                  "end": 109,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 148,
+              "end": 192,
+              "runs": [
+                {
+                  "start": 150,
+                  "end": 154,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "① 宣扬正法（达摩）。罗摩恪守孝道、忠于誓言、坚守丈夫本分，悉多坚守贞洁，体现古印度理想伦理；罗摩代表完美的正法君主。\n② 歌颂忠贞爱情与牺牲。悉多对罗摩忠贞不渝，罗摩不惜一切营救妻子，赞美夫妻道义。\n③ 赞美兄弟情义。罗什曼那追随罗摩共赴流放，婆罗多不愿篡守王位，等待罗摩归来，宣扬手足伦理。\n④ 善恶对立。罗波那代表贪欲、暴行与非法；罗摩作为毗湿奴化身代表正义，正义最终战胜邪恶。",
+      "yellowHighlights": {
+        "answer": [
+          [
+            2,
+            10
+          ],
+          [
+            62,
+            71
+          ],
+          [
+            103,
+            109
+          ],
+          [
+            150,
+            154
+          ]
+        ]
+      },
+      "redText": {
+        "answer": [
+          [
+            2,
+            10
+          ],
+          [
+            62,
+            71
+          ],
+          [
+            103,
+            109
+          ],
+          [
+            150,
+            154
+          ]
+        ]
+      },
       "id": "ch1-short-51a686a6"
     },
     {
@@ -2806,7 +15590,142 @@ window.QUESTION_BANK = {
       "section": "第十节 古印度文学",
       "prompt": "简述《罗摩衍那》的艺术特色。",
       "paragraphId": "76c1aaa6",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 14
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 95,
+              "runs": [
+                {
+                  "start": 2,
+                  "end": 11,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 96,
+              "end": 134,
+              "runs": [
+                {
+                  "start": 98,
+                  "end": 104,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 135,
+              "end": 179,
+              "runs": [
+                {
+                  "start": 137,
+                  "end": 148,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 180,
+              "end": 231,
+              "runs": [
+                {
+                  "start": 182,
+                  "end": 186,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 232,
+              "end": 262,
+              "runs": [
+                {
+                  "start": 234,
+                  "end": 240,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "① 结构完整，情节集中。全书围绕罗摩遭遇单线推进，分为宫廷流放-林中失妻-猴国结盟-楞伽（ léng qié，今斯里兰卡 ）大战-夫妻悲剧几部分，相比《摩诃婆罗多》，插入故事更少，主线清晰。\n② 人物形象鲜明。罗摩是理想正法君主，悉多是忠贞妻子的典范，人物形象有层次。\n③ 浪漫想象，神话色彩浓厚。神猴哈奴曼跨海、飞山等奇幻情节，人、神、妖魔同台，想象瑰丽。\n④ 抒情性强。不仅叙事，还大量渲染离别、相思和悲苦，充满哀婉悲剧感；结尾悉多沉入大地，是古典悲剧范式。\n⑤ 口头诗歌特征。多用比喻、复句、夸张，语言质朴，适合吟诵。",
+      "redText": {
+        "answer": [
+          [
+            2,
+            11
+          ],
+          [
+            98,
+            104
+          ],
+          [
+            137,
+            148
+          ],
+          [
+            182,
+            186
+          ],
+          [
+            234,
+            240
+          ]
+        ]
+      },
       "id": "ch1-short-76c1aaa6"
     },
     {
@@ -2814,7 +15733,76 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 试论荷马史诗中阿喀琉斯、赫克托尔和奥德修斯形象的个性与时代特点。",
       "paragraphId": "11319673",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 34
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 146,
+              "runs": [
+                {
+                  "start": 122,
+                  "end": 146,
+                  "color": "FF0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 147,
+              "end": 272
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 273,
+              "end": 386
+            }
+          ]
+        }
+      },
       "answer": "（1）阿喀琉斯——典型的个人主义英雄。性格特征是勇武、暴躁、易怒。他武艺高强、直爽粗犷、锋芒外露，敢于反抗强暴、不畏权威，富有正义感，爱好荣誉，忠于朋友；同时任性、热切，为个人利益拒绝参战，造成希腊军失利。他既有残酷的一面，也有善良的一面，如杀死赫克托耳后凌辱其尸体，后来又准许老王赎回尸体。\n（2）赫克托尔——集体英雄主义的典型。他对国家怀有深厚感情，对集体利益有高度责任感。即使预感城邦将陷落、自己将战死、妻子将沦为奴隶，仍为部族利益与全城人的生存出战。他与妻儿诀别的一幕充分表现其集体主义、爱国主义精神和丰富的人情味，是富有悲剧性的英雄。\n（3）奥德修斯——史诗中的智者形象，主要特征是机智和刚毅。他凭借智慧与勇敢克服险阻，足智多谋，敢于斗争；对故乡和部落集体怀有深厚感情，对妻儿一往情深。同时，他也具有早期奴隶主的特征：为人狡诈，心胸狭窄，残酷凶狠，私有意识明显。",
+      "redText": {
+        "answer": [
+          [
+            122,
+            146
+          ]
+        ]
+      },
       "id": "ch1-essay-11319673"
     },
     {
@@ -2822,7 +15810,131 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 结合人物形象，试论荷马史诗的思想性。",
       "paragraphId": "30eb4328",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 20
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 62,
+              "runs": [
+                {
+                  "start": 3,
+                  "end": 14,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 63,
+              "end": 209,
+              "runs": [
+                {
+                  "start": 185,
+                  "end": 209,
+                  "color": "FF0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 210,
+              "end": 322
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 323,
+              "end": 377,
+              "runs": [
+                {
+                  "start": 326,
+                  "end": 337,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 378,
+              "end": 404,
+              "runs": [
+                {
+                  "start": 381,
+                  "end": 386,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "（1）英雄主义——歌颂英雄。史诗的主题思想是歌颂民族部落的英雄，只要是代表民族理想的英雄，不管属于战争哪一方，都在歌颂之列。\n比如说阿喀琉斯——典型的个人主义英雄。性格特征是勇武、暴躁、易怒。他武艺高强、直爽粗犷、锋芒外露，敢于反抗强暴、不畏权威，富有正义感，爱好荣誉，忠于朋友；同时任性、热切，为个人利益拒绝参战，造成希腊军失利。他既有残酷的一面，也有善良的一面，如杀死赫克托耳后凌辱其尸体，后来又准许老王赎回尸体。\n比如奥德修斯——史诗中的智者形象，主要特征是机智和刚毅。他凭借智慧与勇敢克服险阻，足智多谋，敢于斗争；对故乡和部落集体怀有深厚感情，对妻儿一往情深。同时，他也具有早期奴隶主的特征：为人狡诈，心胸狭窄，残酷凶狠，私有意识明显。\n（2）人本主义——以人为本。荷马史诗赞美人的勇敢、正义、无私、勤劳等品质，肯定人的智慧、情感和现实生活价值。\n（3）自由主义。英雄的个人尊严、自主意识和冒险精神。",
+      "redText": {
+        "answer": [
+          [
+            3,
+            14
+          ],
+          [
+            185,
+            209
+          ],
+          [
+            326,
+            337
+          ],
+          [
+            381,
+            386
+          ]
+        ]
+      },
       "id": "ch1-essay-30eb4328"
     },
     {
@@ -2830,6 +15942,199 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 试论荷马史诗的艺术特色/艺术性。",
       "paragraphId": "2529375a",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 18
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 91,
+              "runs": [
+                {
+                  "start": 3,
+                  "end": 13,
+                  "color": "FF0000",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 92,
+              "end": 177
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 178,
+              "end": 277,
+              "runs": [
+                {
+                  "start": 181,
+                  "end": 187,
+                  "color": "FF0000",
+                  "bold": true
+                },
+                {
+                  "start": 247,
+                  "end": 251,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 278,
+              "end": 383,
+              "runs": [
+                {
+                  "start": 281,
+                  "end": 286,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 331,
+                  "end": 344,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 348,
+                  "end": 355,
+                  "bold": true
+                },
+                {
+                  "start": 364,
+                  "end": 374,
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 384,
+              "end": 400,
+              "runs": [
+                {
+                  "start": 387,
+                  "end": 400,
+                  "color": "FF0000",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 401,
+              "end": 443,
+              "runs": [
+                {
+                  "start": 401,
+                  "end": 405,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 444,
+              "end": 479,
+              "runs": [
+                {
+                  "start": 444,
+                  "end": 449,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 480,
+              "end": 556,
+              "runs": [
+                {
+                  "start": 483,
+                  "end": 496,
+                  "color": "FF0000",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 557,
+              "end": 649
+            }
+          ]
+        }
+      },
       "answer": "（1）规模宏大，构思精巧。两部史诗以宏伟规模展现过渡时期希腊社会生活，涉及前后二十年的历史事件，却不作流水账式叙述，而采用高度集中、高度概括的手法，既突出重点，又照顾全局。（ppt）\n《伊利亚特》围绕“阿基琉斯的愤怒”组织材料，把十年战争集中在最后阶段的51天内；《奥德赛》运用倒叙、顺叙和前后穿插的方式，把十年漂流、寻父与返乡复仇联系起来。（教材补充）\n（2）语言口语化，具有口头艺术特色。史诗用自然质朴的口语写成，运用夸张、烘托、比喻、固定修饰语和套语等，形成磅礴气势与浓厚的英雄主义气息。重复套语既体现口头传唱的来源，也有助于加深印象和形成节奏感。\n特别是荷马式比喻：荷马史诗中的诗句流畅、自然、优美、比喻生动形象，常根据生活中的直接观察，取自然现象作比，借用自然界中的动植物来喻人。比如把阿喀琉斯的盾牌比作月亮与火光。把阿喀琉斯追赶赫克托耳比作山鹰追赶鸽子。\n（3）多样化的人物形象塑造手法。\n侧面烘托：不直接铺陈海伦的容貌，而通过长老看到她时惊讶的表情和议论，烘托其惊人姿色。\n固定修饰语：如“捷足的阿喀琉斯”“足智多谋的奥德修斯”，突出人物特征。\n（4）现实主义与浪漫主义相结合。希腊神话本身包含着丰富多彩的想象，把它们纳入到具有独特表现力的诗歌当中，使得全诗在现实主义的基础之上增加了浪漫主义色彩。\n（5）（教材补充）两部史诗风格不同：《伊利亚特》格调激越悲壮，具有阳刚之美；《奥德赛》格调幽静平实，具有阴柔之美。荷马史诗作为人类童年时代的杰作，显示出“永久的魅力”。（教材第39页）",
       "redText": {
         "answer": [
@@ -2839,7 +16144,55 @@ window.QUESTION_BANK = {
           ],
           [
             181,
-            196
+            187
+          ],
+          [
+            247,
+            251
+          ],
+          [
+            281,
+            286
+          ],
+          [
+            331,
+            344
+          ],
+          [
+            387,
+            400
+          ],
+          [
+            401,
+            405
+          ],
+          [
+            444,
+            449
+          ],
+          [
+            483,
+            496
+          ]
+        ]
+      },
+      "boldText": {
+        "answer": [
+          [
+            3,
+            13
+          ],
+          [
+            181,
+            187
+          ],
+          [
+            348,
+            355
+          ],
+          [
+            364,
+            374
           ],
           [
             387,
@@ -2851,6 +16204,18 @@ window.QUESTION_BANK = {
           ]
         ]
       },
+      "yellowHighlights": {
+        "answer": [
+          [
+            281,
+            286
+          ],
+          [
+            333,
+            344
+          ]
+        ]
+      },
       "id": "ch1-essay-2529375a"
     },
     {
@@ -2858,7 +16223,339 @@ window.QUESTION_BANK = {
       "section": "第二节 古希腊史诗与戏剧",
       "prompt": "★ 比较古希腊三大悲剧家的戏剧革新及其对古希腊文学艺术的贡献。",
       "paragraphId": "4649562a",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 31
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 0,
+              "label": "答案："
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 183,
+              "runs": [
+                {
+                  "start": 22,
+                  "end": 28,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 63,
+                  "end": 71,
+                  "fontSize": 10.5
+                },
+                {
+                  "start": 72,
+                  "end": 80,
+                  "fontSize": 10.5
+                },
+                {
+                  "start": 81,
+                  "end": 91,
+                  "fontSize": 10.5,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 91,
+                  "end": 97,
+                  "fontSize": 10.5,
+                  "color": "EE0000",
+                  "bold": true
+                },
+                {
+                  "start": 97,
+                  "end": 111,
+                  "fontSize": 10.5,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 111,
+                  "end": 116,
+                  "fontSize": 10.5,
+                  "color": "EE0000",
+                  "bold": true
+                },
+                {
+                  "start": 116,
+                  "end": 118,
+                  "fontSize": 10.5,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 119,
+                  "end": 135,
+                  "fontSize": 10.5,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 136,
+                  "end": 183,
+                  "fontSize": 10.5
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 184,
+              "end": 353,
+              "runs": [
+                {
+                  "start": 193,
+                  "end": 198,
+                  "fontSize": 10.5
+                },
+                {
+                  "start": 199,
+                  "end": 203,
+                  "fontSize": 10.5,
+                  "bold": true
+                },
+                {
+                  "start": 207,
+                  "end": 216,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 236,
+                  "end": 256,
+                  "fontSize": 10.5
+                },
+                {
+                  "start": 257,
+                  "end": 264,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 265,
+                  "end": 272,
+                  "fontSize": 10.5,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 273,
+                  "end": 281,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 282,
+                  "end": 288,
+                  "fontSize": 10.5,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 289,
+                  "end": 316,
+                  "fontSize": 10.5,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 317,
+                  "end": 353,
+                  "fontSize": 10.5
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 0.0,
+              "firstLine": 2.0,
+              "start": 354,
+              "end": 531,
+              "runs": [
+                {
+                  "start": 366,
+                  "end": 369,
+                  "fontSize": 10.5
+                },
+                {
+                  "start": 369,
+                  "end": 374,
+                  "fontSize": 10.5,
+                  "bold": true
+                },
+                {
+                  "start": 379,
+                  "end": 387,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 411,
+                  "end": 423,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 424,
+                  "end": 429,
+                  "fontSize": 10.5,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 429,
+                  "end": 432,
+                  "fontSize": 10.5,
+                  "color": "EE0000",
+                  "bold": true
+                },
+                {
+                  "start": 432,
+                  "end": 443,
+                  "fontSize": 10.5,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 444,
+                  "end": 460,
+                  "fontSize": 10.5,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 461,
+                  "end": 483,
+                  "fontSize": 10.5,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 484,
+                  "end": 531,
+                  "fontSize": 10.5
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "（1）埃斯库罗斯是古希腊悲剧的奠基者，被称为“悲剧之父”。他生活于雅典城邦上升时期，作品反映反对专制、维护城邦秩序的思想。作品普罗米修斯三部曲、俄瑞斯忒斯三部曲。将悲剧由单人独白改为两个演员对话，真正产生戏剧冲突首创三联剧（三部曲）结构；丰富合唱，强化庄严崇高的舞台风格。正式确立古希腊悲剧的体裁范式，奠定悲剧崇高美学风格，树立宏大庄严的悲剧精神，开创西方悲剧传统。\n（2）索福克勒斯是古希腊悲剧的集大成者，被称为“戏剧艺术的荷马”。生活于雅典民主政治的繁荣时期。作品包括《俄狄浦斯王》《安提戈涅》《厄勒克特拉》。增加第三个演员，人物关系更复杂；打破三部曲的形式，剧本独立成篇。改进舞台布景，重视情节结构，完善“发现”与“突转”技巧。《俄狄浦斯王》成为亚里士多德《诗学》悲剧典范，将古希腊悲剧推至艺术顶峰。\n（3）欧里庇得斯是古希腊悲剧的革新开拓者，被称为“心理戏剧的鼻祖”。经历雅典民主政治由繁荣走向衰落的时期。作品包括《美狄亚》《特洛伊妇女》，把神活人物凡人化，侧重人物内心心理刻画；运用独白、心理描写，揭露人性矛盾；关注底层、女性、奴隶等弱势群体，融入社会批判。拓展悲剧的思想边界，从写神转向写人，深挖人物内心，开启现实主义悲剧倾向，深刻影响后世欧洲戏剧。",
+      "redText": {
+        "answer": [
+          [
+            22,
+            28
+          ],
+          [
+            81,
+            118
+          ],
+          [
+            119,
+            135
+          ],
+          [
+            207,
+            216
+          ],
+          [
+            257,
+            264
+          ],
+          [
+            265,
+            272
+          ],
+          [
+            273,
+            281
+          ],
+          [
+            282,
+            288
+          ],
+          [
+            289,
+            316
+          ],
+          [
+            379,
+            387
+          ],
+          [
+            411,
+            423
+          ],
+          [
+            424,
+            443
+          ],
+          [
+            444,
+            460
+          ],
+          [
+            461,
+            483
+          ]
+        ]
+      },
+      "boldText": {
+        "answer": [
+          [
+            91,
+            97
+          ],
+          [
+            111,
+            116
+          ],
+          [
+            199,
+            203
+          ],
+          [
+            369,
+            374
+          ],
+          [
+            429,
+            432
+          ]
+        ]
+      },
+      "yellowHighlights": {
+        "answer": [
+          [
+            411,
+            423
+          ]
+        ]
+      },
       "id": "ch1-essay-4649562a"
     },
     {
@@ -2866,7 +16563,174 @@ window.QUESTION_BANK = {
       "section": "第五节 罗马文学后期主要成果 诗歌",
       "prompt": "★ 结合全书内容与结构，论述《变形记》缘何取名为变形记。",
       "paragraphId": "4bc25b83",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 28
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "start": 0,
+              "end": 0,
+              "label": "答案："
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 42
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 43,
+              "end": 113,
+              "runs": [
+                {
+                  "start": 99,
+                  "end": 112,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 114,
+              "end": 165
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 166,
+              "end": 245
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 246,
+              "end": 298
+            },
+            {
+              "font": "楷体",
+              "fontSize": 12.0,
+              "color": "0000FF",
+              "lineHeight": 1.95,
+              "spaceAfter": 0.0,
+              "indent": 2.0,
+              "start": 299,
+              "end": 307
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 308,
+              "end": 333
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 334,
+              "end": 360,
+              "runs": [
+                {
+                  "start": 335,
+                  "end": 340,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 361,
+              "end": 387
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 388,
+              "end": 403
+            }
+          ]
+        }
+      },
       "answer": "（1）词源本义是拉丁文 Metamorphōsēs 意为“变形”，直译“变形之事”。\n（2）母题统摄：全书15卷、250多个故事，贯穿线索为“变形”。即人由于某种原因被变成动物、植物、星辰、石头等，是一部希腊和罗马神话的总集。\n（3）叙事结构：串珠式结构（故事套盒）。每个小故事独立，但以“变形”为线索互相勾连，故事内部嵌套故事。\n（4）哲学依托：联系卢克莱修《物性论》“一切在变”的原子论宇宙观，即万物由原子聚散、重组、消亡；赫拉克利特“人不能两次踏入同一条河流”及恩培多克勒的元素变化说\n（5）罗马文化意义：变形是罗马宗教、节庆中常见的母题；时代背景：奥古斯都时期盛行对“秩序与变化”的思考。\n（6）变形方式：\n①惩罚性变形：阿克泰翁、那耳喀索斯、弥尼阿斯之女。\n②逃离式变形：河神之女达芙妮为逃避阿波罗求爱而变形。\n③哀恸／纪念式变形：法厄同姐妹、阿多尼斯流血化为花。\n④神性升华变形：凯撒化为星辰。",
+      "redText": {
+        "answer": [
+          [
+            99,
+            112
+          ],
+          [
+            335,
+            340
+          ]
+        ]
+      },
       "id": "ch1-essay-4bc25b83"
     },
     {
@@ -2874,7 +16738,202 @@ window.QUESTION_BANK = {
       "section": "第六节 维吉尔与埃涅阿斯纪",
       "prompt": "★ 试论《埃涅阿斯纪》对荷马史诗的借鉴与超越。",
       "paragraphId": "33878155",
+      "wordLayout": {
+        "prompt": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "lineHeight": 1.95,
+              "spaceAfter": 6.0,
+              "indent": 2.0,
+              "firstLine": -2.0,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        },
+        "answer": {
+          "paragraphs": [
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 0,
+              "end": 92,
+              "runs": [
+                {
+                  "start": 9,
+                  "end": 33,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 69,
+                  "end": 92,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 93,
+              "end": 239,
+              "runs": [
+                {
+                  "start": 210,
+                  "end": 214,
+                  "color": "FF0000"
+                },
+                {
+                  "start": 224,
+                  "end": 228,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 229,
+                  "end": 233,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 234,
+                  "end": 239,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 240,
+              "end": 342,
+              "runs": [
+                {
+                  "start": 274,
+                  "end": 281,
+                  "color": "EE0000"
+                }
+              ]
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 343,
+              "end": 407
+            },
+            {
+              "font": "宋体",
+              "fontSize": 12.0,
+              "color": "000000",
+              "align": "justify",
+              "lineHeight": 1.25,
+              "spaceAfter": 6.0,
+              "firstLine": 2.0,
+              "start": 408,
+              "end": 574,
+              "runs": [
+                {
+                  "start": 439,
+                  "end": 447,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 467,
+                  "end": 471,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 498,
+                  "end": 502,
+                  "color": "EE0000"
+                },
+                {
+                  "start": 530,
+                  "end": 537,
+                  "color": "EE0000"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "answer": "（1）（名词解释）《埃涅阿斯纪》是欧洲文学史上第一部个人创作的史诗，也是欧洲第一部杰出的由一个文人独立创作出来的史诗。全书12卷，近万行。前六卷摹仿《奥德赛》，后六卷摹仿《伊利亚特》。\n（2）（名词解释）荷马史诗是指在希腊文明的“荷马时代”开始产生、流传的，由公认的欧洲最早和最伟大的诗人荷马对民间流传的古代诗歌进行了加工整理，留下的《伊利亚特》和《奥德赛》两部史诗。二者都以特洛伊战争为背景，前者主要写战争，后者主要写奥德修斯战后返乡的经历。表现英雄主义、人本主义、自由主义。\n（3）维吉尔并非简单复刻荷马，而是借用史诗外壳，将希腊史诗形式改造为罗马的民族史诗。具有鲜明的时代特征和民族特征。维吉尔充分发挥自己的风格和特长，写人物心理细致入微，应用比喻贴切优美，故事性强、语言典雅。\n（4）荷马史诗是在人民群众生活斗争中自然产生、由人民歌手加工而成的口头创作；《埃涅阿斯纪》由统治者提议、宫廷诗人维吉尔一人写成。\n（5）他把英雄的个人奋斗升华为民族的天命事业，赋予史诗更厚重的历史感与伦理深度，由此奠定拉丁史诗的巅峰地位。埃涅阿斯和奥德修斯同是流浪者，但他负有重大使命，是神的意志的执行者。他和阿喀琉斯同为大将，却不像后者为争夺女俘而放弃责任；为了建国兴邦，他用理智克制了私人情感。他为了完成建国使命，在爱情与责任之间作出抉择，牺牲对狄多的爱情。",
+      "redText": {
+        "answer": [
+          [
+            9,
+            33
+          ],
+          [
+            69,
+            92
+          ],
+          [
+            210,
+            214
+          ],
+          [
+            224,
+            228
+          ],
+          [
+            229,
+            233
+          ],
+          [
+            234,
+            239
+          ],
+          [
+            274,
+            281
+          ],
+          [
+            439,
+            447
+          ],
+          [
+            467,
+            471
+          ],
+          [
+            498,
+            502
+          ],
+          [
+            530,
+            537
+          ]
+        ]
+      },
+      "yellowHighlights": {
+        "answer": [
+          [
+            167,
+            179
+          ]
+        ]
+      },
       "id": "ch1-essay-33878155"
     }
   ]
