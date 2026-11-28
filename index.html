@@ -260,9 +260,9 @@ dialog::backdrop{background:#33261d70}
   <script src="bank.js?v=86a8989f6b62"></script>
   <script src="bank-ch2.js?v=c822ceaf7e7a"></script>
   <script src="bank-ch3.js?v=a59d38f32548"></script>
-  <script src="bank-ch4.js?v=5eb96a491a33"></script>
-  <script src="bank-ch5.js?v=e1464642ec56"></script>
-  <script src="bank-ch6.js?v=9d38b3dc9cd7"></script>
+  <script src="bank-ch4.js?v=b12d7cf2c9ae"></script>
+  <script src="bank-ch5.js?v=efa3e5cb3790"></script>
+  <script src="bank-ch6.js?v=acf01107e65e"></script>
   <script src="bank-ch7.js?v=90c3c3ce2a82"></script>
   <script>
 (function () {
@@ -1433,6 +1433,14 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     "essay": {
       "★ 结合《哈姆莱特》等作品，从情节结构、人物塑造、语言艺术、戏剧冲突、思想与舞台五方面论述莎士比亚戏剧的艺术特色。(老师提到艺术特色)": "★ 结合《哈姆莱特》等作品，从情节结构、人物塑造、语言艺术、戏剧冲突、思想与舞台五方面论述莎士比亚戏剧的艺术特色。"
     }
+  },
+  "ch4": {
+    "term": {
+      "★ 《伪君子》": "★ 《伪君子》（这样概括可以嘛）"
+    },
+    "short": {
+      "★ 简述莫里哀的喜剧艺术。（最终提到）": "★ 简述莫里哀的喜剧艺术。"
+    }
   }
 };
   // This new question was first assigned a text ID before Word added a paragraph ID.
@@ -2186,7 +2194,8 @@ https://github.com/nodeca/pako/blob/main/LICENSE
     const sectionTitles = new Set(blocks.filter(b => sectionPattern.test(b.text || "") &&
       !questionStyles.has(b.style) && !answerStyles.has(b.style)).map(b => b.text));
     const subheadings = new Set(blocks.filter(b => b.style?.toLowerCase() === "heading 3" &&
-      !numberedAnswer.test(b.text) && !answerPrefix.test(b.text)).map(b => b.text.replace(/^[★☆\s]+/u, "")));
+      !numberedAnswer.test(b.text) && !answerPrefix.test(b.text) &&
+      !(["ch4", "ch5", "ch6"].includes(chapterKey) && /^[（(][^（）()\n]+[）)]$/u.test(b.text))).map(b => b.text.replace(/^[★☆\s]+/u, "")));
     let type = "", mainSection = "", section = "", current = null, answering = false;
     let appendix = "";
     let firstPromptLength = 0;
@@ -2194,7 +2203,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       if (!text) return;
       const offset = current[field] ? current[field].length + 1 : 0;
       current[field] += (offset ? "\n" : "") + text;
-      if (["ch1", "ch2", "ch3"].includes(chapterKey) && layout) {
+      if (["ch1", "ch2", "ch3", "ch4", "ch5", "ch6"].includes(chapterKey) && layout) {
         if (!current.wordLayout) current.wordLayout = {};
         if (!current.wordLayout[field]) current.wordLayout[field] = {paragraphs:[]};
         const p = {...layout, start:offset, end:offset + text.length};
@@ -2241,6 +2250,10 @@ https://github.com/nodeca/pako/blob/main/LICENSE
             const reference = questions.find(q => q.paragraphId === completion.referenceParagraphId || q.prompt === completion.referencePrompt);
             if (reference) {
               current.answer = reference.answer;
+              if (reference.wordLayout?.answer) {
+                if (!current.wordLayout) current.wordLayout = {};
+                current.wordLayout.answer = JSON.parse(JSON.stringify(reference.wordLayout.answer));
+              }
               for (const kind of markTypes) {
                 if (!reference[kind]?.answer) continue;
                 if (!current[kind]) current[kind] = {};
@@ -2289,12 +2302,14 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       }
       if (!type) continue;
       const explicitQuestion = questionStyles.has(style);
-      const trustedQuestionStyle = ["ch1", "ch2", "ch3"].includes(chapterKey) && explicitQuestion;
-      const mainHeading = ["ch1", "ch2", "ch3"].includes(chapterKey) && style.toLowerCase() === "heading 2" && !answerPrefix.test(text) && !numberedAnswer.test(text);
+      const headingText = text.replace(/^[★☆\s]+/u, "");
+      const structuralHeading = (sectionTitles.has(text) && sectionPattern.test(text)) || (subheadings.has(headingText) && /^[一二三四五六七八九十]+[、.．]/u.test(headingText));
+      const trustedQuestionStyle = ["ch1", "ch2", "ch3", "ch4", "ch5", "ch6"].includes(chapterKey) && explicitQuestion && !structuralHeading;
+      const mainHeading = ["ch1", "ch2", "ch3", "ch4", "ch5", "ch6"].includes(chapterKey) && style.toLowerCase() === "heading 2" && !answerPrefix.test(text) && !numberedAnswer.test(text);
       if (!trustedQuestionStyle && (sectionTitles.has(text) || mainHeading)) {
         finish();
         current = null;
-        mainSection = section = (["ch1", "ch2", "ch3"].includes(chapterKey) && block.sectionLabel ? block.sectionLabel + " " : "") + text;
+        mainSection = section = (["ch1", "ch2", "ch3", "ch4", "ch5", "ch6"].includes(chapterKey) && block.sectionLabel ? block.sectionLabel + " " : "") + text;
         continue;
       }
       const subheading = text.replace(/^[★☆\s]+/u, "");
@@ -2307,13 +2322,13 @@ https://github.com/nodeca/pako/blob/main/LICENSE
       if (styleType && styleType !== type) {
         throw new Error(`正文第 ${block.number} 处题型与段落样式「${style}」不一致。`);
       }
-      const layout = (chapterKey === "ch3" ? block.numberedLayout : null) || block.layout;
+      const layout = (["ch3", "ch4", "ch5", "ch6"].includes(chapterKey) ? block.numberedLayout : null) || block.layout;
       const marker = answerPrefix.test(text);
       if (answerStyles.has(style) || marker) {
         if (!current) throw new Error(`正文第 ${block.number} 处答案没有对应的题干。`);
         const line = marker && !answering ? text.replace(answerPrefix, "") : text;
         answering = true;
-        if (!line && marker && ["ch1", "ch2", "ch3"].includes(chapterKey) && !current.answer && block.layout) {
+        if (!line && marker && ["ch1", "ch2", "ch3", "ch4", "ch5", "ch6"].includes(chapterKey) && !current.answer && block.layout) {
           const label = {...block.layout, start:0, end:0, label:text.trim()};
           const first = block.layout.runs?.find(run => run.start === 0);
           if (first) Object.assign(label, Object.fromEntries(Object.entries(first).filter(([key]) => !["start", "end"].includes(key))));
@@ -2325,7 +2340,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
         continue;
       }
       const followedByAnswer = answerPrefix.test(blocks[idx + 1]?.text || "");
-      const bodyQuestion = ["ch1", "ch2", "ch3"].includes(chapterKey) && ["short", "essay"].includes(type) && /^[★☆]\s*(?:简述|试述|试论|论述|比较|结合|列举)/u.test(text);
+      const bodyQuestion = ["ch1", "ch2", "ch3", "ch4", "ch5", "ch6"].includes(chapterKey) && ["short", "essay"].includes(type) && /^[★☆]\s*(?:简述|试述|试论|论述|比较|结合|列举)/u.test(text);
       const continuesLabel = current && type === "fill" && !answering && labelOnly.test(current.prompt);
       if (!continuesLabel && (explicitQuestion || bodyQuestion || (followedByAnswer && answering) || !current)) {
         finish();
@@ -2408,8 +2423,8 @@ https://github.com/nodeca/pako/blob/main/LICENSE
           }
         }
       }
-      const correction = sourceCorrections[chapterKey + "-" + question.paragraphId] || (chapterKey === "ch3" ?
-        Object.entries(sourceCorrections).find(([key, entry]) => key.startsWith("ch3-") && question.prompt === entry.prompt && question.answer === entry.answer)?.[1] : undefined);
+      const correction = sourceCorrections[chapterKey + "-" + question.paragraphId] || (["ch3", "ch4", "ch5", "ch6"].includes(chapterKey) ?
+        Object.entries(sourceCorrections).find(([key, entry]) => key.startsWith(chapterKey + "-") && question.prompt === entry.prompt && question.answer === entry.answer)?.[1] : undefined);
       if (!correction || question.prompt !== correction.prompt || question.answer !== correction.answer) continue;
       if (correction.section !== undefined && question.section !== correction.section) continue;
       const {field, start, end, replacement} = correction;
